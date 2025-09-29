@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.33">
+<meta name="generator" content="quarto-1.8.24">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,14 +32,15 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-7195dd065f6e1f1b6135ec77417a2dc1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-297877c95511d1cc5585d4e8efcca22a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,7 +92,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -116,6 +117,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    </a>
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">研究室の机</span>
     </a>
@@ -156,29 +159,6 @@ window.Quarto = {
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
-<div class="font-switcher-container">
-  <button id="font-toggle-btn" class="font-toggle-button">
-    デフォルトフォントに切り替え
-  </button>
-</div>
-
-<style>
-  .font-switcher-container {
-    text-align: right;
-    padding: 8px 15px;
-    background-color: #f8f9fa; /* 背景色を少しつけると分かりやすい */
-    border-bottom: 1px solid #dee2e6;
-    margin-bottom: 1rem;
-  }
-  .font-toggle-button {
-    font-size: 0.8em;
-    padding: 4px 8px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background-color: #fff;
-  }
-</style>
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -206,7 +186,7 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-その前に
+<span class="screen-reader-only">ノート</span>その前に
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -242,32 +222,6 @@ window.Quarto = {
 <li id="fn1"><p>一方、モデル構築や理論的議論を行う場合にはそれでは満足がいかないかもしれません。そもそも制限従属変数モデルは、そのような背景に対処するために開発されました。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
-document.addEventListener('DOMContentLoaded', () =&gt; {
-
-  const body = document.body;
-  const toggleBtn = document.getElementById('font-toggle-btn');
-  const storageKey = 'font-preference';
-
-  console.log("ボタン検索の結果:", toggleBtn);
-
-  const currentPreference = localStorage.getItem(storageKey);
-  if (currentPreference === 'default') {
-    body.classList.add('font-default');
-  }
-
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', () =&gt; {
-      console.log("ボタンがクリックされました！ bodyのクラス:", document.body.className);
-      body.classList.toggle('font-default');
-
-      if (body.classList.contains('font-default')) {
-        localStorage.setItem(storageKey, 'default');
-      } else {
-        localStorage.setItem(storageKey, 'custom');
-      }
-    });
-  }
-});
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -319,13 +273,14 @@ document.addEventListener('DOMContentLoaded', () =&gt; {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
