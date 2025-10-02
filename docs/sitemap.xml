@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
-    <lastmod>2025-08-28T09:56:36.509Z</lastmod>
-  </url>
-  <url>
     <loc>https://stats1230.github.io/lab-desk/page/tips.html</loc>
     <lastmod>2025-08-15T04:37:40.308Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/q1_regression/linear-regression.html</loc>
-    <lastmod>2025-08-15T04:37:40.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/q0_preface.html</loc>
-    <lastmod>2025-08-15T04:37:40.289Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/rojina-theme.html</loc>
-    <lastmod>2025-08-19T10:12:08.018Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/difference-in-difference.html</loc>
-    <lastmod>2025-08-19T10:12:08.027Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/apa-style.html</loc>
-    <lastmod>2025-08-15T04:37:40.261Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/blog.html</loc>
-    <lastmod>2025-08-15T04:37:40.270Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/literature.html</loc>
-    <lastmod>2025-08-15T04:37:40.276Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/test-post.html</loc>
-    <lastmod>2025-08-15T04:37:40.283Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/page/research-proposal-en.html</loc>
+    <lastmod>2025-08-28T14:01:42.181Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/q1_regression/ldv-model.html</loc>
     <lastmod>2025-08-20T02:19:10.414Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/research-proposal.html</loc>
-    <lastmod>2025-08-28T14:01:45.206Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/page/posts/test-post.html</loc>
+    <lastmod>2025-08-15T04:37:40.283Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/research-proposal-en.html</loc>
-    <lastmod>2025-08-28T14:01:42.181Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/page/literature.html</loc>
+    <lastmod>2025-08-15T04:37:40.276Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/blog.html</loc>
+    <lastmod>2025-08-15T04:37:40.270Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
+    <lastmod>2025-08-28T09:56:36.509Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/apa-style.html</loc>
+    <lastmod>2025-08-15T04:37:40.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/difference-in-difference.html</loc>
+    <lastmod>2025-08-19T10:12:08.027Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/posts/rojina-theme.html</loc>
+    <lastmod>2025-08-19T10:12:08.018Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/q0_preface.html</loc>
+    <lastmod>2025-08-15T04:37:40.289Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/q1_regression/linear-regression.html</loc>
+    <lastmod>2025-08-15T04:37:40.302Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/page/research-proposal.html</loc>
+    <lastmod>2025-08-28T14:01:45.206Z</lastmod>
   </url>
 </urlset>
