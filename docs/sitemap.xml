@@ -1,102 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-<<<<<<< HEAD
-=======
-    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
-    <lastmod>2025-09-29T11:51:29.215Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/page/research-proposal.html</loc>
+    <lastmod>2025-10-07T06:06:53.062Z</lastmod>
   </url>
   <url>
->>>>>>> origin
     <loc>https://stats1230.github.io/lab-desk/page/tips.html</loc>
-    <lastmod>2025-09-29T11:51:29.283Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.449Z</lastmod>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://stats1230.github.io/lab-desk/page/research-proposal-en.html</loc>
-    <lastmod>2025-08-28T14:01:42.181Z</lastmod>
-=======
     <loc>https://stats1230.github.io/lab-desk/page/q1_regression/linear-regression.html</loc>
-    <lastmod>2025-09-29T11:51:29.270Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.436Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/q0_preface.html</loc>
-    <lastmod>2025-09-29T11:51:29.256Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.426Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/posts/rojina-theme.html</loc>
-    <lastmod>2025-09-29T11:58:17.513Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.414Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/difference-in-difference.html</loc>
-    <lastmod>2025-09-29T11:51:29.235Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.404Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/apa-style.html</loc>
-    <lastmod>2025-09-29T11:51:29.221Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.392Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
+    <lastmod>2025-10-06T12:12:01.895Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/blog.html</loc>
-    <lastmod>2025-09-29T11:51:29.231Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.400Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/literature.html</loc>
-    <lastmod>2025-09-29T11:51:29.239Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.404Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/posts/test-post.html</loc>
-    <lastmod>2025-09-29T11:51:29.252Z</lastmod>
->>>>>>> origin
+    <lastmod>2025-10-06T10:53:02.421Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/q1_regression/ldv-model.html</loc>
-    <lastmod>2025-09-29T11:51:29.264Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.426Z</lastmod>
   </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/test-post.html</loc>
-    <lastmod>2025-08-15T04:37:40.283Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/literature.html</loc>
-    <lastmod>2025-08-15T04:37:40.276Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/blog.html</loc>
-    <lastmod>2025-08-15T04:37:40.270Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
-    <lastmod>2025-08-28T09:56:36.509Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/apa-style.html</loc>
-    <lastmod>2025-08-15T04:37:40.261Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/difference-in-difference.html</loc>
-    <lastmod>2025-08-19T10:12:08.027Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/rojina-theme.html</loc>
-    <lastmod>2025-08-19T10:12:08.018Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/q0_preface.html</loc>
-    <lastmod>2025-08-15T04:37:40.289Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/q1_regression/linear-regression.html</loc>
-    <lastmod>2025-08-15T04:37:40.302Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/research-proposal.html</loc>
-    <lastmod>2025-09-29T11:51:29.279Z</lastmod>
-  </url>
-<<<<<<< HEAD
-=======
   <url>
     <loc>https://stats1230.github.io/lab-desk/page/research-proposal-en.html</loc>
-    <lastmod>2025-09-29T11:51:29.274Z</lastmod>
+    <lastmod>2025-10-06T10:53:02.436Z</lastmod>
   </url>
->>>>>>> origin
 </urlset>

@@ -237,21 +237,28 @@ Rojina: Marp theme for academic slides.
 </section>
 <section id="rojina-テーマの導入方法" class="level2">
 <h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
-<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。</p>
+<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
 <section id="css-ファイルを配置する" class="level4">
 <h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
 <ul>
-<li><code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。
+<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
 <ul>
-<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成することです。</li>
-<li>Settings &gt; Marp: Themes にパスを記入します。</li>
+<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
+<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
+<li>Settings &gt; Marp: Themes にパスを記入します。
+<ul>
+<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
 </ul></li>
+</ul></li>
+<li>github の生ファイルをURLで直接呼び出す方法
+<ul>
 <li>または、Settings &gt; Marp: Themes に次のように入力します。
 <ul>
-<li><code>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</code></li>
+<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
+</ul></li>
+<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
 </ul></li>
 </ul>
-<p>後者の方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</p>
 </section>
 <section id="yaml-ヘッダの指定" class="level4">
 <h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
