@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="新しい組版「typst」はまだいいかな…">
 
-<title>記述統計表の読み方 – 研究室の机</title>
+<title>Typst は刺さらなかった話 – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -77,35 +78,6 @@ gtag('js', new Date());
 gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -146,14 +118,16 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#記述統計とはなにか" id="toc-記述統計とはなにか" class="nav-link active" data-scroll-target="#記述統計とはなにか">記述統計とはなにか</a></li>
-  <li><a href="#記述統計表に書いてあること" id="toc-記述統計表に書いてあること" class="nav-link" data-scroll-target="#記述統計表に書いてあること">記述統計表に書いてあること</a></li>
-  <li><a href="#変数の種類" id="toc-変数の種類" class="nav-link" data-scroll-target="#変数の種類">「変数」の種類</a>
+  <li><a href="#typst-のここがすごい" id="toc-typst-のここがすごい" class="nav-link active" data-scroll-target="#typst-のここがすごい">Typst のここがすごい</a>
   <ul class="collapse">
-  <li><a href="#連続変数と離散変数" id="toc-連続変数と離散変数" class="nav-link" data-scroll-target="#連続変数と離散変数">連続変数と離散変数</a></li>
-  <li><a href="#カテゴリ変数と量的変数" id="toc-カテゴリ変数と量的変数" class="nav-link" data-scroll-target="#カテゴリ変数と量的変数">カテゴリ変数と量的変数</a></li>
-  <li><a href="#ダミー変数" id="toc-ダミー変数" class="nav-link" data-scroll-target="#ダミー変数">ダミー変数</a></li>
+  <li><a href="#コンパイルが早い" id="toc-コンパイルが早い" class="nav-link" data-scroll-target="#コンパイルが早い">コンパイルが早い</a></li>
   </ul></li>
+  <li><a href="#typst-のここがもう少し" id="toc-typst-のここがもう少し" class="nav-link" data-scroll-target="#typst-のここがもう少し">Typst のここがもう少し</a>
+  <ul class="collapse">
+  <li><a href="#パッケージが少なすぎる" id="toc-パッケージが少なすぎる" class="nav-link" data-scroll-target="#パッケージが少なすぎる">パッケージが少なすぎる</a></li>
+  <li><a href="#pdf-を図として取り込めない" id="toc-pdf-を図として取り込めない" class="nav-link" data-scroll-target="#pdf-を図として取り込めない">PDF を図として取り込めない</a></li>
+  </ul></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論">結論</a></li>
   </ul>
 </nav>
     </div>
@@ -162,14 +136,29 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">記述統計表の読み方</h1>
-</div>
+<h1 class="title">Typst は刺さらなかった話</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Tech</div>
+    <div class="quarto-category">Writing</div>
+  </div>
+  </div>
 
+<div>
+  <div class="description">
+    新しい組版「typst」はまだいいかな…
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">公開</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2025年10月10日</p>
+    </div>
+  </div>
   
     
   </div>
@@ -179,76 +168,44 @@ window.Quarto = {
 </header>
 
 
-<p>この記事では、計量分析を行う論文では必ず出現する「記述統計量 / 要約統計量」の表の読み方を解説します。同時に、政治学の計量分析で使われる事が多い変数の種類についても解説します。</p>
-<div class="callout callout-style-default callout-note callout-titled" title="参考文献">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-参考文献
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>このページの内容をより詳しく知りたい方は、次の文献を読むことをおすすめします。</p>
+<p>私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。</p>
+<p>そんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。</p>
 <ul>
-<li>西山ほか『計量経済学』(有斐閣) の第2章 (特に Section 1)</li>
-<li>浅野&amp;矢内『Rによる計量政治学』(オーム社)の第6章</li>
+<li><a href="https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/typst.html">「Typst： いい感じのLaTeXの代替」(大阪大学 山口先生の Website より)</a></li>
+<li><a href="https://qiita.com/hikoharu14142/items/aa8cfb70d079b0324fba">「Typstのここがすごい！！」(Qiita の記事)</a></li>
 </ul>
-</div>
-</div>
-</div>
-<section id="記述統計とはなにか" class="level2">
-<h2 class="anchored" data-anchor-id="記述統計とはなにか">記述統計とはなにか</h2>
-<p>データを使った分析を行うとき、分析者がすべてのデータを1つずつ確認することはあまりありません。 大量の観察を用意して、平均的な傾向を掴むというデータ分析のアプローチにおいて、このことは自然なこととも言えます。 しかし、全くデータの中身を見ないことには次のような問題が生じます。 すなわち、(1) 異常な値を取るデータが含まれていることに気付けない、(2) データを見るだけで得られる重要な示唆に気付けない、(3) 自身が思っている形式と違うデータになっているなどの問題です。</p>
-<p>また読者の視点からして、データが全く公開されていない場合は次のことを疑うべきです。 例えば、捏造されたり都合よく切り取られたりしたデータかもしれないということです。</p>
-<p>以上のような問題を解消する最もシンプルな方法は、分析者が全データをすべて確認したうえでそれを公開し、読者が同じくすべて確認することです。 しかし、それは現実的ではありません<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。 そこで、分析に使ったデータ (標本) の代表的な値を提示することによって、問題を緩和することができます。 このような代表的な値を記述統計量とか要約統計量といい、それを示した表を記述統計表というのです。 データ分析を行う研究では、ほとんど提示されています。</p>
+<p>新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！</p>
+<section id="typst-のここがすごい" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがすごい">Typst のここがすごい</h2>
+<section id="コンパイルが早い" class="level3">
+<h3 class="anchored" data-anchor-id="コンパイルが早い">コンパイルが早い</h3>
+<p>LaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。</p>
+<p>その点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。</p>
+<p>コンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。</p>
 </section>
-<section id="記述統計表に書いてあること" class="level2">
-<h2 class="anchored" data-anchor-id="記述統計表に書いてあること">記述統計表に書いてあること</h2>
-<p><img src="../../assets/image/descriptive-stats-table.png" class="img-fluid"></p>
-<p>上の図は、Auerbach et al.&nbsp;(2025)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> の表1「Descriptive Statistics of Elected Representatives」です。 各列は「変数 (Variable)」、「平均 (Mean)」、「標準偏差 (SD)」「最小値 (Min)」「最大値 (Max)」となっています。 標準的な構成ですが、ここに「観察数 (Number of Observations)」の列を入れることもあります。 観察とは、データの単位のことです。 この研究なら、当選した代表者1人が1観察という事ができます。 今回はすべての変数で同じ観察数なため、表の下に Note として <span class="math inline">\(N = 1,142\)</span> と書いてあります。</p>
-<p>例えば1行目は「年齢 (18-80)」となっており、その平均が40.54歳、標準偏差は12.51歳、最小値は21歳、最大値は80歳だということがわかります。 この変数名で最小値が18でないのは若干疑問に思いますが、法定の被選挙権年齢と実際に当選した候補の年齢の最小値が異なることはそこまで珍しくないのかもしれません。</p>
-<p>各代表値がどのように算出されるかの計算は、テキストに委ねます。 統計学の教科書や計量経済学の教科書には必ず掲載されているはずです。 ところで標準偏差について、高校の数学で学んでいるはずで記憶があるでしょうか。 標準偏差は分散の正の平方根を取ることで得られるのですが、これはデータのばらつきを表しています。 最大値と最小値が、データが全体としてどれくらいの範囲に渡っているかを表しているのに対し、標準偏差は、平均周りにどれくらいばらついて分布しているのかを表しています。 標準偏差が大きければ、データは平均周りにばらついていて、小さければ平均の近くにコンパクトに纏まっているということです。 これ以上は踏み込まないようにします。</p>
-<p>記述統計を見て、何を判断すればいいのでしょうか。例えば次のことが挙げられます。</p>
-<ul>
-<li>観察数（N）は十分か？</li>
-<li>最小値・最大値は妥当か？（異常値はないか）</li>
-<li>平均は常識的な範囲か？</li>
-<li>標準偏差は平均に比べて大きすぎないか？</li>
-<li>変数の定義は明確か？</li>
-</ul>
 </section>
-<section id="変数の種類" class="level2">
-<h2 class="anchored" data-anchor-id="変数の種類">「変数」の種類</h2>
-<p>研究をしていると、独立変数とか媒介変数とか、いろいろな「変数」に出会います。 そして、計量分析の方法でもまた、変数という用語が使われていて、かなり混乱すると思います。 計量経済学における (または数学における) 「変数」という用語は、次のことを含意しています。 すなわち、変数には事前に定められた「値の取りやすさの分布」が存在していて、そこから適当に1つ実現したものが観測されたということです。 身長で例えれば、人間の身長は事前に分布が決まっていて (神が持つ人間の設計図みたいな)、私の身長はそこから適当に得たものが割り当てられたというイメージです。 もちろん分布ですから、割り当てられやすさが異なります。 平均の身長が一番割り当てられやすく (実際に私は平均身長です)、極端に低い/高い値の人は少なくなります。 どれくらい低い/高いと極端なのかは、分散や標準偏差が決めていることです。</p>
-<p>データを変数として捉えるとき、その変数の様子によって色々な区別がされます。 ここでは、特によく使われる用語を説明します。</p>
-<section id="連続変数と離散変数" class="level3">
-<h3 class="anchored" data-anchor-id="連続変数と離散変数">連続変数と離散変数</h3>
-<p>変数は、連続的な値を取る連続変数と、離散的な値を取る離散変数に分けられます。 身長は連続変数ですね (5cm単位、とかだったら離散変数というべきかもしれません)。 年齢は離散変数です。 これらの区別は実際にはさほど重要ではありませんが、理論上は区別されます。</p>
+<section id="typst-のここがもう少し" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがもう少し">Typst のここがもう少し</h2>
+<p>「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。</p>
+<section id="パッケージが少なすぎる" class="level3">
+<h3 class="anchored" data-anchor-id="パッケージが少なすぎる">パッケージが少なすぎる</h3>
+<p>やはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。</p>
+<p>また、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。</p>
 </section>
-<section id="カテゴリ変数と量的変数" class="level3">
-<h3 class="anchored" data-anchor-id="カテゴリ変数と量的変数">カテゴリ変数と量的変数</h3>
-<p>変数は、その値自体に意味がある量的変数と、その値に別の意味 (大きさの順番とか、単なる識別子とか) が与えられているカテゴリ変数に分けられます。 カテゴリ変数においては、値そのものや値の大小関係に意味がありません。 身長は量的変数です。 5段階評価の成績はカテゴリ変数です。 学籍番号もカテゴリ変数です。</p>
+<section id="pdf-を図として取り込めない" class="level3">
+<h3 class="anchored" data-anchor-id="pdf-を図として取り込めない">PDF を図として取り込めない</h3>
+<p>これはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。</p>
 </section>
-<section id="ダミー変数" class="level3">
-<h3 class="anchored" data-anchor-id="ダミー変数">ダミー変数</h3>
-<p>離散変数のうち、0 か 1 かの2つの値を取る変数をダミー変数とか二値変数とか言います。 ダミー変数はカテゴリ変数です。 例えば「大卒ダミー」というとき、学歴が大卒以上なら1を、それ以外なら0を取る変数のことです。 でも、1という数字にはなんの意味もありませんね。 「非大卒ダミー」を作れば、全く逆になるわけですし。</p>
+</section>
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論">結論</h2>
+<p>結論として、<strong>卒論・レポートなどの論文執筆</strong>には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。</p>
+<p>一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。</p>
 
 
 </section>
-</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
-
-<ol>
-<li id="fn1"><p>もっとも、近年では分析の再現性の観点から、データの公開がすすんできています。Replication data として、論文で使ったデータをそのまま公開することを義務付ける雑誌もあります。それに伴って、記述統計表を提示しない論文も増えてきたように感じます (紙幅の都合もあるでしょうから)。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>Auerbach, A. M., Stingh, S., &amp; Thachil, T. (2025). Who knows how to govern? Procedural knowledge in India’s small-town councils. <em>American Political Science Review, 119</em>(2), 708–726. doi:10.1017/S0003055424000297<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

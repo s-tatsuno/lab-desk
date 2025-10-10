@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.7.34">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,15 +32,14 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-297877c95511d1cc5585d4e8efcca22a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-7195dd065f6e1f1b6135ec77417a2dc1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -88,8 +87,6 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">研究室の机</span>
     </a>
@@ -233,12 +230,12 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 <p>研究の問いとは、<strong>その研究の核心をなす問い</strong>のことです。前提にあるのは、研究とは問いから始まり、それに答えるものであるという姿勢です。実際に、最近読んだいくつかの論文を思い出してみると (またはアブストラクトを読み直してみると)、最初に本研究が取り組む問いを明示しているはずです。あなたの研究も含め、すべての研究には、それが明らかにしようとしている問いが存在します。研究計画書では、まずはじめにその問いを明示することが必要です。「研究の問いの立て方」は、この記事の範疇ではありません<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>。</p>
 <p>問いの立て方については言及しませんが、問いの提示の仕方にはいくつかのコツがあります。その一つが、パズル (puzzle) を意識することです。ここでいうパズルとは、既存の知 (すなわち、先行研究や社会実践の蓄積) と実際の社会現象との間に存在する矛盾のことをいいます。「既存の知」とのギャップは、強いて言えば2種類あり、(1) 人類がまだ知らないパターンと、(2) 人類が完全には正しくないパターンに分けられます（個人的な分類です）。前者は、「なぜ〇〇という現象が発生したのか。人類はこの現象を説明する理論を持っていない。」という論理構造です。この場合執筆者は、その現象を説明する理論を提唱することが目的となります。後者は、「人類はこういう理論を持っており、それに基づけばこうなると予想される。なぜ〇〇という理論に反する現象が起こったのか。」となります。この場合は、すでに存在する理論を提唱するか、より正しい理論を提示することになります。</p>
 <div class="callout callout-style-default callout-note callout-titled" title="研究の問いの例">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">ノート</span>研究の問いの例
+研究の問いの例
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -437,14 +434,13 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
