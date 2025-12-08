@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
 
-<title>Marp のテーマを作ってみた – 研究室の机</title>
+<title>記述統計表の読み方 – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -147,20 +146,13 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#rojina-テーマの使い方" id="toc-rojina-テーマの使い方" class="nav-link active" data-scroll-target="#rojina-テーマの使い方">Rojina テーマの使い方</a></li>
-  <li><a href="#marp" id="toc-marp" class="nav-link" data-scroll-target="#marp">Marp</a></li>
-  <li><a href="#rojina-テーマの導入方法" id="toc-rojina-テーマの導入方法" class="nav-link" data-scroll-target="#rojina-テーマの導入方法">Rojina テーマの導入方法</a></li>
-  <li><a href="#rojina-の使い方" id="toc-rojina-の使い方" class="nav-link" data-scroll-target="#rojina-の使い方">Rojina の使い方</a>
+  <li><a href="#記述統計とはなにか" id="toc-記述統計とはなにか" class="nav-link active" data-scroll-target="#記述統計とはなにか">記述統計とはなにか</a></li>
+  <li><a href="#記述統計表に書いてあること" id="toc-記述統計表に書いてあること" class="nav-link" data-scroll-target="#記述統計表に書いてあること">記述統計表に書いてあること</a></li>
+  <li><a href="#変数の種類" id="toc-変数の種類" class="nav-link" data-scroll-target="#変数の種類">「変数」の種類</a>
   <ul class="collapse">
-  <li><a href="#カラーパレットを自由に変更可能" id="toc-カラーパレットを自由に変更可能" class="nav-link" data-scroll-target="#カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</a></li>
-  <li><a href="#タイトルページ" id="toc-タイトルページ" class="nav-link" data-scroll-target="#タイトルページ">タイトルページ</a></li>
-  <li><a href="#フッタを表示する" id="toc-フッタを表示する" class="nav-link" data-scroll-target="#フッタを表示する">フッタを表示する</a></li>
-  <li><a href="#ヘッダを表示する" id="toc-ヘッダを表示する" class="nav-link" data-scroll-target="#ヘッダを表示する">ヘッダを表示する</a></li>
-  <li><a href="#ページのタイトル" id="toc-ページのタイトル" class="nav-link" data-scroll-target="#ページのタイトル">ページのタイトル</a></li>
-  <li><a href="#表を挿入する" id="toc-表を挿入する" class="nav-link" data-scroll-target="#表を挿入する">表を挿入する</a></li>
-  <li><a href="#コードブロックを挿入する" id="toc-コードブロックを挿入する" class="nav-link" data-scroll-target="#コードブロックを挿入する">コードブロックを挿入する</a></li>
-  <li><a href="#見出し付きのブロックを挿入する" id="toc-見出し付きのブロックを挿入する" class="nav-link" data-scroll-target="#見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</a></li>
-  <li><a href="#参考文献のページを作る" id="toc-参考文献のページを作る" class="nav-link" data-scroll-target="#参考文献のページを作る">参考文献のページを作る</a></li>
+  <li><a href="#連続変数と離散変数" id="toc-連続変数と離散変数" class="nav-link" data-scroll-target="#連続変数と離散変数">連続変数と離散変数</a></li>
+  <li><a href="#カテゴリ変数と量的変数" id="toc-カテゴリ変数と量的変数" class="nav-link" data-scroll-target="#カテゴリ変数と量的変数">カテゴリ変数と量的変数</a></li>
+  <li><a href="#ダミー変数" id="toc-ダミー変数" class="nav-link" data-scroll-target="#ダミー変数">ダミー変数</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -170,29 +162,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Marp のテーマを作ってみた</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Tech</div>
-    <div class="quarto-category">Writing</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。
-  </div>
+<h1 class="title">記述統計表の読み方</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">公開</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2025年8月16日</p>
-    </div>
-  </div>
   
     
   </div>
@@ -202,245 +179,76 @@ window.Quarto = {
 </header>
 
 
-<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。</p>
-<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
-<div>
-<h4 style="margin: 0;" class="anchored">
-<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
-</h4>
-<p style="margin: 5px 0 0; color: #586069;">
-Rojina: Marp theme for academic slides.
-</p>
+<p>この記事では、計量分析を行う論文では必ず出現する「記述統計量 / 要約統計量」の表の読み方を解説します。同時に、政治学の計量分析で使われる事が多い変数の種類についても解説します。</p>
+<div class="callout callout-style-default callout-note callout-titled" title="参考文献">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+参考文献
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>このページの内容をより詳しく知りたい方は、次の文献を読むことをおすすめします。</p>
+<ul>
+<li>西山ほか『計量経済学』(有斐閣) の第2章 (特に Section 1)</li>
+<li>浅野&amp;矢内『Rによる計量政治学』(オーム社)の第6章</li>
+</ul>
 </div>
 </div>
-<ul>
-<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
-<li>Beamer の思想をかなり受け継いでいます
-<ul>
-<li>アスペクト比は4:3です</li>
-<li>Beamer の機能の移植もあります</li>
-</ul></li>
-<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
-</ul>
-<section id="rojina-テーマの使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
-<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
+</div>
+<section id="記述統計とはなにか" class="level2">
+<h2 class="anchored" data-anchor-id="記述統計とはなにか">記述統計とはなにか</h2>
+<p>データを使った分析を行うとき、分析者がすべてのデータを1つずつ確認することはあまりありません。 大量の観察を用意して、平均的な傾向を掴むというデータ分析のアプローチにおいて、このことは自然なこととも言えます。 しかし、全くデータの中身を見ないことには次のような問題が生じます。 すなわち、(1) 異常な値を取るデータが含まれていることに気付けない、(2) データを見るだけで得られる重要な示唆に気付けない、(3) 自身が思っている形式と違うデータになっているなどの問題です。</p>
+<p>また読者の視点からして、データが全く公開されていない場合は次のことを疑うべきです。 例えば、捏造されたり都合よく切り取られたりしたデータかもしれないということです。</p>
+<p>以上のような問題を解消する最もシンプルな方法は、分析者が全データをすべて確認したうえでそれを公開し、読者が同じくすべて確認することです。 しかし、それは現実的ではありません<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。 そこで、分析に使ったデータ (標本) の代表的な値を提示することによって、問題を緩和することができます。 このような代表的な値を記述統計量とか要約統計量といい、それを示した表を記述統計表というのです。 データ分析を行う研究では、ほとんど提示されています。</p>
 </section>
-<section id="marp" class="level2">
-<h2 class="anchored" data-anchor-id="marp">Marp</h2>
-<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
-</section>
-<section id="rojina-テーマの導入方法" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
-<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
-<section id="css-ファイルを配置する" class="level4">
-<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
+<section id="記述統計表に書いてあること" class="level2">
+<h2 class="anchored" data-anchor-id="記述統計表に書いてあること">記述統計表に書いてあること</h2>
+<p><img src="../../assets/image/descriptive-stats-table.png" class="img-fluid"></p>
+<p>上の図は、Auerbach et al.&nbsp;(2025)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> の表1「Descriptive Statistics of Elected Representatives」です。 各列は「変数 (Variable)」、「平均 (Mean)」、「標準偏差 (SD)」「最小値 (Min)」「最大値 (Max)」となっています。 標準的な構成ですが、ここに「観察数 (Number of Observations)」の列を入れることもあります。 観察とは、データの単位のことです。 この研究なら、当選した代表者1人が1観察という事ができます。 今回はすべての変数で同じ観察数なため、表の下に Note として <span class="math inline">\(N = 1,142\)</span> と書いてあります。</p>
+<p>例えば1行目は「年齢 (18-80)」となっており、その平均が40.54歳、標準偏差は12.51歳、最小値は21歳、最大値は80歳だということがわかります。 この変数名で最小値が18でないのは若干疑問に思いますが、法定の被選挙権年齢と実際に当選した候補の年齢の最小値が異なることはそこまで珍しくないのかもしれません。</p>
+<p>各代表値がどのように算出されるかの計算は、テキストに委ねます。 統計学の教科書や計量経済学の教科書には必ず掲載されているはずです。 ところで標準偏差について、高校の数学で学んでいるはずで記憶があるでしょうか。 標準偏差は分散の正の平方根を取ることで得られるのですが、これはデータのばらつきを表しています。 最大値と最小値が、データが全体としてどれくらいの範囲に渡っているかを表しているのに対し、標準偏差は、平均周りにどれくらいばらついて分布しているのかを表しています。 標準偏差が大きければ、データは平均周りにばらついていて、小さければ平均の近くにコンパクトに纏まっているということです。 これ以上は踏み込まないようにします。</p>
+<p>記述統計を見て、何を判断すればいいのでしょうか。例えば次のことが挙げられます。</p>
 <ul>
-<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
-<ul>
-<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
-<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
-<li>Settings &gt; Marp: Themes にパスを記入します。
-<ul>
-<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
-</ul></li>
-</ul></li>
-<li>github の生ファイルをURLで直接呼び出す方法
-<ul>
-<li>または、Settings &gt; Marp: Themes に次のように入力します。
-<ul>
-<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
-</ul></li>
-<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
-</ul></li>
+<li>観察数（N）は十分か？</li>
+<li>最小値・最大値は妥当か？（異常値はないか）</li>
+<li>平均は常識的な範囲か？</li>
+<li>標準偏差は平均に比べて大きすぎないか？</li>
+<li>変数の定義は明確か？</li>
 </ul>
 </section>
-<section id="yaml-ヘッダの指定" class="level4">
-<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
-<ul>
-<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
-<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
-</ul>
-<pre><code>---
-marp: true
-theme: rojina
-paginate: true
-lang: ja
-footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
-style: |
-  section {  
-    --prim-color: #03233aff;      /* プライマリカラー */
-    --sec-color: #2a4f69ff;       /* セカンダリカラー */
-    --color-background: #fdfdfd;  /* 背景の色 */
-    --color-foreground: #333;     /* 文字の色 */
-    --color-link: var(--sec-color); /* リンクの色 */
-    }
----</code></pre>
-<ul>
-<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
-<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
-</ul>
+<section id="変数の種類" class="level2">
+<h2 class="anchored" data-anchor-id="変数の種類">「変数」の種類</h2>
+<p>研究をしていると、独立変数とか媒介変数とか、いろいろな「変数」に出会います。 そして、計量分析の方法でもまた、変数という用語が使われていて、かなり混乱すると思います。 計量経済学における (または数学における) 「変数」という用語は、次のことを含意しています。 すなわち、変数には事前に定められた「値の取りやすさの分布」が存在していて、そこから適当に1つ実現したものが観測されたということです。 身長で例えれば、人間の身長は事前に分布が決まっていて (神が持つ人間の設計図みたいな)、私の身長はそこから適当に得たものが割り当てられたというイメージです。 もちろん分布ですから、割り当てられやすさが異なります。 平均の身長が一番割り当てられやすく (実際に私は平均身長です)、極端に低い/高い値の人は少なくなります。 どれくらい低い/高いと極端なのかは、分散や標準偏差が決めていることです。</p>
+<p>データを変数として捉えるとき、その変数の様子によって色々な区別がされます。 ここでは、特によく使われる用語を説明します。</p>
+<section id="連続変数と離散変数" class="level3">
+<h3 class="anchored" data-anchor-id="連続変数と離散変数">連続変数と離散変数</h3>
+<p>変数は、連続的な値を取る連続変数と、離散的な値を取る離散変数に分けられます。 身長は連続変数ですね (5cm単位、とかだったら離散変数というべきかもしれません)。 年齢は離散変数です。 これらの区別は実際にはさほど重要ではありませんが、理論上は区別されます。</p>
 </section>
-<section id="pdf-への出力" class="level4">
-<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
-<ul>
-<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
-<ul>
-<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
-</ul></li>
-</ul>
+<section id="カテゴリ変数と量的変数" class="level3">
+<h3 class="anchored" data-anchor-id="カテゴリ変数と量的変数">カテゴリ変数と量的変数</h3>
+<p>変数は、その値自体に意味がある量的変数と、その値に別の意味 (大きさの順番とか、単なる識別子とか) が与えられているカテゴリ変数に分けられます。 カテゴリ変数においては、値そのものや値の大小関係に意味がありません。 身長は量的変数です。 5段階評価の成績はカテゴリ変数です。 学籍番号もカテゴリ変数です。</p>
 </section>
-</section>
-<section id="rojina-の使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
-<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
-<section id="カラーパレットを自由に変更可能" class="level3">
-<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
-<ul>
-<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
-<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">変数名</th>
-<th style="text-align: left;">概要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">–prim-color</td>
-<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–sec-color</td>
-<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-background</td>
-<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–color-foreground</td>
-<td style="text-align: left;">文字の色です。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-link</td>
-<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
-<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
-</ul>
-</section>
-<section id="タイトルページ" class="level3">
-<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
-<ul>
-<li>タイトルページは、次のように書きます。</li>
-<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
-</ul>
-<pre><code>&lt;!--
-_class: title-page
-_paginate: false
-_footer: ''
---&gt;
-
-### 日付 | 報告の場所
-# 報告タイトル
-## 報告サブタイトル
-
-
-&lt;div class="author-block" markdown="1"&gt;
-
-### あなたの名前
-あなたの所属
-あなたの email、twitter、github、etc...
-
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/title-page.png" class="img-fluid"></p>
-</section>
-<section id="フッタを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
-<ul>
-<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
-<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
-</ul>
-<p><img src="../../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
-</section>
-<section id="ヘッダを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
-<ul>
-<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
-<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
-<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
-<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
-</ul>
-<p><img src="../../assets/image/header.png" class="img-fluid"></p>
-</section>
-<section id="ページのタイトル" class="level3">
-<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
-<ul>
-<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
-<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
-</ul>
-<p><img src="../../assets/image/heading2.png" class="img-fluid"></p>
-</section>
-<section id="表を挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
-<ul>
-<li>一般的な markdown 記法に従い表を挿入できます。</li>
-<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
-<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
-</ul>
-<p><img src="../../assets/image/table.png" class="img-fluid"></p>
-</section>
-<section id="コードブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
-<ul>
-<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
-<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
-</ul>
-<p><img src="../../assets/image/code.png" class="img-fluid"></p>
-</section>
-<section id="見出し付きのブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
-<ul>
-<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
-</ul>
-<pre><code>
-&lt;div class="block"&gt;
-  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
-  &lt;div class="block-content"&gt;本文&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/block.png" class="img-fluid"></p>
-<ul>
-<li>ブロック内でもマークダウン記法が有効です。
-<ul>
-<li>もちろん、<span class="math inline">\(\TeX\)</span> 記法で数式を含めることもできます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="参考文献のページを作る" class="level3">
-<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
-<ul>
-<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
-<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
-<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
-</ul>
+<section id="ダミー変数" class="level3">
+<h3 class="anchored" data-anchor-id="ダミー変数">ダミー変数</h3>
+<p>離散変数のうち、0 か 1 かの2つの値を取る変数をダミー変数とか二値変数とか言います。 ダミー変数はカテゴリ変数です。 例えば「大卒ダミー」というとき、学歴が大卒以上なら1を、それ以外なら0を取る変数のことです。 でも、1という数字にはなんの意味もありませんね。 「非大卒ダミー」を作れば、全く逆になるわけですし。</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>もっとも、近年では分析の再現性の観点から、データの公開がすすんできています。Replication data として、論文で使ったデータをそのまま公開することを義務付ける雑誌もあります。それに伴って、記述統計表を提示しない論文も増えてきたように感じます (紙幅の都合もあるでしょうから)。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Auerbach, A. M., Stingh, S., &amp; Thachil, T. (2025). Who knows how to govern? Procedural knowledge in India’s small-town councils. <em>American Political Science Review, 119</em>(2), 708–726. doi:10.1017/S0003055424000297<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

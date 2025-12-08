@@ -1,5 +1,5 @@
 ---
-title: "重回帰分析"
+title: "線形回帰モデル: 回帰分析"
 permalink: /qreg_linear-regression/
 toc_label: "目次"
 header.image: "assets/header/linear-regression.jpg"

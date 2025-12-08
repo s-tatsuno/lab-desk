@@ -1,0 +1,5 @@
+---
+title: "実験: 無作為化比較対照実験 (RCT)"
+permalink: /rct/
+toc_label: "目次"
+---

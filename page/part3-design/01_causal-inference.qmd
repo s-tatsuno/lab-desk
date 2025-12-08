@@ -1,0 +1,5 @@
+---
+title: "相関から因果へ: 因果推論とはなにか"
+permalink: /causal-inference/
+toc_label: "目次"
+---

@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
 
-<title>Marp のテーマを作ってみた – 研究室の机</title>
+<title>制限従属変数モデル – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -147,20 +146,10 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#rojina-テーマの使い方" id="toc-rojina-テーマの使い方" class="nav-link active" data-scroll-target="#rojina-テーマの使い方">Rojina テーマの使い方</a></li>
-  <li><a href="#marp" id="toc-marp" class="nav-link" data-scroll-target="#marp">Marp</a></li>
-  <li><a href="#rojina-テーマの導入方法" id="toc-rojina-テーマの導入方法" class="nav-link" data-scroll-target="#rojina-テーマの導入方法">Rojina テーマの導入方法</a></li>
-  <li><a href="#rojina-の使い方" id="toc-rojina-の使い方" class="nav-link" data-scroll-target="#rojina-の使い方">Rojina の使い方</a>
+  <li><a href="#モチベーション" id="toc-モチベーション" class="nav-link active" data-scroll-target="#モチベーション">モチベーション</a>
   <ul class="collapse">
-  <li><a href="#カラーパレットを自由に変更可能" id="toc-カラーパレットを自由に変更可能" class="nav-link" data-scroll-target="#カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</a></li>
-  <li><a href="#タイトルページ" id="toc-タイトルページ" class="nav-link" data-scroll-target="#タイトルページ">タイトルページ</a></li>
-  <li><a href="#フッタを表示する" id="toc-フッタを表示する" class="nav-link" data-scroll-target="#フッタを表示する">フッタを表示する</a></li>
-  <li><a href="#ヘッダを表示する" id="toc-ヘッダを表示する" class="nav-link" data-scroll-target="#ヘッダを表示する">ヘッダを表示する</a></li>
-  <li><a href="#ページのタイトル" id="toc-ページのタイトル" class="nav-link" data-scroll-target="#ページのタイトル">ページのタイトル</a></li>
-  <li><a href="#表を挿入する" id="toc-表を挿入する" class="nav-link" data-scroll-target="#表を挿入する">表を挿入する</a></li>
-  <li><a href="#コードブロックを挿入する" id="toc-コードブロックを挿入する" class="nav-link" data-scroll-target="#コードブロックを挿入する">コードブロックを挿入する</a></li>
-  <li><a href="#見出し付きのブロックを挿入する" id="toc-見出し付きのブロックを挿入する" class="nav-link" data-scroll-target="#見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</a></li>
-  <li><a href="#参考文献のページを作る" id="toc-参考文献のページを作る" class="nav-link" data-scroll-target="#参考文献のページを作る">参考文献のページを作る</a></li>
+  <li><a href="#制限従属変数" id="toc-制限従属変数" class="nav-link" data-scroll-target="#制限従属変数">制限従属変数</a></li>
+  <li><a href="#線形重回帰モデルではだめなのか" id="toc-線形重回帰モデルではだめなのか" class="nav-link" data-scroll-target="#線形重回帰モデルではだめなのか">線形重回帰モデルではだめなのか？</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -170,29 +159,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Marp のテーマを作ってみた</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Tech</div>
-    <div class="quarto-category">Writing</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。
-  </div>
+<h1 class="title">制限従属変数モデル</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">公開</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2025年8月16日</p>
-    </div>
-  </div>
   
     
   </div>
@@ -202,245 +176,49 @@ window.Quarto = {
 </header>
 
 
-<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。</p>
-<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
-<div>
-<h4 style="margin: 0;" class="anchored">
-<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
-</h4>
-<p style="margin: 5px 0 0; color: #586069;">
-Rojina: Marp theme for academic slides.
-</p>
+<p>前回の記事では、回帰分析の基本となる線形重回帰モデルについて説明しました。 今回は、従属変数に一定の制限がある場合を念頭に、基本の重回帰モデルを発展させた<strong>制限従属変数モデル</strong>について説明します。特に、従属変数がダミー変数である場合のためのロジットモデル及び、離散変数である場合のための多項ロジットモデルについて扱います。</p>
+<div class="callout callout-style-default callout-note callout-titled" title="その前に">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+その前に
 </div>
 </div>
-<ul>
-<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
-<li>Beamer の思想をかなり受け継いでいます
-<ul>
-<li>アスペクト比は4:3です</li>
-<li>Beamer の機能の移植もあります</li>
-</ul></li>
-<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
-</ul>
-<section id="rojina-テーマの使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
-<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
+<div class="callout-body-container callout-body">
+<p>制限従属変数モデルは、今回紹介する2つのモデル以外にもあります。 特に、ロジットモデルと同様の目的で使われるプロビットモデルは、分野によってはロジットモデルよりも使う人が多いです。それにもかからわず、この記事でロジットモデルと多項ロジットモデルに限定する理由は、単純に政治学の領域で使われることが多いためです。さらにその理由を考えるならば、結果の解釈がわかりやすく直感的であるためです。この記事では、特に解釈の部分に重きをおいて、これらのモデルに注目していきます。</p>
+<p>ただし、せっかくなのでロジットモデルについての単発記事も書きたいとは思っています。</p>
+</div>
+</div>
+<section id="モチベーション" class="level2">
+<h2 class="anchored" data-anchor-id="モチベーション">モチベーション</h2>
+<p>前回扱った線形重回帰モデルは、従属変数の値の変化を、独立変数の値の変化に対する一次関数的な関係で捉えようとするものでした。もっとも基本的なモデルである <span class="math inline">\(Y = \beta_0 + \beta_1X_1 + \cdots + \beta_M X_M + \varepsilon\)</span> は、中学校で習った一次関数の拡張であり、回帰係数 <span class="math inline">\(\boldsymbol{\beta}\)</span> の値は効果の大きさとして解釈することができました。</p>
+<section id="制限従属変数" class="level3">
+<h3 class="anchored" data-anchor-id="制限従属変数">制限従属変数</h3>
+<p>線形重回帰モデルにおいて、独立変数と従属変数の数値的特徴について特別な仮定・条件はありませんでした。言い換えれば、回帰式の定義と値域は全ての実数です。</p>
+<p>これに対しこの記事で扱う<strong>制限従属変数</strong>とは、従属変数の値に何らかの制限がある場合をいいます。例えば、大学を卒業した人であれば 1 をとり、そうでなければ 0 をとる変数は、ダミー変数とか2値変数といいます。ダミー変数は、0 または 1 という値しかとりません。それ以外にも、年収のように、必ず非負 (0以上) の値しか取らない変数や、割合のように 0から1までの値しか取らない変数、さらには、「とてもそう思う」「そう思う」「わからない」「そう思わない」「全くそう思わない」などの順序尺度で表される変数などが制限従属変数です。</p>
+<p>これらの変数を従属変数とする線形重回帰モデルには、いくつかの懸念があります。第一に、回帰係数の解釈の問題です。例えば従属変数が戦争の発生(1)か否(0)かである場合、「独立変数が1増加すると、戦争の発生が0.2増える」と言われてもよくわかりません。第二に、予測の値が実際の制限に収まらない場合があります。モデルの独立変数の値を自由に代入すれば、「戦争の発生かどうかの結果は5」などという、またもや解釈の難しい結果を得るかもしれません。</p>
+<p>このような解釈の問題を克服するために生み出されたのが制限従属変数モデルです。この記事ではその中で、ダミー変数を従属変数としたロジットモデルと、離散変数を従属変数とした多項ロジットモデルについて扱います。これらは、結果の解釈にクセがあり少々難しいです。それなのに、線形重回帰モデルと同じように解釈して誤った分析をしてしまう人は少なくありません。この記事を通して、ロジットモデル &amp; 多項ロジットモデルを正しく読めるようになることが目標です。</p>
 </section>
-<section id="marp" class="level2">
-<h2 class="anchored" data-anchor-id="marp">Marp</h2>
-<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
-</section>
-<section id="rojina-テーマの導入方法" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
-<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
-<section id="css-ファイルを配置する" class="level4">
-<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
-<ul>
-<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
-<ul>
-<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
-<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
-<li>Settings &gt; Marp: Themes にパスを記入します。
-<ul>
-<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
-</ul></li>
-</ul></li>
-<li>github の生ファイルをURLで直接呼び出す方法
-<ul>
-<li>または、Settings &gt; Marp: Themes に次のように入力します。
-<ul>
-<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
-</ul></li>
-<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="yaml-ヘッダの指定" class="level4">
-<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
-<ul>
-<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
-<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
-</ul>
-<pre><code>---
-marp: true
-theme: rojina
-paginate: true
-lang: ja
-footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
-style: |
-  section {  
-    --prim-color: #03233aff;      /* プライマリカラー */
-    --sec-color: #2a4f69ff;       /* セカンダリカラー */
-    --color-background: #fdfdfd;  /* 背景の色 */
-    --color-foreground: #333;     /* 文字の色 */
-    --color-link: var(--sec-color); /* リンクの色 */
-    }
----</code></pre>
-<ul>
-<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
-<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
-</ul>
-</section>
-<section id="pdf-への出力" class="level4">
-<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
-<ul>
-<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
-<ul>
-<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="rojina-の使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
-<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
-<section id="カラーパレットを自由に変更可能" class="level3">
-<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
-<ul>
-<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
-<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">変数名</th>
-<th style="text-align: left;">概要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">–prim-color</td>
-<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–sec-color</td>
-<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-background</td>
-<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–color-foreground</td>
-<td style="text-align: left;">文字の色です。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-link</td>
-<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
-<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
-</ul>
-</section>
-<section id="タイトルページ" class="level3">
-<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
-<ul>
-<li>タイトルページは、次のように書きます。</li>
-<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
-</ul>
-<pre><code>&lt;!--
-_class: title-page
-_paginate: false
-_footer: ''
---&gt;
-
-### 日付 | 報告の場所
-# 報告タイトル
-## 報告サブタイトル
-
-
-&lt;div class="author-block" markdown="1"&gt;
-
-### あなたの名前
-あなたの所属
-あなたの email、twitter、github、etc...
-
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/title-page.png" class="img-fluid"></p>
-</section>
-<section id="フッタを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
-<ul>
-<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
-<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
-</ul>
-<p><img src="../../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
-</section>
-<section id="ヘッダを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
-<ul>
-<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
-<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
-<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
-<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
-</ul>
-<p><img src="../../assets/image/header.png" class="img-fluid"></p>
-</section>
-<section id="ページのタイトル" class="level3">
-<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
-<ul>
-<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
-<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
-</ul>
-<p><img src="../../assets/image/heading2.png" class="img-fluid"></p>
-</section>
-<section id="表を挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
-<ul>
-<li>一般的な markdown 記法に従い表を挿入できます。</li>
-<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
-<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
-</ul>
-<p><img src="../../assets/image/table.png" class="img-fluid"></p>
-</section>
-<section id="コードブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
-<ul>
-<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
-<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
-</ul>
-<p><img src="../../assets/image/code.png" class="img-fluid"></p>
-</section>
-<section id="見出し付きのブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
-<ul>
-<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
-</ul>
-<pre><code>
-&lt;div class="block"&gt;
-  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
-  &lt;div class="block-content"&gt;本文&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/block.png" class="img-fluid"></p>
-<ul>
-<li>ブロック内でもマークダウン記法が有効です。
-<ul>
-<li>もちろん、<span class="math inline">\(\TeX\)</span> 記法で数式を含めることもできます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="参考文献のページを作る" class="level3">
-<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
-<ul>
-<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
-<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
-<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
-</ul>
+<section id="線形重回帰モデルではだめなのか" class="level3">
+<h3 class="anchored" data-anchor-id="線形重回帰モデルではだめなのか">線形重回帰モデルではだめなのか？</h3>
+<p>既述のとおり、線形重回帰モデルにおける従属変数に制限がある場合、回帰係数と予測の解釈に懸念が生じます。しかし、それは本当に問題でしょうか。ここでは、これに対する考え方をいくつか提示します。</p>
+<p>まず、「独立変数が1増加すると、戦争の発生が0.2増える」という分析結果は、思っているほどは難解ではありません。多くの人が、戦争が起こりやすくなるのだと理解できるでしょうし、「1増える」=「0が1になる」から類推して、発生確率が20%ポイント増えると解釈し直すことができると思います。実際、ダミー変数を従属変数とする線形重回帰モデルは<strong>線形確率モデル</strong>と呼ばれ、「従属変数が1をとる確率」を従属変数としていると考えることができます。実際に、線形重回帰モデルと同じ仮定のもとで、回帰係数を正しく推定し解釈することが可能です。</p>
+<p>また、「戦争の発生かどうかの結果は5」というような常識外れの値は、理論上考えることができるという話であって、実際に観察データからそのような結果を得ることはほとんどありえません。実際には、線形確率モデルの結果は常識の範疇であることが多いですし、たいていロジットモデルとほとんど同じ結果を示します。さらに、線形重回帰モデルは、従属変数と独立変数の関係をよく表した線形近似であり (この点は若干難しいですが Molstly harmless などを参照してください)、従属変数の特徴があっても理論的に大きく修正される必要がないという考え方もあります。</p>
+<p>以上を踏まえれば、観察されたデータから傾向を分析し解釈することが大きな目的である政治学の分析において、「制限従属変数に対し線形重回帰モデルを用いることは重大な問題がある」とまではいえないように思います<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。もっとも、逆に制限従属変数モデルを使ってはいけない理由もないわけですから、両方の方法で分析してみるべきでしょう。</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>一方、モデル構築や理論的議論を行う場合にはそれでは満足がいかないかもしれません。そもそも制限従属変数モデルは、そのような背景に対処するために開発されました。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

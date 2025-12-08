@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
 
-<title>Marp のテーマを作ってみた – 研究室の机</title>
+<title>線形回帰モデル: 回帰分析 – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -147,20 +146,15 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#rojina-テーマの使い方" id="toc-rojina-テーマの使い方" class="nav-link active" data-scroll-target="#rojina-テーマの使い方">Rojina テーマの使い方</a></li>
-  <li><a href="#marp" id="toc-marp" class="nav-link" data-scroll-target="#marp">Marp</a></li>
-  <li><a href="#rojina-テーマの導入方法" id="toc-rojina-テーマの導入方法" class="nav-link" data-scroll-target="#rojina-テーマの導入方法">Rojina テーマの導入方法</a></li>
-  <li><a href="#rojina-の使い方" id="toc-rojina-の使い方" class="nav-link" data-scroll-target="#rojina-の使い方">Rojina の使い方</a>
+  <li><a href="#重要な用語と少しだけ数学" id="toc-重要な用語と少しだけ数学" class="nav-link active" data-scroll-target="#重要な用語と少しだけ数学">重要な用語と、少しだけ数学</a>
   <ul class="collapse">
-  <li><a href="#カラーパレットを自由に変更可能" id="toc-カラーパレットを自由に変更可能" class="nav-link" data-scroll-target="#カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</a></li>
-  <li><a href="#タイトルページ" id="toc-タイトルページ" class="nav-link" data-scroll-target="#タイトルページ">タイトルページ</a></li>
-  <li><a href="#フッタを表示する" id="toc-フッタを表示する" class="nav-link" data-scroll-target="#フッタを表示する">フッタを表示する</a></li>
-  <li><a href="#ヘッダを表示する" id="toc-ヘッダを表示する" class="nav-link" data-scroll-target="#ヘッダを表示する">ヘッダを表示する</a></li>
-  <li><a href="#ページのタイトル" id="toc-ページのタイトル" class="nav-link" data-scroll-target="#ページのタイトル">ページのタイトル</a></li>
-  <li><a href="#表を挿入する" id="toc-表を挿入する" class="nav-link" data-scroll-target="#表を挿入する">表を挿入する</a></li>
-  <li><a href="#コードブロックを挿入する" id="toc-コードブロックを挿入する" class="nav-link" data-scroll-target="#コードブロックを挿入する">コードブロックを挿入する</a></li>
-  <li><a href="#見出し付きのブロックを挿入する" id="toc-見出し付きのブロックを挿入する" class="nav-link" data-scroll-target="#見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</a></li>
-  <li><a href="#参考文献のページを作る" id="toc-参考文献のページを作る" class="nav-link" data-scroll-target="#参考文献のページを作る">参考文献のページを作る</a></li>
+  <li><a href="#独立変数従属変数" id="toc-独立変数従属変数" class="nav-link" data-scroll-target="#独立変数従属変数">独立変数、従属変数</a></li>
+  <li><a href="#確率変数" id="toc-確率変数" class="nav-link" data-scroll-target="#確率変数">確率変数</a></li>
+  <li><a href="#期待値条件付き期待値" id="toc-期待値条件付き期待値" class="nav-link" data-scroll-target="#期待値条件付き期待値">期待値、条件付き期待値</a></li>
+  </ul></li>
+  <li><a href="#回帰モデルの基礎" id="toc-回帰モデルの基礎" class="nav-link" data-scroll-target="#回帰モデルの基礎">回帰モデルの基礎</a>
+  <ul class="collapse">
+  <li><a href="#boldsymbolbeta-の推定" id="toc-boldsymbolbeta-の推定" class="nav-link" data-scroll-target="#boldsymbolbeta-の推定"><span class="math inline">\(\boldsymbol{\beta}\)</span> の推定</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -170,29 +164,14 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Marp のテーマを作ってみた</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Tech</div>
-    <div class="quarto-category">Writing</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。
-  </div>
+<h1 class="title">線形回帰モデル: 回帰分析</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">公開</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2025年8月16日</p>
-    </div>
-  </div>
   
     
   </div>
@@ -202,245 +181,60 @@ window.Quarto = {
 </header>
 
 
-<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。</p>
-<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
-<div>
-<h4 style="margin: 0;" class="anchored">
-<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
-</h4>
-<p style="margin: 5px 0 0; color: #586069;">
-Rojina: Marp theme for academic slides.
-</p>
-</div>
-</div>
-<ul>
-<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
-<li>Beamer の思想をかなり受け継いでいます
-<ul>
-<li>アスペクト比は4:3です</li>
-<li>Beamer の機能の移植もあります</li>
-</ul></li>
-<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
-</ul>
-<section id="rojina-テーマの使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
-<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
+<p>この記事では、定量的な分析の基本的な手法である回帰分析のうち、もっとも基本的な線形重回帰分析について扱います。なお、他の回帰分析にも通じる根本的な概念を説明しているため、かなり長くなっています。他の手法でわからない説明も、ここに戻ってくれば見つかるかもしれません。</p>
+<section id="重要な用語と少しだけ数学" class="level2">
+<h2 class="anchored" data-anchor-id="重要な用語と少しだけ数学">重要な用語と、少しだけ数学</h2>
+<section id="独立変数従属変数" class="level3">
+<h3 class="anchored" data-anchor-id="独立変数従属変数">独立変数、従属変数</h3>
+<p>多くの実証的な研究の仮説は、原因と結果の間に存在する因果メカニズムまたはその効果に関する記述です。この枠組みにおいて、原因の部分を独立変数といい、結果の部分を従属変数といいます。統計学または計量経済学での数式の慣習から、一般的に独立変数は <span class="math inline">\(X\)</span> で、従属変数は <span class="math inline">\(Y\)</span> で表されます。また、独立変数が複数ある場合は <span class="math inline">\(X_1, X_2, \cdots\)</span> というふうに、右下に数字をつけることにします。</p>
+<p>独立変数はほかにも、説明変数、原因変数、処置変数などと呼ぶことがあります。従属変数は、非説明変数、結果変数などと呼ぶことがあります。これらは主に分野による慣習の違いですが、どれを聞いてもどちらかわかるようにしておいてください。なお英語では、それぞれ Independent Variable と Dependent Variable です。</p>
+<p>回帰分析は、従属変数が独立変数によって変化させられるかを数量的に明らかにする手法のことをいいます。</p>
 </section>
-<section id="marp" class="level2">
-<h2 class="anchored" data-anchor-id="marp">Marp</h2>
-<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
+<section id="確率変数" class="level3">
+<h3 class="anchored" data-anchor-id="確率変数">確率変数</h3>
+<p>確率変数とは、その値が確率的に決まる変数のことをいいます。サイコロの出目などがわかり易い例です。計量政治学では、多くの変数は確率的に決まるものとみなされます。例えばある国の民主主義指数とか、戦争を起こしたかどうかとか、選挙の結果とか。テストの得点も確率変数です。これは、「あなたが95点を確率的に（たまたま）取った」という意味ではなく、「95点を含むあらゆる得点は事前に決まっている確率的な分布に従って現れた」という意味です。ちなみにテストの得点はたいてい、正規分布に従うような分布をしています。不思議ですね。</p>
 </section>
-<section id="rojina-テーマの導入方法" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
-<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
-<section id="css-ファイルを配置する" class="level4">
-<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
-<ul>
-<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
-<ul>
-<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
-<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
-<li>Settings &gt; Marp: Themes にパスを記入します。
-<ul>
-<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
-</ul></li>
-</ul></li>
-<li>github の生ファイルをURLで直接呼び出す方法
-<ul>
-<li>または、Settings &gt; Marp: Themes に次のように入力します。
-<ul>
-<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
-</ul></li>
-<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="yaml-ヘッダの指定" class="level4">
-<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
-<ul>
-<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
-<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
-</ul>
-<pre><code>---
-marp: true
-theme: rojina
-paginate: true
-lang: ja
-footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
-style: |
-  section {  
-    --prim-color: #03233aff;      /* プライマリカラー */
-    --sec-color: #2a4f69ff;       /* セカンダリカラー */
-    --color-background: #fdfdfd;  /* 背景の色 */
-    --color-foreground: #333;     /* 文字の色 */
-    --color-link: var(--sec-color); /* リンクの色 */
-    }
----</code></pre>
-<ul>
-<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
-<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
-</ul>
-</section>
-<section id="pdf-への出力" class="level4">
-<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
-<ul>
-<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
-<ul>
-<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
-</ul></li>
-</ul>
+<section id="期待値条件付き期待値" class="level3">
+<h3 class="anchored" data-anchor-id="期待値条件付き期待値">期待値、条件付き期待値</h3>
+<p>期待値とは、ある確率変数が確率的にとる値の平均のことをいいます。確率変数 <span class="math inline">\(X\)</span> の期待値は <span class="math inline">\(E[X]\)</span> で表されます。例えば、 <span class="math inline">\(X\)</span> をサイコロの出目とすれば、 <span class="math inline">\(E[X] = 3.5\)</span> となります (定義や計算は省略)。もちろん、サイコロを振っても3.5という出目はでませんし、3.5 に近い値が出やすいというわけでもありません。あくまで、平均をとると3.5になるという意味です。</p>
+<p>条件付き期待値とは、ある事象が与えられたという条件のもとでの、ある確率変数が確率的に取る値の平均をいいます。別の確率変数 <span class="math inline">\(Z\)</span> が与えられたときの変数 <span class="math inline">\(X\)</span> の条件付き期待値は、 <span class="math inline">\(E[X \| Z]\)</span> と表し、これは変数 <span class="math inline">\(Z\)</span> の値によって変わるので、 <span class="math inline">\(Z\)</span> の関数です。とくに、 <span class="math inline">\(Z = z\)</span> のときの変数 <span class="math inline">\(X\)</span> の条件付き期待値を <span class="math inline">\(E[X \| Z = z]\)</span> と表します。例えば、全校生徒のテストの点数を <span class="math inline">\(X\)</span> とすれば、 <span class="math inline">\(E[X \| grade = 3]\)</span> は3年生の得点の期待値となります。</p>
+<p>このシリーズを読むのに必要な数学の知識はこれくらいです。ここまでの数学知識をきちんと学びたい方は、統計学 (確率論ではない) のテキストを読んでください。</p>
 </section>
 </section>
-<section id="rojina-の使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
-<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
-<section id="カラーパレットを自由に変更可能" class="level3">
-<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
-<ul>
-<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
-<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">変数名</th>
-<th style="text-align: left;">概要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">–prim-color</td>
-<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–sec-color</td>
-<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-background</td>
-<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–color-foreground</td>
-<td style="text-align: left;">文字の色です。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-link</td>
-<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
-<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
-</ul>
-</section>
-<section id="タイトルページ" class="level3">
-<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
-<ul>
-<li>タイトルページは、次のように書きます。</li>
-<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
-</ul>
-<pre><code>&lt;!--
-_class: title-page
-_paginate: false
-_footer: ''
---&gt;
-
-### 日付 | 報告の場所
-# 報告タイトル
-## 報告サブタイトル
-
-
-&lt;div class="author-block" markdown="1"&gt;
-
-### あなたの名前
-あなたの所属
-あなたの email、twitter、github、etc...
-
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/title-page.png" class="img-fluid"></p>
-</section>
-<section id="フッタを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
-<ul>
-<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
-<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
-</ul>
-<p><img src="../../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
-</section>
-<section id="ヘッダを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
-<ul>
-<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
-<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
-<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
-<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
-</ul>
-<p><img src="../../assets/image/header.png" class="img-fluid"></p>
-</section>
-<section id="ページのタイトル" class="level3">
-<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
-<ul>
-<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
-<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
-</ul>
-<p><img src="../../assets/image/heading2.png" class="img-fluid"></p>
-</section>
-<section id="表を挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
-<ul>
-<li>一般的な markdown 記法に従い表を挿入できます。</li>
-<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
-<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
-</ul>
-<p><img src="../../assets/image/table.png" class="img-fluid"></p>
-</section>
-<section id="コードブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
-<ul>
-<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
-<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
-</ul>
-<p><img src="../../assets/image/code.png" class="img-fluid"></p>
-</section>
-<section id="見出し付きのブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
-<ul>
-<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
-</ul>
-<pre><code>
-&lt;div class="block"&gt;
-  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
-  &lt;div class="block-content"&gt;本文&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/block.png" class="img-fluid"></p>
-<ul>
-<li>ブロック内でもマークダウン記法が有効です。
-<ul>
-<li>もちろん、<span class="math inline">\(\TeX\)</span> 記法で数式を含めることもできます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="参考文献のページを作る" class="level3">
-<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
-<ul>
-<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
-<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
-<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
-</ul>
+<section id="回帰モデルの基礎" class="level2">
+<h2 class="anchored" data-anchor-id="回帰モデルの基礎">回帰モデルの基礎</h2>
+<p>いま、 従属変数 <span class="math inline">\(Y\)</span> に影響を与えると考えられる変数が <span class="math inline">\(M\)</span> 個あるとし、それらを <span class="math inline">\(X_1, \cdots, X_M\)</span> とします。ただし、いちいち書き並べるのは面倒なので、太字で <span class="math inline">\(\boldsymbol{X} = (X_1, \cdots, X_M)\)</span> と書くことにしましょう。そして、独立変数と従属変数の間に次の一次関数の関係があると仮定します<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。</p>
+<p><span class="math display">\[
+Y = \beta_0 + \beta_1X_1 + \cdots + \beta_M X_M + \varepsilon
+\]</span></p>
+<p>この式を回帰式とか回帰モデルといいます。この式は、中学生のときに学んだ一次関数の式を拡張したものです。右辺の <span class="math inline">\(\beta_0\)</span> は切片を表し、 <span class="math inline">\(\beta_1\)</span> は変数 <span class="math inline">\(X_1\)</span> の係数、つまり傾きを表しています。中学校の教科書によれば、一次関数の傾きは (<span class="math inline">\(y\)</span> の増加量) ÷ ( <span class="math inline">\(x\)</span> の増加量) で求められるのでした。つまり係数とは、 <span class="math inline">\(x\)</span> が「1単位」増加したときに <span class="math inline">\(y\)</span> がどの程度増加するかを表しています。</p>
+<p>このことを今紹介したモデルに当てはめれば、ある変数 <span class="math inline">\(X_k\)</span> が1増加したとき、 <span class="math inline">\(Y\)</span> の期待値は <span class="math inline">\(\beta_k\)</span> だけ増加することになります。</p>
+<p>この式から、ある示唆が得られます。すなわち、 <span class="math inline">\(\beta_0, \beta_1, \cdots, \beta_M\)</span> の値がわかれば、各独立変数 <span class="math inline">\(X\)</span> が従属変数 <span class="math inline">\(Y\)</span> に与える影響の大きさがわかるということです。したがって、 <span class="math inline">\(\beta_0, \beta_1, \cdots, \beta_M\)</span> の値を知ること (推定すること) が、回帰分析の次なる目標になります。なおこれ以降、やはり書き並べるのが面倒なので、太字で <span class="math inline">\(\boldsymbol{\beta} = (\beta_1, \cdots, \beta_M)\)</span> と書くことにします。</p>
+<p>ただし、「影響の大きさ」という部分には、厳密には行間があります。二つの変数の間には、片方が変化すればもう一方が変化するという相関関係が仮定されており、係数の値はその変化の割合を表しています。しかし、この関係が因果関係であるとは限らず、係数が因果効果であるためには理論的・統計的にさらに強い仮定が必要です。因果関係を識別する方法は、Part 3 の因果推論においてより詳しく解説しています。</p>
+<p>M個の独立変数 <span class="math inline">\(\boldsymbol{X}\)</span> によってでも、<span class="math inline">\(Y\)</span> の値は完全に説明されるとは限りません。他にさらなる変数が存在したり、測定による誤差が生じたりするかもしれないためです。このような、独立変数 <span class="math inline">\(\boldsymbol{X}\)</span> で予測される <span class="math inline">\(Y\)</span> の値と観測された真の値との差を表す部分を誤差項といい、式の中の <span class="math inline">\(\varepsilon\)</span> がこれに当たります。ここではひとまず、独立変数 <span class="math inline">\(\boldsymbol{X}\)</span> 以外によって説明される部分というふうに理解してください。</p>
+<p>なお、モデルの解釈について1点だけ重要な注意をします。</p>
+<p>回帰モデルに含まれる独立変数には、大きく2種類あります：</p>
+<ol type="1">
+<li><strong>着目する独立変数</strong>：研究の仮説で焦点を当てている変数</li>
+<li><strong>統制変数</strong>：モデルを正しく機能させるために含める変数</li>
+</ol>
+<p>統制変数は、分析上の理由（後述）で必要なため含めますが、その係数の値には興味がありません。 むしろ、統制変数の係数は解釈してはいけません。 なぜなら、統制変数の係数が正しく推定されることは要求されておらず、その値が信頼できるか分からないためです。 重要なのは、着目する独立変数の係数が正しく推定されることです。 回帰表があるからといって、すべての係数を解釈して良いわけではありません。 この区別は、「回帰分析の仮定」（Part 2）でより詳しく説明します。</p>
+<section id="boldsymbolbeta-の推定" class="level3">
+<h3 class="anchored" data-anchor-id="boldsymbolbeta-の推定"><span class="math inline">\(\boldsymbol{\beta}\)</span> の推定</h3>
+<p>回帰式を立てたとて、最も重要な回帰係数 <span class="math inline">\(\boldsymbol{\beta}\)</span> の値は私たちには知りようがありません。それは独立変数と従属変数の真の関係性であって、それを決めた神のような存在しか知り得ないためです。しかし人類は、これらの値を観察されたデータから推定する方法をいくつか発明しました。その中で最も有名な方法の一つが最小二乗法（OLS: Ordinary Least Squares）です。最小二乗法の具体的な計算方法はこのブログのレベルを超えるため述べません。一方、最小二乗法で計算した <span class="math inline">\(\boldsymbol{\beta}\)</span> の推定値が妥当である<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>ためには、いくつかの仮定をクリアする必要があります。これらの仮定については、Part 2「計量経済学の方法｜モデルを学ぶ」の最初に説明します。</p>
 
 
 </section>
 </section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>この「仮定」という考えが、実はとても重要だと考えています。すなわち、実際にそうであるかは未知 (神のみぞ知る) なのだが、一旦そのような関係性を仮定し、そこから政治学的に重要な示唆を数学的に導き出すという手順が、「モデル」に基づく推測の本質です。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>ここでいう妥当であるとは、統計的に望ましい幾つかの性質を持つことを言います。これらの性質を持つとき、計算した推定値は真の値をある意味正しく推定できていると言えます。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

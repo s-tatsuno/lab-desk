@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
+<meta name="description" content="新しい組版「typst」はまだいいかな…">
 
-<title>Marp のテーマを作ってみた – 研究室の机</title>
+<title>Typst は刺さらなかった話 – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,35 +78,6 @@ gtag('js', new Date());
 gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -147,21 +118,16 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#rojina-テーマの使い方" id="toc-rojina-テーマの使い方" class="nav-link active" data-scroll-target="#rojina-テーマの使い方">Rojina テーマの使い方</a></li>
-  <li><a href="#marp" id="toc-marp" class="nav-link" data-scroll-target="#marp">Marp</a></li>
-  <li><a href="#rojina-テーマの導入方法" id="toc-rojina-テーマの導入方法" class="nav-link" data-scroll-target="#rojina-テーマの導入方法">Rojina テーマの導入方法</a></li>
-  <li><a href="#rojina-の使い方" id="toc-rojina-の使い方" class="nav-link" data-scroll-target="#rojina-の使い方">Rojina の使い方</a>
+  <li><a href="#typst-のここがすごい" id="toc-typst-のここがすごい" class="nav-link active" data-scroll-target="#typst-のここがすごい">Typst のここがすごい</a>
   <ul class="collapse">
-  <li><a href="#カラーパレットを自由に変更可能" id="toc-カラーパレットを自由に変更可能" class="nav-link" data-scroll-target="#カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</a></li>
-  <li><a href="#タイトルページ" id="toc-タイトルページ" class="nav-link" data-scroll-target="#タイトルページ">タイトルページ</a></li>
-  <li><a href="#フッタを表示する" id="toc-フッタを表示する" class="nav-link" data-scroll-target="#フッタを表示する">フッタを表示する</a></li>
-  <li><a href="#ヘッダを表示する" id="toc-ヘッダを表示する" class="nav-link" data-scroll-target="#ヘッダを表示する">ヘッダを表示する</a></li>
-  <li><a href="#ページのタイトル" id="toc-ページのタイトル" class="nav-link" data-scroll-target="#ページのタイトル">ページのタイトル</a></li>
-  <li><a href="#表を挿入する" id="toc-表を挿入する" class="nav-link" data-scroll-target="#表を挿入する">表を挿入する</a></li>
-  <li><a href="#コードブロックを挿入する" id="toc-コードブロックを挿入する" class="nav-link" data-scroll-target="#コードブロックを挿入する">コードブロックを挿入する</a></li>
-  <li><a href="#見出し付きのブロックを挿入する" id="toc-見出し付きのブロックを挿入する" class="nav-link" data-scroll-target="#見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</a></li>
-  <li><a href="#参考文献のページを作る" id="toc-参考文献のページを作る" class="nav-link" data-scroll-target="#参考文献のページを作る">参考文献のページを作る</a></li>
+  <li><a href="#コンパイルが早い" id="toc-コンパイルが早い" class="nav-link" data-scroll-target="#コンパイルが早い">コンパイルが早い</a></li>
   </ul></li>
+  <li><a href="#typst-のここがもう少し" id="toc-typst-のここがもう少し" class="nav-link" data-scroll-target="#typst-のここがもう少し">Typst のここがもう少し</a>
+  <ul class="collapse">
+  <li><a href="#パッケージが少なすぎる" id="toc-パッケージが少なすぎる" class="nav-link" data-scroll-target="#パッケージが少なすぎる">パッケージが少なすぎる</a></li>
+  <li><a href="#pdf-を図として取り込めない" id="toc-pdf-を図として取り込めない" class="nav-link" data-scroll-target="#pdf-を図として取り込めない">PDF を図として取り込めない</a></li>
+  </ul></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論">結論</a></li>
   </ul>
 </nav>
     </div>
@@ -170,7 +136,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Marp のテーマを作ってみた</h1>
+<h1 class="title">Typst は刺さらなかった話</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Tech</div>
     <div class="quarto-category">Writing</div>
@@ -179,7 +145,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。
+    新しい組版「typst」はまだいいかな…
   </div>
 </div>
 
@@ -190,7 +156,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">公開</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025年8月16日</p>
+      <p class="date">2025年10月10日</p>
     </div>
   </div>
   
@@ -202,242 +168,41 @@ window.Quarto = {
 </header>
 
 
-<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。</p>
-<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
-<div>
-<h4 style="margin: 0;" class="anchored">
-<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
-</h4>
-<p style="margin: 5px 0 0; color: #586069;">
-Rojina: Marp theme for academic slides.
-</p>
-</div>
-</div>
+<p>私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。</p>
+<p>そんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。</p>
 <ul>
-<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
-<li>Beamer の思想をかなり受け継いでいます
-<ul>
-<li>アスペクト比は4:3です</li>
-<li>Beamer の機能の移植もあります</li>
-</ul></li>
-<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
+<li><a href="https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/typst.html">「Typst： いい感じのLaTeXの代替」(大阪大学 山口先生の Website より)</a></li>
+<li><a href="https://qiita.com/hikoharu14142/items/aa8cfb70d079b0324fba">「Typstのここがすごい！！」(Qiita の記事)</a></li>
 </ul>
-<section id="rojina-テーマの使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
-<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
-</section>
-<section id="marp" class="level2">
-<h2 class="anchored" data-anchor-id="marp">Marp</h2>
-<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
-</section>
-<section id="rojina-テーマの導入方法" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
-<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
-<section id="css-ファイルを配置する" class="level4">
-<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
-<ul>
-<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
-<ul>
-<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
-<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
-<li>Settings &gt; Marp: Themes にパスを記入します。
-<ul>
-<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
-</ul></li>
-</ul></li>
-<li>github の生ファイルをURLで直接呼び出す方法
-<ul>
-<li>または、Settings &gt; Marp: Themes に次のように入力します。
-<ul>
-<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
-</ul></li>
-<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="yaml-ヘッダの指定" class="level4">
-<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
-<ul>
-<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
-<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
-</ul>
-<pre><code>---
-marp: true
-theme: rojina
-paginate: true
-lang: ja
-footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
-style: |
-  section {  
-    --prim-color: #03233aff;      /* プライマリカラー */
-    --sec-color: #2a4f69ff;       /* セカンダリカラー */
-    --color-background: #fdfdfd;  /* 背景の色 */
-    --color-foreground: #333;     /* 文字の色 */
-    --color-link: var(--sec-color); /* リンクの色 */
-    }
----</code></pre>
-<ul>
-<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
-<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
-</ul>
-</section>
-<section id="pdf-への出力" class="level4">
-<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
-<ul>
-<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
-<ul>
-<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
-</ul></li>
-</ul>
+<p>新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！</p>
+<section id="typst-のここがすごい" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがすごい">Typst のここがすごい</h2>
+<section id="コンパイルが早い" class="level3">
+<h3 class="anchored" data-anchor-id="コンパイルが早い">コンパイルが早い</h3>
+<p>LaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。</p>
+<p>その点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。</p>
+<p>コンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。</p>
 </section>
 </section>
-<section id="rojina-の使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
-<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
-<section id="カラーパレットを自由に変更可能" class="level3">
-<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
-<ul>
-<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
-<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">変数名</th>
-<th style="text-align: left;">概要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">–prim-color</td>
-<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–sec-color</td>
-<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-background</td>
-<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–color-foreground</td>
-<td style="text-align: left;">文字の色です。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-link</td>
-<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
-<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
-</ul>
+<section id="typst-のここがもう少し" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがもう少し">Typst のここがもう少し</h2>
+<p>「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。</p>
+<section id="パッケージが少なすぎる" class="level3">
+<h3 class="anchored" data-anchor-id="パッケージが少なすぎる">パッケージが少なすぎる</h3>
+<p>やはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。</p>
+<p>また、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。</p>
 </section>
-<section id="タイトルページ" class="level3">
-<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
-<ul>
-<li>タイトルページは、次のように書きます。</li>
-<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
-</ul>
-<pre><code>&lt;!--
-_class: title-page
-_paginate: false
-_footer: ''
---&gt;
-
-### 日付 | 報告の場所
-# 報告タイトル
-## 報告サブタイトル
+<section id="pdf-を図として取り込めない" class="level3">
+<h3 class="anchored" data-anchor-id="pdf-を図として取り込めない">PDF を図として取り込めない</h3>
+<p>これはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。</p>
+</section>
+</section>
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論">結論</h2>
+<p>結論として、<strong>卒論・レポートなどの論文執筆</strong>には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。</p>
+<p>一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。</p>
 
 
-&lt;div class="author-block" markdown="1"&gt;
-
-### あなたの名前
-あなたの所属
-あなたの email、twitter、github、etc...
-
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/title-page.png" class="img-fluid"></p>
-</section>
-<section id="フッタを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
-<ul>
-<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
-<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
-</ul>
-<p><img src="../../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
-</section>
-<section id="ヘッダを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
-<ul>
-<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
-<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
-<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
-<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
-</ul>
-<p><img src="../../assets/image/header.png" class="img-fluid"></p>
-</section>
-<section id="ページのタイトル" class="level3">
-<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
-<ul>
-<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
-<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
-</ul>
-<p><img src="../../assets/image/heading2.png" class="img-fluid"></p>
-</section>
-<section id="表を挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
-<ul>
-<li>一般的な markdown 記法に従い表を挿入できます。</li>
-<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
-<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
-</ul>
-<p><img src="../../assets/image/table.png" class="img-fluid"></p>
-</section>
-<section id="コードブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
-<ul>
-<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
-<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
-</ul>
-<p><img src="../../assets/image/code.png" class="img-fluid"></p>
-</section>
-<section id="見出し付きのブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
-<ul>
-<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
-</ul>
-<pre><code>
-&lt;div class="block"&gt;
-  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
-  &lt;div class="block-content"&gt;本文&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/block.png" class="img-fluid"></p>
-<ul>
-<li>ブロック内でもマークダウン記法が有効です。
-<ul>
-<li>もちろん、<span class="math inline">\(\TeX\)</span> 記法で数式を含めることもできます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="参考文献のページを作る" class="level3">
-<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
-<ul>
-<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
-<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
-<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
-</ul>
-
-
-</section>
 </section>
 
 </main> <!-- /main -->

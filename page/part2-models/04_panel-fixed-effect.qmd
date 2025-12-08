@@ -1,0 +1,5 @@
+---
+title: "パネルデータ分析と固定効果モデル"
+permalink: /panel-fixed-effect/
+toc_label: "目次"
+---
