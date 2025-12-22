@@ -14,6 +14,9 @@ website:
   image: "assets/image/izu.JPG"
   google-analytics: "G-8WFETJ1CSL"
   open-graph: true
+  twitter-card:
+    creator: "@stats1230"
+    card-style: summary_large_image
 
 lang: ja
 
