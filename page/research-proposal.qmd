@@ -1,5 +1,7 @@
 ---
 title: "(卒論・修論のための) 研究計画書の書き方"
+description: "このページでは、研究室の机の上に散乱しているメモやノートをまとめています。"
+image: "assets/image/cover/research-proposal.png"
 toc-title: 目次
 permalink: /research-proposal.html
 ---

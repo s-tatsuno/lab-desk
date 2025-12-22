@@ -1,6 +1,7 @@
 ---
 title: "いろんなテンプレート置き場"
-permalink: /templates.html
+description: "レポートとかのテンプレートを置いて置く場所です。"
+image: "assets/image/cover/templates.png"
 toc_label: "目次"
 ---
 
