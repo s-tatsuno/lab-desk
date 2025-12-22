@@ -2,7 +2,7 @@
 title: "卒論・修論の体裁 Tips"
 permalink: /research-tips.html
 description: "卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。"
-image: "assets/image/cover/format-tips.png"
+image: "/assets/image/cover/format-tips.png"
 toc_label: "目次"
 ---
 

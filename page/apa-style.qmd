@@ -1,7 +1,7 @@
 ---
 title: "APA スタイルでの引用方法"
 description: "APA スタイル参考文献情報を書く方法のチートシートです。"
-image: "assets/image/cover/apa-style.png"
+image: "/assets/image/cover/apa-style.png"
 permalink: /apa-style
 ---
 
