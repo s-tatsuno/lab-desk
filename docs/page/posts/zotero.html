@@ -176,6 +176,7 @@ window.Quarto = {
   <li><a href="#識別子を使う" id="toc-識別子を使う" class="nav-link" data-scroll-target="#識別子を使う">識別子を使う</a></li>
   <li><a href="#zotero-connector-を使う" id="toc-zotero-connector-を使う" class="nav-link" data-scroll-target="#zotero-connector-を使う">Zotero Connector を使う</a></li>
   </ul></li>
+  <li><a href="#日本語文献を引用する" id="toc-日本語文献を引用する" class="nav-link" data-scroll-target="#日本語文献を引用する">日本語文献を引用する</a></li>
   </ul>
 </nav>
     </div>
@@ -271,7 +272,7 @@ window.Quarto = {
 <p>試しに、新しいライブラリを作ってみます。 基本的には、レポートや論文など一つのプロジェクトに1つのライブラリを作っています。 そうする必要はないのですが、なんとなく。 左上のアイコンをクリックして、適当なライブラリを作ります。 そうすると、「マイライブラリ / MyLibrary」の下に新しいフォルダができます。</p>
 <p>ここから、実際に文献を入れてみます。 まず、<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/rationalist-explanations-for-war/E3B716A4034C11ECF8CE8732BC2F80DD">こちらのサイト</a>にアクセスしてください。 Fearon (1995) の書誌情報が載っています。 このうち、DOI をコピーします。 https:// から全部コピーしてもいいですし、10. からでも構いません。</p>
 <p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 <img src="../../assets/image/zotero-icons.png" class="img-fluid" alt="Zotero のアイコン"></p>
-<p>しばらくすると、書誌情報が正しく登録されます。 このように、2番目のアイコンは、ISBN (書籍の番号) や DOI (インターネット上の識別子)、arXiv の ID などを使って文献を登録することができます。 次に説明するとおり、Zotero は Connector を使って文献を入れることもでき、便利です。 ただ個人的には、書籍や論文については上記の方法で入れたほうが確実なように感じます (URLとか)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。</p>
+<p>DOI や ISNB を入力するフィールドが表れますので、入力して検索します。 しばらくすると、書誌情報が正しく登録されます。 このように、2番目のアイコンは、ISBN (書籍の番号) や DOI (インターネット上の識別子)、arXiv の ID などを使って文献を登録することができます。 次に説明するとおり、Zotero は Connector を使って文献を入れることもでき、便利です。 ただ個人的には、書籍や論文については上記の方法で入れたほうが確実なように感じます (URLとか)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。</p>
 </section>
 </section>
 <section id="文献の登録方法" class="level2">
@@ -286,16 +287,36 @@ window.Quarto = {
 <figcaption>Zotero のアイコン</figcaption>
 </figure>
 </div>
-<p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 しばらくすると、書誌情報が正しく登録されます。</p>
+<p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 DOI や ISNB を入力するフィールドが表れますので、入力して検索します。 しばらくすると、書誌情報が正しく登録されます。</p>
 </section>
 <section id="zotero-connector-を使う" class="level3">
 <h3 class="anchored" data-anchor-id="zotero-connector-を使う">Zotero Connector を使う</h3>
 <p>あなたが Firefox や Chrome などの標準的なブラウザを使っているなら、Zotero Connector という拡張機能を使うのが便利です。 これは、論文を掲載しているサイトから論文の情報 (可能なら PDF も) を自動的に取得してくれる機能です。</p>
 <p>試しに、Powell (2006) の書誌情報が載っている<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/war-as-a-commitment-problem/65DFFF1CD73A16F7ED4EEF6D4F934608">このサイト</a> にアクセスしてみます。 サイトを開いた状態 (そして Zotero も開いている状態) で、拡張機能を使ってみます。 Firefox なら、右上の拡張機能ボタンから Zotero Connector を選んで押します (その他は知りません、すみません)。 すると、やはり書誌情報を手に入れることができました。</p>
 <p>また、大学の図書館等を経由し、論文 PDF を取得可能な画面で同じことをすると、PDF ごと手に入れることができます。 これにより、後から PDF を添付する必要もなくなります。 便利！</p>
-
-
+<p>また、多くのウェブサイトも Zotero Connector を通して情報を取得することができます。 たとえば、UNDPの活動の成果が報告されている<a href="https://www.undp.org/results">こちらのサイト</a> にアクセスした状態で Connector を使うと、以下の図のように情報を取得できます。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../assets/image/undp.png" class="img-fluid figure-img"></p>
+<figcaption>Result - UNDP</figcaption>
+</figure>
+</div>
+<p>ただ、この情報はやや不正確です。 APA スタイルでは、公的な組織のウェブサイトを引用する際、著者の欄に具体的な Agency、わからなければ Organization の名前を書くこととされています (<a href="https://apastyle.apa.org/style-grammar-guidelines/references/examples/report-government-agency-references">APA style</a>)。</p>
+<p>正直、このような現象を回避する方法はわかりません。 特にウェブサイトや報告書などの場合は、手作業で情報を入れ直すのが最も効率が良いと思われます。 もちろん、あとに説明する方法 (スタイルの編集) である程度カバーできる部分があります。 そのため、自分にあった方法を使うのが結局は便利です。</p>
+<p>Results. (n.d.). UNDP. Retrieved January 12, 2026, from https://www.undp.org/results</p>
 </section>
+</section>
+<section id="日本語文献を引用する" class="level2">
+<h2 class="anchored" data-anchor-id="日本語文献を引用する">日本語文献を引用する</h2>
+<p>APA Style で日本語文献を引用すると、うまくいきません。 たとえば吉川・野口『国際関係理論 (第2版)』をそのまま引用すると、画像のようになります。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../assets/image/jpn-cite.png" class="img-fluid figure-img"></p>
+<figcaption>日本語文献の引用</figcaption>
+</figure>
+</div>
+
+
 </section>
 
 
