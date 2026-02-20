@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。">
+<meta name="description" content="新しい組版「typst」はまだいいかな…">
 
-<title>文献管理ソフトを使おう (Zotero) – 研究室の机</title>
+<title>Typst は刺さらなかった話 – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +24,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fae4d8c8e44bc83f032d36a95597b870.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b6294b95c5a7daad77ed2d7b116dcf4d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,49 +79,16 @@ gtag('js', new Date());
 gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<meta property="og:title" content="文献管理ソフトを使おう (Zotero) – 研究室の机">
-<meta property="og:description" content="卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。">
-<meta property="og:image" content="https://stats1230.github.io/lab-desk/assets/image/zotero.png">
+<meta property="og:title" content="Typst は刺さらなかった話 – 研究室の机">
+<meta property="og:description" content="新しい組版「typst」はまだいいかな…">
+<meta property="og:image" content="https://stats1230.github.io/lab-desk/posts/assets/image/izu.JPG">
 <meta property="og:site_name" content="研究室の机">
-<meta property="og:image:height" content="951">
-<meta property="og:image:width" content="1186">
-<meta name="twitter:title" content="文献管理ソフトを使おう (Zotero) – 研究室の机">
-<meta name="twitter:description" content="卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。">
-<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/assets/image/zotero.png">
+<meta name="twitter:title" content="Typst は刺さらなかった話 – 研究室の机">
+<meta name="twitter:description" content="新しい組版「typst」はまだいいかな…">
+<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/posts/assets/image/izu.JPG">
 <meta name="twitter:creator" content="@stats1230">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="951">
-<meta name="twitter:image-width" content="1186">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -131,7 +98,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">研究室の机</span>
     </a>
   </div>
@@ -142,7 +109,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../page/blog.html"> 
+    <a class="nav-link" href="//blog.html"> 
 <span class="menu-text">メモあつめ</span></a>
   </li>  
 </ul>
@@ -161,22 +128,16 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#文献管理ソフトとは" id="toc-文献管理ソフトとは" class="nav-link active" data-scroll-target="#文献管理ソフトとは">文献管理ソフトとは？</a>
+  <li><a href="#typst-のここがすごい" id="toc-typst-のここがすごい" class="nav-link active" data-scroll-target="#typst-のここがすごい">Typst のここがすごい</a>
   <ul class="collapse">
-  <li><a href="#代表的な文献管理ソフト" id="toc-代表的な文献管理ソフト" class="nav-link" data-scroll-target="#代表的な文献管理ソフト">代表的な文献管理ソフト</a></li>
-  <li><a href="#文献管理ソフトでできること" id="toc-文献管理ソフトでできること" class="nav-link" data-scroll-target="#文献管理ソフトでできること">文献管理ソフトでできること</a></li>
+  <li><a href="#コンパイルが早い" id="toc-コンパイルが早い" class="nav-link" data-scroll-target="#コンパイルが早い">コンパイルが早い</a></li>
   </ul></li>
-  <li><a href="#zotero-を使ってみよう" id="toc-zotero-を使ってみよう" class="nav-link" data-scroll-target="#zotero-を使ってみよう">Zotero を使ってみよう</a>
+  <li><a href="#typst-のここがもう少し" id="toc-typst-のここがもう少し" class="nav-link" data-scroll-target="#typst-のここがもう少し">Typst のここがもう少し</a>
   <ul class="collapse">
-  <li><a href="#zotero-とプラグインのインストール" id="toc-zotero-とプラグインのインストール" class="nav-link" data-scroll-target="#zotero-とプラグインのインストール">Zotero とプラグインのインストール</a></li>
-  <li><a href="#zotero-を起動して試しに使ってみる" id="toc-zotero-を起動して試しに使ってみる" class="nav-link" data-scroll-target="#zotero-を起動して試しに使ってみる">Zotero を起動して試しに使ってみる</a></li>
+  <li><a href="#パッケージが少なすぎる" id="toc-パッケージが少なすぎる" class="nav-link" data-scroll-target="#パッケージが少なすぎる">パッケージが少なすぎる</a></li>
+  <li><a href="#pdf-を図として取り込めない" id="toc-pdf-を図として取り込めない" class="nav-link" data-scroll-target="#pdf-を図として取り込めない">PDF を図として取り込めない</a></li>
   </ul></li>
-  <li><a href="#文献の登録方法" id="toc-文献の登録方法" class="nav-link" data-scroll-target="#文献の登録方法">文献の登録方法</a>
-  <ul class="collapse">
-  <li><a href="#識別子を使う" id="toc-識別子を使う" class="nav-link" data-scroll-target="#識別子を使う">識別子を使う</a></li>
-  <li><a href="#zotero-connector-を使う" id="toc-zotero-connector-を使う" class="nav-link" data-scroll-target="#zotero-connector-を使う">Zotero Connector を使う</a></li>
-  </ul></li>
-  <li><a href="#日本語文献を引用する" id="toc-日本語文献を引用する" class="nav-link" data-scroll-target="#日本語文献を引用する">日本語文献を引用する</a></li>
+  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論">結論</a></li>
   </ul>
 </nav>
     </div>
@@ -185,7 +146,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">文献管理ソフトを使おう (Zotero)</h1>
+<h1 class="title">Typst は刺さらなかった話</h1>
   <div class="quarto-categories">
     <div class="quarto-category">Tech</div>
     <div class="quarto-category">Writing</div>
@@ -194,7 +155,7 @@ window.Quarto = {
 
 <div>
   <div class="description">
-    卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。
+    新しい組版「typst」はまだいいかな…
   </div>
 </div>
 
@@ -205,7 +166,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">公開</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026年1月12日</p>
+      <p class="date">2025年10月10日</p>
     </div>
   </div>
   
@@ -217,116 +178,44 @@ window.Quarto = {
 </header>
 
 
-<p>論文やレポートの執筆に際して必ず発生する面倒な作業の一つに、参考文献の管理があります。 「APAスタイルでどう書くんだっけ」とか「あの文献どこにあったっけ」とか。 特に、卒業論文の執筆で最初に戸惑う方も多いと思います。</p>
-<p>だからこそ、声を大にして言いたい。 文献管理ソフトを使おう！！</p>
-<p>このエントリーでは、Zotero という文献管理ソフトを例にとって、文献管理ソフトを使うメリット (というかなぜ必須なのか) を紹介しようと思います。</p>
-<section id="文献管理ソフトとは" class="level2">
-<h2 class="anchored" data-anchor-id="文献管理ソフトとは">文献管理ソフトとは？</h2>
-<p>その名前のとおり、文献を管理するソフトです。 文献の情報 (書誌情報など) を保存しておいたり、論文 PDF を添付したりすることができます。 特に重要な機能が、前者の書誌情報の保存です。 これがあるからこそ、参考文献リストが容易に作れます。</p>
-<section id="代表的な文献管理ソフト" class="level3">
-<h3 class="anchored" data-anchor-id="代表的な文献管理ソフト">代表的な文献管理ソフト</h3>
-<p>文献管理ソフトといえば、以下のいくつかが有名です。</p>
+<p>私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。</p>
+<p>そんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。</p>
 <ul>
-<li><a href="https://www.zotero.org/">Zotero</a></li>
-<li><a href="https://support.clarivate.com/Endnote/s/?language=ja">EndNote</a></li>
-<li><a href="https://www.mendeley.com/">Mendeley</a></li>
+<li><a href="https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/typst.html">「Typst： いい感じのLaTeXの代替」(大阪大学 山口先生の Website より)</a></li>
+<li><a href="https://qiita.com/hikoharu14142/items/aa8cfb70d079b0324fba">「Typstのここがすごい！！」(Qiita の記事)</a></li>
 </ul>
-<p>いずれも基本無料で、有料版にアップグレードすることで多くの機能を使うことができます (オンラインのストレージ容量を増やすとか)。 また、EndNote については、一橋大学の学生であれば大学アカウントから利用できます。 文献を検索するときに欠かせない Web of Science と同じ企業が提供していることもあり、スムーズに接続できると聞いたことがあります。</p>
-<p>このエントリーでは、このうち Zotero に絞って、使い方を説明します。 理由は単純で、筆者が使っているからです<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。 ただし、主な機能は他のソフトでも同じようにできるはずです。</p>
-</section>
-<section id="文献管理ソフトでできること" class="level3">
-<h3 class="anchored" data-anchor-id="文献管理ソフトでできること">文献管理ソフトでできること</h3>
-<p>文献管理ソフトでできる (ことで嬉しい) ことは、次のいくつかです。</p>
-<ol type="1">
-<li>文献の書誌情報を保存することができる。</li>
-<li>文献のPDFを紐づけて保存することができる。</li>
-<li>文献の書誌情報を自動で取り込むことができる (プラグインが必要な場合あり)。</li>
-<li>MS Word や Google Documents で、自動的に参考文献リストを作ることができる。</li>
-<li>一括で Bibtex できる (LaTeX ユーザー向け)。</li>
-</ol>
-<p>このうち、研究室の後輩に Zotero を勧める最大の理由は、4番です (人によっては5番)。 卒業論文や修士論文などの長い文章を書くとき (もちろん研究計画もそうですが)、手書きで参考文献リストを作るのには無理があります。 面倒な引用スタイルを間違えてしまうのは必至として、引用していない文献をリストに載せたり、その逆をしたり (剽窃です) してしまう可能性があります。 そのような問題を緩和し、簡単に参考文献リストを作る (また、適切に文中引用する) ために、文献管理ソフトの使用を強く勧めます。</p>
+<p>新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！</p>
+<section id="typst-のここがすごい" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがすごい">Typst のここがすごい</h2>
+<section id="コンパイルが早い" class="level3">
+<h3 class="anchored" data-anchor-id="コンパイルが早い">コンパイルが早い</h3>
+<p>LaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。</p>
+<p>その点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。</p>
+<p>コンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。</p>
 </section>
 </section>
-<section id="zotero-を使ってみよう" class="level2">
-<h2 class="anchored" data-anchor-id="zotero-を使ってみよう">Zotero を使ってみよう</h2>
-<p>ここからは実際に Zotero を使ってみます。</p>
-<section id="zotero-とプラグインのインストール" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-とプラグインのインストール">Zotero とプラグインのインストール</h3>
-<p>Zotero は<a href="https://www.zotero.org/">公式ページ</a>からダウンロード、インストールできます。 Windows, MacOS, Linux のいずれも対応しています。</p>
-<p>また、Zotero Connector もインストールしておきます。 これは、Forefox や Chrome などのブラウザで文献サイトを開くと、そこから書誌情報を自動的に入手してくれる機能です (ただし精度はそこまで良くない)。</p>
-<ul>
-<li><a href="https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=ja&amp;pli=1">Chrome の拡張機能</a></li>
-<li><a href="https://www.zotero.org/download/">Firefox の拡張機能</a></li>
-</ul>
-<p>さらに、<span class="math inline">\(\LaTeX\)</span> を使う人は、<a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX for Zotero</a> というプラグインを入れると幸せになれます。</p>
+<section id="typst-のここがもう少し" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがもう少し">Typst のここがもう少し</h2>
+<p>「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。</p>
+<section id="パッケージが少なすぎる" class="level3">
+<h3 class="anchored" data-anchor-id="パッケージが少なすぎる">パッケージが少なすぎる</h3>
+<p>やはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。</p>
+<p>また、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。</p>
 </section>
-<section id="zotero-を起動して試しに使ってみる" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-を起動して試しに使ってみる">Zotero を起動して試しに使ってみる</h3>
-<p>Zotero がインストールできたら、ひとまず起動してみます。 バージョンや OS などによって多少違いはあると思いますが、概ね次図のようになります。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/zotero.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero の画面</figcaption>
-</figure>
-</div>
-<p>試しに、新しいライブラリを作ってみます。 基本的には、レポートや論文など一つのプロジェクトに1つのライブラリを作っています。 そうする必要はないのですが、なんとなく。 左上のアイコンをクリックして、適当なライブラリを作ります。 そうすると、「マイライブラリ / MyLibrary」の下に新しいフォルダができます。</p>
-<p>ここから、実際に文献を入れてみます。 まず、<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/rationalist-explanations-for-war/E3B716A4034C11ECF8CE8732BC2F80DD">こちらのサイト</a>にアクセスしてください。 Fearon (1995) の書誌情報が載っています。 このうち、DOI をコピーします。 https:// から全部コピーしてもいいですし、10. からでも構いません。</p>
-<p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 <img src="../../assets/image/zotero-icons.png" class="img-fluid" alt="Zotero のアイコン"></p>
-<p>DOI や ISNB を入力するフィールドが表れますので、入力して検索します。 しばらくすると、書誌情報が正しく登録されます。 このように、2番目のアイコンは、ISBN (書籍の番号) や DOI (インターネット上の識別子)、arXiv の ID などを使って文献を登録することができます。 次に説明するとおり、Zotero は Connector を使って文献を入れることもでき、便利です。 ただ個人的には、書籍や論文については上記の方法で入れたほうが確実なように感じます (URLとか)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。</p>
+<section id="pdf-を図として取り込めない" class="level3">
+<h3 class="anchored" data-anchor-id="pdf-を図として取り込めない">PDF を図として取り込めない</h3>
+<p>これはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。</p>
 </section>
 </section>
-<section id="文献の登録方法" class="level2">
-<h2 class="anchored" data-anchor-id="文献の登録方法">文献の登録方法</h2>
-<section id="識別子を使う" class="level3">
-<h3 class="anchored" data-anchor-id="識別子を使う">識別子を使う</h3>
-<p>すでに述べたとおり、ISBN (書籍の番号) や DOI (インターネット上の識別子)、arXiv の ID などを使って文献を登録することができます。</p>
-<p>まず、Fearon (1995) の書誌情報が掲載されている<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/rationalist-explanations-for-war/E3B716A4034C11ECF8CE8732BC2F80DD">こちらのサイト</a>にアクセスしてください。 このうち、DOI をコピーします。 https:// から全部コピーしてもいいですし、10. からでも構いません。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/zotero-icons.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero のアイコン</figcaption>
-</figure>
-</div>
-<p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 DOI や ISNB を入力するフィールドが表れますので、入力して検索します。 しばらくすると、書誌情報が正しく登録されます。</p>
-</section>
-<section id="zotero-connector-を使う" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-connector-を使う">Zotero Connector を使う</h3>
-<p>あなたが Firefox や Chrome などの標準的なブラウザを使っているなら、Zotero Connector という拡張機能を使うのが便利です。 これは、論文を掲載しているサイトから論文の情報 (可能なら PDF も) を自動的に取得してくれる機能です。</p>
-<p>試しに、Powell (2006) の書誌情報が載っている<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/war-as-a-commitment-problem/65DFFF1CD73A16F7ED4EEF6D4F934608">このサイト</a> にアクセスしてみます。 サイトを開いた状態 (そして Zotero も開いている状態) で、拡張機能を使ってみます。 Firefox なら、右上の拡張機能ボタンから Zotero Connector を選んで押します (その他は知りません、すみません)。 すると、やはり書誌情報を手に入れることができました。</p>
-<p>また、大学の図書館等を経由し、論文 PDF を取得可能な画面で同じことをすると、PDF ごと手に入れることができます。 これにより、後から PDF を添付する必要もなくなります。 便利！</p>
-<p>また、多くのウェブサイトも Zotero Connector を通して情報を取得することができます。 たとえば、UNDPの活動の成果が報告されている<a href="https://www.undp.org/results">こちらのサイト</a> にアクセスした状態で Connector を使うと、以下の図のように情報を取得できます。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/undp.png" class="img-fluid figure-img"></p>
-<figcaption>Result - UNDP</figcaption>
-</figure>
-</div>
-<p>ただ、この情報はやや不正確です。 APA スタイルでは、公的な組織のウェブサイトを引用する際、著者の欄に具体的な Agency、わからなければ Organization の名前を書くこととされています (<a href="https://apastyle.apa.org/style-grammar-guidelines/references/examples/report-government-agency-references">APA style</a>)。</p>
-<p>正直、このような現象を回避する方法はわかりません。 特にウェブサイトや報告書などの場合は、手作業で情報を入れ直すのが最も効率が良いと思われます。 もちろん、あとに説明する方法 (スタイルの編集) である程度カバーできる部分があります。 そのため、自分にあった方法を使うのが結局は便利です。</p>
-<p>Results. (n.d.). UNDP. Retrieved January 12, 2026, from https://www.undp.org/results</p>
-</section>
-</section>
-<section id="日本語文献を引用する" class="level2">
-<h2 class="anchored" data-anchor-id="日本語文献を引用する">日本語文献を引用する</h2>
-<p>APA Style で日本語文献を引用すると、うまくいきません。 たとえば吉川・野口『国際関係理論 (第2版)』をそのまま引用すると、画像のようになります。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/jpn-cite.png" class="img-fluid figure-img"></p>
-<figcaption>日本語文献の引用</figcaption>
-</figure>
-</div>
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論">結論</h2>
+<p>結論として、<strong>卒論・レポートなどの論文執筆</strong>には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。</p>
+<p>一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。</p>
 
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
-
-<ol>
-<li id="fn1"><p>ちなみに私の指導教員も Zotero 派です。「それなら Zotero を使ってみようかな」と思う方もいるかも知れません。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>詳しくは知りませんが、Zotero Connector はサイト内の ISBN や DOI を探しているのだと思います。そのため、JSTOR のように、DOI を記載せず独自 URL が掲載されている場合、そちらに引っ張られてしまう印象があります。そういうのが嫌なので、私は識別子から入れています。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

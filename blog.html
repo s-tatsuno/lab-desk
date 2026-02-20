@@ -2,13 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.26">
+<meta name="generator" content="quarto-1.8.27">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。">
 
-<title>文献管理ソフトを使おう (Zotero) – 研究室の机</title>
+<title>メモあつめ – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-fae4d8c8e44bc83f032d36a95597b870.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-b6294b95c5a7daad77ed2d7b116dcf4d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "サーチ"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8WFETJ1CSL"></script>
 
 <script type="text/javascript">
@@ -109,19 +139,19 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="文献管理ソフトを使おう (Zotero) – 研究室の机">
-<meta property="og:description" content="卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。">
-<meta property="og:image" content="https://stats1230.github.io/lab-desk/assets/image/zotero.png">
+<meta property="og:title" content="メモあつめ – 研究室の机">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://stats1230.github.io/lab-desk/assets/image/cover/format-tips.png">
 <meta property="og:site_name" content="研究室の机">
-<meta property="og:image:height" content="951">
-<meta property="og:image:width" content="1186">
-<meta name="twitter:title" content="文献管理ソフトを使おう (Zotero) – 研究室の机">
-<meta name="twitter:description" content="卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。">
-<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/assets/image/zotero.png">
+<meta property="og:image:height" content="540">
+<meta property="og:image:width" content="960">
+<meta name="twitter:title" content="メモあつめ – 研究室の机">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/assets/image/cover/format-tips.png">
 <meta name="twitter:creator" content="@stats1230">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="951">
-<meta name="twitter:image-width" content="1186">
+<meta name="twitter:image-height" content="540">
+<meta name="twitter:image-width" content="960">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -131,7 +161,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">研究室の机</span>
     </a>
   </div>
@@ -142,7 +172,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../page/blog.html"> 
+    <a class="nav-link" href="//blog.html"> 
 <span class="menu-text">メモあつめ</span></a>
   </li>  
 </ul>
@@ -157,57 +187,21 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">目次</h2>
-   
-  <ul>
-  <li><a href="#文献管理ソフトとは" id="toc-文献管理ソフトとは" class="nav-link active" data-scroll-target="#文献管理ソフトとは">文献管理ソフトとは？</a>
-  <ul class="collapse">
-  <li><a href="#代表的な文献管理ソフト" id="toc-代表的な文献管理ソフト" class="nav-link" data-scroll-target="#代表的な文献管理ソフト">代表的な文献管理ソフト</a></li>
-  <li><a href="#文献管理ソフトでできること" id="toc-文献管理ソフトでできること" class="nav-link" data-scroll-target="#文献管理ソフトでできること">文献管理ソフトでできること</a></li>
-  </ul></li>
-  <li><a href="#zotero-を使ってみよう" id="toc-zotero-を使ってみよう" class="nav-link" data-scroll-target="#zotero-を使ってみよう">Zotero を使ってみよう</a>
-  <ul class="collapse">
-  <li><a href="#zotero-とプラグインのインストール" id="toc-zotero-とプラグインのインストール" class="nav-link" data-scroll-target="#zotero-とプラグインのインストール">Zotero とプラグインのインストール</a></li>
-  <li><a href="#zotero-を起動して試しに使ってみる" id="toc-zotero-を起動して試しに使ってみる" class="nav-link" data-scroll-target="#zotero-を起動して試しに使ってみる">Zotero を起動して試しに使ってみる</a></li>
-  </ul></li>
-  <li><a href="#文献の登録方法" id="toc-文献の登録方法" class="nav-link" data-scroll-target="#文献の登録方法">文献の登録方法</a>
-  <ul class="collapse">
-  <li><a href="#識別子を使う" id="toc-識別子を使う" class="nav-link" data-scroll-target="#識別子を使う">識別子を使う</a></li>
-  <li><a href="#zotero-connector-を使う" id="toc-zotero-connector-を使う" class="nav-link" data-scroll-target="#zotero-connector-を使う">Zotero Connector を使う</a></li>
-  </ul></li>
-  <li><a href="#日本語文献を引用する" id="toc-日本語文献を引用する" class="nav-link" data-scroll-target="#日本語文献を引用する">日本語文献を引用する</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">分類</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">すべて <span class="quarto-category-count">(6)</span></div><div class="category" data-category="VGVjaA==">Tech <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V3JpdGluZw==">Writing <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">文献管理ソフトを使おう (Zotero)</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Tech</div>
-    <div class="quarto-category">Writing</div>
-  </div>
-  </div>
-
-<div>
-  <div class="description">
-    卒業論文や修士論文ではほとんど必須となる「文献管理ソフト」のおすすめの使い方をまとめます。
-  </div>
+<h1 class="title">メモあつめ</h1>
 </div>
+
 
 
 <div class="quarto-title-meta">
 
     
-    <div>
-    <div class="quarto-title-meta-heading">公開</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">2026年1月12日</p>
-    </div>
-  </div>
   
     
   </div>
@@ -217,116 +211,175 @@ window.Quarto = {
 </header>
 
 
-<p>論文やレポートの執筆に際して必ず発生する面倒な作業の一つに、参考文献の管理があります。 「APAスタイルでどう書くんだっけ」とか「あの文献どこにあったっけ」とか。 特に、卒業論文の執筆で最初に戸惑う方も多いと思います。</p>
-<p>だからこそ、声を大にして言いたい。 文献管理ソフトを使おう！！</p>
-<p>このエントリーでは、Zotero という文献管理ソフトを例にとって、文献管理ソフトを使うメリット (というかなぜ必須なのか) を紹介しようと思います。</p>
-<section id="文献管理ソフトとは" class="level2">
-<h2 class="anchored" data-anchor-id="文献管理ソフトとは">文献管理ソフトとは？</h2>
-<p>その名前のとおり、文献を管理するソフトです。 文献の情報 (書誌情報など) を保存しておいたり、論文 PDF を添付したりすることができます。 特に重要な機能が、前者の書誌情報の保存です。 これがあるからこそ、参考文献リストが容易に作れます。</p>
-<section id="代表的な文献管理ソフト" class="level3">
-<h3 class="anchored" data-anchor-id="代表的な文献管理ソフト">代表的な文献管理ソフト</h3>
-<p>文献管理ソフトといえば、以下のいくつかが有名です。</p>
-<ul>
-<li><a href="https://www.zotero.org/">Zotero</a></li>
-<li><a href="https://support.clarivate.com/Endnote/s/?language=ja">EndNote</a></li>
-<li><a href="https://www.mendeley.com/">Mendeley</a></li>
-</ul>
-<p>いずれも基本無料で、有料版にアップグレードすることで多くの機能を使うことができます (オンラインのストレージ容量を増やすとか)。 また、EndNote については、一橋大学の学生であれば大学アカウントから利用できます。 文献を検索するときに欠かせない Web of Science と同じ企業が提供していることもあり、スムーズに接続できると聞いたことがあります。</p>
-<p>このエントリーでは、このうち Zotero に絞って、使い方を説明します。 理由は単純で、筆者が使っているからです<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。 ただし、主な機能は他のソフトでも同じようにできるはずです。</p>
-</section>
-<section id="文献管理ソフトでできること" class="level3">
-<h3 class="anchored" data-anchor-id="文献管理ソフトでできること">文献管理ソフトでできること</h3>
-<p>文献管理ソフトでできる (ことで嬉しい) ことは、次のいくつかです。</p>
-<ol type="1">
-<li>文献の書誌情報を保存することができる。</li>
-<li>文献のPDFを紐づけて保存することができる。</li>
-<li>文献の書誌情報を自動で取り込むことができる (プラグインが必要な場合あり)。</li>
-<li>MS Word や Google Documents で、自動的に参考文献リストを作ることができる。</li>
-<li>一括で Bibtex できる (LaTeX ユーザー向け)。</li>
-</ol>
-<p>このうち、研究室の後輩に Zotero を勧める最大の理由は、4番です (人によっては5番)。 卒業論文や修士論文などの長い文章を書くとき (もちろん研究計画もそうですが)、手書きで参考文献リストを作るのには無理があります。 面倒な引用スタイルを間違えてしまうのは必至として、引用していない文献をリストに載せたり、その逆をしたり (剽窃です) してしまう可能性があります。 そのような問題を緩和し、簡単に参考文献リストを作る (また、適切に文中引用する) ために、文献管理ソフトの使用を強く勧めます。</p>
-</section>
-</section>
-<section id="zotero-を使ってみよう" class="level2">
-<h2 class="anchored" data-anchor-id="zotero-を使ってみよう">Zotero を使ってみよう</h2>
-<p>ここからは実際に Zotero を使ってみます。</p>
-<section id="zotero-とプラグインのインストール" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-とプラグインのインストール">Zotero とプラグインのインストール</h3>
-<p>Zotero は<a href="https://www.zotero.org/">公式ページ</a>からダウンロード、インストールできます。 Windows, MacOS, Linux のいずれも対応しています。</p>
-<p>また、Zotero Connector もインストールしておきます。 これは、Forefox や Chrome などのブラウザで文献サイトを開くと、そこから書誌情報を自動的に入手してくれる機能です (ただし精度はそこまで良くない)。</p>
-<ul>
-<li><a href="https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=ja&amp;pli=1">Chrome の拡張機能</a></li>
-<li><a href="https://www.zotero.org/download/">Firefox の拡張機能</a></li>
-</ul>
-<p>さらに、<span class="math inline">\(\LaTeX\)</span> を使う人は、<a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX for Zotero</a> というプラグインを入れると幸せになれます。</p>
-</section>
-<section id="zotero-を起動して試しに使ってみる" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-を起動して試しに使ってみる">Zotero を起動して試しに使ってみる</h3>
-<p>Zotero がインストールできたら、ひとまず起動してみます。 バージョンや OS などによって多少違いはあると思いますが、概ね次図のようになります。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/zotero.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero の画面</figcaption>
-</figure>
+<p>トップページで紹介していない記事を含む、すべての記事の一覧です。</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="並び替え" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">並び替え</option>
+      <option value="index" data-direction="asc">デフォルト</option>
+      <option value="listing-title" data-direction="asc">
+        題名
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        日付 - 日付（昇順）
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        日付 - 日付（降順）
+      </option>
+      <option value="listing-author" data-direction="asc">
+        作者
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="フィルター">
+    </div>
 </div>
-<p>試しに、新しいライブラリを作ってみます。 基本的には、レポートや論文など一つのプロジェクトに1つのライブラリを作っています。 そうする必要はないのですが、なんとなく。 左上のアイコンをクリックして、適当なライブラリを作ります。 そうすると、「マイライブラリ / MyLibrary」の下に新しいフォルダができます。</p>
-<p>ここから、実際に文献を入れてみます。 まず、<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/rationalist-explanations-for-war/E3B716A4034C11ECF8CE8732BC2F80DD">こちらのサイト</a>にアクセスしてください。 Fearon (1995) の書誌情報が載っています。 このうち、DOI をコピーします。 https:// から全部コピーしてもいいですし、10. からでも構いません。</p>
-<p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 <img src="../../assets/image/zotero-icons.png" class="img-fluid" alt="Zotero のアイコン"></p>
-<p>DOI や ISNB を入力するフィールドが表れますので、入力して検索します。 しばらくすると、書誌情報が正しく登録されます。 このように、2番目のアイコンは、ISBN (書籍の番号) や DOI (インターネット上の識別子)、arXiv の ID などを使って文献を登録することができます。 次に説明するとおり、Zotero は Connector を使って文献を入れることもでき、便利です。 ただ個人的には、書籍や論文については上記の方法で入れたほうが確実なように感じます (URLとか)<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。</p>
-</section>
-</section>
-<section id="文献の登録方法" class="level2">
-<h2 class="anchored" data-anchor-id="文献の登録方法">文献の登録方法</h2>
-<section id="識別子を使う" class="level3">
-<h3 class="anchored" data-anchor-id="識別子を使う">識別子を使う</h3>
-<p>すでに述べたとおり、ISBN (書籍の番号) や DOI (インターネット上の識別子)、arXiv の ID などを使って文献を登録することができます。</p>
-<p>まず、Fearon (1995) の書誌情報が掲載されている<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/rationalist-explanations-for-war/E3B716A4034C11ECF8CE8732BC2F80DD">こちらのサイト</a>にアクセスしてください。 このうち、DOI をコピーします。 https:// から全部コピーしてもいいですし、10. からでも構いません。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/zotero-icons.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero のアイコン</figcaption>
-</figure>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1771594090426" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<div class="thumbnail"><a href="./posts/tips.html" class="no-external">
+
+<img loading="lazy" src="./assets/image/cover/format-tips.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/tips.html" class="no-external">卒論・修論の体裁 Tips</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/tips.html" class="no-external">
+<p>卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。</p>
+</a></div>
 </div>
-<p>Zotero を開き、ライブラリの上部にある4つのアイコンのうち、左から2番目をクリックします。 DOI や ISNB を入力するフィールドが表れますので、入力して検索します。 しばらくすると、書誌情報が正しく登録されます。</p>
-</section>
-<section id="zotero-connector-を使う" class="level3">
-<h3 class="anchored" data-anchor-id="zotero-connector-を使う">Zotero Connector を使う</h3>
-<p>あなたが Firefox や Chrome などの標準的なブラウザを使っているなら、Zotero Connector という拡張機能を使うのが便利です。 これは、論文を掲載しているサイトから論文の情報 (可能なら PDF も) を自動的に取得してくれる機能です。</p>
-<p>試しに、Powell (2006) の書誌情報が載っている<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/war-as-a-commitment-problem/65DFFF1CD73A16F7ED4EEF6D4F934608">このサイト</a> にアクセスしてみます。 サイトを開いた状態 (そして Zotero も開いている状態) で、拡張機能を使ってみます。 Firefox なら、右上の拡張機能ボタンから Zotero Connector を選んで押します (その他は知りません、すみません)。 すると、やはり書誌情報を手に入れることができました。</p>
-<p>また、大学の図書館等を経由し、論文 PDF を取得可能な画面で同じことをすると、PDF ごと手に入れることができます。 これにより、後から PDF を添付する必要もなくなります。 便利！</p>
-<p>また、多くのウェブサイトも Zotero Connector を通して情報を取得することができます。 たとえば、UNDPの活動の成果が報告されている<a href="https://www.undp.org/results">こちらのサイト</a> にアクセスした状態で Connector を使うと、以下の図のように情報を取得できます。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/undp.png" class="img-fluid figure-img"></p>
-<figcaption>Result - UNDP</figcaption>
-</figure>
+<div class="metadata">
+<a href="./posts/tips.html" class="no-external">
+</a>
 </div>
-<p>ただ、この情報はやや不正確です。 APA スタイルでは、公的な組織のウェブサイトを引用する際、著者の欄に具体的な Agency、わからなければ Organization の名前を書くこととされています (<a href="https://apastyle.apa.org/style-grammar-guidelines/references/examples/report-government-agency-references">APA style</a>)。</p>
-<p>正直、このような現象を回避する方法はわかりません。 特にウェブサイトや報告書などの場合は、手作業で情報を入れ直すのが最も効率が良いと思われます。 もちろん、あとに説明する方法 (スタイルの編集) である程度カバーできる部分があります。 そのため、自分にあった方法を使うのが結局は便利です。</p>
-<p>Results. (n.d.). UNDP. Retrieved January 12, 2026, from https://www.undp.org/results</p>
-</section>
-</section>
-<section id="日本語文献を引用する" class="level2">
-<h2 class="anchored" data-anchor-id="日本語文献を引用する">日本語文献を引用する</h2>
-<p>APA Style で日本語文献を引用すると、うまくいきません。 たとえば吉川・野口『国際関係理論 (第2版)』をそのまま引用すると、画像のようになります。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../assets/image/jpn-cite.png" class="img-fluid figure-img"></p>
-<figcaption>日本語文献の引用</figcaption>
-</figure>
 </div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1771594015920" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="thumbnail"><a href="./posts/literature.html" class="no-external">
 
+<img loading="lazy" src="./assets/image/cover/literature-review.png" class="thumbnail-image">
 
-</section>
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/literature.html" class="no-external">先行研究の探し方、まとめ方</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/literature.html" class="no-external">
+<p>友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/literature.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1771594041743" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
+<div class="thumbnail"><a href="./posts/research-proposal.html" class="no-external">
 
+<img loading="lazy" src="./assets/image/cover/research-proposal.png" class="thumbnail-image">
 
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/research-proposal.html" class="no-external">(卒論・修論のための) 研究計画書の書き方</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/research-proposal.html" class="no-external">
+<p>このページでは、研究室の机の上に散乱しているメモやノートをまとめています。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/research-proposal.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1771593978742" data-listing-reading-time-sort="7" data-listing-word-count-sort="1262">
+<div class="thumbnail"><a href="./posts/apa-style.html" class="no-external">
 
-<ol>
-<li id="fn1"><p>ちなみに私の指導教員も Zotero 派です。「それなら Zotero を使ってみようかな」と思う方もいるかも知れません。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>詳しくは知りませんが、Zotero Connector はサイト内の ISBN や DOI を探しているのだと思います。そのため、JSTOR のように、DOI を記載せず独自 URL が掲載されている場合、そちらに引っ張られてしまう印象があります。そういうのが嫌なので、私は識別子から入れています。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+<img loading="lazy" src="./assets/image/cover/apa-style.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/apa-style.html" class="no-external">APA スタイルでの引用方法</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/apa-style.html" class="no-external">
+<p>APA スタイル参考文献情報を書く方法のチートシートです。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/apa-style.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="VGVjaCUyQ1dyaXRpbmc=" data-listing-date-sort="1760022000000" data-listing-file-modified-sort="1771594314416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="thumbnail"><a href="./posts/typst.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/typst.html" class="no-external">Typst は刺さらなかった話</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaA=='); return false;">Tech</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V3JpdGluZw=='); return false;">Writing</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/typst.html" class="no-external">
+<p>新しい組版「typst」はまだいいかな…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/typst.html" class="no-external">
+<div class="listing-date">
+2025/10/10
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="VGVjaCUyQ1dyaXRpbmc=" data-listing-date-sort="1755270000000" data-listing-file-modified-sort="1771594321827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="407">
+<div class="thumbnail"><a href="./posts/rojina-theme.html" class="no-external">
+
+<p class="card-img-top"><img src="../assets/image/title-page.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/rojina-theme.html" class="no-external">Marp のテーマを作ってみた</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaA=='); return false;">Tech</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V3JpdGluZw=='); return false;">Writing</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/rojina-theme.html" class="no-external">
+<p>研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/rojina-theme.html" class="no-external">
+<div class="listing-date">
+2025/08/16
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">一致なし</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
