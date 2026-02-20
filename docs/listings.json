@@ -1,11 +1,13 @@
 [
   {
-    "listing": "/page/blog.html",
+    "listing": "/blog.html",
     "items": [
-      "/page/posts/zotero.html",
-      "/page/posts/typst.html",
-      "/page/posts/rojina-theme.html",
-      "/page/posts/test-post.html"
+      "/posts/tips.html",
+      "/posts/literature.html",
+      "/posts/research-proposal.html",
+      "/posts/apa-style.html",
+      "/posts/typst.html",
+      "/posts/rojina-theme.html"
     ]
   }
 ]

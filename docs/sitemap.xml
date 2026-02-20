@@ -1,123 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/tips.html</loc>
-    <lastmod>2025-12-29T13:12:42.980Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/blog.html</loc>
+    <lastmod>2026-02-20T14:04:51.576Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/research-proposal.html</loc>
-    <lastmod>2026-01-12T02:11:13.979Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/research-proposal.html</loc>
+    <lastmod>2026-02-20T13:27:21.743Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/q0_preface.html</loc>
-    <lastmod>2025-12-29T13:12:42.964Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/tips.html</loc>
+    <lastmod>2026-02-20T13:28:10.426Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/typst.html</loc>
-    <lastmod>2025-12-29T13:12:42.962Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/rojina-theme.html</loc>
-    <lastmod>2025-12-29T13:12:42.948Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/06_instrumental-variable.html</loc>
-    <lastmod>2025-12-29T13:12:42.941Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/04_matching.html</loc>
-    <lastmod>2025-12-29T13:12:42.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/02_rct.html</loc>
-    <lastmod>2025-12-29T13:12:42.917Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part2-models/05_instrumental-variable.html</loc>
-    <lastmod>2025-12-29T13:12:42.904Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part2-models/03_interaction-model.html</loc>
-    <lastmod>2025-12-29T13:12:42.898Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part2-models/01_regression-assumptions.html</loc>
-    <lastmod>2025-12-29T13:12:42.886Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part1-basics/03_regression-table.html</loc>
-    <lastmod>2025-12-29T13:12:42.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part1-basics/01_descriptive-statistics.html</loc>
-    <lastmod>2025-12-29T13:12:42.862Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/difference-in-difference.html</loc>
-    <lastmod>2025-12-29T13:12:42.853Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/apa-style.html</loc>
-    <lastmod>2025-12-29T13:12:42.846Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/rojina-theme.html</loc>
+    <lastmod>2026-02-20T13:32:01.827Z</lastmod>
   </url>
   <url>
     <loc>https://stats1230.github.io/lab-desk/index.html</loc>
-    <lastmod>2025-12-29T13:12:42.838Z</lastmod>
+    <lastmod>2026-02-20T14:05:27.557Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/blog.html</loc>
-    <lastmod>2025-12-29T13:12:42.849Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/typst.html</loc>
+    <lastmod>2026-02-20T13:31:54.416Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/literature.html</loc>
-    <lastmod>2025-12-29T13:12:42.855Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/literature.html</loc>
+    <lastmod>2026-02-20T13:26:55.920Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part1-basics/02_linear-regression.html</loc>
-    <lastmod>2025-12-29T13:12:42.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part1-basics/04_hypothesis-testing.html</loc>
-    <lastmod>2025-12-29T13:12:42.880Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part2-models/02_logit-models.html</loc>
-    <lastmod>2025-12-29T13:12:42.892Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part2-models/04_panel-fixed-effect.html</loc>
-    <lastmod>2025-12-29T13:12:42.898Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/01_causal-inference.html</loc>
-    <lastmod>2025-12-29T13:12:42.911Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/03_regression.html</loc>
-    <lastmod>2025-12-29T13:12:42.926Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/05_rdd.html</loc>
-    <lastmod>2025-12-29T13:12:42.929Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/part3-design/07_did.html</loc>
-    <lastmod>2025-12-29T13:12:42.942Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/test-post.html</loc>
-    <lastmod>2025-12-29T13:12:42.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/posts/zotero.html</loc>
-    <lastmod>2026-01-15T14:45:12.749Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/research-proposal-en.html</loc>
-    <lastmod>2025-12-29T13:12:42.969Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/page/templates.html</loc>
-    <lastmod>2025-12-29T13:12:42.977Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/apa-style.html</loc>
+    <lastmod>2026-02-20T13:26:18.742Z</lastmod>
   </url>
 </urlset>

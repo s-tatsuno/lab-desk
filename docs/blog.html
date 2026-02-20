@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="このページでは、研究室の机の上に散乱しているメモやノートをまとめています。">
 
-<title>研究室の机</title>
+<title>メモあつめ – 研究室の机</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "サーチ"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8WFETJ1CSL"></script>
 
 <script type="text/javascript">
@@ -79,19 +109,52 @@ gtag('js', new Date());
 gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<meta property="og:title" content="研究室の机">
-<meta property="og:description" content="このページでは、研究室の机の上に散乱しているメモやノートをまとめています。">
-<meta property="og:image" content="https://stats1230.github.io/lab-desk/assets/image/izu.JPG">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="メモあつめ – 研究室の机">
+<meta property="og:description" content="">
+<meta property="og:image" content="https://stats1230.github.io/lab-desk/assets/image/cover/format-tips.png">
 <meta property="og:site_name" content="研究室の机">
-<meta name="twitter:title" content="研究室の机">
-<meta name="twitter:description" content="このページでは、研究室の机の上に散乱しているメモやノートをまとめています。">
-<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/assets/image/izu.JPG">
+<meta property="og:image:height" content="540">
+<meta property="og:image:width" content="960">
+<meta name="twitter:title" content="メモあつめ – 研究室の机">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/assets/image/cover/format-tips.png">
 <meta name="twitter:creator" content="@stats1230">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="540">
+<meta name="twitter:image-width" content="960">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -109,7 +172,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link active" href="./blog.html" aria-current="page"> 
 <span class="menu-text">メモあつめ</span></a>
   </li>  
 </ul>
@@ -123,20 +186,17 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">分類</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">すべて <span class="quarto-category-count">(6)</span></div><div class="category" data-category="VGVjaA==">Tech <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V3JpdGluZw==">Writing <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">研究室の机</h1>
+<h1 class="title">メモあつめ</h1>
 </div>
 
-<div>
-  <div class="description">
-    このページでは、研究室の机の上に散乱しているメモやノートをまとめています。
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -151,33 +211,175 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </header>
 
 
-<div class="column-screen hero-image-container" style="background-image: url(assets/image/izu.JPG);">
-<figcaption class="hero-caption">
-見たな…………？
-</figcaption>
+<p>トップページで紹介していない記事を含む、すべての記事の一覧です。</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="並び替え" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">並び替え</option>
+      <option value="index" data-direction="asc">デフォルト</option>
+      <option value="listing-title" data-direction="asc">
+        題名
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        日付 - 日付（昇順）
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        日付 - 日付（降順）
+      </option>
+      <option value="listing-author" data-direction="asc">
+        作者
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="フィルター">
+    </div>
 </div>
-<section id="このページはなに" class="level1">
-<h1>このページはなに？</h1>
-<p>このページでは、研究室の机の上に散乱しているメモやノートをまとめています。主に将来の自分のための備忘録として執筆していますが、同じ研究室 (または同じ大学) の後輩の方にも役立つ情報をまとめられればいいなと思いっています。基本的には著者のブログです。</p>
-<section id="はじめて研究をしたときに知りたかったこと" class="level2">
-<h2 class="anchored" data-anchor-id="はじめて研究をしたときに知りたかったこと">はじめて研究をしたときに知りたかったこと</h2>
-<ul>
-<li><a href="./posts/research-proposal.html">研究計画書の書き方</a></li>
-<li><a href="./posts/literature.html">先行研究の探し方、まとめ方</a></li>
-</ul>
-</section>
-<section id="執筆に役に立つかもしれないこと" class="level2">
-<h2 class="anchored" data-anchor-id="執筆に役に立つかもしれないこと">執筆に役に立つかもしれないこと</h2>
-<ul>
-<li><a href="./posts/tips.html">卒論・修論の体裁 Tips</a></li>
-<li><a href="./posts/apa-style.html">APAスタイルのチートシート</a></li>
-</ul>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1771594090426" data-listing-reading-time-sort="1" data-listing-word-count-sort="46">
+<div class="thumbnail"><a href="./posts/tips.html" class="no-external">
 
+<img loading="lazy" src="./assets/image/cover/format-tips.png" class="thumbnail-image">
 
-</section>
-</section>
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/tips.html" class="no-external">卒論・修論の体裁 Tips</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/tips.html" class="no-external">
+<p>卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/tips.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1771594015920" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
+<div class="thumbnail"><a href="./posts/literature.html" class="no-external">
 
-</main> <!-- /main -->
+<img loading="lazy" src="./assets/image/cover/literature-review.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/literature.html" class="no-external">先行研究の探し方、まとめ方</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/literature.html" class="no-external">
+<p>友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/literature.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1771594041743" data-listing-reading-time-sort="2" data-listing-word-count-sort="268">
+<div class="thumbnail"><a href="./posts/research-proposal.html" class="no-external">
+
+<img loading="lazy" src="./assets/image/cover/research-proposal.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/research-proposal.html" class="no-external">(卒論・修論のための) 研究計画書の書き方</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/research-proposal.html" class="no-external">
+<p>このページでは、研究室の机の上に散乱しているメモやノートをまとめています。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/research-proposal.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-file-modified-sort="1771593978742" data-listing-reading-time-sort="7" data-listing-word-count-sort="1262">
+<div class="thumbnail"><a href="./posts/apa-style.html" class="no-external">
+
+<img loading="lazy" src="./assets/image/cover/apa-style.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/apa-style.html" class="no-external">APA スタイルでの引用方法</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/apa-style.html" class="no-external">
+<p>APA スタイル参考文献情報を書く方法のチートシートです。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/apa-style.html" class="no-external">
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="VGVjaCUyQ1dyaXRpbmc=" data-listing-date-sort="1760022000000" data-listing-file-modified-sort="1771594314416" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+<div class="thumbnail"><a href="./posts/typst.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/typst.html" class="no-external">Typst は刺さらなかった話</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaA=='); return false;">Tech</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V3JpdGluZw=='); return false;">Writing</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/typst.html" class="no-external">
+<p>新しい組版「typst」はまだいいかな…</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/typst.html" class="no-external">
+<div class="listing-date">
+2025/10/10
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="VGVjaCUyQ1dyaXRpbmc=" data-listing-date-sort="1755270000000" data-listing-file-modified-sort="1771594321827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="407">
+<div class="thumbnail"><a href="./posts/rojina-theme.html" class="no-external">
+
+<p class="card-img-top"><img src="../assets/image/title-page.png"  class="thumbnail-image card-img"/></p>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/rojina-theme.html" class="no-external">Marp のテーマを作ってみた</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGVjaA=='); return false;">Tech</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V3JpdGluZw=='); return false;">Writing</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/rojina-theme.html" class="no-external">
+<p>研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/rojina-theme.html" class="no-external">
+<div class="listing-date">
+2025/08/16
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">一致なし</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
