@@ -3,6 +3,8 @@ title: "Marp のテーマを作ってみた"
 date: "2025-08-16"
 categories: [Tech, Writing]
 description: "研究報告で使うためのプレゼンのテーマ 'Rojina' を作りました。"
+aliases:
+  - /page/posts/rojina-thema.html
 ---
 
 個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。

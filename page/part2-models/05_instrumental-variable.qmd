@@ -1,6 +1,0 @@
----
-title: "操作変数法"
-permalink: /instrumental-variable/
-toc_label: "目次"
----
-

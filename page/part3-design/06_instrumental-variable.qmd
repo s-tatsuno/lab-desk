@@ -1,5 +1,0 @@
----
-title: "自然実験: 操作変数法"
-permalink: /instrumental-variables/
-toc_label: "目次"
----

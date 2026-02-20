@@ -1,6 +1,0 @@
----
-title: "制限従属変数モデル"
-permalink: /logit-models/
-toc_label: "目次"
----
-

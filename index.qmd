@@ -21,15 +21,15 @@ navbar:
 このページでは、研究室の机の上に散乱しているメモやノートをまとめています。主に将来の自分のための備忘録として執筆していますが、同じ研究室 (または同じ大学) の後輩の方にも役立つ情報をまとめられればいいなと思いっています。基本的には著者のブログです。
 
 ## はじめて研究をしたときに知りたかったこと
-- [研究計画書の書き方](/page/research-proposal.qmd)
-- [先行研究の探し方、まとめ方](/page/literature.qmd)
+- [研究計画書の書き方](/posts/research-proposal.qmd)
+- [先行研究の探し方、まとめ方](/posts/literature.qmd)
 
 ## 執筆に役に立つかもしれないこと
-- [卒論・修論の体裁 Tips](/page/tips.qmd)
-- [APAスタイルのチートシート](/page/apa-style.qmd)
+- [卒論・修論の体裁 Tips](/posts/tips.qmd)
+- [APAスタイルのチートシート](/posts/apa-style.qmd)
 
 ## その他
-- [いろんなテンプレート置き場](/page/templates.qmd)
+- [いろんなテンプレート置き場](/posts/templates.qmd)
 
 ::: {.callout-warning title="工事中につき、ご迷惑おかけします"}
 以下、まだ準備中です

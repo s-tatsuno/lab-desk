@@ -1,5 +1,0 @@
----
-title: "統制: 回帰分析"
-permalink: /ci-regression/
-toc_label: "目次"
----

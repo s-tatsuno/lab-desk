@@ -1,6 +1,0 @@
----
-title: "その結果、大事なの？: 統計的仮説検定の考え方、p値の解釈"
-permalink: /hypothesis-testing/
-toc_label: "目次"
----
-

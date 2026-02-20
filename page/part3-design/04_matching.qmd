@@ -1,5 +1,0 @@
----
-title: "統制: マッチング法"
-permalink: /matching/
-toc_label: "目次"
----

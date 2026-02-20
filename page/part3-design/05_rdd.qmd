@@ -1,5 +1,0 @@
----
-title: "自然実験: 回帰不連続デザイン"
-permalink: /regression-discontinuity-design/
-toc_label: "目次"
----

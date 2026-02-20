@@ -2,7 +2,8 @@
 title: "APA スタイルでの引用方法"
 description: "APA スタイル参考文献情報を書く方法のチートシートです。"
 image: "/assets/image/cover/apa-style.png"
-permalink: /apa-style
+aliases:
+  - /page/research-proposal.html
 ---
 
 この記事では、政治学分野で最もよく用いられる引用スタイルの1つである"[APA Style](https://apastyle.apa.org/)" の第7版の方式での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。

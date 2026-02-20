@@ -1,5 +1,0 @@
----
-title: "交互作用モデル"
-permalink: /interaction-model/
-toc_label: "目次"
----

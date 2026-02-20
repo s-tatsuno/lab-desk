@@ -3,6 +3,8 @@ title: "Typst は刺さらなかった話"
 date: "2025-10-10"
 categories: [Tech, Writing]
 description: "新しい組版「typst」はまだいいかな…"
+aliases:
+    - /page/posts/typst.html
 ---
 
 私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。

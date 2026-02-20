@@ -1,7 +1,0 @@
----
-title: "テスト投稿"
-date: "2025-08-14"
-categories: [Test, IR]
----
-
-テストです。

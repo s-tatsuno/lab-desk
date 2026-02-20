@@ -8,7 +8,7 @@ website:
   title: "研究室の机"
   navbar:
     left:
-      - href: page/blog.qmd
+      - href: /blog.qmd
         text: メモあつめ
   site-url: "https://stats1230.github.io/lab-desk"
   image: "assets/image/izu.JPG"

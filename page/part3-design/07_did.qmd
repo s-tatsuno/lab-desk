@@ -1,5 +1,0 @@
----
-title: "自然実験: 差分の差法"
-permalink: /difference-in-difference/
-toc_label: "目次"
----
