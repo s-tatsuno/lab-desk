@@ -4,6 +4,7 @@ project:
     - "assets/"
   output-dir: docs
 
+
 website:
   title: "研究室の机"
   navbar:

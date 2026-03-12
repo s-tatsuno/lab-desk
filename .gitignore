@@ -2,4 +2,5 @@
 _site/
 /.quarto/
 **/*.quarto_ipynb
-_drafts/
+drafts/
+docs/drafts
