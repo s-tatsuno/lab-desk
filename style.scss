@@ -22,6 +22,17 @@ $footer-bg: rgb(7, 71, 117);
 /* コード用: Fira Code */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
+pre code,
+div.sourceCode pre {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.9em;
+}
+
+/* インラインコード */
+code {
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+}
+
 body {
   font-family: 'Noto Sans', 'BIZ UDPGothic', Arial, Helvetica, sans-serif;
   line-height: 1.8rem;
@@ -149,4 +160,30 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1rem 1.5rem;
   margin: 1rem 0;
   border-radius: 4px;
+}
+
+
+// カテゴリバッジをスラッシュ付きテキストに変更
+.quarto-category {
+  background-color: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  color: inherit !important;
+  font-size: 0.9em !important;
+  font-weight: 700;
+  text-transform: none !important;  // ← !important を追加
+
+  &::before {
+    content: "/";
+  }
+
+  &:hover {
+    color: var(--bs-primary) !important;
+    text-decoration: none;
+  }
+}
+
+.quarto-categories {
+  gap: 0.6rem;
 }

@@ -25,7 +25,7 @@
     "href": "blog.html",
     "title": "メモあつめ",
     "section": "",
-    "text": "トップページで紹介していない記事を含む、すべての記事の一覧です。\n\n\n\n\n\n\n   \n    \n    \n      並び替え\n      デフォルト\n      \n        題名\n      \n      \n        日付 - 日付（昇順）\n      \n      \n        日付 - 日付（降順）\n      \n      \n        作者\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n卒論・修論の体裁 Tips\n\n\n卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n先行研究の探し方、まとめ方\n\n\n友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(卒論・修論のための) 研究計画書の書き方\n\n\nこのページでは、研究室の机の上に散乱しているメモやノートをまとめています。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAPA スタイルでの引用方法\n\n\nAPA スタイル参考文献情報を書く方法のチートシートです。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTypst は刺さらなかった話\n\n\n\nTech\n\nWriting\n\n\n\n新しい組版「typst」はまだいいかな…\n\n\n\n\n\n2025/10/10\n\n\n\n\n\n\n\n\n\n\n\n\nMarp のテーマを作ってみた\n\n\n\nTech\n\nWriting\n\n\n\n研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。\n\n\n\n\n\n2025/08/16\n\n\n\n\n\n一致なし"
+    "text": "トップページで紹介していない記事を含む、すべての記事の一覧です。\n\n\n\n\n\n\n   \n    \n    \n      並び替え\n      デフォルト\n      \n        題名\n      \n      \n        日付 - 日付（昇順）\n      \n      \n        日付 - 日付（降順）\n      \n      \n        作者\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n先行研究の探し方、まとめ方\n\n\n友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(卒論・修論のための) 研究計画書の書き方\n\n\nこのページでは、研究室の机の上に散乱しているメモやノートをまとめています。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n卒論・修論の体裁 Tips\n\n\n卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAPA スタイルでの引用方法\n\n\nAPA スタイル参考文献情報を書く方法のチートシートです。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTypst は刺さらなかった話\n\n\n\nTech\n\nWriting\n\n\n\n新しい組版「typst」はまだいいかな…\n\n\n\n\n\n2025/10/10\n\n\n\n\n\n\n\n\n\n\n\n\nMarp のテーマを作ってみた\n\n\n\nTech\n\nWriting\n\n\n\n研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。\n\n\n\n\n\n2025/08/16\n\n\n\n\n\n一致なし"
   },
   {
     "objectID": "drafts/q21_regression-assumptions.html",
@@ -362,5 +362,159 @@
     "title": "ライティングのきほん",
     "section": "1. 一文一義",
     "text": "1. 一文一義\nアカデミックライティングで重要な言葉に、「一文一義」があります。 一文一義とは、そのままの意味で、一つの文章が一つの意味を持っているということです。\nもう少し形式的に表現すると、一文において主述の関係が1つしかないこととも言えます。\n次の例は、一文一義が守られていない文章の例です。\n\n地方自治体におけるDX推進は、行政サービスの利便性向上や業務効率化を実現するうえで不可欠な要素として位置づけられており、各自治体で独自の取り組みが行われている一方で、専門的な知識を持つIT人材の不足や予算確保の困難さが大きな障壁となっており、特に小規模自治体においてはデジタル格差の拡大が懸念されていることから、国による財政的支援や広域連携によるリソースの共有化が求められている。\n\n長い。 読むのに疲れてしまいます。 文字数としては191字あり、40字を1行とすれば5行に届きそうなくらいです。 流石にこの文章は大げさな例……と言いたいところですが、意外とよく見かけるような文章です。\n例の文章は、以下の複数の文章がくっついています。\n\n地方自治体におけるDX推進は、行政サービスの利便性向上や業務効率化を実現するうえで不可欠な要素として位置づけられている (意味1)\n各自治体で独自の取り組みが行われている (意味2)\n専門的な知識を持つIT人材の不足や予算確保の困難さが大きな障壁となっている (意味3)\n特に小規模自治体においてはデジタル格差の拡大が懸念されている (意味4)\n国による財政的支援や広域連携によるリソースの共有化が求められている (意味5)"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html",
+    "href": "drafts/quantitative_method.html",
+    "title": "計量分析の手法",
+    "section": "",
+    "text": "卒論や修論の執筆に際して、「計量分析をしてみたい」と考える方は少なくありません。 プログラミングコードを書き、難しそうな表や数式を用いて主張を補強する計量分析の方法は、それだけでちょっとわくわくします。 しかし、「計量分析」といっても、様々なモデルや手法があります。 そのため、いざ計量分析を勉強しようと思っても、まず何をすればいいのかわからないという状況になることがほとんどです。 そこで本記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるのかを整理し、どのような順番で勉強を進めればいいのかをまとめます。 特に、これから卒論や修論を執筆予定で、計量分析の方法もやってみたいという方の役に立てれば幸いです。"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#はじめに",
+    "href": "drafts/quantitative_method.html#はじめに",
+    "title": "計量分析の手法",
+    "section": "",
+    "text": "卒論や修論の執筆に際して、「計量分析をしてみたい」と考える方は少なくありません。 プログラミングコードを書き、難しそうな表や数式を用いて主張を補強する計量分析の方法は、それだけでちょっとわくわくします。 しかし、「計量分析」といっても、様々なモデルや手法があります。 そのため、いざ計量分析を勉強しようと思っても、まず何をすればいいのかわからないという状況になることがほとんどです。 そこで本記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるのかを整理し、どのような順番で勉強を進めればいいのかをまとめます。 特に、これから卒論や修論を執筆予定で、計量分析の方法もやってみたいという方の役に立てれば幸いです。"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "研究室の机",
+    "section": "",
+    "text": "見たな…………？"
+  },
+  {
+    "objectID": "index.html#はじめて研究をしたときに知りたかったこと",
+    "href": "index.html#はじめて研究をしたときに知りたかったこと",
+    "title": "研究室の机",
+    "section": "はじめて研究をしたときに知りたかったこと",
+    "text": "はじめて研究をしたときに知りたかったこと\n\n研究計画書の書き方\n先行研究の探し方、まとめ方"
+  },
+  {
+    "objectID": "index.html#執筆に役に立つかもしれないこと",
+    "href": "index.html#執筆に役に立つかもしれないこと",
+    "title": "研究室の机",
+    "section": "執筆に役に立つかもしれないこと",
+    "text": "執筆に役に立つかもしれないこと\n\n卒論・修論の体裁 Tips\nAPAスタイルのチートシート"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#おすすめの書籍",
+    "href": "drafts/quantitative_method.html#おすすめの書籍",
+    "title": "計量分析の手法",
+    "section": "おすすめの書籍",
+    "text": "おすすめの書籍\nまず、いくつかの書籍を紹介します。 本記事もできるだけ丁寧に書いているつもりですが、計量分析に入門するならまずは以下の書籍を読むことを強くおすすめします。 また、実際に分析をしてみたい / 手を動かしてみたいという方は、各モデルの説明で紹介されている書籍を参考にしてみてください。 これらの本を読めば、この記事を読む理由はほとんどありません。\n\nデータ分析の力 —因果関係に迫る思考法—\n\n\n\n\n\n伊藤公一郎 (2017). 出版社のサイト\n\n\n\n\n「原因と結果」の経済学 —データから真実を見抜く思考法—\n\n\n\n\n\n中室牧子・津川友介 (2017). 出版社のサイト\n\n\n\n\n効果検証入門 —正しい比較のための因果推論／計量経済学の基礎—\n\n\n\n\n\n安井翔太(2020). 出版社のサイト\n\n\n\n\n政治学と因果推論 —比較から見える政治と社会—\n\n\n\n\n\n松林哲也(2021). 出版社のサイト"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#計量分析の手法",
+    "href": "drafts/quantitative_method.html#計量分析の手法",
+    "title": "計量分析の手法",
+    "section": "計量分析の手法",
+    "text": "計量分析の手法\n政治学 (またはより広く社会科学) で用いられる計量分析の手法は様々ありますが、最も基本的なものは回帰分析の方法です。 回帰分析とは、主に統計学の分野で発展してきた分析手法で、ある変数（従属変数）の変動を、一つまたは複数の変数（独立変数）によって説明・予測することを目的とします。 変数間の関係を定量的に記述できるこの枠組みは、原因と結果の関係を探る社会科学の問いと親和性が高く、広く用いられています。\nなおここで重要なのは、相関関係と因果関係は異なるものであるという事実です。 この言葉自体は繰り返し強調されるものですが、実際にこの事実は、回帰分析を行うにあたって常に意識し続ける必要があります。 単に回帰分析をするだけでは、つまり変数間の関係を回帰式で記述するだけでは、その変数間には因果関係があるとは限りません。 たまたま2つの変数が同じように変動するのかもしれませんし、別の変数に動かされているだけかもしれないのです。 回帰分析は、変数間の相関関係のみを定量的に記述する枠組みであって、そこに因果関係があるかどうかは、回帰の結果だけから判断することはできません。\n回帰分析を出発点として、政治学で主に用いられる計量分析の手法は大きく3つに分類できると考えます。\n\n回帰モデルの発展\n\nより高度なモデルの開発。非線形回帰モデル、相互作用モデルなど。\n\n因果推論のデザイン\n\n回帰モデルを用いて、因果関係を分析したり効果を測定するデザイン。マッチングや回帰不連続デザインなど。\n\n予測・探索的分析\n\n機械学習や高度な統計モデルを用いた分析手法。テキスト分析やネットワーク分析など。\n\n\nこれから計量分析を勉強するという方は、まず基本的な統計学の知識 (回帰分析) を学び、その上で、自分がやりたい手法を勉強することをおすすめします。\n\n\n\n\n\n\nノート授業を受けよう\n\n\n\nこれから計量分析を勉強するという方は、とにかく大学で授業を受けましょう！ 一橋大学なら「国際政治の計量分析I・II」とか「Qualitative Analysis in International Relations」みたいな名前の授業があります。 また、他大学でもサマースクールやセミナーのようなものもやっているので、指導教員や先輩などと相談しつつ受講してみるのがよいと思います。\n\n\n以下ではまず、統計学の基礎知識の学び方を上げたうえで、(1) 基本となる回帰分析、(2) 回帰分析の発展的なモデル、(3) 因果推論のデザイン、(4) 予測・探索敵分析の順番に、基本的な考え方や参考となる書籍などを挙げます。"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#統計学計量経済学の基礎",
+    "href": "drafts/quantitative_method.html#統計学計量経済学の基礎",
+    "title": "計量分析の手法",
+    "section": "統計学、計量経済学の基礎",
+    "text": "統計学、計量経済学の基礎\n計量分析の方法論を学ぶにあたって、最初に統計学や計量経済学の基礎を学ぶことを勧めます。\n\n\n\n\n\n\n警告授業を受けるときの前提知識\n\n\n\n\n\n計量分析計の授業を受講する際にはシラバスを確認してください。 授業によっては、数学的な知識を求めないものもあります。 というか、その場合がほとんどだと思います。 そのような授業では、授業内で基本的な知識を扱ったり、その都度説明をしてくれますので、なにも不安に思う必要はありません。\nあくまで本記事は、卒論や修論で計量分析を使いたいという強い動機と、そのために授業を超えて学ぶという意思がある方向けの説明をしています。\n\n\n\n一般的な計量経済学のテキストには、最初の方の章において統計学の基本的な説明があります。 そのため、計量経済学のテキストを使って勉強するので十分であると思います。 つまり、統計学の本は必須ではありません (もちろん、あったほうがよい)。\n基本的な統計知識のうち、以下の各項目は理解しておく必要があります。\n\nデータの種類、確率変数\n母集団と標本\n推測統計、信頼区間\n統計的仮説検定、\\(p\\)値\n線形単回帰分析、線形重回帰分析\n\nひとまず、回帰分析までを勉強しましょう。 そこまでできれば、とりあえず簡単なデータ分析までできるはずです。 また、下記にあげる書籍のうち、「R」とか「Python」とかが含まれている書籍を使えば、実際に手を動かしながら勉強を行うことができます。\n\n計量経済学\n\n\n\n\n\n西山慶彦・新谷元嗣・川口大司・奥井亮 (2019). 出版社のサイト\n第1部 (2章〜5章) は必須であると思います。\n\n\n\n\nRとPythonで学ぶ統計学入門\n\n\n\n\n\n増井敏克 (2021). 出版社のサイト\nとにかく手を動かして統計学を学びたい人向け。\n\n\n\n\nRによる計量政治学\n\n\n\n\n\n浅野正彦・矢内勇生 (2018). 出版社のサイト"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html",
+    "href": "drafts/archlinux_setup.html",
+    "title": "私の Arch Linux 初期設定",
+    "section": "",
+    "text": "WSL2 やデュアルブート、フルインストールなど、ことあるごとに Arch Linux を入れ直しています。 最初にやる設定の、本当に自分のための備忘録です。"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#デュアルブート",
+    "href": "drafts/archlinux_setup.html#デュアルブート",
+    "title": "私の Arch Linux 初期設定",
+    "section": "デュアルブート",
+    "text": "デュアルブート\nラップトップに Windows と Arch Linux をデュアルブートで入れた。\n\nパーティション構成\n\n\n\nパーティション\nサイズ\n用途\n\n\n\n\nnvme0n1p1\n200MB\nEFI (Windows/Arch 共有)\n\n\nnvme0n1p2\n16MB\nMicrosoft Reserved\n\n\nnvme0n1p3\n179.2GB\nWindows 11\n\n\nnvme0n1p4\n822MB\nWindows 回復\n\n\nnvme0n1p5\n296.7GB\nArch Linux (ext4)"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#デュアルブートインストール関連",
+    "href": "drafts/archlinux_setup.html#デュアルブートインストール関連",
+    "title": "私の Arch Linux 初期設定",
+    "section": "デュアルブート・インストール関連",
+    "text": "デュアルブート・インストール関連\nラップトップに Windows と Arch Linux をデュアルブートで入れた。\n\nパーティション構成\n最終的なパーティション構成はこんな感じになる。\n\n\n\nパーティション\nサイズ\n用途\n\n\n\n\nnvme0n1p1\n200MB\nEFI (Windows/Arch 共有)\n\n\nnvme0n1p2\n16MB\nMicrosoft Reserved\n\n\nnvme0n1p3\n179.2GB\nWindows 11\n\n\nnvme0n1p4\n822MB\nWindows 回復\n\n\nnvme0n1p5\n296.7GB\nArch Linux (ext4)\n\n\n\n詳細な Arch Linux のインストールは、色々な記事があるのでそちらを参照する。 または　AI にでも聞けばできる。"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#yay",
+    "href": "drafts/archlinux_setup.html#yay",
+    "title": "私の Arch Linux 初期設定",
+    "section": "yay",
+    "text": "yay\nAUR ヘルパーというやつ。 一時期、レポジトリが落ちてたので、バイナリをクローンしてくる。\ncd /tmp\ngit clone https://aur.archlinux.org/yay-bin.git\ncd yay-bin\nmakepkg -si"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#latex",
+    "href": "drafts/archlinux_setup.html#latex",
+    "title": "私の Arch Linux 初期設定",
+    "section": "LaTeX",
+    "text": "LaTeX\nフルパッケージでインストールする。\nsudo pacman -S texlive-meta biber"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#typst",
+    "href": "drafts/archlinux_setup.html#typst",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Typst",
+    "text": "Typst\nsudo pacman -S typst"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#vs-code",
+    "href": "drafts/archlinux_setup.html#vs-code",
+    "title": "私の Arch Linux 初期設定",
+    "section": "VS Code",
+    "text": "VS Code\nyay -S visual-studio-code-bin"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#ssh-githubのために使う",
+    "href": "drafts/archlinux_setup.html#ssh-githubのために使う",
+    "title": "私の Arch Linux 初期設定",
+    "section": "SSH (Githubのために使う)",
+    "text": "SSH (Githubのために使う)\nmkdir ~/.ssh\ncd ~/.ssh\nssh-keygen -t ed25519\ncat ~/.ssh/id_ed25519.pub\n# → GitHub に公開鍵を登録する\nssh -T git@github.com # 接続確認"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#git-設定",
+    "href": "drafts/archlinux_setup.html#git-設定",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Git 設定",
+    "text": "Git 設定\ngit config --global user.name \"名前\"\ngit config --global user.email \"メール\"\ngit config --global core.autocrlf input\ngit config --global init.defaultBranch main\n\n# デュアルブート改行コード対策 (要るかわからないけどやった)\ngit config --global core.attributesfile ~/.gitattributes_global\ncat &gt; ~/.gitattributes_global &lt;&lt; 'EOF'\n* text=auto eol=lf\n*.png binary\n*.jpg binary\n*.pdf binary\nEOF"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#rrstudio",
+    "href": "drafts/archlinux_setup.html#rrstudio",
+    "title": "私の Arch Linux 初期設定",
+    "section": "R/RStudio",
+    "text": "R/RStudio\nsudo pacman -S r\nyay -S rstudio-server-bin\nサーバーを開始するときは、\nsudo rstudio-server start\nをしたうえで、http://localhost:8787/ にアクセスする。\n毎回やるのが面倒なら、 systemd サービスにしちゃえばいい。/etc/rstudio/rserver.conf に\nserver-user=&lt;username&gt; # &lt;username&gt; はユーザー名\nを追記したうえで、\nsudo systemctl enable --now rstudio-server\nサーバーを開始してもログインできない場合は、 /etc/pam.d/rstudio の内容を次のように修正する (修正前)\n#%PAM-1.0\n\nauth       required     pam_securetty.so\nauth       requisite    pam_nologin.so\nauth       include      system-local-login\naccount    include      system-local-login\nsession    include      system-local-login\n(修正後)\n#%PAM-1.0\nauth       required     pam_unix.so\naccount    required     pam_unix.so\nsession    required     pam_unix.so\n\nパッケージ関連の注意点 (随時追加)\n\n依存関係のエラーが出るときは、 install.packages() の引数に dependencies = TRUE を入れるとよい。\ntidyverse をインストールしようとすると手こずることが多い。さきに stringi パッケージをインストールするのがよい。\nV8 関連のエラーも多い。コンピュータに imagemagick をインストールするのと、静的ビルドを有効にする。\n\nsudo pacman -S imagemagick\nRコンソールで Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1) を実行してから install.packages(\"V8\")"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#python",
+    "href": "drafts/archlinux_setup.html#python",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Python",
+    "text": "Python\nsudo pacman -S python python-pip python-pipx\n一般環境という使い方は最近しないらしい。 原則として、どのプロジェクトでも仮想環境を使う。 ただし、システム全体に直接パッケージをインストールするときは、pipx でやる。"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#dropbox",
+    "href": "drafts/archlinux_setup.html#dropbox",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Dropbox",
+    "text": "Dropbox\ndropbox"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#日本語入力-fcitx5-mozc",
+    "href": "drafts/archlinux_setup.html#日本語入力-fcitx5-mozc",
+    "title": "私の Arch Linux 初期設定",
+    "section": "日本語入力 (fcitx5 + Mozc)",
+    "text": "日本語入力 (fcitx5 + Mozc)\nsudo pacman -S fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk\n環境変数を設定する。~/.config/environment.d/fcitx5.conf を作成：\nGTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\n\nログアウト・ログイン後、fcitx5 を起動して設定ツールを開く。\n入力メソッドは「英語 (US)」と「Mozc」だけにする。\n「キーボード - 日本語」が入っていると JIS 配列になるので削除する。\n自動起動は KDE の「自動起動」設定から fcitx5 を追加する。"
+  },
+  {
+    "objectID": "drafts/archlinux_setup.html#capslock-を-ctrl-にリマップ",
+    "href": "drafts/archlinux_setup.html#capslock-を-ctrl-にリマップ",
+    "title": "私の Arch Linux 初期設定",
+    "section": "CapsLock を Ctrl にリマップ",
+    "text": "CapsLock を Ctrl にリマップ\n以下を実行する。\nlocalectl set-x11-keymap us \"\" \"\" caps:ctrl_modifier\n設定とかでもできるけど、システムを直接書き換えるほうが確実な気がしてる。"
   }
 ]

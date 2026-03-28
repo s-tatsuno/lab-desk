@@ -2,9 +2,9 @@
   {
     "listing": "/blog.html",
     "items": [
-      "/posts/tips.html",
       "/posts/literature.html",
       "/posts/research-proposal.html",
+      "/posts/tips.html",
       "/posts/apa-style.html",
       "/posts/typst.html",
       "/posts/rojina-theme.html"
