@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="新しい組版「typst」はまだいいかな…">
+<meta name="description" content="Arch Linux をインストールするたびにする初期設定の備忘録です。">
 
-<title>Typst は刺さらなかった話 – 研究室の机</title>
+<title>私の Arch Linux 初期設定 – 研究室の机</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,6 +23,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -82,12 +117,12 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </script>
 
 
-<meta property="og:title" content="Typst は刺さらなかった話 – 研究室の机">
-<meta property="og:description" content="新しい組版「typst」はまだいいかな…">
+<meta property="og:title" content="私の Arch Linux 初期設定 – 研究室の机">
+<meta property="og:description" content="Arch Linux をインストールするたびにする初期設定の備忘録です。">
 <meta property="og:image" content="https://stats1230.github.io/lab-desk/posts/assets/image/izu.JPG">
 <meta property="og:site_name" content="研究室の机">
-<meta name="twitter:title" content="Typst は刺さらなかった話 – 研究室の机">
-<meta name="twitter:description" content="新しい組版「typst」はまだいいかな…">
+<meta name="twitter:title" content="私の Arch Linux 初期設定 – 研究室の机">
+<meta name="twitter:description" content="Arch Linux をインストールするたびにする初期設定の備忘録です。">
 <meta name="twitter:image" content="https://stats1230.github.io/lab-desk/posts/assets/image/izu.JPG">
 <meta name="twitter:creator" content="@stats1230">
 <meta name="twitter:card" content="summary_large_image">
@@ -130,16 +165,24 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#typst-のここがすごい" id="toc-typst-のここがすごい" class="nav-link active" data-scroll-target="#typst-のここがすごい">Typst のここがすごい</a>
+  <li><a href="#デュアルブートインストール関連" id="toc-デュアルブートインストール関連" class="nav-link active" data-scroll-target="#デュアルブートインストール関連">デュアルブート・インストール関連</a>
   <ul class="collapse">
-  <li><a href="#コンパイルが早い" id="toc-コンパイルが早い" class="nav-link" data-scroll-target="#コンパイルが早い">コンパイルが早い</a></li>
+  <li><a href="#パーティション構成" id="toc-パーティション構成" class="nav-link" data-scroll-target="#パーティション構成">パーティション構成</a></li>
   </ul></li>
-  <li><a href="#typst-のここがもう少し" id="toc-typst-のここがもう少し" class="nav-link" data-scroll-target="#typst-のここがもう少し">Typst のここがもう少し</a>
+  <li><a href="#capslock-を-ctrl-にリマップ" id="toc-capslock-を-ctrl-にリマップ" class="nav-link" data-scroll-target="#capslock-を-ctrl-にリマップ">CapsLock を Ctrl にリマップ</a></li>
+  <li><a href="#日本語入力-fcitx5-mozc" id="toc-日本語入力-fcitx5-mozc" class="nav-link" data-scroll-target="#日本語入力-fcitx5-mozc">日本語入力 (fcitx5 + Mozc)</a></li>
+  <li><a href="#yay" id="toc-yay" class="nav-link" data-scroll-target="#yay">yay</a></li>
+  <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex">LaTeX</a></li>
+  <li><a href="#typst" id="toc-typst" class="nav-link" data-scroll-target="#typst">Typst</a></li>
+  <li><a href="#vs-code" id="toc-vs-code" class="nav-link" data-scroll-target="#vs-code">VS Code</a></li>
+  <li><a href="#dropbox" id="toc-dropbox" class="nav-link" data-scroll-target="#dropbox">Dropbox</a></li>
+  <li><a href="#ssh-githubのために使う" id="toc-ssh-githubのために使う" class="nav-link" data-scroll-target="#ssh-githubのために使う">SSH (Githubのために使う)</a></li>
+  <li><a href="#git-設定" id="toc-git-設定" class="nav-link" data-scroll-target="#git-設定">Git 設定</a></li>
+  <li><a href="#rrstudio" id="toc-rrstudio" class="nav-link" data-scroll-target="#rrstudio">R/RStudio</a>
   <ul class="collapse">
-  <li><a href="#パッケージが少なすぎる" id="toc-パッケージが少なすぎる" class="nav-link" data-scroll-target="#パッケージが少なすぎる">パッケージが少なすぎる</a></li>
-  <li><a href="#pdf-を図として取り込めない" id="toc-pdf-を図として取り込めない" class="nav-link" data-scroll-target="#pdf-を図として取り込めない">PDF を図として取り込めない</a></li>
+  <li><a href="#パッケージ関連の注意点-随時追加" id="toc-パッケージ関連の注意点-随時追加" class="nav-link" data-scroll-target="#パッケージ関連の注意点-随時追加">パッケージ関連の注意点 (随時追加)</a></li>
   </ul></li>
-  <li><a href="#結論" id="toc-結論" class="nav-link" data-scroll-target="#結論">結論</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
   </ul>
 </nav>
     </div>
@@ -148,16 +191,15 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Typst は刺さらなかった話</h1>
+<h1 class="title">私の Arch Linux 初期設定</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">Tech</div>
-    <div class="quarto-category">Writing</div>
+    <div class="quarto-category">tech</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    新しい組版「typst」はまだいいかな…
+    Arch Linux をインストールするたびにする初期設定の備忘録です。
   </div>
 </div>
 
@@ -168,7 +210,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">公開</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025年10月10日</p>
+      <p class="date">2026年3月28日</p>
     </div>
   </div>
   
@@ -180,39 +222,163 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </header>
 
 
-<p>私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。</p>
-<p>そんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。</p>
+<p>WSL2 やデュアルブート、フルインストールなど、ことあるごとに Arch Linux を入れ直しています。 最初にやる設定の、本当に自分のための備忘録です。</p>
+<section id="デュアルブートインストール関連" class="level2">
+<h2 class="anchored" data-anchor-id="デュアルブートインストール関連">デュアルブート・インストール関連</h2>
+<p>ラップトップに Windows と Arch Linux をデュアルブートで入れた。</p>
+<section id="パーティション構成" class="level3">
+<h3 class="anchored" data-anchor-id="パーティション構成">パーティション構成</h3>
+<p>最終的なパーティション構成はこんな感じになる。</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>パーティション</th>
+<th>サイズ</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>nvme0n1p1</code></td>
+<td>200MB</td>
+<td>EFI (Windows/Arch 共有)</td>
+</tr>
+<tr class="even">
+<td><code>nvme0n1p2</code></td>
+<td>16MB</td>
+<td>Microsoft Reserved</td>
+</tr>
+<tr class="odd">
+<td><code>nvme0n1p3</code></td>
+<td>179.2GB</td>
+<td>Windows 11</td>
+</tr>
+<tr class="even">
+<td><code>nvme0n1p4</code></td>
+<td>822MB</td>
+<td>Windows 回復</td>
+</tr>
+<tr class="odd">
+<td><code>nvme0n1p5</code></td>
+<td>296.7GB</td>
+<td>Arch Linux (ext4)</td>
+</tr>
+</tbody>
+</table>
+<p>詳細な Arch Linux のインストールは、色々な記事があるのでそちらを参照する。 または　AI にでも聞けばできる。</p>
+</section>
+</section>
+<section id="capslock-を-ctrl-にリマップ" class="level2">
+<h2 class="anchored" data-anchor-id="capslock-を-ctrl-にリマップ">CapsLock を Ctrl にリマップ</h2>
+<p>以下を実行する。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">localectl</span> set-x11-keymap us <span class="st">""</span> <span class="st">""</span> caps:ctrl_modifier</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>設定とかでもできるけど、システムを直接書き換えるほうが確実な気がしてる。</p>
+</section>
+<section id="日本語入力-fcitx5-mozc" class="level2">
+<h2 class="anchored" data-anchor-id="日本語入力-fcitx5-mozc">日本語入力 (fcitx5 + Mozc)</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> pacman <span class="at">-S</span> fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>環境変数を設定する。<code>~/.config/environment.d/fcitx5.conf</code> を作成：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="va">GTK_IM_MODULE</span><span class="op">=</span>fcitx</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="va">QT_IM_MODULE</span><span class="op">=</span>fcitx</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="va">XMODIFIERS</span><span class="op">=</span>@im=fcitx</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
-<li><a href="https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/typst.html">「Typst： いい感じのLaTeXの代替」(大阪大学 山口先生の Website より)</a></li>
-<li><a href="https://qiita.com/hikoharu14142/items/aa8cfb70d079b0324fba">「Typstのここがすごい！！」(Qiita の記事)</a></li>
+<li>ログアウト・ログイン後、fcitx5 を起動して設定ツールを開く。</li>
+<li>入力メソッドは「英語 (US)」と「Mozc」だけにする。</li>
+<li>「キーボード - 日本語」が入っていると JIS 配列になるので削除する。</li>
+<li>自動起動は KDE の「自動起動」設定から <code>fcitx5</code> を追加する。</li>
 </ul>
-<p>新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！</p>
-<section id="typst-のここがすごい" class="level2">
-<h2 class="anchored" data-anchor-id="typst-のここがすごい">Typst のここがすごい</h2>
-<section id="コンパイルが早い" class="level3">
-<h3 class="anchored" data-anchor-id="コンパイルが早い">コンパイルが早い</h3>
-<p>LaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。</p>
-<p>その点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。</p>
-<p>コンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。</p>
+</section>
+<section id="yay" class="level2">
+<h2 class="anchored" data-anchor-id="yay">yay</h2>
+<p>AUR ヘルパーというやつ。 一時期、レポジトリが落ちてたので、バイナリをクローンしてくる。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> /tmp</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://aur.archlinux.org/yay-bin.git</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> yay-bin</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="ex">makepkg</span> <span class="at">-si</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="latex" class="level2">
+<h2 class="anchored" data-anchor-id="latex">LaTeX</h2>
+<p>フルパッケージでインストールする。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> pacman <span class="at">-S</span> texlive-meta biber</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="typst" class="level2">
+<h2 class="anchored" data-anchor-id="typst">Typst</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> pacman <span class="at">-S</span> typst</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="vs-code" class="level2">
+<h2 class="anchored" data-anchor-id="vs-code">VS Code</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="ex">yay</span> <span class="at">-S</span> visual-studio-code-bin </span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="dropbox" class="level2">
+<h2 class="anchored" data-anchor-id="dropbox">Dropbox</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">dropbox</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="ssh-githubのために使う" class="level2">
+<h2 class="anchored" data-anchor-id="ssh-githubのために使う">SSH (Githubのために使う)</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> ~/.ssh</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/.ssh</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh-keygen</span> <span class="at">-t</span> ed25519</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> ~/.ssh/id_ed25519.pub</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="co"># → GitHub に公開鍵を登録する</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="fu">ssh</span> <span class="at">-T</span> git@github.com <span class="co"># 接続確認</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="git-設定" class="level2">
+<h2 class="anchored" data-anchor-id="git-設定">Git 設定</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"名前"</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email <span class="st">"メール"</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> core.autocrlf input</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> init.defaultBranch main</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a><span class="co"># デュアルブート改行コード対策 (要るかわからないけどやった)</span></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> core.attributesfile ~/.gitattributes_global</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span> <span class="op">&gt;</span> ~/.gitattributes_global <span class="op">&lt;&lt; 'EOF'</span></span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="st">* text=auto eol=lf</span></span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="st">*.png binary</span></span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a><span class="st">*.jpg binary</span></span>
+<span id="cb10-12"><a href="#cb10-12" aria-hidden="true" tabindex="-1"></a><span class="st">*.pdf binary</span></span>
+<span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a><span class="op">EOF</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="rrstudio" class="level2">
+<h2 class="anchored" data-anchor-id="rrstudio">R/RStudio</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> pacman <span class="at">-S</span> r</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="ex">yay</span> <span class="at">-S</span> rstudio-server-bin</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>サーバーを開始するときは、</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> rstudio-server start</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>をしたうえで、<code>http://localhost:8787/</code> にアクセスする。</p>
+<p>毎回やるのが面倒なら、 systemd サービスにしちゃえばいい。<code>/etc/rstudio/rserver.conf</code> に</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>server-user=&lt;username&gt; # &lt;username&gt; はユーザー名</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>を追記したうえで、</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> systemctl enable <span class="at">--now</span> rstudio-server</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>サーバーを開始してもログインできない場合は、 <code>/etc/pam.d/rstudio</code> の内容を次のように修正する (修正前)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="co">#%PAM-1.0</span></span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a><span class="ex">auth</span>       required     pam_securetty.so</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a><span class="ex">auth</span>       requisite    pam_nologin.so</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a><span class="ex">auth</span>       include      system-local-login</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="ex">account</span>    include      system-local-login</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a><span class="ex">session</span>    include      system-local-login</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>(修正後)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co">#%PAM-1.0</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="ex">auth</span>       required     pam_unix.so</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="ex">account</span>    required     pam_unix.so</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="ex">session</span>    required     pam_unix.so</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<section id="パッケージ関連の注意点-随時追加" class="level3">
+<h3 class="anchored" data-anchor-id="パッケージ関連の注意点-随時追加">パッケージ関連の注意点 (随時追加)</h3>
+<ul>
+<li>依存関係のエラーが出るときは、 <code>install.packages()</code> の引数に <code>dependencies = TRUE</code> を入れるとよい。</li>
+<li><code>tidyverse</code> をインストールしようとすると手こずることが多い。さきに <code>stringi</code> パッケージをインストールするのがよい。</li>
+<li><code>V8</code> 関連のエラーも多い。コンピュータに <code>imagemagick</code> をインストールするのと、静的ビルドを有効にする。
+<ul>
+<li><code>sudo pacman -S imagemagick</code></li>
+<li>Rコンソールで <code>Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1)</code> を実行してから <code>install.packages("V8")</code></li>
+</ul></li>
+</ul>
 </section>
 </section>
-<section id="typst-のここがもう少し" class="level2">
-<h2 class="anchored" data-anchor-id="typst-のここがもう少し">Typst のここがもう少し</h2>
-<p>「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。</p>
-<section id="パッケージが少なすぎる" class="level3">
-<h3 class="anchored" data-anchor-id="パッケージが少なすぎる">パッケージが少なすぎる</h3>
-<p>やはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。</p>
-<p>また、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。</p>
-</section>
-<section id="pdf-を図として取り込めない" class="level3">
-<h3 class="anchored" data-anchor-id="pdf-を図として取り込めない">PDF を図として取り込めない</h3>
-<p>これはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。</p>
-</section>
-</section>
-<section id="結論" class="level2">
-<h2 class="anchored" data-anchor-id="結論">結論</h2>
-<p>結論として、<strong>卒論・レポートなどの論文執筆</strong>には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。</p>
-<p>一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。</p>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> pacman <span class="at">-S</span> python python-pip python-pipx</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>一般環境という使い方は最近しないらしい。 原則として、どのプロジェクトでも仮想環境を使う。 ただし、システム全体に直接パッケージをインストールするときは、<code>pipx</code> でやる。</p>
 
 
 </section>

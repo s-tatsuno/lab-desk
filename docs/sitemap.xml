@@ -1,55 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/academic_writing.html</loc>
-    <lastmod>2026-02-26T11:05:51.900Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
+    <lastmod>2026-03-20T00:16:31.548Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/blog.html</loc>
-    <lastmod>2026-03-20T00:16:31.516Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q14_hypothesis-testing.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q33_regression.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q21_regression-assumptions.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q31_causal-inference.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/research-proposal-en.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q32_rct.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q36_instrumental-variable.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q35_rdd.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q23_interaction-model.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/posts/apa-style.html</loc>
-    <lastmod>2026-03-20T00:16:31.549Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/posts/literature.html</loc>
+    <loc>https://stats1230.github.io/lab-desk/posts/tips.html</loc>
     <lastmod>2026-03-20T00:16:31.549Z</lastmod>
   </url>
   <url>
@@ -57,11 +13,27 @@
     <lastmod>2026-03-20T00:16:31.549Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/posts/rojina-theme.html</loc>
+    <loc>https://stats1230.github.io/lab-desk/posts/literature.html</loc>
     <lastmod>2026-03-20T00:16:31.549Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/posts/tips.html</loc>
+    <loc>https://stats1230.github.io/lab-desk/drafts/quantitative_method.html</loc>
+    <lastmod>2026-03-20T06:34:01.654Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/blog.html</loc>
+    <lastmod>2026-03-20T00:16:31.516Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/drafts/interaction_model.html</loc>
+    <lastmod>2026-03-20T01:03:17.330Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/posts/archlinux_setup.html</loc>
+    <lastmod>2026-03-28T02:34:32.483Z</lastmod>
+  </url>
+  <url>
+    <loc>https://stats1230.github.io/lab-desk/posts/rojina-theme.html</loc>
     <lastmod>2026-03-20T00:16:31.549Z</lastmod>
   </url>
   <url>
@@ -69,59 +41,7 @@
     <lastmod>2026-03-20T00:16:31.549Z</lastmod>
   </url>
   <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q11_descriptive-statistics.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q34_matching.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q12_linear-regression.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q22_logit-models.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/templates.html</loc>
-    <lastmod>2026-02-20T13:19:20.082Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q24_panel-fixed-effect.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/zotero.html</loc>
-    <lastmod>2026-02-20T14:19:58.559Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q37_did.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q25_instrumental-variable.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/q13_regression-table.html</loc>
-    <lastmod>2026-02-20T13:19:20.081Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/quantitative_method.html</loc>
-    <lastmod>2026-03-20T06:34:01.654Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/index.html</loc>
-    <lastmod>2026-03-20T00:16:31.548Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/interaction_model.html</loc>
-    <lastmod>2026-03-20T01:03:17.330Z</lastmod>
-  </url>
-  <url>
-    <loc>https://stats1230.github.io/lab-desk/drafts/archlinux_setup.html</loc>
-    <lastmod>2026-03-27T08:41:05.847Z</lastmod>
+    <loc>https://stats1230.github.io/lab-desk/posts/apa-style.html</loc>
+    <lastmod>2026-03-20T00:16:31.549Z</lastmod>
   </url>
 </urlset>
