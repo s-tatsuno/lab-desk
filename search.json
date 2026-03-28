@@ -1,10 +1,234 @@
 [
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "研究室の机",
+    "section": "",
+    "text": "見たな…………？"
+  },
+  {
+    "objectID": "index.html#はじめて研究をしたときに知りたかったこと",
+    "href": "index.html#はじめて研究をしたときに知りたかったこと",
+    "title": "研究室の机",
+    "section": "はじめて研究をしたときに知りたかったこと",
+    "text": "はじめて研究をしたときに知りたかったこと\n\n研究計画書の書き方\n先行研究の探し方、まとめ方"
+  },
+  {
+    "objectID": "index.html#執筆に役に立つかもしれないこと",
+    "href": "index.html#執筆に役に立つかもしれないこと",
+    "title": "研究室の机",
+    "section": "執筆に役に立つかもしれないこと",
+    "text": "執筆に役に立つかもしれないこと\n\n卒論・修論の体裁 Tips\nAPAスタイルのチートシート"
+  },
+  {
+    "objectID": "posts/tips.html",
+    "href": "posts/tips.html",
+    "title": "卒論・修論の体裁 Tips",
+    "section": "",
+    "text": "卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n基本的なガイドライン\n※私が所属する研究室で、少なくとも2025年に指示された内容です。他のゼミに所属している方や新しい指示がある場合は、当然そちらに従ってください。\n\n表紙のあとに、内表紙をいれる。\n目次を入れる。\n\n修士論文では、図表の目次も入れる。\n\n要約を入れる。\n本文の文字の大きさは、10.5ポイント、脚注は、10ポイント\n\n英語の場合は、本文11ポイント、脚注10ポイント\n\n各章のタイトルは、研究方法、主張などが分かりやすいタイトルにする。\n\n章のタイトルに、副題を付けるのも一案。\nまた、各章の初めは、改頁する。\n\n図表でカラーを使っている場合は、それでもよい。\n\n但し、白黒で印刷・コピーする人がいる可能性を考え、線の種類や背景の模様を変えて、白黒でもわかりやすいようにする。\n\n参考文献リストや脚注の記載を再度確認する。\n謝辞は結論ではなく「あとがき」に書く。\n\n\n\nその他、役に立つ情報\n\n一橋大学商学部、松井剛ゼミナール「卒業論文の体裁に関するメモ」\n一橋大学社会学研究科「修士論文表紙作成要領」\n\n\n\n引用スタイル\n\n日本語の場合、APA準拠とするか、学会の引用スタイルに従うのがよい。\n\nたとえば、日本国際政治学会の投稿規定\n\n\n\n\n個人的な Tips\n\n伝わるデザイン\n\nプレゼン含め、伝えやすいデザインの方法を解説しているサイト。フォントの話から配色の話、バリアフリーについても触れられており、報告資料の作成の際に必携。\nより一般的なデザインの話は、書籍「伝わるデザインの基本」に掲載されている。\n\n図表のタイトルは、図は下、表は上。\n図表はページの上部に来るように調整する。\n\n\n\n製本と表紙の雛形\n卒業論文及び修士論文は、ハードカバーを付した製本を施して提出することが求められます。\n通常製本は、大学の生協または大学周辺の文具店に注文します。下記をご確認ください。各ページには、表紙の雛形もおいてあります。\n\n一橋大学生協「卒業論文製本」\n文具しまだ「論文製本」"
+  },
+  {
+    "objectID": "posts/typst.html",
+    "href": "posts/typst.html",
+    "title": "Typst は刺さらなかった話",
+    "section": "",
+    "text": "私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。\nそんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。\n新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！"
+  },
+  {
+    "objectID": "posts/typst.html#typst-のここがすごい",
+    "href": "posts/typst.html#typst-のここがすごい",
+    "title": "Typst は刺さらなかった話",
+    "section": "Typst のここがすごい",
+    "text": "Typst のここがすごい\n\nコンパイルが早い\nLaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。\nその点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。\nコンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。"
+  },
+  {
+    "objectID": "posts/typst.html#typst-のここがもう少し",
+    "href": "posts/typst.html#typst-のここがもう少し",
+    "title": "Typst は刺さらなかった話",
+    "section": "Typst のここがもう少し",
+    "text": "Typst のここがもう少し\n「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。\n\nパッケージが少なすぎる\nやはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。\nまた、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。\n\n\nPDF を図として取り込めない\nこれはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。"
+  },
+  {
+    "objectID": "posts/typst.html#結論",
+    "href": "posts/typst.html#結論",
+    "title": "Typst は刺さらなかった話",
+    "section": "結論",
+    "text": "結論\n結論として、卒論・レポートなどの論文執筆には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。\n一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。"
+  },
+  {
+    "objectID": "posts/literature.html",
+    "href": "posts/literature.html",
+    "title": "先行研究の探し方、まとめ方",
+    "section": "",
+    "text": "先日、大学院の仲間と共同で主催している自主ゼミで研究報告会がありました。それに合わせて、「論文の書き始め方」というワークショップを開催しました。そこで共同主催者の同期が「先行研究の探し方、まとめ方」という題目で報告をしてくれたのですが、その時のスライド資料をここで掲載します。中島さん、素敵な報告をしていただき、また資料の公開をご快諾いただきありがとうございました！\n\n\n中島 崇裕 / Takahiro Nakajima\n一橋大学大学院法学研究科修士課程。専攻は国際関係論、研究関心は国際規範、民主主義・人権、LGBTQ＋の権利。2022年から一橋大学グローバル・ガバナンス研究センター（GGR）でリサーチアシスタントを務める。また、2024年からは、LGBTQ＋の学生とアライが利用できる一橋大学のセーファースペースの運営に携わる。(文章・写真ともに一橋大学 GGR のウェブサイトによる。)"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html",
+    "href": "drafts/quantitative_method.html",
+    "title": "計量分析の手法",
+    "section": "",
+    "text": "卒論や修論の執筆に際して、「計量分析をしてみたい」と考える方は少なくありません。 プログラミングコードを書き、難しそうな表や数式を用いて主張を補強する計量分析の方法は、それだけでちょっとわくわくします。 しかし、「計量分析」といっても、様々なモデルや手法があります。 そのため、いざ計量分析を勉強しようと思っても、まず何をすればいいのかわからないという状況になることがほとんどです。 そこで本記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるのかを整理し、どのような順番で勉強を進めればいいのかをまとめます。 特に、これから卒論や修論を執筆予定で、計量分析の方法もやってみたいという方の役に立てれば幸いです。"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#はじめに",
+    "href": "drafts/quantitative_method.html#はじめに",
+    "title": "計量分析の手法",
+    "section": "",
+    "text": "卒論や修論の執筆に際して、「計量分析をしてみたい」と考える方は少なくありません。 プログラミングコードを書き、難しそうな表や数式を用いて主張を補強する計量分析の方法は、それだけでちょっとわくわくします。 しかし、「計量分析」といっても、様々なモデルや手法があります。 そのため、いざ計量分析を勉強しようと思っても、まず何をすればいいのかわからないという状況になることがほとんどです。 そこで本記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるのかを整理し、どのような順番で勉強を進めればいいのかをまとめます。 特に、これから卒論や修論を執筆予定で、計量分析の方法もやってみたいという方の役に立てれば幸いです。"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#おすすめの書籍",
+    "href": "drafts/quantitative_method.html#おすすめの書籍",
+    "title": "計量分析の手法",
+    "section": "おすすめの書籍",
+    "text": "おすすめの書籍\nまず、いくつかの書籍を紹介します。 本記事もできるだけ丁寧に書いているつもりですが、計量分析に入門するならまずは以下の書籍を読むことを強くおすすめします。 また、実際に分析をしてみたい / 手を動かしてみたいという方は、各モデルの説明で紹介されている書籍を参考にしてみてください。 これらの本を読めば、この記事を読む理由はほとんどありません。\n\nデータ分析の力 —因果関係に迫る思考法—\n\n\n\n\n\n伊藤公一郎 (2017). 出版社のサイト\n\n\n\n\n「原因と結果」の経済学 —データから真実を見抜く思考法—\n\n\n\n\n\n中室牧子・津川友介 (2017). 出版社のサイト\n\n\n\n\n効果検証入門 —正しい比較のための因果推論／計量経済学の基礎—\n\n\n\n\n\n安井翔太(2020). 出版社のサイト\n\n\n\n\n政治学と因果推論 —比較から見える政治と社会—\n\n\n\n\n\n松林哲也(2021). 出版社のサイト"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#計量分析の手法",
+    "href": "drafts/quantitative_method.html#計量分析の手法",
+    "title": "計量分析の手法",
+    "section": "計量分析の手法",
+    "text": "計量分析の手法\n政治学 (またはより広く社会科学) で用いられる計量分析の手法は様々ありますが、最も基本的なものは回帰分析の方法です。 回帰分析とは、主に統計学の分野で発展してきた分析手法で、ある変数（従属変数）の変動を、一つまたは複数の変数（独立変数）によって説明・予測することを目的とします。 変数間の関係を定量的に記述できるこの枠組みは、原因と結果の関係を探る社会科学の問いと親和性が高く、広く用いられています。\nなおここで重要なのは、相関関係と因果関係は異なるものであるという事実です。 この言葉自体は繰り返し強調されるものですが、実際にこの事実は、回帰分析を行うにあたって常に意識し続ける必要があります。 単に回帰分析をするだけでは、つまり変数間の関係を回帰式で記述するだけでは、その変数間には因果関係があるとは限りません。 たまたま2つの変数が同じように変動するのかもしれませんし、別の変数に動かされているだけかもしれないのです。 回帰分析は、変数間の相関関係のみを定量的に記述する枠組みであって、そこに因果関係があるかどうかは、回帰の結果だけから判断することはできません。\n回帰分析を出発点として、政治学で主に用いられる計量分析の手法は大きく3つに分類できると考えます。\n\n回帰モデルの発展\n\nより高度なモデルの開発。非線形回帰モデル、相互作用モデルなど。\n\n因果推論のデザイン\n\n回帰モデルを用いて、因果関係を分析したり効果を測定するデザイン。マッチングや回帰不連続デザインなど。\n\n予測・探索的分析\n\n機械学習や高度な統計モデルを用いた分析手法。テキスト分析やネットワーク分析など。\n\n\nこれから計量分析を勉強するという方は、まず基本的な統計学の知識 (回帰分析) を学び、その上で、自分がやりたい手法を勉強することをおすすめします。\n\n\n\n\n\n\nノート授業を受けよう\n\n\n\nこれから計量分析を勉強するという方は、とにかく大学で授業を受けましょう！ 一橋大学なら「国際政治の計量分析I・II」とか「Qualitative Analysis in International Relations」みたいな名前の授業があります。 また、他大学でもサマースクールやセミナーのようなものもやっているので、指導教員や先輩などと相談しつつ受講してみるのがよいと思います。\n\n\n以下ではまず、統計学の基礎知識の学び方を上げたうえで、(1) 基本となる回帰分析、(2) 回帰分析の発展的なモデル、(3) 因果推論のデザイン、(4) 予測・探索敵分析の順番に、基本的な考え方や参考となる書籍などを挙げます。"
+  },
+  {
+    "objectID": "drafts/quantitative_method.html#統計学計量経済学の基礎",
+    "href": "drafts/quantitative_method.html#統計学計量経済学の基礎",
+    "title": "計量分析の手法",
+    "section": "統計学、計量経済学の基礎",
+    "text": "統計学、計量経済学の基礎\n計量分析の方法論を学ぶにあたって、最初に統計学や計量経済学の基礎を学ぶことを勧めます。\n\n\n\n\n\n\n警告授業を受けるときの前提知識\n\n\n\n\n\n計量分析計の授業を受講する際にはシラバスを確認してください。 授業によっては、数学的な知識を求めないものもあります。 というか、その場合がほとんどだと思います。 そのような授業では、授業内で基本的な知識を扱ったり、その都度説明をしてくれますので、なにも不安に思う必要はありません。\nあくまで本記事は、卒論や修論で計量分析を使いたいという強い動機と、そのために授業を超えて学ぶという意思がある方向けの説明をしています。\n\n\n\n一般的な計量経済学のテキストには、最初の方の章において統計学の基本的な説明があります。 そのため、計量経済学のテキストを使って勉強するので十分であると思います。 つまり、統計学の本は必須ではありません (もちろん、あったほうがよい)。\n基本的な統計知識のうち、以下の各項目は理解しておく必要があります。\n\nデータの種類、確率変数\n母集団と標本\n推測統計、信頼区間\n統計的仮説検定、\\(p\\)値\n線形単回帰分析、線形重回帰分析\n\nひとまず、回帰分析までを勉強しましょう。 そこまでできれば、とりあえず簡単なデータ分析までできるはずです。 また、下記にあげる書籍のうち、「R」とか「Python」とかが含まれている書籍を使えば、実際に手を動かしながら勉強を行うことができます。\n\n計量経済学\n\n\n\n\n\n西山慶彦・新谷元嗣・川口大司・奥井亮 (2019). 出版社のサイト\n第1部 (2章〜5章) は必須であると思います。\n\n\n\n\nRとPythonで学ぶ統計学入門\n\n\n\n\n\n増井敏克 (2021). 出版社のサイト\nとにかく手を動かして統計学を学びたい人向け。\n\n\n\n\nRによる計量政治学\n\n\n\n\n\n浅野正彦・矢内勇生 (2018). 出版社のサイト"
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "メモあつめ",
     "section": "",
-    "text": "トップページで紹介していない記事を含む、すべての記事の一覧です。\n\n\n\n\n\n\n   \n    \n    \n      並び替え\n      デフォルト\n      \n        題名\n      \n      \n        日付 - 日付（昇順）\n      \n      \n        日付 - 日付（降順）\n      \n      \n        作者\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n卒論・修論の体裁 Tips\n\n\n卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n先行研究の探し方、まとめ方\n\n\n友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(卒論・修論のための) 研究計画書の書き方\n\n\nこのページでは、研究室の机の上に散乱しているメモやノートをまとめています。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAPA スタイルでの引用方法\n\n\nAPA スタイル参考文献情報を書く方法のチートシートです。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTypst は刺さらなかった話\n\n\n\nTech\n\nWriting\n\n\n\n新しい組版「typst」はまだいいかな…\n\n\n\n\n\n2025/10/10\n\n\n\n\n\n\n\n\n\n\n\n\nMarp のテーマを作ってみた\n\n\n\nTech\n\nWriting\n\n\n\n研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。\n\n\n\n\n\n2025/08/16\n\n\n\n\n\n一致なし"
+    "text": "トップページで紹介していない記事を含む、すべての記事の一覧です。\n\n\n\n\n\n\n   \n    \n    \n      並び替え\n      デフォルト\n      \n        題名\n      \n      \n        日付 - 日付（昇順）\n      \n      \n        日付 - 日付（降順）\n      \n      \n        作者\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n先行研究の探し方、まとめ方\n\n\n友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(卒論・修論のための) 研究計画書の書き方\n\n\nこのページでは、研究室の机の上に散乱しているメモやノートをまとめています。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n卒論・修論の体裁 Tips\n\n\n卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAPA スタイルでの引用方法\n\n\nAPA スタイル参考文献情報を書く方法のチートシートです。\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n私の Arch Linux 初期設定\n\n\n\ntech\n\n\n\nArch Linux をインストールするたびにする初期設定の備忘録です。\n\n\n\n\n\n2026/03/28\n\n\n\n\n\n\n\n\n\n\n\n\nTypst は刺さらなかった話\n\n\n\nTech\n\nWriting\n\n\n\n新しい組版「typst」はまだいいかな…\n\n\n\n\n\n2025/10/10\n\n\n\n\n\n\n\n\n\n\n\n\nMarp のテーマを作ってみた\n\n\n\nTech\n\nWriting\n\n\n\n研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。\n\n\n\n\n\n2025/08/16\n\n\n\n\n\n一致なし"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html",
+    "href": "posts/archlinux_setup.html",
+    "title": "私の Arch Linux 初期設定",
+    "section": "",
+    "text": "WSL2 やデュアルブート、フルインストールなど、ことあるごとに Arch Linux を入れ直しています。 最初にやる設定の、本当に自分のための備忘録です。"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#デュアルブートインストール関連",
+    "href": "posts/archlinux_setup.html#デュアルブートインストール関連",
+    "title": "私の Arch Linux 初期設定",
+    "section": "デュアルブート・インストール関連",
+    "text": "デュアルブート・インストール関連\nラップトップに Windows と Arch Linux をデュアルブートで入れた。\n\nパーティション構成\n最終的なパーティション構成はこんな感じになる。\n\n\n\nパーティション\nサイズ\n用途\n\n\n\n\nnvme0n1p1\n200MB\nEFI (Windows/Arch 共有)\n\n\nnvme0n1p2\n16MB\nMicrosoft Reserved\n\n\nnvme0n1p3\n179.2GB\nWindows 11\n\n\nnvme0n1p4\n822MB\nWindows 回復\n\n\nnvme0n1p5\n296.7GB\nArch Linux (ext4)\n\n\n\n詳細な Arch Linux のインストールは、色々な記事があるのでそちらを参照する。 または　AI にでも聞けばできる。"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#capslock-を-ctrl-にリマップ",
+    "href": "posts/archlinux_setup.html#capslock-を-ctrl-にリマップ",
+    "title": "私の Arch Linux 初期設定",
+    "section": "CapsLock を Ctrl にリマップ",
+    "text": "CapsLock を Ctrl にリマップ\n以下を実行する。\nlocalectl set-x11-keymap us \"\" \"\" caps:ctrl_modifier\n設定とかでもできるけど、システムを直接書き換えるほうが確実な気がしてる。"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#日本語入力-fcitx5-mozc",
+    "href": "posts/archlinux_setup.html#日本語入力-fcitx5-mozc",
+    "title": "私の Arch Linux 初期設定",
+    "section": "日本語入力 (fcitx5 + Mozc)",
+    "text": "日本語入力 (fcitx5 + Mozc)\nsudo pacman -S fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk\n環境変数を設定する。~/.config/environment.d/fcitx5.conf を作成：\nGTK_IM_MODULE=fcitx\nQT_IM_MODULE=fcitx\nXMODIFIERS=@im=fcitx\n\nログアウト・ログイン後、fcitx5 を起動して設定ツールを開く。\n入力メソッドは「英語 (US)」と「Mozc」だけにする。\n「キーボード - 日本語」が入っていると JIS 配列になるので削除する。\n自動起動は KDE の「自動起動」設定から fcitx5 を追加する。"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#yay",
+    "href": "posts/archlinux_setup.html#yay",
+    "title": "私の Arch Linux 初期設定",
+    "section": "yay",
+    "text": "yay\nAUR ヘルパーというやつ。 一時期、レポジトリが落ちてたので、バイナリをクローンしてくる。\ncd /tmp\ngit clone https://aur.archlinux.org/yay-bin.git\ncd yay-bin\nmakepkg -si"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#latex",
+    "href": "posts/archlinux_setup.html#latex",
+    "title": "私の Arch Linux 初期設定",
+    "section": "LaTeX",
+    "text": "LaTeX\nフルパッケージでインストールする。\nsudo pacman -S texlive-meta biber"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#typst",
+    "href": "posts/archlinux_setup.html#typst",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Typst",
+    "text": "Typst\nsudo pacman -S typst"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#vs-code",
+    "href": "posts/archlinux_setup.html#vs-code",
+    "title": "私の Arch Linux 初期設定",
+    "section": "VS Code",
+    "text": "VS Code\nyay -S visual-studio-code-bin"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#dropbox",
+    "href": "posts/archlinux_setup.html#dropbox",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Dropbox",
+    "text": "Dropbox\ndropbox"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#ssh-githubのために使う",
+    "href": "posts/archlinux_setup.html#ssh-githubのために使う",
+    "title": "私の Arch Linux 初期設定",
+    "section": "SSH (Githubのために使う)",
+    "text": "SSH (Githubのために使う)\nmkdir ~/.ssh\ncd ~/.ssh\nssh-keygen -t ed25519\ncat ~/.ssh/id_ed25519.pub\n# → GitHub に公開鍵を登録する\nssh -T git@github.com # 接続確認"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#git-設定",
+    "href": "posts/archlinux_setup.html#git-設定",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Git 設定",
+    "text": "Git 設定\ngit config --global user.name \"名前\"\ngit config --global user.email \"メール\"\ngit config --global core.autocrlf input\ngit config --global init.defaultBranch main\n\n# デュアルブート改行コード対策 (要るかわからないけどやった)\ngit config --global core.attributesfile ~/.gitattributes_global\ncat &gt; ~/.gitattributes_global &lt;&lt; 'EOF'\n* text=auto eol=lf\n*.png binary\n*.jpg binary\n*.pdf binary\nEOF"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#rrstudio",
+    "href": "posts/archlinux_setup.html#rrstudio",
+    "title": "私の Arch Linux 初期設定",
+    "section": "R/RStudio",
+    "text": "R/RStudio\nsudo pacman -S r\nyay -S rstudio-server-bin\nサーバーを開始するときは、\nsudo rstudio-server start\nをしたうえで、http://localhost:8787/ にアクセスする。\n毎回やるのが面倒なら、 systemd サービスにしちゃえばいい。/etc/rstudio/rserver.conf に\nserver-user=&lt;username&gt; # &lt;username&gt; はユーザー名\nを追記したうえで、\nsudo systemctl enable --now rstudio-server\nサーバーを開始してもログインできない場合は、 /etc/pam.d/rstudio の内容を次のように修正する (修正前)\n#%PAM-1.0\n\nauth       required     pam_securetty.so\nauth       requisite    pam_nologin.so\nauth       include      system-local-login\naccount    include      system-local-login\nsession    include      system-local-login\n(修正後)\n#%PAM-1.0\nauth       required     pam_unix.so\naccount    required     pam_unix.so\nsession    required     pam_unix.so\n\nパッケージ関連の注意点 (随時追加)\n\n依存関係のエラーが出るときは、 install.packages() の引数に dependencies = TRUE を入れるとよい。\ntidyverse をインストールしようとすると手こずることが多い。さきに stringi パッケージをインストールするのがよい。\nV8 関連のエラーも多い。コンピュータに imagemagick をインストールするのと、静的ビルドを有効にする。\n\nsudo pacman -S imagemagick\nRコンソールで Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1) を実行してから install.packages(\"V8\")"
+  },
+  {
+    "objectID": "posts/archlinux_setup.html#python",
+    "href": "posts/archlinux_setup.html#python",
+    "title": "私の Arch Linux 初期設定",
+    "section": "Python",
+    "text": "Python\nsudo pacman -S python python-pip python-pipx\n一般環境という使い方は最近しないらしい。 原則として、どのプロジェクトでも仮想環境を使う。 ただし、システム全体に直接パッケージをインストールするときは、pipx でやる。"
+  },
+  {
+    "objectID": "posts/rojina-theme.html",
+    "href": "posts/rojina-theme.html",
+    "title": "Marp のテーマを作ってみた",
+    "section": "",
+    "text": "個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。\nその欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。"
+  },
+  {
+    "objectID": "posts/rojina-theme.html#rojina-テーマの使い方",
+    "href": "posts/rojina-theme.html#rojina-テーマの使い方",
+    "title": "Marp のテーマを作ってみた",
+    "section": "Rojina テーマの使い方",
+    "text": "Rojina テーマの使い方\n“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。"
+  },
+  {
+    "objectID": "posts/rojina-theme.html#marp",
+    "href": "posts/rojina-theme.html#marp",
+    "title": "Marp のテーマを作ってみた",
+    "section": "Marp",
+    "text": "Marp\nこのテーマは、Marp 向けに作られています。Marp の使い方などは公式ドキュメントなどを参照してください。"
+  },
+  {
+    "objectID": "posts/rojina-theme.html#rojina-テーマの導入方法",
+    "href": "posts/rojina-theme.html#rojina-テーマの導入方法",
+    "title": "Marp のテーマを作ってみた",
+    "section": "Rojina テーマの導入方法",
+    "text": "Rojina テーマの導入方法\nMarp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールはこちらからどうぞ。\n\n1. CSS ファイルを配置する\n\nCSS ファイルを、ローカルPCに保存する方法 (おすすめ)\n\n上記の github から、marp-theme/rojina.css をダウンロードし、適当な場所に配置します。\nおすすめは、作業ディレクトリに marp-theme というディレクトリを作成し、その中に入れることです。\nSettings &gt; Marp: Themes にパスを記入します。\n\nパスは、作成する marp のファイルからみた相対パスを書きます。\n\n\ngithub の生ファイルをURLで直接呼び出す方法\n\nまたは、Settings &gt; Marp: Themes に次のように入力します。\n\nhttps://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css\n\nこの方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。\n\n\n\n\n2. Yaml ヘッダの指定\n\nsample.md を参考に、Markdown ファイル (.md) を作成します。\nMarkdown ファイルの先頭にある yaml ヘッダに、次のように記述します。\n\n---\nmarp: true\ntheme: rojina\npaginate: true\nlang: ja\nfooter: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'\nstyle: |\n  section {  \n    --prim-color: #03233aff;      /* プライマリカラー */\n    --sec-color: #2a4f69ff;       /* セカンダリカラー */\n    --color-background: #fdfdfd;  /* 背景の色 */\n    --color-foreground: #333;     /* 文字の色 */\n    --color-link: var(--sec-color); /* リンクの色 */\n    }\n---\n\nそれ以降は、通常の marp の方法に従ってファイルに記入していきます\nこのテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。\n\n\n\n3. PDF への出力\n\nコマンドパレット (VS Code の画面上部) から Export Slide Deck を選択します\n\nPDF への出力は Chrome系のブラウザが必要になります。"
+  },
+  {
+    "objectID": "posts/rojina-theme.html#rojina-の使い方",
+    "href": "posts/rojina-theme.html#rojina-の使い方",
+    "title": "Marp のテーマを作ってみた",
+    "section": "Rojina の使い方",
+    "text": "Rojina の使い方\nここからは、Rojina テーマに実装したいくつかの機能をまとめます。\n\nカラーパレットを自由に変更可能！\n\nRojina テーマは、css を書き換えることなくテーマカラーを変更できます！\n冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。\n\n\n\n\n\n\n\n\n変数名\n概要\n\n\n\n\n–prim-color\nメインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。\n\n\n–sec-color\nサブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。\n\n\n–color-background\n全体の背景の色です。ページタイトルの文字色にも使われています。\n\n\n–color-foreground\n文字の色です。\n\n\n–color-link\nリンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。\n\n\n\n\n色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。\nメインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。\n\n\n\nタイトルページ\n\nタイトルページは、次のように書きます。\nタイトル/サブタイトルは &lt;br&gt; で改行ができます\n\n&lt;!--\n_class: title-page\n_paginate: false\n_footer: ''\n--&gt;\n\n### 日付 | 報告の場所\n# 報告タイトル\n## 報告サブタイトル\n\n\n&lt;div class=\"author-block\" markdown=\"1\"&gt;\n\n### あなたの名前\nあなたの所属\nあなたの email、twitter、github、etc...\n\n&lt;/div&gt;\n\n\n\nフッタを表示する\n\n各ページのディレクティブ (&lt;!-- --&gt; で囲まれている部分) に _footnote: '' と書かなければ、フッタが表示されます。\nフッタの内容は、yaml ヘッダの footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;' で指定できます\n\n - ちなみにページ番号の部分は _pageniate: false と書けば消えます\n\n\nヘッダを表示する\n\n各ページのディレクティブに &lt;!--_header: 'hogehoge' --&gt; と書くと、ヘッダが表示されます。\nセクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。\n太字 (2つの**で囲む) は濃く、それ以外は不透明度が下がります。\nCSS のちからでは、自動的なナビゲーションは実装できません。無念。\n\n\n\n\nページのタイトル\n\n見出し2 (##) がページのタイトルになります\n1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません\n\n\n\n\n表を挿入する\n\n一般的な markdown 記法に従い表を挿入できます。\n見出し (header) 部分の上下と、表の一番下に線が引かれます。\n表全体を&lt;div class=\"table-container\"&gt; と &lt;/div&gt; で囲むと7割くらいの大きさになります。\n\n\n\n\nコードブロックを挿入する\n\nインライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります\n2つの “```” で囲まれた部分は、大きなコードブロックになります。\n\n\n\n\n見出し付きのブロックを挿入する\n\n以下のようなコードを書くことで、見出し付きのブロックを挿入できます。\n\n\n&lt;div class=\"block\"&gt;\n  &lt;div class=\"block-title\"&gt;タイトル&lt;/div&gt;\n  &lt;div class=\"block-content\"&gt;本文&lt;/div&gt;\n&lt;/div&gt;\n\n\nブロック内でもマークダウン記法が有効です。\n\nもちろん、\\(\\TeX\\) 記法で数式を含めることもできます。\n\n\n\n\n参考文献のページを作る\n\nディレクティブに _class: ref と書くことで、参考文献のページを作ることができます\n参考文献のページは、セリフ体で文字を小さめにしています。\n通常の論文のように、ぶら下げインデントを再現しています。"
   },
   {
     "objectID": "posts/research-proposal.html",
@@ -47,104 +271,6 @@
     "title": "(卒論・修論のための) 研究計画書の書き方",
     "section": "脚注",
     "text": "脚注\n\n\n余談ですが、日本の公的研究資金で最も有名な科研費 (科学研究費助成事業) の応募の際にも研究計画調書を提出します。この書類の「研究目的、研究方法など」の部分がこの記事の研究計画書にあたり、種別にもよりますがいずれも 4～6 ページを上限としています。(科研費公募情報)↩︎\nフィリップス & ジョンソン (2025) は、研究を大きく「探究型研究」、「検証型研究」、「問題解決型研究」に分類しています。そのうえで、博士論文には検証型研究が適していると述べています。そのため、このページでも、検証型研究を行うことを前提とした研究計画の書き方を提案します。↩︎\n問いの立て方については、やはり研究の方法論に関連する部分です。そのため、研究の方法に関するテキストや授業から学んでください。1つアドバイスするとすれば、パズルを意識すること、つまり既存の知が十分でない部分を発見すると、問いを立てやすいです。ということは、やはり、十分に先行研究を調べる必要があるということになります。研究は、研究を始めようとするときから文献をたくさん読まなければなりません。大変だ。↩︎\nAlizade, J. (2025). The electoral politics of immigration and crime. American Journal of Political Science, 1–18. https://doi.org/10.1111/ajps.70013↩︎\nEstancona, C., & Tiscornia, L. (2025). From Cocaine to Avocados: Criminal Market Expansion and Violence. International Organization, 79(3), 417–455. doi:10.1017/S0020818325100763↩︎\n大学院では「理論とはなにか」とか「仮説とはなにか」(さらに言えば、科学的な研究とはなにか) ということを考える時間があります。ただ、ここでは到底検討が及びませんので、触れません。おすすめ文献として紹介した「原因を推論する」は、この点の議論も扱っています。↩︎\nすでに述べたとおり、これは「検証型研究」に求められているものです。他の型の研究においては、求められているものも異なってくる場合があります。↩︎\nこの点、独立変数と従属変数の関係が決定論的であると考える場合は、「～のとき、～になる」と表現し、確率的であると考える場合は「～のとき、～になりやすい」とか、「～の傾向がある」などと表現します。↩︎\n計量分析や数理モデルを方法論として採用している論文では、仮説の数が3，4個……と多くなる傾向にあるように感じます。これは、統計的な分析が複数のモデルを一度に扱いやすいことなどに起因していると考えられます。この場合でも、仮説の間の関係性や因果効果の大きさに関する議論が必要であることには変わりありません。↩︎"
-  },
-  {
-    "objectID": "posts/tips.html",
-    "href": "posts/tips.html",
-    "title": "卒論・修論の体裁 Tips",
-    "section": "",
-    "text": "卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n基本的なガイドライン\n※私が所属する研究室で、少なくとも2025年に指示された内容です。他のゼミに所属している方や新しい指示がある場合は、当然そちらに従ってください。\n\n表紙のあとに、内表紙をいれる。\n目次を入れる。\n\n修士論文では、図表の目次も入れる。\n\n要約を入れる。\n本文の文字の大きさは、10.5ポイント、脚注は、10ポイント\n\n英語の場合は、本文11ポイント、脚注10ポイント\n\n各章のタイトルは、研究方法、主張などが分かりやすいタイトルにする。\n\n章のタイトルに、副題を付けるのも一案。\nまた、各章の初めは、改頁する。\n\n図表でカラーを使っている場合は、それでもよい。\n\n但し、白黒で印刷・コピーする人がいる可能性を考え、線の種類や背景の模様を変えて、白黒でもわかりやすいようにする。\n\n参考文献リストや脚注の記載を再度確認する。\n謝辞は結論ではなく「あとがき」に書く。\n\n\n\nその他、役に立つ情報\n\n一橋大学商学部、松井剛ゼミナール「卒業論文の体裁に関するメモ」\n一橋大学社会学研究科「修士論文表紙作成要領」\n\n\n\n引用スタイル\n\n日本語の場合、APA準拠とするか、学会の引用スタイルに従うのがよい。\n\nたとえば、日本国際政治学会の投稿規定\n\n\n\n\n個人的な Tips\n\n伝わるデザイン\n\nプレゼン含め、伝えやすいデザインの方法を解説しているサイト。フォントの話から配色の話、バリアフリーについても触れられており、報告資料の作成の際に必携。\nより一般的なデザインの話は、書籍「伝わるデザインの基本」に掲載されている。\n\n図表のタイトルは、図は下、表は上。\n図表はページの上部に来るように調整する。\n\n\n\n製本と表紙の雛形\n卒業論文及び修士論文は、ハードカバーを付した製本を施して提出することが求められます。\n通常製本は、大学の生協または大学周辺の文具店に注文します。下記をご確認ください。各ページには、表紙の雛形もおいてあります。\n\n一橋大学生協「卒業論文製本」\n文具しまだ「論文製本」"
-  },
-  {
-    "objectID": "posts/rojina-theme.html",
-    "href": "posts/rojina-theme.html",
-    "title": "Marp のテーマを作ってみた",
-    "section": "",
-    "text": "個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。\nその欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。"
-  },
-  {
-    "objectID": "posts/rojina-theme.html#rojina-テーマの使い方",
-    "href": "posts/rojina-theme.html#rojina-テーマの使い方",
-    "title": "Marp のテーマを作ってみた",
-    "section": "Rojina テーマの使い方",
-    "text": "Rojina テーマの使い方\n“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。"
-  },
-  {
-    "objectID": "posts/rojina-theme.html#marp",
-    "href": "posts/rojina-theme.html#marp",
-    "title": "Marp のテーマを作ってみた",
-    "section": "Marp",
-    "text": "Marp\nこのテーマは、Marp 向けに作られています。Marp の使い方などは公式ドキュメントなどを参照してください。"
-  },
-  {
-    "objectID": "posts/rojina-theme.html#rojina-テーマの導入方法",
-    "href": "posts/rojina-theme.html#rojina-テーマの導入方法",
-    "title": "Marp のテーマを作ってみた",
-    "section": "Rojina テーマの導入方法",
-    "text": "Rojina テーマの導入方法\nMarp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールはこちらからどうぞ。\n\n1. CSS ファイルを配置する\n\nCSS ファイルを、ローカルPCに保存する方法 (おすすめ)\n\n上記の github から、marp-theme/rojina.css をダウンロードし、適当な場所に配置します。\nおすすめは、作業ディレクトリに marp-theme というディレクトリを作成し、その中に入れることです。\nSettings &gt; Marp: Themes にパスを記入します。\n\nパスは、作成する marp のファイルからみた相対パスを書きます。\n\n\ngithub の生ファイルをURLで直接呼び出す方法\n\nまたは、Settings &gt; Marp: Themes に次のように入力します。\n\nhttps://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css\n\nこの方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。\n\n\n\n\n2. Yaml ヘッダの指定\n\nsample.md を参考に、Markdown ファイル (.md) を作成します。\nMarkdown ファイルの先頭にある yaml ヘッダに、次のように記述します。\n\n---\nmarp: true\ntheme: rojina\npaginate: true\nlang: ja\nfooter: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'\nstyle: |\n  section {  \n    --prim-color: #03233aff;      /* プライマリカラー */\n    --sec-color: #2a4f69ff;       /* セカンダリカラー */\n    --color-background: #fdfdfd;  /* 背景の色 */\n    --color-foreground: #333;     /* 文字の色 */\n    --color-link: var(--sec-color); /* リンクの色 */\n    }\n---\n\nそれ以降は、通常の marp の方法に従ってファイルに記入していきます\nこのテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。\n\n\n\n3. PDF への出力\n\nコマンドパレット (VS Code の画面上部) から Export Slide Deck を選択します\n\nPDF への出力は Chrome系のブラウザが必要になります。"
-  },
-  {
-    "objectID": "posts/rojina-theme.html#rojina-の使い方",
-    "href": "posts/rojina-theme.html#rojina-の使い方",
-    "title": "Marp のテーマを作ってみた",
-    "section": "Rojina の使い方",
-    "text": "Rojina の使い方\nここからは、Rojina テーマに実装したいくつかの機能をまとめます。\n\nカラーパレットを自由に変更可能！\n\nRojina テーマは、css を書き換えることなくテーマカラーを変更できます！\n冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。\n\n\n\n\n\n\n\n\n変数名\n概要\n\n\n\n\n–prim-color\nメインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。\n\n\n–sec-color\nサブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。\n\n\n–color-background\n全体の背景の色です。ページタイトルの文字色にも使われています。\n\n\n–color-foreground\n文字の色です。\n\n\n–color-link\nリンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。\n\n\n\n\n色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。\nメインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。\n\n\n\nタイトルページ\n\nタイトルページは、次のように書きます。\nタイトル/サブタイトルは &lt;br&gt; で改行ができます\n\n&lt;!--\n_class: title-page\n_paginate: false\n_footer: ''\n--&gt;\n\n### 日付 | 報告の場所\n# 報告タイトル\n## 報告サブタイトル\n\n\n&lt;div class=\"author-block\" markdown=\"1\"&gt;\n\n### あなたの名前\nあなたの所属\nあなたの email、twitter、github、etc...\n\n&lt;/div&gt;\n\n\n\nフッタを表示する\n\n各ページのディレクティブ (&lt;!-- --&gt; で囲まれている部分) に _footnote: '' と書かなければ、フッタが表示されます。\nフッタの内容は、yaml ヘッダの footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;' で指定できます\n\n - ちなみにページ番号の部分は _pageniate: false と書けば消えます\n\n\nヘッダを表示する\n\n各ページのディレクティブに &lt;!--_header: 'hogehoge' --&gt; と書くと、ヘッダが表示されます。\nセクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。\n太字 (2つの**で囲む) は濃く、それ以外は不透明度が下がります。\nCSS のちからでは、自動的なナビゲーションは実装できません。無念。\n\n\n\n\nページのタイトル\n\n見出し2 (##) がページのタイトルになります\n1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません\n\n\n\n\n表を挿入する\n\n一般的な markdown 記法に従い表を挿入できます。\n見出し (header) 部分の上下と、表の一番下に線が引かれます。\n表全体を&lt;div class=\"table-container\"&gt; と &lt;/div&gt; で囲むと7割くらいの大きさになります。\n\n\n\n\nコードブロックを挿入する\n\nインライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります\n2つの “```” で囲まれた部分は、大きなコードブロックになります。\n\n\n\n\n見出し付きのブロックを挿入する\n\n以下のようなコードを書くことで、見出し付きのブロックを挿入できます。\n\n\n&lt;div class=\"block\"&gt;\n  &lt;div class=\"block-title\"&gt;タイトル&lt;/div&gt;\n  &lt;div class=\"block-content\"&gt;本文&lt;/div&gt;\n&lt;/div&gt;\n\n\nブロック内でもマークダウン記法が有効です。\n\nもちろん、\\(\\TeX\\) 記法で数式を含めることもできます。\n\n\n\n\n参考文献のページを作る\n\nディレクティブに _class: ref と書くことで、参考文献のページを作ることができます\n参考文献のページは、セリフ体で文字を小さめにしています。\n通常の論文のように、ぶら下げインデントを再現しています。"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "研究室の机",
-    "section": "",
-    "text": "見たな…………？"
-  },
-  {
-    "objectID": "index.html#はじめて研究をしたときに知りたかったこと",
-    "href": "index.html#はじめて研究をしたときに知りたかったこと",
-    "title": "研究室の机",
-    "section": "はじめて研究をしたときに知りたかったこと",
-    "text": "はじめて研究をしたときに知りたかったこと\n\n研究計画書の書き方\n先行研究の探し方、まとめ方"
-  },
-  {
-    "objectID": "index.html#執筆に役に立つかもしれないこと",
-    "href": "index.html#執筆に役に立つかもしれないこと",
-    "title": "研究室の机",
-    "section": "執筆に役に立つかもしれないこと",
-    "text": "執筆に役に立つかもしれないこと\n\n卒論・修論の体裁 Tips\nAPAスタイルのチートシート"
-  },
-  {
-    "objectID": "posts/typst.html",
-    "href": "posts/typst.html",
-    "title": "Typst は刺さらなかった話",
-    "section": "",
-    "text": "私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。\nそんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。\n新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！"
-  },
-  {
-    "objectID": "posts/typst.html#typst-のここがすごい",
-    "href": "posts/typst.html#typst-のここがすごい",
-    "title": "Typst は刺さらなかった話",
-    "section": "Typst のここがすごい",
-    "text": "Typst のここがすごい\n\nコンパイルが早い\nLaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。\nその点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。\nコンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。"
-  },
-  {
-    "objectID": "posts/typst.html#typst-のここがもう少し",
-    "href": "posts/typst.html#typst-のここがもう少し",
-    "title": "Typst は刺さらなかった話",
-    "section": "Typst のここがもう少し",
-    "text": "Typst のここがもう少し\n「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。\n\nパッケージが少なすぎる\nやはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。\nまた、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。\n\n\nPDF を図として取り込めない\nこれはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。"
-  },
-  {
-    "objectID": "posts/typst.html#結論",
-    "href": "posts/typst.html#結論",
-    "title": "Typst は刺さらなかった話",
-    "section": "結論",
-    "text": "結論\n結論として、卒論・レポートなどの論文執筆には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。\n一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。"
-  },
-  {
-    "objectID": "posts/literature.html",
-    "href": "posts/literature.html",
-    "title": "先行研究の探し方、まとめ方",
-    "section": "",
-    "text": "先日、大学院の仲間と共同で主催している自主ゼミで研究報告会がありました。それに合わせて、「論文の書き始め方」というワークショップを開催しました。そこで共同主催者の同期が「先行研究の探し方、まとめ方」という題目で報告をしてくれたのですが、その時のスライド資料をここで掲載します。中島さん、素敵な報告をしていただき、また資料の公開をご快諾いただきありがとうございました！\n\n\n中島 崇裕 / Takahiro Nakajima\n一橋大学大学院法学研究科修士課程。専攻は国際関係論、研究関心は国際規範、民主主義・人権、LGBTQ＋の権利。2022年から一橋大学グローバル・ガバナンス研究センター（GGR）でリサーチアシスタントを務める。また、2024年からは、LGBTQ＋の学生とアライが利用できる一橋大学のセーファースペースの運営に携わる。(文章・写真ともに一橋大学 GGR のウェブサイトによる。)"
   },
   {
     "objectID": "posts/apa-style.html",
