@@ -1,7 +1,7 @@
 ---
 title: "Marp のテーマを作ってみた"
 date: "2025-08-16"
-categories: [Tech, Writing]
+categories: [tech, writing]
 description: "研究報告で使うためのプレゼンのテーマ 'Rojina' を作りました。"
 aliases:
   - /page/posts/rojina-theme.html

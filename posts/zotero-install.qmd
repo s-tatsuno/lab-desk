@@ -72,7 +72,7 @@ Windows, MacOS, Linux のいずれも対応しています[^linux]。
 - [Chrome の拡張機能](https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=ja&pli=1)
 - [Firefox の拡張機能](https://www.zotero.org/download/)
     - Firefoxをデフォルトブラウザにしている場合、Zotero のインストール後に勝手に起動します。
-- [Safari の拡張機能] (https://www.zotero.org/support/kb/safari_compatibility)
+- [Safari の拡張機能](https://www.zotero.org/support/kb/safari_compatibility)
 
 ### Zotero を起動して、初期設定する
 Zotero がインストールできたら、ひとまず起動してみます。
