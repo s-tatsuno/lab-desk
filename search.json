@@ -18,7 +18,7 @@
     "href": "index.html#執筆に役に立つかもしれないこと",
     "title": "研究室の机",
     "section": "執筆に役に立つかもしれないこと",
-    "text": "執筆に役に立つかもしれないこと\n\n卒論・修論の体裁 Tips\nAPAスタイルのチートシート"
+    "text": "執筆に役に立つかもしれないこと\n\n卒論・修論の体裁 Tips\nAPAスタイルのチートシート\nZotero の使い方（インストール編）"
   },
   {
     "objectID": "posts/tips.html",
@@ -200,7 +200,7 @@
     "href": "blog.html",
     "title": "メモあつめ",
     "section": "",
-    "text": "トップページで紹介していない記事を含む、すべての記事の一覧です。\n\n\n\n\n\n\n   \n    \n    \n      並び替え\n      デフォルト\n      \n        題名\n      \n      \n        日付 - 日付（昇順）\n      \n      \n        日付 - 日付（降順）\n      \n      \n        作者\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nZotero を使おう：文献を集める\n\n\n\ntech\n\nwriting\n\n\n\n文献管理ソフト「Zotero」の、一番さいしょの使い方を説明します。\n\n\n\n\n\n2026/03/31\n\n\n\n\n\n\n\n\n\n\n\n\n私の Arch Linux 初期設定\n\n\n\ntech\n\n\n\nArch Linux をインストールするたびにする初期設定の備忘録です。\n\n\n\n\n\n2026/03/28\n\n\n\n\n\n\n\n\n\n\n\n\nTypst は刺さらなかった話\n\n\n\nTech\n\nWriting\n\n\n\n新しい組版「typst」はまだいいかな…\n\n\n\n\n\n2025/10/10\n\n\n\n\n\n\n\n\n\n\n\n\nMarp のテーマを作ってみた\n\n\n\ntech\n\nwriting\n\n\n\n研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。\n\n\n\n\n\n2025/08/16\n\n\n\n\n\n\n\n\n\n\n\n\n先行研究の探し方、まとめ方\n\n\n\nwriting\n\n\n\n友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。\n\n\n\n\n\n2025/07/31\n\n\n\n\n\n\n\n\n\n\n\n\n(卒論・修論のための) 研究計画書の書き方\n\n\n\nwriting\n\nresearch\n\n\n\nこのページでは、研究室の机の上に散乱しているメモやノートをまとめています。\n\n\n\n\n\n2025/07/31\n\n\n\n\n\n\n\n\n\n\n\n\n卒論・修論の体裁 Tips\n\n\n\nwriting\n\nlab\n\n\n\n卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n\n\n\n\n2025/03/01\n\n\n\n\n\n\n\n\n\n\n\n\nAPA スタイルでの引用方法\n\n\n\nwriting\n\n\n\nAPA スタイル参考文献情報を書く方法のチートシートです。\n\n\n\n\n\n2024/06/29\n\n\n\n\n\n一致なし"
+    "text": "トップページで紹介していない記事を含む、すべての記事の一覧です。\n\n\n\n\n\n\n   \n    \n    \n      並び替え\n      デフォルト\n      \n        題名\n      \n      \n        日付 - 日付（昇順）\n      \n      \n        日付 - 日付（降順）\n      \n      \n        作者\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nZotero を使おう：文献を集める\n\n\n\ntech\n\nwriting\n\n\n\n文献管理ソフト「Zotero」の、一番さいしょの使い方を説明します。\n\n\n\n\n\n2026/03/31\n\n\n\n\n\n\n\n\n\n\n\n\n私の Arch Linux 初期設定\n\n\n\ntech\n\n\n\nArch Linux をインストールするたびにする初期設定の備忘録です。\n\n\n\n\n\n2026/03/28\n\n\n\n\n\n\n\n\n\n\n\n\nTypst は刺さらなかった話\n\n\n\ntech\n\nwriting\n\n\n\n新しい組版「typst」はまだいいかな…\n\n\n\n\n\n2025/10/10\n\n\n\n\n\n\n\n\n\n\n\n\nMarp のテーマを作ってみた\n\n\n\ntech\n\nwriting\n\n\n\n研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。\n\n\n\n\n\n2025/08/16\n\n\n\n\n\n\n\n\n\n\n\n\n先行研究の探し方、まとめ方\n\n\n\nwriting\n\n\n\n友人が、先行研究を探したりまとめたりする方法とコツを解説してくれました。\n\n\n\n\n\n2025/07/31\n\n\n\n\n\n\n\n\n\n\n\n\n(卒論・修論のための) 研究計画書の書き方\n\n\n\nwriting\n\nresearch\n\n\n\nこのページでは、研究室の机の上に散乱しているメモやノートをまとめています。\n\n\n\n\n\n2025/07/31\n\n\n\n\n\n\n\n\n\n\n\n\n卒論・修論の体裁 Tips\n\n\n\nwriting\n\nlab\n\n\n\n卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。\n\n\n\n\n\n2025/03/01\n\n\n\n\n\n\n\n\n\n\n\n\nAPA スタイルでの引用方法\n\n\n\nwriting\n\n\n\nAPA スタイル参考文献情報を書く方法のチートシートです。\n\n\n\n\n\n2024/06/29\n\n\n\n\n\n一致なし"
   },
   {
     "objectID": "drafts/quantitative_method.html",
@@ -312,7 +312,7 @@
     "href": "posts/zotero-install.html#まとめ",
     "title": "Zotero を使おう：文献を集める",
     "section": "まとめ",
-    "text": "まとめ\nこの記事では、Zotero のインストールから、文献の取り込み、整理までを紹介しました。 取り込み方法をまとめると、以下のようになります。\n\n\n\n\n\n\n\n\n\n\n方法\n手軽さ\n正確さ\n備考\n\n\n\n\n識別子 (DOI/ISBN)\n◎\n◎\n最も安定。DOI/ISBN がある文献向け\n\n\nZotero Connector\n◎\n○\nワンクリックで楽。サイトによっては不正確\n\n\nPDF ドラッグ＆ドロップ\n○\n△〜○\n手元に PDF があるとき。精度はまちまち\n\n\nデータベースからエクスポート\n△\n○\nConnector が使えないときの代替手段\n\n\n手入力\n×\n—\n最終手段。Book Section 等では避けられない\n\n\n\n\nおすすめは、識別子（DOI / ISBN）での取り込みを基本にしつつ、Connector も併用することです。 うまくいかないときに、他の方法を使います。\nいずれの方法でも大切なのは、取り込んだ後に書誌情報が正しいか確認すること*です。 自動取り込みは便利ですが、万能ではありません。 特に著者名、出版年、文献の種類 (Item Type) が間違っていると、引用時に困ります。\n次回の記事では、取り込んだ文献を実際に論文で引用し、参考文献リストを自動的に作成する方法を説明します。"
+    "text": "まとめ\nこの記事では、Zotero のインストールから、文献の取り込み、整理までを紹介しました。 取り込み方法をまとめると、以下のようになります。\n\n\n\n\n\n\n\n\n\n\n方法\n手軽さ\n正確さ\n備考\n\n\n\n\n識別子 (DOI/ISBN)\n◎\n◎\n最も安定。DOI/ISBN がある文献向け\n\n\nZotero Connector\n◎\n○\nワンクリックで楽。サイトによっては不正確\n\n\nPDF ドラッグ＆ドロップ\n○\n△〜○\n手元に PDF があるとき。精度はまちまち\n\n\nデータベースからエクスポート\n△\n○\nConnector が使えないときの代替手段\n\n\n手入力\n×\n—\n最終手段。Book Section 等では避けられない\n\n\n\n\nおすすめは、識別子（DOI / ISBN）での取り込みを基本にしつつ、Connector も併用することです。 うまくいかないときに、他の方法を使います。\nいずれの方法でも大切なのは、取り込んだ後に書誌情報が正しいか確認することです。 自動取り込みは便利ですが、万能ではありません。 特に著者名、出版年、文献の種類 (Item Type) が間違っていると、引用時に困ります。\n次回の記事では、取り込んだ文献を実際に論文で引用し、参考文献リストを自動的に作成する方法を説明します。"
   },
   {
     "objectID": "posts/zotero-install.html#footnotes",
