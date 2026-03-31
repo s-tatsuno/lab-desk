@@ -366,6 +366,18 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="パッケージ関連の注意点-随時追加">パッケージ関連の注意点 (随時追加)</h3>
 <ul>
 <li>依存関係のエラーが出るときは、 <code>install.packages()</code> の引数に <code>dependencies = TRUE</code> を入れるとよい。</li>
+<li>gcc-fortran を入れておくのがいい。
+<ul>
+<li><code>sudo pacman -S gcc-fortran</code></li>
+</ul></li>
+<li>gdal も入れておくべき (sf とかのため)
+<ul>
+<li><code>sudo pacman -S gdal</code></li>
+</ul></li>
+<li>udunits も入れておいたほうがいい (units パッケージのため)
+<ul>
+<li><code>yay -S udunits</code></li>
+</ul></li>
 <li><code>tidyverse</code> をインストールしようとすると手こずることが多い。さきに <code>stringi</code> パッケージをインストールするのがよい。</li>
 <li><code>V8</code> 関連のエラーも多い。コンピュータに <code>imagemagick</code> をインストールするのと、静的ビルドを有効にする。
 <ul>

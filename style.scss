@@ -43,7 +43,7 @@ body.font-default {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Helvetica, 'Noto Sans Japanese';
+  font-family: Arial, Helvetica, 'Noto Sans JP';
 }
 
 #title-block-header {
@@ -186,4 +186,18 @@ h1, h2, h3, h4, h5, h6 {
 
 .quarto-categories {
   gap: 0.6rem;
+}
+
+/* -- リスト -- */
+.aligned-list table {
+  border: none;
+  td, th {
+    border: none;
+    background: transparent;
+    vertical-align: top;
+    padding: 0.4em 0.5em;
+  }
+  tr { border-bottom: 1px splid #e0e0e0; }
+  tr:last-child { border-bottom: none; }
+  margin-bottom: 2.5em;
 }

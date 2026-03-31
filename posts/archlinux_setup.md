@@ -158,6 +158,12 @@ session    required     pam_unix.so
 
 ### パッケージ関連の注意点 (随時追加)
 - 依存関係のエラーが出るときは、 `install.packages()` の引数に `dependencies = TRUE` を入れるとよい。
+- gcc-fortran を入れておくのがいい。
+    - `sudo pacman -S gcc-fortran`
+- gdal も入れておくべき (sf とかのため)
+    - `sudo pacman -S gdal`
+- udunits も入れておいたほうがいい (units パッケージのため)
+    - `yay -S udunits`
 - `tidyverse` をインストールしようとすると手こずることが多い。さきに `stringi` パッケージをインストールするのがよい。
 - `V8` 関連のエラーも多い。コンピュータに `imagemagick` をインストールするのと、静的ビルドを有効にする。
     - `sudo pacman -S imagemagick`
