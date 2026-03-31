@@ -1,7 +1,8 @@
 ---
 title: "Typst は刺さらなかった話"
 date: "2025-10-10"
-categories: [Tech, Writing]
+categories: [tech, writing]
+image: "/assets/image/cover/typst.png"
 description: "新しい組版「typst」はまだいいかな…"
 aliases:
     - /page/posts/typst.html

@@ -27,4 +27,4 @@ navbar:
 ## 執筆に役に立つかもしれないこと
 - [卒論・修論の体裁 Tips](/posts/tips.qmd)
 - [APAスタイルのチートシート](/posts/apa-style.qmd)
-
+- [Zotero の使い方（インストール編）](/posts/zotero-install.qmd)

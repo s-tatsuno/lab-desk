@@ -2,6 +2,7 @@
 title: "私の Arch Linux 初期設定"
 date: "2026-03-28"
 categories: [tech]
+image: "/assets/image/cover/archlinux.png"
 description: "Arch Linux をインストールするたびにする初期設定の備忘録です。"
 ---
 

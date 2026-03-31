@@ -126,13 +126,13 @@ _footer: ''
 </div>
 ```
 
-![](../../assets/image/title-page.png)
+![](../assets/image/title-page.png)
 
 ### フッタを表示する
 - 各ページのディレクティブ (`<!-- -->` で囲まれている部分) に `_footnote: ''` と書かなければ、フッタが表示されます。
 - フッタの内容は、yaml ヘッダの `footer: '<div>氏名</div><div>報告タイトル</div>'` で指定できます
 
-![](../../assets/image/footer.png)
+![](../assets/image/footer.png)
 - ちなみにページ番号の部分は `_pageniate: false` と書けば消えます
 
 ### ヘッダを表示する
@@ -141,26 +141,26 @@ _footer: ''
 - 太字 (2つの`**`で囲む) は濃く、それ以外は不透明度が下がります。
 - CSS のちからでは、自動的なナビゲーションは実装できません。無念。
 
-![](../../assets/image/header.png)
+![](../assets/image/header.png)
 
 ### ページのタイトル
 - 見出し2 (`##`) がページのタイトルになります
 - 1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません
 
-![](../../assets/image/heading2.png)
+![](../assets/image/heading2.png)
 
 ### 表を挿入する
 - 一般的な markdown 記法に従い表を挿入できます。
 - 見出し (header) 部分の上下と、表の一番下に線が引かれます。
 - 表全体を`<div class="table-container">` と `</div>` で囲むと7割くらいの大きさになります。
 
-![](../../assets/image/table.png)
+![](../assets/image/table.png)
 
 ### コードブロックを挿入する
 - インライン (文中) コードは、2つの "`" (バッククォート) で囲むことで、背景と文字がそれっぽくなります
 - 2つの "```" で囲まれた部分は、大きなコードブロックになります。
 
-![](../../assets/image/code.png)
+![](../assets/image/code.png)
 
 ### 見出し付きのブロックを挿入する
 - 以下のようなコードを書くことで、見出し付きのブロックを挿入できます。
@@ -174,7 +174,7 @@ _footer: ''
 ```
 
 
-![](../../assets/image/block.png)
+![](../assets/image/block.png)
 
 - ブロック内でもマークダウン記法が有効です。
   - もちろん、$\TeX$ 記法で数式を含めることもできます。
