@@ -24,6 +24,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -43,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-b306e1a03b99da0225fcadf7ffeda8ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-3d150084f706662a14f10f6985dc51db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -166,6 +201,7 @@ window.Quarto = {
   <li><a href="#はじめに" id="toc-はじめに" class="nav-link active" data-scroll-target="#はじめに">はじめに</a>
   <ul class="collapse">
   <li><a href="#前回のおさらい" id="toc-前回のおさらい" class="nav-link" data-scroll-target="#前回のおさらい">前回のおさらい</a></li>
+  <li><a href="#今回やること" id="toc-今回やること" class="nav-link" data-scroll-target="#今回やること">今回やること</a></li>
   </ul></li>
   <li><a href="#引用スタイルを選ぶ" id="toc-引用スタイルを選ぶ" class="nav-link" data-scroll-target="#引用スタイルを選ぶ">引用スタイルを選ぶ</a></li>
   <li><a href="#word-で引用する" id="toc-word-で引用する" class="nav-link" data-scroll-target="#word-で引用する">Word で引用する</a>
@@ -178,7 +214,7 @@ window.Quarto = {
   </ul></li>
   <li><a href="#google-docs-で引用する" id="toc-google-docs-で引用する" class="nav-link" data-scroll-target="#google-docs-で引用する">Google Docs で引用する</a>
   <ul class="collapse">
-  <li><a href="#word-と-zotero-の連携-1" id="toc-word-と-zotero-の連携-1" class="nav-link" data-scroll-target="#word-と-zotero-の連携-1">Word と Zotero の連携</a></li>
+  <li><a href="#google-docs-と-zotero-の連携" id="toc-google-docs-と-zotero-の連携" class="nav-link" data-scroll-target="#google-docs-と-zotero-の連携">Google Docs と Zotero の連携</a></li>
   <li><a href="#文中で引用する-1" id="toc-文中で引用する-1" class="nav-link" data-scroll-target="#文中で引用する-1">文中で引用する</a></li>
   <li><a href="#括弧内引用する-1" id="toc-括弧内引用する-1" class="nav-link" data-scroll-target="#括弧内引用する-1">括弧内引用する</a></li>
   <li><a href="#テキスト内引用する-1" id="toc-テキスト内引用する-1" class="nav-link" data-scroll-target="#テキスト内引用する-1">テキスト内引用する</a></li>
@@ -214,7 +250,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">公開</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026年4月1日</p>
+      <p class="date">2026年4月2日</p>
     </div>
   </div>
   
@@ -238,10 +274,15 @@ window.Quarto = {
 <figcaption>Zotero を使おう：文献を集める</figcaption>
 </figure>
 </div>
-<p><a href="./zotero-collect.qmd"><strong>Zotero を使おう：文献を集める</strong></a></p>
+<p><a href="../posts/zotero-cite.html"><strong>Zotero を使おう：文献を集める</strong></a></p>
 <p>文献管理ソフト「Zotero」の、一番さいしょの使い方を説明します。</p>
 </div>
-<p>前回の記事では、Zotero をインストールし、文献を収集する方法までを説明しました。 今回の記事は、収集した文献を実際に文章中に引用し、文献リストを作成するところまで扱います。</p>
+<p>前回の記事では、Zotero をインストールし、文献を収集する方法までを説明しました。</p>
+</section>
+<section id="今回やること" class="level3">
+<h3 class="anchored" data-anchor-id="今回やること">今回やること</h3>
+<p>今回の記事は、収集した文献を実際に文章中に引用し、文献リストを作成するところまで扱います。 Word・Google Docs・Typst・<span class="math inline">\(\LaTeX\)</span> の4つのツールで、引用を行う方法を説明しています。 使用するツールのセクションだけお読みいただければ、わかるようになっています。</p>
+<p>なお、すべての操作は、Zotero アプリを開いた状態で行ってください。</p>
 </section>
 </section>
 <section id="引用スタイルを選ぶ" class="level2">
@@ -331,27 +372,27 @@ window.Quarto = {
 <section id="google-docs-で引用する" class="level2">
 <h2 class="anchored" data-anchor-id="google-docs-で引用する">Google Docs で引用する</h2>
 <p>Word に次いで、最近使用する方が多いと思うのが、Google Docs です。 私もたまに使います。</p>
-<section id="word-と-zotero-の連携-1" class="level3">
-<h3 class="anchored" data-anchor-id="word-と-zotero-の連携-1">Word と Zotero の連携</h3>
+<section id="google-docs-と-zotero-の連携" class="level3">
+<h3 class="anchored" data-anchor-id="google-docs-と-zotero-の連携">Google Docs と Zotero の連携</h3>
 <p>Google Docs は基本的にブラウザ上で操作しますが、そのブラウザに Zotero Connector がインストールされていることが前提になります。 Zotero Connector のインストール方法は前回の記事をご覧ください。 最も簡単なのは、Zotero の「ツール (Tools)」から、Browser Connector をインストールするという項目を選択することです。</p>
 <p>Zotero Connector がインストールされたブラウザで Google Docs を開くと、上部に Zotero というタブが追加されているはずです。</p>
 </section>
 <section id="文中で引用する-1" class="level3">
 <h3 class="anchored" data-anchor-id="文中で引用する-1">文中で引用する</h3>
 <p>実際に文章を書きながら、文献を引用してみます。</p>
-<p>Word の画面上部から「Zotero」タブをクリックし、Add/Edit Citation を選択します。 初回時ログインを求められるので、Google Docs を開いている Google アカウントでログインしてください。</p>
+<p>Docs の画面上部から「Zotero」タブをクリックし、Add/Edit Citation を選択します。 初回時ログインを求められるので、Google Docs を開いている Google アカウントでログインしてください。</p>
 <p>スタイルを選択できるので、 APA Style 7th edition を選択します。言語は英語とすることに注意。 「出典表記を自動的に更新する」にはチェックを入れておきます。 そのうえで、「OK」をクリックします。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/image/zotero-docs-pref.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word の設定</figcaption>
+<figcaption>Zotero on Google Docs の設定</figcaption>
 </figure>
 </div>
 <p>すると、文献を探すウィンドウが開きます。ここでは試しに、Fearon (1995) を引用してみます。著者名やタイトルの一部を記入すると、候補に出てきます。そのままエンターを押すか、文献をクリックすると、下の画像のように、文献が選択された状態になります。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/image/zotero-docs-fearon.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word で文献を追加する</figcaption>
+<figcaption>Zotero on Google Docs で文献を追加する</figcaption>
 </figure>
 </div>
 <p>更にエンターを押すと、文書の中に (Fearon, 1995) という文字列が自動的に追加されました。これが、基本的な引用の方法です。</p>
@@ -362,23 +403,23 @@ window.Quarto = {
 <p>文献によっては、括弧内にページ数などを追加したい場合があると思います。その場合は、Add/Edit Citation で文献を選択したあと、文献の横にある、下向きの三角形のマークを押します。すると、次のようなフィールドが出現し、ページなどを追加することができます。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../assets/image/zotero-word-page.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word でページを追加する</figcaption>
+<p><img src="../assets/image/zotero-docs-page.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docsでページを追加する</figcaption>
 </figure>
 </div>
 <p>また、Prefix は括弧の冒頭、Suffix は括弧の終わりに文字列を手動で追加するものです。例えば、「訳は著者による」などがあるでしょうか。</p>
 <p>複数の文献を引用する際は、Add/Edit Citation で複数の文献を選択した状態でエンターを押します。選択した順番に限らず、第一著者の名前のアルファベット順に並びます （右下の「Keep sources sorted」にチェックが付いていることが必要）。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../assets/image/zotero-word-multi.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word で複数の文献を引用する</figcaption>
+<p><img src="../assets/image/zotero-docs-multi.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs で複数の文献を引用する</figcaption>
 </figure>
 </div>
 <p>なお、引用部分は手書きで修正することはできません <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>。 修正したい場合は、引用の括弧を選択した際に出る編集のボタンを押します。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../assets/image/zotero-docs-edit.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word で引用内容を編集する</figcaption>
+<figcaption>Zotero on Google Docs で引用内容を編集する</figcaption>
 </figure>
 </div>
 </section>
@@ -388,31 +429,69 @@ window.Quarto = {
 <p>括弧内引用と同様、Add/Edit Citation を開き、文献を選択して文献の横にある、下向きの三角形のマークを押します。すると、「著者名を省略」というチェックボックスがあります。これにチェックを入れると、例えば Fearon (1995) なら「(1995)」だけが挿入されます。そのため、括弧の直前に、自ら著者の名前をタイプする必要があります。</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../assets/image/zotero-word-intext.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word でテキスト内引用する</figcaption>
+<p><img src="../assets/image/zotero-docs-intext.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs でテキスト内引用する</figcaption>
 </figure>
 </div>
 </section>
 <section id="文献リストを作る-1" class="level3">
 <h3 class="anchored" data-anchor-id="文献リストを作る-1">文献リストを作る</h3>
 <p>さて、上記の方法でいくつかの文献を引用したら、最後に文献リストを追加します。</p>
-<p>文末にカーソルを移動して、画面上部の Zotero タブ内の「Add/Edit Bibliography」をクリックします。すると、適当な見た目の文献リストが追加されます。このあと、リスト全体を選択した状態でWord の段落設定からぶら下げインデントと行間を設定します。 この点は、執筆者の納得の行く見た目になるまで試行錯誤するのがよいと思います。</p>
+<p>文末にカーソルを移動して、画面上部の Zotero タブ内の「Add/Edit Bibliography」をクリックします。すると、適当な見た目の文献リストが追加されます。このあと、リスト全体を選択した状態で Docs の段落設定からぶら下げインデントと行間を設定します。 この点は、執筆者の納得の行く見た目になるまで試行錯誤するのがよいと思います。</p>
 <p>この方法でリストを作成すると、引用した文献が過不足なくリストに追加されます。嬉しい。ただし、手書きで追加した文献はリストに含まれませんので、注意してください。</p>
-<p>最終的に、例えば以下のようなドキュメントが完成します。</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../assets/image/zotero-word.png" class="img-fluid figure-img"></p>
-<figcaption>Zotero on Word の完成形</figcaption>
-</figure>
-</div>
 <p>なお、文献を追加したり削除したりした場合、Zotero タブの「Refresh」を押すことで文献リストを更新することができます。嬉しい。</p>
 </section>
 </section>
 <section id="typst-で引用する" class="level2">
 <h2 class="anchored" data-anchor-id="typst-で引用する">Typst で引用する</h2>
+<p>まず、前回の記事で説明した通り、Better BibTeX をインストールします。 インストールできていれば、ツール &gt; プラグインの画面で次のように表示されているはずです。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/image/zotero-better.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX プラグイン</figcaption>
+</figure>
+</div>
+<p>Better BibTeX が有効化された状態で、Zotero のコレクションを右クリックし、 「Export Collection…」を選択します。 形式を問われるので「Better BibTeX」を選択し、OKを押すと、.bib ファイルが任意の場所にダウンロードされます。 ちなみに、「Keep updated」にチェックをすると、コレクション内の情報に変更が加えられるたびに、更新された BibTeX ファイルを作成してエクスポートします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/image/zotero-bib-export.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX を選択</figcaption>
+</figure>
+</div>
+<p>なお、.bib ファイルは、執筆しているフォルダに保存するのがよいです。 そうすることで、参照もしやすいですから。</p>
+<p>.bib ファイルが用意できたら、Typst 文書の冒頭に次のように記述して読み込みます。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode typst code-with-copy"><code class="sourceCode typst"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">#</span>bibliography<span class="op">(</span><span class="st">"references.bib"</span><span class="op">,</span> style<span class="op">:</span> <span class="st">"apa"</span><span class="op">)</span></span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>文中で引用するときは、<code>@citekey</code> の形式で記述します。 citekey は、Zotero の各文献に表示されている引用キー (citation key) のことです。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode typst code-with-copy"><code class="sourceCode typst"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>国家間の戦争の原因については諸説ある <span class="va">@fearon1995</span>。</span></code></pre></div><button title="コピー" class="code-copy-button"><i class="bi"></i></button></div>
+<p>参考文献リストは、<code>#bibliography()</code> を記述した箇所に、自動的に生成されます。 なお、Typst の引用機能の詳細については、下記を参照してください。</p>
+<ul>
+<li>Typst 公式ドキュメント「<a href="https://typst.app/docs/reference/model/bibliography/">Bibliography</a>」</li>
+</ul>
 </section>
 <section id="latex-で引用する" class="level2">
 <h2 class="anchored" data-anchor-id="latex-で引用する"><span class="math inline">\(\LaTeX\)</span> で引用する</h2>
+<p><span class="math inline">\(\LaTeX\)</span> を使っている人は、ある程度機械操作やプログラミングに詳しいと思うので、簡潔に説明します。</p>
+<p>まず、前回の記事で説明したとおり、Better BibTeX をインストールします。 ツール &gt; プラグインの画面で次のように表示されているはずです。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/image/zotero-better.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX プラグイン</figcaption>
+</figure>
+</div>
+<p>Better BibTeX が有効化された状態で、Zotero のコレクションを右クリックし、 「Export Collection…」を選択します。 形式を問われるので「Better BibTeX」を選択し、OKを押すと、.bib ファイルが任意の場所にダウンロードされます。 ちなみに、「Keep updated」にチェックをすると、コレクション内の情報に変更が加えられるたびに、更新された BibTeX ファイルを作成してエクスポートします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/image/zotero-bib-export.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX を選択</figcaption>
+</figure>
+</div>
+<p>なお、.bib ファイルは、執筆しているフォルダに保存するのがよいです。 そうすることで、参照もしやすいですから。</p>
+<p>あとは、<span class="math inline">\(\LaTeX\)</span> 文書内で、BibTeX ファイルを参照するだけです。 <span class="math inline">\(\LaTeX\)</span> 文書内で <code>.bib</code> を扱う方法は、下記のページを参照してください。</p>
+<ul>
+<li>TEX Wiki「<a href="https://texwiki.texjp.org/?%E6%96%87%E7%8C%AE%E5%BC%95%E7%94%A8">文献引用</a>」</li>
+<li>TEX Wiki「<a href="https://texwiki.texjp.org/?BibTeX%E9%96%A2%E9%80%A3%E3%83%84%E3%83%BC%E3%83%AB">BibTeX 関連ツール</a>」</li>
+<li>TEX Wiki「<a href="https://texwiki.texjp.org/?Biblatex">BibLaTeX</a>」</li>
+</ul>
 
 
 </section>
