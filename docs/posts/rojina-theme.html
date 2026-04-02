@@ -113,13 +113,17 @@ window.Quarto = {
 
 <meta property="og:title" content="Marp のテーマを作ってみた – 研究室の机">
 <meta property="og:description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
-<meta property="og:image" content="https://stats1230.github.io/lab-desk/../assets/image/title-page.png">
+<meta property="og:image" content="https://stats1230.github.io/lab-desk/assets/image/title-page.png">
 <meta property="og:site_name" content="研究室の机">
+<meta property="og:image:height" content="573">
+<meta property="og:image:width" content="765">
 <meta name="twitter:title" content="Marp のテーマを作ってみた – 研究室の机">
 <meta name="twitter:description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
-<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/../assets/image/title-page.png">
+<meta name="twitter:image" content="https://stats1230.github.io/lab-desk/assets/image/title-page.png">
 <meta name="twitter:creator" content="@stats1230">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image-height" content="573">
+<meta name="twitter:image-width" content="765">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -377,7 +381,7 @@ _footer: ''
 あなたの email、twitter、github、etc...
 
 &lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/title-page.png" class="img-fluid"></p>
+<p><img src="../assets/image/title-page.png" class="img-fluid"></p>
 </section>
 <section id="フッタを表示する" class="level3">
 <h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
@@ -385,7 +389,7 @@ _footer: ''
 <li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
 <li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
 </ul>
-<p><img src="../../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
+<p><img src="../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
 </section>
 <section id="ヘッダを表示する" class="level3">
 <h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
@@ -395,7 +399,7 @@ _footer: ''
 <li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
 <li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
 </ul>
-<p><img src="../../assets/image/header.png" class="img-fluid"></p>
+<p><img src="../assets/image/header.png" class="img-fluid"></p>
 </section>
 <section id="ページのタイトル" class="level3">
 <h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
@@ -403,7 +407,7 @@ _footer: ''
 <li>見出し2 (<code>##</code>) がページのタイトルになります</li>
 <li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
 </ul>
-<p><img src="../../assets/image/heading2.png" class="img-fluid"></p>
+<p><img src="../assets/image/heading2.png" class="img-fluid"></p>
 </section>
 <section id="表を挿入する" class="level3">
 <h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
@@ -412,7 +416,7 @@ _footer: ''
 <li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
 <li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
 </ul>
-<p><img src="../../assets/image/table.png" class="img-fluid"></p>
+<p><img src="../assets/image/table.png" class="img-fluid"></p>
 </section>
 <section id="コードブロックを挿入する" class="level3">
 <h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
@@ -420,7 +424,7 @@ _footer: ''
 <li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
 <li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
 </ul>
-<p><img src="../../assets/image/code.png" class="img-fluid"></p>
+<p><img src="../assets/image/code.png" class="img-fluid"></p>
 </section>
 <section id="見出し付きのブロックを挿入する" class="level3">
 <h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
@@ -432,7 +436,7 @@ _footer: ''
   &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
   &lt;div class="block-content"&gt;本文&lt;/div&gt;
 &lt;/div&gt;</code></pre>
-<p><img src="../../assets/image/block.png" class="img-fluid"></p>
+<p><img src="../assets/image/block.png" class="img-fluid"></p>
 <ul>
 <li>ブロック内でもマークダウン記法が有効です。
 <ul>

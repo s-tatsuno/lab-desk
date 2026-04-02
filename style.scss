@@ -201,3 +201,64 @@ h1, h2, h3, h4, h5, h6 {
   tr:last-child { border-bottom: none; }
   margin-bottom: 2.5em;
 }
+
+
+
+/* -- 記事カード -- *//*-- scss:rules --*/
+.article-card {
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  grid-template-rows: auto auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+  margin: 1.5rem 0;
+
+  // 画像ブロック：左列、全行にまたがる
+  .quarto-figure {
+    grid-column: 1;
+    grid-row: 1 / -1;
+    margin: 0;
+
+    figure {
+      height: 100%;
+      margin: 0;
+
+      p {
+        height: 100%;
+        margin: 0;
+
+        a img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          display: block;
+        }
+      }
+    }
+
+    figcaption {
+      display: none;
+    }
+  }
+
+  // タイトル（1つ目のp）
+  & > p:nth-of-type(1) {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 1rem 1rem 0.25rem 1rem;
+    margin: 0;
+    align-self: end;
+  }
+
+  // 説明文（2つ目のp）
+  & > p:nth-of-type(2) {
+    grid-column: 2;
+    grid-row: 2;
+    padding: 0.25rem 1rem 1rem 1rem;
+    margin: 0;
+    align-self: start;
+    color: #666;
+    font-size: 0.9em;
+  }
+}

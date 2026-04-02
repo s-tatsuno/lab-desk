@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/posts/zotero-cite.html",
       "/posts/zotero-install.html",
       "/posts/archlinux_setup.html",
       "/posts/typst.html",

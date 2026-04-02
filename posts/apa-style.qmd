@@ -3,7 +3,7 @@ title: "APA スタイルでの引用方法"
 date: "2024-06-29"
 categories: [writing]
 description: "APA スタイル参考文献情報を書く方法のチートシートです。"
-image: "/assets/image/cover/apa-style.png"
+image: "../assets/image/cover/apa-style.png"
 aliases:
   - /page/apa-style.html
 ---

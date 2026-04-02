@@ -2,6 +2,7 @@
 title: "Zotero を使おう：文献を集める"
 date: "2026-03-31"
 categories: [tech, writing]
+image: "../assets/image/cover/zotero_1.png"
 description: "文献管理ソフト「Zotero」の、一番さいしょの使い方を説明します。"
 ---
 
