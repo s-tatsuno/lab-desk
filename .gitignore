@@ -3,4 +3,4 @@ _site/
 /.quarto/
 **/*.quarto_ipynb
 drafts/
-docs/drafts
+docs/

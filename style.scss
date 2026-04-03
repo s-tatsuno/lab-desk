@@ -12,11 +12,10 @@ $footer-bg: rgb(7, 71, 117);
 /*-- scss:rules --*/
 
 /* --- フォント設定 --- */
-/* タイトル用: Noto Sans Japanese(和文) */
+/* 見出し用: Noto Sans JP */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
 
-/* 本文用: Noto Sans(欧文), BIZ UDPGothic(和文) */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* 本文用: BIZ UDPGothic */
 @import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap');
 
 /* コード用: Fira Code */
@@ -34,16 +33,12 @@ code {
 }
 
 body {
-  font-family: 'Noto Sans', 'BIZ UDPGothic', Arial, Helvetica, sans-serif;
+  font-family: 'BIZ UDPGothic', sans-serif;
   line-height: 1.8rem;
 }
 
-body.font-default {
-  font-family: initial !important
-}
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: Arial, Helvetica, 'Noto Sans JP';
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 #title-block-header {
@@ -93,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   background-color: #fdfdfd;
-  overflow: break-word; 
+  overflow-wrap: break-word;
 
   .text-content {
     flex: 2;
@@ -164,7 +159,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
 // カテゴリバッジをスラッシュ付きテキストに変更
-.quarto-category {
+.quarto-category,
+.listing-category {
   background-color: transparent !important;
   border: none !important;
   border-radius: 0 !important;
@@ -172,7 +168,8 @@ h1, h2, h3, h4, h5, h6 {
   color: inherit !important;
   font-size: 0.9em !important;
   font-weight: 700;
-  text-transform: none !important;  // ← !important を追加
+  text-transform: none !important;
+  cursor: pointer;
 
   &::before {
     content: "/";
@@ -197,14 +194,14 @@ h1, h2, h3, h4, h5, h6 {
     vertical-align: top;
     padding: 0.4em 0.5em;
   }
-  tr { border-bottom: 1px splid #e0e0e0; }
+  tr { border-bottom: 1px solid #e0e0e0; }
   tr:last-child { border-bottom: none; }
   margin-bottom: 2.5em;
 }
 
 
 
-/* -- 記事カード -- *//*-- scss:rules --*/
+/* -- 記事カード -- */
 .article-card {
   display: grid;
   grid-template-columns: 35% 1fr;

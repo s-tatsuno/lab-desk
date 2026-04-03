@@ -7,7 +7,10 @@ project:
 
 website:
   title: "研究室の机"
+  search: true
   navbar:
+    pinned: true
+    search: true
     left:
       - href: blog.qmd
         text: メモあつめ
