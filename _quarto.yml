@@ -15,6 +15,8 @@ website:
       - href: blog.qmd
         text: メモあつめ
   site-url: "https://stats1230.github.io/lab-desk"
+  page-footer:
+    center: "© S. Tatsuno &nbsp;·&nbsp; Built with [Quarto](https://quarto.org) · [GitHub Pages](https://pages.github.com)"
   image: "assets/image/izu.JPG"
   google-analytics: "G-8WFETJ1CSL"
   open-graph: true

@@ -6,7 +6,7 @@ $link-color: $primary;
 $headings-color: #343a40;
 $navbar-bg: $primary;
 $navbar-fg: $body-bg;
-$footer-bg: rgb(7, 71, 117);
+$footer-bg: $primary;
 
 
 /*-- scss:rules --*/
@@ -45,13 +45,84 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 2em;
 }
 
+/* --- インデックスページ グラデーションヒーロー --- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.index-hero {
+  padding: 7em 2em 6em;
+  background: linear-gradient(140deg, #011824 0%, #03233a 50%, #0a1e30 100%);
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 2.5em;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, rgba(100, 160, 200, 0.5), transparent);
+  }
+}
+
+.index-hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  animation: fadeInUp 0.9s both;
+}
+
+.hero-blog-title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: clamp(2rem, 5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: white;
+  margin-bottom: 0.4em;
+}
+
+.hero-blog-subtitle {
+  font-size: 0.95rem;
+  line-height: 1.9;
+  opacity: 0.78;
+  letter-spacing: 0.03em;
+  margin-bottom: 0;
+}
+
+.btn-hero {
+  display: inline-block;
+  margin-top: 1.8em;
+  padding: 0.55em 1.8em;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  border-radius: 2em;
+  color: white;
+  font-size: 0.88rem;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition: background 0.25s, border-color 0.25s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.9);
+    color: white;
+    text-decoration: none;
+  }
+}
+
+
 /* --- ヒーローイメージ --- */
 .hero-image-container {
   position: relative;
-  margin-bottom: 2em;
-  padding: 4em 0;
+  margin-bottom: 0;
+  padding: 7em 2em 5em;
   clear: both;
   color: white;
+  text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center 45%;
@@ -65,9 +136,17 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     z-index: 1;
   }
+}
+
+.hero-inner-content {
+  position: relative;
+  z-index: 2;
+  max-width: 720px;
+  margin: 0 auto;
+  animation: fadeInUp 0.9s both;
 }
 
 .hero-caption {

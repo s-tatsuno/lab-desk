@@ -1,23 +1,32 @@
 ---
-title: "研究室の机"
-description: "このページでは、研究室の机の上に散乱しているメモやノートをまとめています。"
+title: ""
+description: "研究室の机の上に散乱しているメモやノートをまとめています。"
 image: "assets/image/izu.JPG"
 toc: false
-navbar:
-  background: primary
 ---
 
+:::{.column-screen .hero-image-container style="background-image: url(assets/image/izu.JPG);"}
+:::{.hero-inner-content}
 
-<div 
-  class="column-screen hero-image-container" 
-  style="background-image: url(assets/image/izu.JPG);">
-  <figcaption class="hero-caption">
-    見たな…………？
-  </figcaption>
-</div>
+:::{.hero-blog-title}
+研究室の机
+:::
+
+:::{.hero-blog-subtitle}
+研究室の机の上に散乱しているメモやノートをまとめています
+:::
+
+[すべての記事を見る](blog.qmd){.btn-hero}
+
+:::
+:::
+
+:::{.hero-caption}
+見たな…………？
+:::
 
 
-# このページはなに？
+## このページはなに？
 このページでは、研究室の机の上に散乱しているメモやノートをまとめています。主に将来の自分のための備忘録として執筆していますが、同じ研究室 (または同じ大学) の後輩の方にも役立つ情報をまとめられればいいなと思いっています。基本的には著者のブログです。
 
 ## はじめて研究をしたときに知りたかったこと
@@ -28,4 +37,9 @@ navbar:
 - [卒論・修論の体裁 Tips](/posts/tips.qmd)
 - [APAスタイルのチートシート](/posts/apa-style.qmd)
 - [Zotero の使い方（文献収集編）](/posts/zotero-install.qmd)
-- [Zotero の使い方 (文献引用編)](/posts/zotero-cite.qmd)
+- [Zotero の使い方（文献引用編）](/posts/zotero-cite.qmd)
+
+## ホームページ、できました
+著者のホームページを作りました。
+
+[https://s-tatsuno.github.io](https://s-tatsuno.github.io){target="_blank"}
