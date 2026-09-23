@@ -803,7 +803,7 @@
   <category>writing</category>
   <guid>https://stats1230.github.io/lab-desk/posts/chicago-ad.html</guid>
   <pubDate>Thu, 23 Apr 2026 15:00:00 GMT</pubDate>
-  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/chicago-ay.png" medium="image" type="image/png"/>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/chicago_ay.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>シカゴ・スタイルでの引用方法（注記式参考文献目録方式）</title>
@@ -1990,7 +1990,7 @@
   <category>writing</category>
   <guid>https://stats1230.github.io/lab-desk/posts/chicago-nb.html</guid>
   <pubDate>Thu, 23 Apr 2026 15:00:00 GMT</pubDate>
-  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/chicago-note.png" medium="image" type="image/png"/>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/chicago_note.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Zotero を使おう：文献を引用する</title>
