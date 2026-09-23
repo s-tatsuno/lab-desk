@@ -4,6 +4,7 @@ date: "2026-04-24"
 date-modified: "2026-04-24"
 categories: [writing]
 description: "シカゴ・スタイル（トゥラビアン・スタイル）の注記式参考文献目録方式（Notes-Bibliography Style）での引用方法のチートシートです。"
+image: "/assets/image/cover/chicago-note.png"
 ---
 
 この記事では、主に人文科学全般や一部の社会科学で用いられる引用スタイルである「シカゴ・スタイル」（トゥラビアン・スタイル / Turabian Style）の「注記式参考文献目録方式（Notes-Bibliography Style）」での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。
