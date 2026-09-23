@@ -1,0 +1,16 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{luatexja-fontspec}
+\usetikzlibrary{decorations.pathreplacing}
+
+\begin{document}
+    \begin{tikzpicture}
+        \draw (0,0)--(10,0);
+        \draw (0,0.3)--(0,-0.3);
+        \draw (10,0.3)--(10,-0.3);
+        \node[above] at (0,0.3) {$0$};
+        \node[above] at (10,0.3) {$1$};
+        \draw (5,0.2)--(5,-0.2) node[below] {$p - c_A$};
+        \draw (7.5,0.2)--(7.5,-0.2) node[below] {$p + c_B$};
+        \draw[decorate, decoration={brace, amplitude=6pt, raise=4pt}] (5.0,0.2)--(7.5,0.2) node[midway, above=12pt] {バーゲニング・レンジ};
+    \end{tikzpicture}
+\end{document}

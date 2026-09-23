@@ -1,0 +1,4256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>研究室の机</title>
+<link>https://stats1230.github.io/lab-desk/blog.html</link>
+<atom:link href="https://stats1230.github.io/lab-desk/blog.xml" rel="self" type="application/rss+xml"/>
+<description></description>
+<image>
+<url>https://stats1230.github.io/lab-desk/assets/image/izu.JPG</url>
+<title>研究室の机</title>
+<link>https://stats1230.github.io/lab-desk/blog.html</link>
+</image>
+<generator>quarto-1.10.18</generator>
+<lastBuildDate>Tue, 22 Sep 2026 15:00:00 GMT</lastBuildDate>
+<item>
+  <title>Zotero 講座</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/ggr-zotero.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>ご縁があって、大学の GGR (グローバル・ガバナンス研究センター) で Zotero の使い方を説明するワークショップをさせていただきます。 このページでは、ワークショップで使うスライドと、関連する記事などを掲載しています。</p>
+<section id="スライド" class="level2">
+<h2 class="anchored" data-anchor-id="スライド">スライド</h2>
+<div class="slide-deck">
+<div class="pdf-embed">
+<iframe src="../assets/files/260924_zotero-slide_tatsuno.pdf">
+</iframe>
+</div>
+</div>
+</section>
+<section id="関連する記事など" class="level2">
+<h2 class="anchored" data-anchor-id="関連する記事など">関連する記事など</h2>
+<section id="zotero" class="level3">
+<h3 class="anchored" data-anchor-id="zotero">Zotero</h3>
+<ul>
+<li><a href="https://www.zotero.org/">Zotero の公式ページ</a></li>
+<li><a href="https://www.zotero.org/download/">Zotero ダウンロードページ</a></li>
+<li><a href="https://www.zotero.org/support/">Zotero 公式ドキュメント</a></li>
+</ul>
+</section>
+<section id="zotero-関連の記事" class="level3">
+<h3 class="anchored" data-anchor-id="zotero-関連の記事">Zotero 関連の記事</h3>
+<ul>
+<li><a href="https://s-tatsuno.github.io/lab-desk/posts/zotero-install.html">Zotero を使おう：文献を集める</a></li>
+<li><a href="https://s-tatsuno.github.io/lab-desk/posts/zotero-cite.html">Zotero を使おう：文献を引用する</a></li>
+</ul>
+</section>
+<section id="スタイル関連の記事" class="level3">
+<h3 class="anchored" data-anchor-id="スタイル関連の記事">スタイル関連の記事</h3>
+<ul>
+<li><a href="https://s-tatsuno.github.io/lab-desk/posts/apa-style.html">APA スタイル（日英）</a></li>
+<li><a href="https://s-tatsuno.github.io/lab-desk/posts/chicago-nb.html">シカゴスタイル（注記式）</a></li>
+<li><a href="https://s-tatsuno.github.io/lab-desk/posts/chicago-ad.html">シカゴスタイル（著者年）</a></li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/ggr-zotero.html</guid>
+  <pubDate>Tue, 22 Sep 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>シカゴ・スタイルでの引用方法（著者年方式）</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/chicago-ad.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>この記事では、主に社会科学および自然科学、物理学で用いられる引用スタイルである「シカゴ・スタイル」（トゥラビアン・スタイル / Turabian Style）の「著者年方式（Author-Date Style）」での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。</p>
+<p>ケイト・L・トゥラビアン（Kate L. Turabian）（2012）『シカゴ・スタイル—研究論文執筆マニュアル—』沼口隆・沼口好雄訳、慶応義塾大学出版会（原著は2007）を参考に友人が作成したものを、微修正して記事にしています。掲載の許可をいただき、ありがとうございます。</p>
+<p>著者年方式では、資料の引用を示す手法として、参照した箇所の直後にカッコ入り出典（著者、出版年、関連するページ番号）を明示します。論文の最後の参照リストには、注で明示したあらゆる出典および、参照したが引用しなかった文献を含みます。</p>
+<p>もう一方の方式である「注記式参考文献目録方式（Notes-Bibliography Style）」については、<a href="../drafts/chicago-nb.qmd">シカゴ・スタイルでの引用方法（参考文献目録方式）</a> にまとめています。</p>
+<p><br> <br></p>
+<section id="英語文献" class="level2">
+<h2 class="anchored" data-anchor-id="英語文献">英語文献</h2>
+<section id="雑誌論文-journal-article" class="level3">
+<h3 class="anchored" data-anchor-id="雑誌論文-journal-article">雑誌論文 (Journal Article)</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(Author’s Last Name Date of Publication, XX–XX)</p>
+</div>
+<p><strong>参考文献 (Reference List)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. Date of Publication. “Title of Article: Subtitle of Article.” <em>Title of Journal</em> Volume Number (Additional Date Information): XX–XX.</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[本文] ラストネームのみ記載します。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>論文に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>（参考文献）
+<ul>
+<li>論文のタイトルをダブルクォーテーション（““）で囲みます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>雑誌のタイトル</strong>
+<ul>
+<li>雑誌名を斜体（<em>Italic</em>）にします。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。</li>
+</ul></li>
+<li><strong>発行月</strong>
+<ul>
+<li>雑誌の発行された月を表記します。コロン（:）を忘れずに。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(Nayar 2005, 213)</p>
+<p><strong>参考文献</strong></p>
+<p>Nayar, Pramod K. 2005. “Marvelous Excesses: English Travel Writing and India, 1680–1727.” <em>Journal of British Studies</em> 44, no.2 (April): 213–38.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="オンライン上の雑誌論文-journal-article-online" class="level3">
+<h3 class="anchored" data-anchor-id="オンライン上の雑誌論文-journal-article-online">オンライン上の雑誌論文 (Journal Article Online)</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(Author’s Last Name Date of Publication)</p>
+</div>
+<p><strong>参考文献 (Reference List)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. Date of Publication. “Title of Article: Subtitle of Article.” <em>Title of Journal</em> Volume Number (Additional Date Information): XX–XX. URL (accessed Date of Access).</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[本文] ラストネームを記載します。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>論文に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>（参考文献）
+<ul>
+<li>論文のタイトルをダブルクォーテーション（““）で囲みます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>雑誌のタイトル</strong>（参考文献）
+<ul>
+<li>雑誌名を斜体（<em>Italic</em>）にします。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。</li>
+</ul></li>
+<li><strong>発行月</strong>
+<ul>
+<li>論文の発行された月を丸括弧（）で囲んで表記します。</li>
+</ul></li>
+<li><strong>URL</strong>
+<ul>
+<li>記事へのURLを表記します。</li>
+</ul></li>
+<li><strong>アクセス日</strong>
+<ul>
+<li>当該Webページにアクセスした日を丸括弧（）で囲み「accessed」に続けて表記します。コロン（:）を忘れずに。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(Shapiro 2000, 642)</p>
+<p><strong>参考文献</strong></p>
+<p>Shapiro, Lawrence A. 2000. “Multiple Realizations.” <em>Journal of Philosophy</em> 97, no.12 (December): 635–54. http://links.jstor.org/sici?sici=0022-362X%2820012%2997%3A12%3C635%3AMR%3E2.0.CO%3B2-Q (accessed June 27, 2006)</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本-book" class="level3">
+<h3 class="anchored" data-anchor-id="本-book">本 (Book)</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(Author’s Last Name Date of Publication, XX–XX)</p>
+</div>
+<p><strong>参考文献 (Reference List)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. Date of Publication. <em>Title of Book: Subtitle of Book</em>. Edition Number ed.&nbsp;Publisher’s Name.</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[本文] ラストネームのみ記載します。複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にandを書きます。4人以上の場合、筆頭著者の名前のみを記し、et al.を書くことにより省略をします。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にandを書きます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>（参考文献）
+<ul>
+<li>本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>版</strong>（参考文献）
+<ul>
+<li>版の番号を記し、続けて「ed.」を表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+<li><strong>引用ページ</strong>
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(Daniels 2002, 84)</p>
+<p><strong>参考文献</strong></p>
+<p>Daniels, Roger. 2002. <em>Coming to America: A History of Immigration and Ethnicity in American Life</em>. 2nd ed.&nbsp;Harper Perennial.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本-edited-book" class="level3">
+<h3 class="anchored" data-anchor-id="編集本-edited-book">編集本 (Edited Book)</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(Editor’s Last Name Date of Publication, XX–XX)</p>
+</div>
+<p><strong>参考文献 (Reference List)</strong></p>
+<div class="card apa-citation-card">
+<p>Editor’s Last Name, First Name, ed.&nbsp;Date of Publication. <em>Title of Book: Subtitle of Book</em>. Publisher’s Name.</p>
+</div>
+<ul>
+<li><strong>編者名</strong>
+<ul>
+<li>[本文] ラストネームを記載します。編者であることを示すため、名前の後に「ed.」を付けます。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。編者であることを示すため、名前の後にed.を付けます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>（参考文献）
+<ul>
+<li>本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(Noll 1989, 75–80)</p>
+<p><strong>参考文献</strong></p>
+<p>Noll, Mark A., ed.&nbsp;1989. <em>Religion and American Politics: From the Colonial Period to the 1980s</em>. Oxford University Press.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本の特定の章-single-chapter-in-an-edited-book" class="level3">
+<h3 class="anchored" data-anchor-id="編集本の特定の章-single-chapter-in-an-edited-book">編集本の特定の章 (Single Chapter in an Edited Book)</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(Chapter Author’s Last Name Date of Publication, XX–XX)</p>
+</div>
+<p><strong>参考文献 (Reference List)</strong></p>
+<div class="card apa-citation-card">
+<p>Chapter Author’s Last Name, First Name. Date of Publication. “Title of Chapter: Subtitle of Chapter.” In <em>Title of Book: Subtitle of Book</em>, ed.&nbsp;Editor’s First and Last Names, XX–XX. Publisher’s Name.</p>
+</div>
+<ul>
+<li><strong>論文の筆者名</strong>
+<ul>
+<li>[本文] ラストネームを表記します。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>章のタイトル</strong>（参考文献）
+<ul>
+<li>論文のタイトルを表記します。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>（参考文献）
+<ul>
+<li>本のタイトルの前に「In」と記載し、本の一部であることを示します。本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>編者名</strong>（参考文献）
+<ul>
+<li>「ed.」（複数人である場合には「eds.」）に続けて、編者のファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。ピリオド（.）を忘れずに。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(Spirn 1996, 101)</p>
+<p><strong>参考文献</strong></p>
+<p>Spirn, Anne Whiston. 1996. “Constructing Nature: The Legacy of Frederick Law Olmsted.” In <em>Uncommon Ground: Rethinking the Human Place in Nature,</em> ed.&nbsp;William Cronon, 91–113. W.W.Norton and Company.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="新聞記事通常参考文献目録に入れる必要なし" class="level3">
+<h3 class="anchored" data-anchor-id="新聞記事通常参考文献目録に入れる必要なし">新聞記事（通常、参考文献目録に入れる必要なし）</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(<em>Publisher’s Name</em> Year of Publication)</p>
+</div>
+<p><strong>参考文献 (Reference List)</strong></p>
+<div class="card apa-citation-card">
+<p><em>Publisher’s Name</em>, Edition Number, Year of Publication. Heading. Date of Publication.</p>
+</div>
+<ul>
+<li><strong>新聞社</strong>
+<ul>
+<li>新聞社の名前を斜体（<em>Italic</em>）にします。</li>
+</ul></li>
+<li><strong>版番号</strong>
+<ul>
+<li>版によって記載項目が変化または削除される可能性があるため、記載します。必ずしも数字ではなく、「最終版（final edition）」や「南西部版（Midwest edition）」といった場合もあります。</li>
+</ul></li>
+<li><strong>刊行年</strong>
+<ul>
+<li>新聞に記載されている刊行年を記載します。</li>
+</ul></li>
+<li><strong>記事の見出し</strong>
+<ul>
+<li>記事の見出しを記載します。</li>
+</ul></li>
+<li><strong>日付</strong>
+<ul>
+<li>新聞に記載されている日付を記載します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(<em>New York Times</em> 2004)</p>
+<p><strong>参考文献</strong></p>
+<p><em>New York Times</em>, national edition. 2004. Obituary of Jacques Derrida. October 10.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="手稿" class="level3">
+<h3 class="anchored" data-anchor-id="手稿">手稿</h3>
+<p><strong>本文中 (In-text)</strong></p>
+<div class="card apa-citation-card">
+<p>(Title of Manuscript, Date of Publication, Types of Manuscript)</p>
+</div>
+<p><strong>参考文献（議論に不可欠または頻繁に引用した場合のみ）</strong></p>
+<div class="card apa-citation-card">
+<p>Title of Manuscript. Types of Manuscript. Location of Manuscript.</p>
+</div>
+<ul>
+<li><strong>資料のタイトル</strong>
+<ul>
+<li>資料のタイトルを記載します。資料に表題があるが著者名がない、または表題が著者名よりも重要な場合は、表題を最初に記載します。</li>
+</ul></li>
+<li><strong>資料の日付</strong>
+<ul>
+<li>資料の作成された年月日を記載します。</li>
+</ul></li>
+<li><strong>資料の種類</strong>
+<ul>
+<li>資料の種類（文書、手稿等）を記載します。</li>
+</ul></li>
+<li><strong>所蔵場所</strong>
+<ul>
+<li>当該コレクションが所蔵されている場所を記載します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(James Oglethorpe to the trustees, January 13, 1733, Egmont Manuscripts)</p>
+<p><strong>参考文献</strong></p>
+<p>Pennsylvania Society for the Abolition of Slavery. Papers. Historical Society of Pennsylvania.</p>
+</div>
+</div>
+</div>
+<p><br> <br></p>
+</section>
+</section>
+<section id="日本語文献" class="level2">
+<h2 class="anchored" data-anchor-id="日本語文献">日本語文献</h2>
+<section id="雑誌論文" class="level3">
+<h3 class="anchored" data-anchor-id="雑誌論文">雑誌論文</h3>
+<p><strong>本文中</strong></p>
+<div class="card apa-citation-card">
+<p>(著者名 発行年、XX–XX)</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名、発行年「論文のタイトル—副題—」『雑誌のタイトル』巻号（発行月）XX–XX. DOI</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[本文] 著者の姓のみ記載します。著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。</li>
+<li>[参考文献] 著者を姓・名の順で表記します。著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>論文に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>（参考文献）
+<ul>
+<li>論文のタイトルを「 」（一重かぎ括弧）で囲みます。副題（サブタイトル）がある場合は「－」（ダッシュ）でタイトルとつなぎます。</li>
+</ul></li>
+<li><strong>雑誌のタイトル</strong>
+<ul>
+<li>掲載雑誌のタイトルを『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>掲載雑誌の巻数を表記します。</li>
+</ul></li>
+<li><strong>発行月</strong>
+<ul>
+<li>雑誌の発行された月を表記します。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>DOI</strong>
+<ul>
+<li>論文にDOI（Digital Object Identifier）が付与されている場合は、リンク形式で記載します。URLの表示が変わる可能性があるため、末尾に句点（.）は付けません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(秋山 2023, 60)</p>
+<p>(市原 2021, 42–47)</p>
+<p>(大林 2013, 139–152)</p>
+<p>(山田 2002, 414–429)</p>
+<p><strong>参考文献</strong></p>
+<p>秋山信将、2023「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察－不拡散レジームとの比較において（ヘルスをめぐる国際政治）－」『国際政治』211号 58–73.</p>
+<p>市原麻衣子、2021「変容する『人権・民主主義外交』－民主主義国の国際連携と日本のあり方－」『外交』67号 42–47.</p>
+<p>大林一広、2013「反乱軍の組織と内戦後の和平期間」『国際政治』174号 139–152. https://doi.org/10.11375/kokusaiseiji.174_139</p>
+<p>山田敦、2002「国際関係を学ぶ人へ」『一橋論叢』127巻4号 414–429. https://doi.org/10.15057/10298</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本" class="level3">
+<h3 class="anchored" data-anchor-id="本">本</h3>
+<p><strong>本文中</strong></p>
+<div class="card apa-citation-card">
+<p>(著者名 発行年、XX–XX)</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名（発行年）『本のタイトル—副題—』版情報、出版社</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[本文] 著者の姓を表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。4人以上の場合、筆頭著者の名前のみを記し、「他」を書くことにより省略をします。</li>
+<li>[参考文献] 著者を姓・名の順で表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します（基本的には参照した版の第一刷の年）。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>（参考文献）
+<ul>
+<li>本のタイトルを『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>版情報</strong>（参考文献）
+<ul>
+<li>本のタイトルのあとに「第X版」という形式で表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+</ul></li>
+<li><strong>引用ページ</strong>
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(高坂 2017、30–31)</p>
+<p>(佐渡島・吉野 2021、10–11)</p>
+<p>(松林 2021、20–21)</p>
+<p><strong>参考文献</strong></p>
+<p>高坂正尭（2017）『国際政治－恐怖と希望－』改版、中央公論社</p>
+<p>佐渡島紗織・吉野亜矢子（2021）『これから研究を書くひとのためのガイドブック―ライティングの挑戦15週間―』第2版、ひつじ書房</p>
+<p>松林哲也（2021）『政治学と因果推論－比較から見える政治と社会－』岩波書店</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本" class="level3">
+<h3 class="anchored" data-anchor-id="編集本">編集本</h3>
+<p><strong>本文中</strong></p>
+<div class="card apa-citation-card">
+<p>(編者名 発行年、XX–XX)</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>編者名（発行年）『本のタイトル—副題—』版、出版社</p>
+</div>
+<ul>
+<li><strong>編者名</strong>
+<ul>
+<li>[本文] 編者の姓を表記します。編者であることを示すため、名前の後に「編」を付けます。編者が複数名いる場合は「・」（なかぐろ）でつなぎます。4人以上の場合、筆頭編者の名前のみを記し、「他」を書くことにより省略をします。</li>
+<li>[参考文献] 編者を姓・名の順で表記します。編者であることを示すため、名前の後に「編」を付けます。編者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>（参考文献）
+<ul>
+<li>本のタイトルを『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>版情報</strong>（参考文献）
+<ul>
+<li>本のタイトルのあとに「第X版」という形式で表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+</ul>
+</section>
+<section id="編集本の特定の章" class="level3">
+<h3 class="anchored" data-anchor-id="編集本の特定の章">編集本の特定の章</h3>
+<p><strong>本文中</strong></p>
+<div class="card apa-citation-card">
+<p>(著者名 発行年、XX–XX)</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名（発行年）「論文のタイトル—副題—」『本のタイトル—副題—』編者名、XX–XX、出版社</p>
+</div>
+<ul>
+<li><strong>論文情報</strong>
+<ul>
+<li>通常の論文と同様の要領で、章の情報を表記します。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>章のタイトル</strong>（参考文献）
+<ul>
+<li>論文のタイトルを表記します。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>（参考文献）
+<ul>
+<li>本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li><strong>編者名</strong>（参考文献）
+<ul>
+<li>編者の名前を表記します。編者であることを示すため、「編」「編著」を名前の後に表記します。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（本文）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>出版社</strong>（参考文献）
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(中山・土井 2021、220)</p>
+<p>(宮城 2017、350–52)</p>
+<p><strong>参考文献</strong></p>
+<p>中山祐美・土井翔平（2021）「国際難民制度のテキスト分析－UNHCRにおける北欧諸国の発言を事例に－」『国際関係研究の方法－解説と実践－』鈴木基史・飯田啓輔編、213–236、東京大学出版会</p>
+<p>宮城大蔵（2017）「1960年代における日本の援助とアジア国際秩序―戦後処理と冷戦の影―」『冷戦変容期の国際開発援助とアジア』渡辺昭一編著、340–367、ミネルヴァ書房</p>
+</div>
+</div>
+</div>
+</section>
+<section id="新聞記事通常参考文献目録に入れる必要なし-1" class="level3">
+<h3 class="anchored" data-anchor-id="新聞記事通常参考文献目録に入れる必要なし-1">新聞記事（通常、参考文献目録に入れる必要なし）</h3>
+<p><strong>本文中</strong></p>
+<div class="card apa-citation-card">
+<p>(新聞社 刊行年)</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>新聞社（刊行年月日）「記事のタイトル」版情報</p>
+</div>
+<ul>
+<li><strong>新聞社</strong>
+<ul>
+<li>新聞社の名前を表記します。</li>
+</ul></li>
+<li><strong>刊行年</strong>
+<ul>
+<li>新聞に記載されている刊行年を記載します。</li>
+</ul></li>
+<li><strong>日付</strong>
+<ul>
+<li>新聞に記載されている日付を記載します。</li>
+</ul></li>
+<li><strong>記事の見出し</strong>
+<ul>
+<li>記事のタイトルを「 」（一重かぎ括弧）でくくります。タイトル内のかぎ括弧は二重にします。副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li><strong>版番号</strong>
+<ul>
+<li>版によって記載項目が変化または削除される可能性があるため、記載します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>本文</strong></p>
+<p>(朝日新聞デジタル 2024)</p>
+<p><strong>参考文献</strong></p>
+<p>朝日新聞デジタル（2024年3月8日）「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」https://www.asahi.com/articles/ASS38659RS2SUHBI00B.html</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/chicago-ad.html</guid>
+  <pubDate>Thu, 23 Apr 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>シカゴ・スタイルでの引用方法（注記式参考文献目録方式）</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/chicago-nb.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>この記事では、主に人文科学全般や一部の社会科学で用いられる引用スタイルである「シカゴ・スタイル」（トゥラビアン・スタイル / Turabian Style）の「注記式参考文献目録方式（Notes-Bibliography Style）」での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。</p>
+<p>ケイト・L・トゥラビアン（Kate L. Turabian）（2012）『シカゴ・スタイル—研究論文執筆マニュアル—』沼口隆・沼口好雄訳、慶応義塾大学出版会（原著は2007）を参考に友人が作成したものを、微修正して記事にしています。掲載の許可をいただき、ありがとうございます。</p>
+<p>注記式参考文献目録方式では、資料の引用を示す手法として、典拠に言及する文の最後に上付き数字を付します。対応する数字をつけた注で引用の出典を述べ、著者、表題、出版情報およびページ数を明示します。同じ資料を再度引用する場合には、後に続く注を短縮することが可能です。論文の最後の参考文献目録には、注で明示したあらゆる出典および、参照したが引用しなかった文献を含みます。</p>
+<p>もう一方の方式である「著者年方式（Author-Date Style）」については、<a href="../drafts/chicago-ad.qmd">シカゴ・スタイルでの引用方法（著者年方式）</a> にまとめています。</p>
+<p><br></p>
+<section id="共通事項" class="level2">
+<h2 class="anchored" data-anchor-id="共通事項">共通事項</h2>
+<section id="引用部分の表し方" class="level3">
+<h3 class="anchored" data-anchor-id="引用部分の表し方">引用部分の表し方</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>種類</th>
+<th>表記</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>ページ範囲</td>
+<td>XX–XX（p.やpp.は付けない）</td>
+</tr>
+<tr class="even">
+<td>章</td>
+<td>chap.&nbsp;XX</td>
+</tr>
+<tr class="odd">
+<td>部</td>
+<td>pt.&nbsp;XX</td>
+</tr>
+<tr class="even">
+<td>節</td>
+<td>sec.&nbsp;XX</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="注の引用" class="level3">
+<h3 class="anchored" data-anchor-id="注の引用">注の引用</h3>
+<p>ページ番号の後にn（注1つ）またはnn（連続する複数注）をつけます。</p>
+</section>
+<section id="図表の引用" class="level3">
+<h3 class="anchored" data-anchor-id="図表の引用">図表の引用</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>種類</th>
+<th>表記</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>図</td>
+<td>(Author’s Last Name Date of Publication, XX, fig.&nbsp;YY)</td>
+</tr>
+<tr class="even">
+<td>表</td>
+<td>(Author’s Last Name Date of Publication, XX, table YY)</td>
+</tr>
+<tr class="odd">
+<td>地図</td>
+<td>(Author’s Last Name Date of Publication, XX, map. YY)</td>
+</tr>
+<tr class="even">
+<td>図版</td>
+<td>(Author’s Last Name Date of Publication, XX, plate. YY)</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="記載資料の順序" class="level3">
+<h3 class="anchored" data-anchor-id="記載資料の順序">記載資料の順序</h3>
+<ul>
+<li>目録およびリストは通常、アルファベット順に並べます。</li>
+<li>同一人物によって書かれた、または編集、翻訳された2つ以上の著作が含まれる場合、2つ目以降の記載事項の個人名は3emダッシュ（———）に書き換えます。</li>
+</ul>
+<p><br> <br></p>
+</section>
+</section>
+<section id="英語文献" class="level2">
+<h2 class="anchored" data-anchor-id="英語文献">英語文献</h2>
+<section id="雑誌論文-journal-article" class="level3">
+<h3 class="anchored" data-anchor-id="雑誌論文-journal-article">雑誌論文 (Journal Article)</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s First and Last Names, “Title of Article: Subtitle of Article,” <em>Title of Journal</em> Volume Number, no. Issue Number (Date of Publication): XX–XX.</p>
+</div>
+<p><strong>参考文献 (Bibliography)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. “Title of Article: Subtitle of Article.” <em>Title of Journal</em> Volume Number, no. Issue Number (Date of Publication): XX–XX.</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[注] ファーストネームを先に書き、ラストネームを続けます。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>
+<ul>
+<li>[注] 論文のタイトルをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。</li>
+<li>[参考文献] 論文のタイトルをダブルクォーテーション（““）で囲みます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>雑誌のタイトル</strong>
+<ul>
+<li>雑誌名を斜体（<em>Italic</em>）にします。</li>
+<li>主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>論文に記載されている著作年を丸括弧（）で囲んで表記します。コロン（:）を忘れずに。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（注）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>4. Pramod K. Nayar, “Marvelous Excesses: English Travel Writing and India, 1680–1727,” <em>Journal of British Studies</em> 44, no.2 (April 2005): 213.</p>
+<p><strong>参考文献</strong></p>
+<p>Nayar, Pramod K. “Marvelous Excesses: English Travel Writing and India, 1680–1727.” <em>Journal of British Studies</em> 44, no.2 (April 2005): 213–38.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="オンライン上の雑誌論文-journal-article-online" class="level3">
+<h3 class="anchored" data-anchor-id="オンライン上の雑誌論文-journal-article-online">オンライン上の雑誌論文 (Journal Article Online)</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s First and Last Names, “Title of Article: Subtitle of Article,” <em>Title of Journal</em> Volume Number (Date of Publication), under “Descriptive Locater,” URL (accessed Date of Access).</p>
+</div>
+<p><strong>参考文献 (Bibliography)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. “Title of Article: Subtitle of Article.” <em>Title of Journal</em> Volume Number (Date of Publication). URL (accessed Date of Access).</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[注] ファーストネームを先に書き、ラストネームを続けます。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>
+<ul>
+<li>[注] 論文のタイトルをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。</li>
+<li>[参考文献] 論文のタイトルをダブルクォーテーション（““）で囲みます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>雑誌のタイトル</strong>
+<ul>
+<li>雑誌名を斜体（<em>Italic</em>）にします。</li>
+<li>主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>論文に記載されている著作年を丸括弧（）で囲んで表記します。</li>
+</ul></li>
+<li><strong>項目名</strong>（注のみ）
+<ul>
+<li>該当の記述がどこにあるか示すために、章や項のタイトルをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。</li>
+</ul></li>
+<li><strong>URL</strong>
+<ul>
+<li>記事へのURLを表記します。</li>
+</ul></li>
+<li><strong>アクセス日</strong>
+<ul>
+<li>当該Webページにアクセスした日を表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>4. Daniel A. Mcfarland, “Resistance as a Social Drama: A Study of Change-oriented Encounters,” <em>American Journal of Sociology</em> 109, no.6 (May 2004), under “Settings,” http://www.journals.uchicago.edu/AJS/journal/issues/v109n6/050199/050199.html (accessed May 3, 2006).</p>
+<p><strong>参考文献</strong></p>
+<p>Mcfarland, Daniel A. “Resistance as a Social Drama: A Study of Change-oriented Encounters.” <em>American Journal of Sociology</em> 109, no.6 (May 2004). http://www.journals.uchicago.edu/AJS/journal/issues/v109n6/050199/050199.html (accessed May 3, 2006).</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本-book" class="level3">
+<h3 class="anchored" data-anchor-id="本-book">本 (Book)</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s First and Last Names, <em>Title of Book: Subtitle of Book</em>, ed.&nbsp;(Publisher’s Name, Date of Publication), XX–XX.</p>
+</div>
+<p><strong>参考文献 (Bibliography)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. <em>Title of Book: Subtitle of Book</em>. ed.&nbsp;Publisher’s Name, Date of Publication.</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[注] ファーストネームを先に書き、ラストネームを続けます。複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にandを書きます。4人以上の場合、筆頭著者の名前のみを記し、et al.を書くことにより省略をします。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にandを書きます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>[注] 本のタイトルを斜体（<em>Italic</em>）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+<li>[参考文献] 本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>巻数（Volume）の直後にカンマ（,）を打ち、号数（Issue）をno.に続けて表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>1. Jared Diamond, <em>Guns, Germs, and Steel: The Fates of Human Societies</em> (W.W.Norton and Company, 1997), 47–48.</p>
+<p>2. Kai Bird and Martin J. Sherwin, <em>American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer</em> (Alfred A. Knopf, 2005), 52.</p>
+<p>3. Roger Daniels, <em>Coming to America: A History of Immigration and Ethnicity in American Life,</em> 2nd ed.&nbsp;(Harper Perennial, 2002), 84.</p>
+<p><strong>参考文献</strong></p>
+<p>Diamond, Jared. <em>Guns, Germs, and Steel: The Fates of Human Societies</em>. W.W.Norton and Company, 1997.</p>
+<p>Bird, Kai, and Martin J. Sherwin. <em>American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer</em>. Alfred A. Knopf, 2005.</p>
+<p>Daniels, Roger. <em>Coming to America: A History of Immigration and Ethnicity in American Life.</em> 2nd ed.&nbsp;Harper Perennial, 2002.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本-edited-book" class="level3">
+<h3 class="anchored" data-anchor-id="編集本-edited-book">編集本 (Edited Book)</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Editor’s First and Last Names, ed., <em>Title of Book: Subtitle of Book</em> (Publisher’s Name, Date of Publication), XX–XX.</p>
+</div>
+<p><strong>参考文献 (Bibliography)</strong></p>
+<div class="card apa-citation-card">
+<p>Editor’s Last Name, First Name, ed.&nbsp;<em>Title of Book: Subtitle of Book</em>. Publisher’s Name, Date of Publication.</p>
+</div>
+<ul>
+<li><strong>編者名</strong>
+<ul>
+<li>[注] ファーストネームを先に書き、ラストネームを続けます。編者であることを示すため、名前の後にed.を付けます。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。編者であることを示すため、名前の後にed.を付けます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>[注] 本のタイトルを斜体（<em>Italic</em>）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+<li>[参考文献] 本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>7. Mark A. Noll, ed., <em>Religion and American Politics: From the Colonial Period to the 1980s</em> (Oxford University Press, 1989), 50–51.</p>
+<p><strong>参考文献</strong></p>
+<p>Noll, Mark A., ed.&nbsp;<em>Religion and American Politics: From the Colonial Period to the 1980s</em>. Oxford University Press, 1989.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="著者および編者または翻訳者-authors-plus-editor-or-translator" class="level3">
+<h3 class="anchored" data-anchor-id="著者および編者または翻訳者-authors-plus-editor-or-translator">著者および編者または翻訳者 (Author(s) Plus Editor or Translator)</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s First and Last Names, <em>Title of Book: Subtitle of Book</em>, ed.&nbsp;Editor’s First and Last Names (Publisher’s Name, Date of Publication), XX–XX.</p>
+</div>
+<p><strong>参考文献 (Bibliography)</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. <em>Title of Book: Subtitle of Book</em>. Edited by Editor’s First and Last Names. Publisher’s Name, Date of Publication.</p>
+</div>
+<ul>
+<li><strong>筆者名</strong>
+<ul>
+<li>[注] ファーストネームを先に書き、ラストネームを続けます。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>[注] 本のタイトルを斜体（<em>Italic</em>）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+<li>[参考文献] 本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>編者名</strong>
+<ul>
+<li>[注]「ed.」（複数人である場合には「eds.」）に続けて、編者のファーストネームを先に書き、ラストネームを続けます。</li>
+<li>[参考文献]「Edited by」に続けて、編者のファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>9. J. B. Harley, <em>The New Nature of Maps: Essays in the History of Cartography,</em> ed.&nbsp;Paul Laxton (Johns Hopkins University Press, 2002), 132–33.</p>
+<p><strong>参考文献</strong></p>
+<p>Harley, J. B. <em>The New Nature of Maps: Essays in the History of Cartography.</em> Edited by Paul Laxton. Johns Hopkins University Press, 2002.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本の特定の章-single-chapter-in-an-edited-book" class="level3">
+<h3 class="anchored" data-anchor-id="編集本の特定の章-single-chapter-in-an-edited-book">編集本の特定の章 (Single Chapter in an Edited Book)</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Chapter Author’s First and Last Names, “Title of Chapter: Subtitle of Chapter,” in <em>Title of Book: Subtitle of Book</em>, ed.&nbsp;Editor’s First and Last Names (Publisher’s Name, Date of Publication), XX–XX.</p>
+</div>
+<p><strong>参考文献 (Bibliography)</strong></p>
+<div class="card apa-citation-card">
+<p>Chapter Author’s Last Name, First Name. “Title of Chapter: Subtitle of Chapter.” In <em>Title of Book: Subtitle of Book</em>, edited by Editor’s First and Last Names, XX–XX. Publisher’s Name, Date of Publication.</p>
+</div>
+<ul>
+<li><strong>論文の筆者名</strong>
+<ul>
+<li>[注] ファーストネームを先に書き、ラストネームを続けます。</li>
+<li>[参考文献] ラストネームを先に書き、カンマ（,）を打ちます。ミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>
+<ul>
+<li>[注] 論文のタイトルをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。</li>
+<li>[参考文献] 論文のタイトルをダブルクォーテーション（““）で囲みます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>[注] 本のタイトルの前に「in」と記載し、本の一部であることを示します。本のタイトルを斜体（<em>Italic</em>）にします。カンマ（,）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+<li>[参考文献] 本のタイトルの前に「In」と記載し、本の一部であることを示します。本のタイトルを斜体（<em>Italic</em>）にします。ピリオド（.）を忘れずに。主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li><strong>編者名</strong>
+<ul>
+<li>[注]「ed.」（複数人である場合には「eds.」）に続けて、編者のファーストネームを先に書き、ラストネームを続けます。</li>
+<li>[参考文献]「edited by」に続けて、編者のファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。複数の出版社から出版されている場合、セミコロン（;）を用いてつなぎます。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>15. Anne Whiston Spirn, “Constructing Nature: The Legacy of Frederick Law Olmsted,” in <em>Uncommon Ground: Rethinking the Human Place in Nature,</em> ed.&nbsp;William Cronon (W.W.Norton and Company, 1996), 101.</p>
+<p><strong>参考文献</strong></p>
+<p>Spirn, Anne Whiston. “Constructing Nature: The Legacy of Frederick Law Olmsted.” In <em>Uncommon Ground: Rethinking the Human Place in Nature,</em> edited by William Cronon, 91–113. W.W.Norton and Company, 1996.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="新聞記事原則参考文献目録に入れる必要なし" class="level3">
+<h3 class="anchored" data-anchor-id="新聞記事原則参考文献目録に入れる必要なし">新聞記事（原則、参考文献目録に入れる必要なし）</h3>
+<section id="書き方1" class="level4">
+<h4 class="anchored" data-anchor-id="書き方1">書き方1</h4>
+<div class="card apa-citation-card">
+<p>Heading, <em>Publisher’s Name</em>, Date of Publication, Edition Number.</p>
+</div>
+<ul>
+<li><strong>記事の見出し</strong>
+<ul>
+<li>記事の見出しを記載します。</li>
+</ul></li>
+<li><strong>新聞社</strong>
+<ul>
+<li>新聞社の名前を斜体（<em>Italic</em>）にします。</li>
+</ul></li>
+<li><strong>発刊日</strong>
+<ul>
+<li>年月日すべてを記載します。</li>
+</ul></li>
+<li><strong>版番号</strong>
+<ul>
+<li>版によって記載項目が変化または削除される可能性があるため、記載します。必ずしも数字ではなく、「最終版（final edition）」や「南西部版（Midwest edition）」といった場合もあります。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例（書き方1）">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例（書き方1）
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>4. Obituary of Jacques Derrida, <em>New York Times,</em> October 10, 2004, national edition.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="書き方2" class="level4">
+<h4 class="anchored" data-anchor-id="書き方2">書き方2</h4>
+<div class="card apa-citation-card">
+<p>Writer’s First Name and Last Names, “Heading,” <em>Publisher’s Name</em>, Date of Publication.</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>ファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>記事の見出し</strong>
+<ul>
+<li>記事の見出しをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。</li>
+</ul></li>
+<li><strong>新聞社</strong>
+<ul>
+<li>新聞社の名前を斜体（<em>Italic</em>）にします。</li>
+</ul></li>
+<li><strong>発刊日</strong>
+<ul>
+<li>年月日すべてを記載します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例（書き方2）">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例（書き方2）
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>5. Blair Kamin, “Wrigley Building Clearly a Landmark,” <em>Chicago Tribune,</em> July 1, 2005.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="手稿" class="level3">
+<h3 class="anchored" data-anchor-id="手稿">手稿</h3>
+<p><strong>注 (Note)</strong></p>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s First and Last Names, Date of Publication, Title of Manuscript or Types of Manuscript, Name of Collection, Location of Manuscript.</p>
+</div>
+<p><strong>参考文献（議論に不可欠または頻繁に引用した場合のみ）</strong></p>
+<div class="card apa-citation-card">
+<p>Author’s Last Name, First Name. Title of Manuscript or Types of Manuscript, Name of Collection, Location of Manuscript.</p>
+</div>
+<ul>
+<li><strong>資料の著者（送信者 to 発信者）</strong>
+<ul>
+<li>ファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>資料の日付</strong>
+<ul>
+<li>資料の作成された年月日を記載します。</li>
+</ul></li>
+<li><strong>資料のタイトルまたは種類</strong>
+<ul>
+<li>資料のタイトルを記載します。資料に表題があるが著者名がない、または表題が著者名よりも重要な場合は、表題を最初に記載します。</li>
+</ul></li>
+<li><strong>コレクション名</strong>
+<ul>
+<li>使用する資料が収められている資料集等の情報を記載します。未公刊の資料については、コレクションの情報を「筆者の所有」または「私蔵」と記載します。</li>
+</ul></li>
+<li><strong>所蔵場所</strong>
+<ul>
+<li>当該コレクションが所蔵されている場所を記載します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>5. Burton to Merriam, telegram, January 26, 1923, Charles E. Merriam Papers, University of Chicago Library.</p>
+<p>44. Memorandum by Alvin Johnson, 1937, file 36, Horace Kalleb Papers, YIVO Institute, New York.</p>
+<p><strong>参考文献</strong></p>
+<p>Dinkel, Joseph. Description of Louis Agassiz written at the request of Elizabeth Cary Agassiz. Agassiz Papers. Houghton Library, Harvard University, Cambridge, MA.</p>
+</div>
+</div>
+</div>
+<p><br> <br></p>
+</section>
+</section>
+<section id="日本語文献" class="level2">
+<h2 class="anchored" data-anchor-id="日本語文献">日本語文献</h2>
+<section id="雑誌論文" class="level3">
+<h3 class="anchored" data-anchor-id="雑誌論文">雑誌論文</h3>
+<p><strong>注</strong></p>
+<div class="card apa-citation-card">
+<p>注番号. 著者名「論文のタイトル」『雑誌のタイトル』巻号（発行年）XX–XX</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名「論文のタイトル—副題—」『雑誌のタイトル』巻号（発行年）XX–XX. DOI</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[注] 著者の姓を表記します。著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。</li>
+<li>[参考文献] 著者を姓・名の順で表記します。著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>
+<ul>
+<li>論文のタイトルを「 」（一重かぎ括弧）で囲みます。副題（サブタイトル）がある場合は「－」（ダッシュ）でタイトルとつなぎます。</li>
+</ul></li>
+<li><strong>雑誌のタイトル</strong>
+<ul>
+<li>掲載雑誌のタイトルを『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>巻号</strong>
+<ul>
+<li>掲載雑誌の巻数を表記します。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（注）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li><strong>DOI</strong>
+<ul>
+<li>論文にDOI（Digital Object Identifier）が付与されている場合は、リンク形式で記載します。URLの表示が変わる可能性があるため、末尾に句点（.）は付けません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>1. 秋山「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察」『国際政治』211号（2023）60.</p>
+<p>2. 市原「変容する『人権・民主主義外交』」『外交』67号（2021）42–47.</p>
+<p>3. 大林「反乱軍の組織と内戦後の和平期間」『国際政治』174号（2013）139–152. https://doi.org/10.11375/kokusaiseiji.174_139</p>
+<p>4. 山田「国際関係を学ぶ人へ」『一橋論叢』127巻4号（2002）414–429. https://doi.org/10.15057/10298</p>
+<p><strong>参考文献</strong></p>
+<p>秋山信将「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察－不拡散レジームとの比較において（ヘルスをめぐる国際政治）－」『国際政治』211号（2023）58–73.</p>
+<p>市原麻衣子「変容する『人権・民主主義外交』－民主主義国の国際連携と日本のあり方－」『外交』67号（2021）42–47.</p>
+<p>大林一広「反乱軍の組織と内戦後の和平期間」『国際政治』174号（2013）139–152. https://doi.org/10.11375/kokusaiseiji.174_139</p>
+<p>山田敦「国際関係を学ぶ人へ」『一橋論叢』127巻4号（2002）414–429. https://doi.org/10.15057/10298</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本" class="level3">
+<h3 class="anchored" data-anchor-id="本">本</h3>
+<p><strong>注</strong></p>
+<div class="card apa-citation-card">
+<p>注番号. 著者名『本のタイトル』版（出版社、発行年）XX–XX.</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名『本のタイトル—副題—』版（出版社、発行年）</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>[注] 著者の姓を表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。4人以上の場合、筆頭著者の名前のみを記し、「他」を書くことにより省略をします。</li>
+<li>[参考文献] 著者を姓・名の順で表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>本のタイトルを『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>版情報</strong>
+<ul>
+<li>本のタイトルのあとに「第X版」という形式で表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します（基本的には参照した版の第一刷の年）。</li>
+</ul></li>
+<li><strong>引用ページ</strong>
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>高坂『国際政治』（中央公論社、2017）30–31.</p>
+<p>佐渡島・吉野『これから研究を書くひとのためのガイドブック』第2版（ひつじ書房、2021）10–11.</p>
+<p>松林『政治学と因果推論』（岩波書店、2021）20–21.</p>
+<p><strong>参考文献</strong></p>
+<p>高坂正尭『国際政治－恐怖と希望－』改版（中央公論社、2017）</p>
+<p>佐渡島紗織・吉野亜矢子『これから研究を書くひとのためのガイドブック―ライティングの挑戦15週間―』第2版（ひつじ書房、2021）</p>
+<p>松林哲也『政治学と因果推論－比較から見える政治と社会－』（岩波書店、2021）</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本" class="level3">
+<h3 class="anchored" data-anchor-id="編集本">編集本</h3>
+<p><strong>注</strong></p>
+<div class="card apa-citation-card">
+<p>注番号. 編者名編『本のタイトル』（出版社、発行年）XX–XX.</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>編者名編『本のタイトル—副題—』出版社、発行年</p>
+</div>
+<ul>
+<li><strong>編者名</strong>
+<ul>
+<li>[注] 編者の姓を表記します。編者であることを示すため、名前の後に「編」を付けます。編者が複数名いる場合は「・」（なかぐろ）でつなぎます。4人以上の場合、筆頭編者の名前のみを記し、「他」を書くことにより省略をします。</li>
+<li>[参考文献] 編者を姓・名の順で表記します。編者であることを示すため、名前の後に「編」を付けます。編者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>本のタイトルを『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>版情報</strong>
+<ul>
+<li>本のタイトルのあとに「第X版」という形式で表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します（基本的には参照した版の第一刷の年）。</li>
+</ul></li>
+<li><strong>引用ページ</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+</section>
+<section id="著者および編者または翻訳者" class="level3">
+<h3 class="anchored" data-anchor-id="著者および編者または翻訳者">著者および編者または翻訳者</h3>
+<p><strong>注</strong></p>
+<div class="card apa-citation-card">
+<p>注番号. 著者名『編集本または翻訳書のタイトル』版、翻訳者名（出版社、翻訳年）XX–XX.</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名『編集本または翻訳書のタイトル—副題—』版、翻訳者名（出版社、翻訳年）（原著はXXXX）</p>
+</div>
+<ul>
+<li><strong>筆者名</strong>
+<ul>
+<li>[注] 著者の姓を表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+<li>[参考文献] 著者を姓名の順で表記します。カッコ内に英語表記もします。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>参照した翻訳書のタイトルを二重かぎ括弧でくくります。</li>
+</ul></li>
+<li><strong>版情報</strong>
+<ul>
+<li>翻訳書の版情報があれば、タイトルの後に示します。</li>
+</ul></li>
+<li><strong>編者または翻訳者名</strong>
+<ul>
+<li>[注] 翻訳者の姓を表記し、「訳」を続けます。</li>
+<li>[参考文献] 翻訳者の姓名を表記し、「訳」を続けます。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を（）内に書きます。出版地は不要です。</li>
+</ul></li>
+<li><strong>翻訳年</strong>
+<ul>
+<li>本に記載されている翻訳年を表記します。</li>
+</ul></li>
+<li><strong>引用ページ</strong>
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>原著の著作年</strong>
+<ul>
+<li>原著の著作年を「原著はXXXX」の形式で表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>4. チェノウェス『市民的抵抗』小林綾子訳（白水社、2022）50–51.</p>
+<p>5. ナイ『国際紛争―』田中・村田訳（有斐閣、2002）101–02.</p>
+<p><strong>参考文献</strong></p>
+<p>チェノウェス、エリカ（Chenoweth, E.）『市民的抵抗―非暴力が社会を変える―』小林綾子訳（白水社、2022）（原著は2021）</p>
+<p>ナイ、ジョセフ・S.（Nye, J. S.）『国際紛争―理論と歴史―』田中明彦・村田晃嗣訳（有斐閣、2002）（原著は1993）</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本の特定の章" class="level3">
+<h3 class="anchored" data-anchor-id="編集本の特定の章">編集本の特定の章</h3>
+<p><strong>注</strong></p>
+<div class="card apa-citation-card">
+<p>注番号. 著者名「章のタイトル」『本のタイトル』版、編者名（出版社、発行年）XX–XX.</p>
+</div>
+<p><strong>参考文献</strong></p>
+<div class="card apa-citation-card">
+<p>著者名「章のタイトル—副題—」『本のタイトル—副題—』版、編者名（出版社、発行年）XX–XX.</p>
+</div>
+<ul>
+<li><strong>論文情報</strong>
+<ul>
+<li>通常の論文と同様の要領で、章の情報を表記します。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li><strong>版情報</strong>
+<ul>
+<li>本のタイトルのあとに「第X版」という形式で表記します。</li>
+</ul></li>
+<li><strong>編者名</strong>
+<ul>
+<li>編者の名前を表記します。編者であることを示すため、「編」「編著」を名前の後に表記します。</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+</ul></li>
+<li><strong>発行年</strong>
+<ul>
+<li>本に記載されている著作年を表記します。</li>
+</ul></li>
+<li><strong>引用ページ</strong>（注）
+<ul>
+<li>引用ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+<li><strong>掲載ページ</strong>（参考文献）
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>注</strong></p>
+<p>6. 中山・土井「国際難民制度のテキスト分析」『国際関係研究の方法』鈴木・飯田編（東京大学出版会、2021）220.</p>
+<p>7. 宮城「1960年代における日本の援助とアジア国際秩序」『冷戦変容期の国際開発援助とアジア』渡辺編著（ミネルヴァ書房、2017）350–52.</p>
+<p><strong>参考文献</strong></p>
+<p>中山祐美・土井翔平「国際難民制度のテキスト分析－UNHCRにおける北欧諸国の発言を事例に－」鈴木基史・飯田啓輔編『国際関係研究の方法－解説と実践－』（東京大学出版会、2021）213–236.</p>
+<p>宮城大蔵「1960年代における日本の援助とアジア国際秩序―戦後処理と冷戦の影―」『冷戦変容期の国際開発援助とアジア』渡辺昭一編著（ミネルヴァ書房、2017）340–367.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="新聞記事原則参考文献目録に入れる必要なし-1" class="level3">
+<h3 class="anchored" data-anchor-id="新聞記事原則参考文献目録に入れる必要なし-1">新聞記事（原則、参考文献目録に入れる必要なし）</h3>
+<div class="card apa-citation-card">
+<p>著者名「記事のタイトル」『新聞名』日付</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>著者を姓名の順で表記します。著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li><strong>記事のタイトル</strong>
+<ul>
+<li>記事のタイトルを「 」（一重かぎ括弧）でくくります。タイトル内のかぎ括弧は二重にします。副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li><strong>新聞社</strong>
+<ul>
+<li>新聞社の名前を『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li><strong>発刊日</strong>
+<ul>
+<li>新聞記事や雑誌の記事が発行された日を「年月日」の形式で表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-14-contents" aria-controls="callout-14" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-14" class="callout-14-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>今泉奏「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』2024年3月8日、https://www.asahi.com/articles/ASS38659RS2SUHBI00B.html</p>
+</div>
+</div>
+</div>
+</section>
+<section id="手稿-1" class="level3">
+<h3 class="anchored" data-anchor-id="手稿-1">手稿</h3>
+<p><strong>注</strong></p>
+<div class="card apa-citation-card">
+<p>注番号. 著者名（日付）「資料のタイトル」</p>
+</div>
+<p><strong>参考文献（議論に不可欠または頻繁に引用した場合のみ）</strong></p>
+<div class="card apa-citation-card">
+<p>著者名「資料のタイトル」日付、資料の種類、コレクションの名前、所蔵場所</p>
+</div>
+<ul>
+<li><strong>資料の著者（送信者 to 発信者）</strong>
+<ul>
+<li>著者の名前を姓名の順で表記します。</li>
+</ul></li>
+<li><strong>資料の日付</strong>
+<ul>
+<li>資料の作成された年月日を記載します。</li>
+</ul></li>
+<li><strong>資料のタイトルまたは種類</strong>
+<ul>
+<li>資料のタイトルを「 」（かぎ括弧）でくくり、記載します。資料に表題があるが著者名がない、または表題が著者名よりも重要な場合は、表題を最初に記載します。</li>
+</ul></li>
+<li><strong>コレクション名</strong>
+<ul>
+<li>使用する資料が収められている資料集等の情報を記載します。未公刊の資料については、コレクションの情報を「筆者の所有」または「私蔵」と記載します。</li>
+</ul></li>
+<li><strong>所蔵場所</strong>
+<ul>
+<li>当該コレクションが所蔵されている場所を記載します。</li>
+</ul></li>
+</ul>
+<p><br> <br></p>
+</section>
+</section>
+<section id="短縮注" class="level2">
+<h2 class="anchored" data-anchor-id="短縮注">短縮注</h2>
+<p>同じ資料を再度引用する場合、注を短縮した形式で記載できます。</p>
+<section id="著者のみ" class="level3">
+<h3 class="anchored" data-anchor-id="著者のみ">著者のみ</h3>
+<section id="本-1" class="level4">
+<h4 class="anchored" data-anchor-id="本-1">本</h4>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s Last Name, XX–XX.</p>
+</div>
+<ul>
+<li><strong>本の著者名</strong>
+<ul>
+<li>ラストネームのみ書きます。同一のラストネームを持つ著者が複数いる場合、ファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>ページ番号</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-15-contents" aria-controls="callout-15" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-15" class="callout-15-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>2. Diamond, 85–90.</p>
+<p>12. Philip Smith, 212–13.</p>
+<p>7. Bird and Sherwin, 88–89.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="手稿-2" class="level4">
+<h4 class="anchored" data-anchor-id="手稿-2">手稿</h4>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s First and Last Names, Date of Publication, Location of Manuscript.</p>
+</div>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-16-contents" aria-controls="callout-16" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-16" class="callout-16-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>2. Minutes, April 15, 1795, Pennsylvania Society.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="筆者タイトル" class="level3">
+<h3 class="anchored" data-anchor-id="筆者タイトル">筆者―タイトル</h3>
+<section id="本-2" class="level4">
+<h4 class="anchored" data-anchor-id="本-2">本</h4>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s Last Name, <em>Shortened Title</em>, XX–XX.</p>
+</div>
+<ul>
+<li><strong>本の著者名</strong>
+<ul>
+<li>ラストネームのみ書きます。同一のラストネームを持つ著者が複数いる場合、ファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>主題のみを表記します。本のタイトルを斜体（<em>Italic</em>）にします。カンマ（,）を忘れずに。</li>
+</ul></li>
+<li><strong>ページ番号</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-17-contents" aria-controls="callout-17" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-17" class="callout-17-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>2. Diamond, <em>Guns, Germs, and Steel,</em> 85–90.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="論文" class="level4">
+<h4 class="anchored" data-anchor-id="論文">論文</h4>
+<div class="card apa-citation-card">
+<p>Note Number. Author’s Last Name, “Shortened Title,” XX–XX.</p>
+</div>
+<ul>
+<li><strong>論文の著者名</strong>
+<ul>
+<li>ラストネームのみ書きます。同一のラストネームを持つ著者が複数いる場合、ファーストネームを先に書き、ラストネームを続けます。</li>
+</ul></li>
+<li><strong>論文のタイトル</strong>
+<ul>
+<li>論文のタイトルをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。主題のみを表記します。</li>
+</ul></li>
+<li><strong>ページ番号</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-18-contents" aria-controls="callout-18" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-18" class="callout-18-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>8. Nayar, “Marvelous Excesses,” 225.</p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="タイトルのみ" class="level3">
+<h3 class="anchored" data-anchor-id="タイトルのみ">タイトルのみ</h3>
+<section id="本-3" class="level4">
+<h4 class="anchored" data-anchor-id="本-3">本</h4>
+<div class="card apa-citation-card">
+<p>Note Number. <em>Shortened Title,</em> XX–XX.</p>
+</div>
+<ul>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>主題のみを表記します。本のタイトルを斜体（<em>Italic</em>）にします。カンマ（,）を忘れずに。</li>
+</ul></li>
+<li><strong>ページ番号</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-19-contents" aria-controls="callout-19" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-19" class="callout-19-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>2. <em>Guns, Germs, and Steel,</em> 85–90.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="論文-1" class="level4">
+<h4 class="anchored" data-anchor-id="論文-1">論文</h4>
+<div class="card apa-citation-card">
+<p>Note Number. “Shortened Title,” XX–XX.</p>
+</div>
+<ul>
+<li><strong>論文のタイトル</strong>
+<ul>
+<li>主題のみを表記します。論文のタイトルをダブルクォーテーション（““）で囲みます。カンマ（,）を忘れずに。</li>
+</ul></li>
+<li><strong>ページ番号</strong>
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。ピリオド（.）を忘れずに。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-20-contents" aria-controls="callout-20" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-20" class="callout-20-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>8. “Marvelous Excesses,” 225.</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/chicago-nb.html</guid>
+  <pubDate>Thu, 23 Apr 2026 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Zotero を使おう：文献を引用する</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/zotero-cite.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="はじめに" class="level2">
+<h2 class="anchored" data-anchor-id="はじめに">はじめに</h2>
+<section id="前回のおさらい" class="level3">
+<h3 class="anchored" data-anchor-id="前回のおさらい">前回のおさらい</h3>
+<p>本記事は、「Zotero を使おう」シリーズの2回目です。 前回の記事はこちら。</p>
+<div class="article-card">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><a href="./zotero-collect.qmd"><img src="https://stats1230.github.io/lab-desk/assets/image/cover/zotero_1.png" class="img-fluid figure-img"></a></p>
+<figcaption>Zotero を使おう：文献を集める</figcaption>
+</figure>
+</div>
+<p><a href="../posts/zotero-install.html"><strong>Zotero を使おう：文献を集める</strong></a></p>
+<p>文献管理ソフト「Zotero」の、一番さいしょの使い方を説明します。</p>
+</div>
+<p>前回の記事では、Zotero をインストールし、文献を収集する方法までを説明しました。</p>
+</section>
+<section id="今回やること" class="level3">
+<h3 class="anchored" data-anchor-id="今回やること">今回やること</h3>
+<p>今回の記事は、収集した文献を実際に文章中に引用し、文献リストを作成するところまで扱います。 Word・Google Docs・Typst・<img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> の4つのツールで、引用を行う方法を説明しています。 使用するツールのセクションだけお読みいただければ、わかるようになっています。</p>
+<p>なお、すべての操作は、Zotero アプリを開いた状態で行ってください。</p>
+</section>
+</section>
+<section id="引用スタイルを選ぶ" class="level2">
+<h2 class="anchored" data-anchor-id="引用スタイルを選ぶ">引用スタイルを選ぶ</h2>
+<p>大学・大学院でレポートや論文を執筆したことがある方は、文献を適切に引用する重要性を理解していると思います。 特に、学術的な文章を書く際は、一定のルールに従って文献を表示することが基本的なスキルとして求められます。 これを引用スタイルといいます。 このブログでは、著者の個人的な好みから APA スタイルを主に扱っています。</p>
+<div class="article-card">
+
+</div>
+<p>これからレポートや論文を書くにあたり、文献の引用スタイルを先に決めてください。 スタイルは好みによるところがありますが、<strong>投稿論文であれば投稿規定に従うことが必須</strong>です。 政治学でよく用いられるのは、APA、MLA、シカゴでしょうか。 ジャーナルによっては、独自の規定を設けている場合も多いです。</p>
+<p>とはいえ、引用スタイルはあとから変更することも原理上は可能です。 私たちは、Zotero によって文献リストを手書きすることから解放されるわけですから、そこまで問題にならないかもしれません。 ただ、個人的には最初にスタイルを決めておくほうが精神衛生上よいと思います。</p>
+<p>この記事では、APA 7th での引用を専ら扱います。 また、次の記事では日本語文献の引用方法を説明しますが、APA (風) の日本語スタイルを配布しています。 こちらは、APA のみ扱えて、他のスタイルには現時点では変換できないので、ご注意ください。</p>
+<p>以降、いくつかの執筆ツールで引用する方法をまとめます。 それぞれ、使うツールの部分だけご覧になればよいと思います。</p>
+</section>
+<section id="word-で引用する" class="level2">
+<h2 class="anchored" data-anchor-id="word-で引用する">Word で引用する</h2>
+<p>政治学の分野で論文を書く人のうち、ほとんどの人は MS Word を使用していると思います。 Word は、Zotero と連携することで、簡単に文献を引用し、また引用した文献から参考文献リストを作成することが可能です。</p>
+<section id="word-と-zotero-の連携" class="level3">
+<h3 class="anchored" data-anchor-id="word-と-zotero-の連携">Word と Zotero の連携</h3>
+<p>通常、Zotero には Word 用のプラグインが含まれており、インストールすれば勝手に連携されます。Word で新規文書を開き、上部に「Zotero」という表示があれば、連携終了です。</p>
+<p>表示がない場合、Zotero の編集 (Edit) から 設定 (Settings) を開き、引用 (Citation) をクリックします。ページ最下部に Microsoft Word という部分があり、「アドイン Microsoft Word は現在インストールされています/されていません。」の表示があるはずです。インストールされていない場合、その下のボタンからインストールし、Zotero と MS Word を再起動すれば、連携されます。</p>
+</section>
+<section id="文中で引用する" class="level3">
+<h3 class="anchored" data-anchor-id="文中で引用する">文中で引用する</h3>
+<p>実際に文章を書きながら、文献を引用してみます。</p>
+<p>Word の画面上部から「Zotero」タブを開き、Add/Edit Citation というボタンを押します。スタイルを選択できるので、 APA Style 7th edition を選択します。言語は英語とすることに注意。「出典表記を自動的に更新する」にはチェックを入れておきます。そのうえで、「OK」をクリックします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-word-pref.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Word の設定</figcaption>
+</figure>
+</div>
+<p>すると、文献を探すウィンドウが開きます。ここでは試しに、Fearon (1995) を引用してみます。著者名やタイトルの一部を記入すると、候補に出てきます。そのままエンターを押すか、文献をクリックすると、下の画像のように、文献が選択された状態になります。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-word-fearon.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Word で文献を追加する</figcaption>
+</figure>
+</div>
+<p>更にエンターを押すと、文書の中に (Fearon, 1995) という文字列が自動的に追加されました。これが、基本的な引用の方法です。</p>
+</section>
+<section id="括弧内引用する" class="level3">
+<h3 class="anchored" data-anchor-id="括弧内引用する">括弧内引用する</h3>
+<p>Add/Edit Citation は、デフォルトで括弧内引用の形で文献を挿入します。</p>
+<p>文献によっては、括弧内にページ数などを追加したい場合があると思います。その場合は、Add/Edit Citation で文献を選択したあと、文献の横にある、下向きの三角形のマークを押します。すると、次のようなフィールドが出現し、ページなどを追加することができます。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-word-page.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Word でページを追加する</figcaption>
+</figure>
+</div>
+<p>また、Prefix は括弧の冒頭、Suffix は括弧の終わりに文字列を手動で追加するものです。例えば、「訳は著者による」などがあるでしょうか。</p>
+<p>複数の文献を引用する際は、Add/Edit Citation で複数の文献を選択した状態でエンターを押します。選択した順番に限らず、第一著者の名前のアルファベット順に並びます （右下の「Keep sources sorted」にチェックが付いていることが必要）。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-word-multi.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Word で複数の文献を引用する</figcaption>
+</figure>
+</div>
+<p>なお、引用部分は手書きで修正することはできません <sup>1</sup>。修正したい場合は、引用の括弧を選択した状態 (括弧全体がハイライトされている状態) で、Add/Edit Citation をクリックします。</p>
+</section>
+<section id="テキスト内引用する" class="level3">
+<h3 class="anchored" data-anchor-id="テキスト内引用する">テキスト内引用する</h3>
+<p>「Fearon (1995) は～」のように、テキスト内で著者年を示して文献を引用する際、すこし方法が異なります。</p>
+<p>括弧内引用と同様、Add/Edit Citation を開き、文献を選択して文献の横にある、下向きの三角形のマークを押します。すると、「著者名を省略」というチェックボックスがあります。これにチェックを入れると、例えば Fearon (1995) なら「(1995)」だけが挿入されます。そのため、括弧の直前に、自ら著者の名前をタイプする必要があります。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-word-intext.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Word でテキスト内引用する</figcaption>
+</figure>
+</div>
+</section>
+<section id="文献リストを作る" class="level3">
+<h3 class="anchored" data-anchor-id="文献リストを作る">文献リストを作る</h3>
+<p>さて、上記の方法でいくつかの文献を引用したら、最後に文献リストを追加します。</p>
+<p>文末にカーソルを移動して、画面上部の Zotero タブ内の「Add/Edit Bibliography」をクリックします。すると、適当な見た目の文献リストが追加されます。このあと、リスト全体を選択した状態でWord の段落設定からぶら下げインデントと行間を設定します。 この点は、執筆者の納得の行く見た目になるまで試行錯誤するのがよいと思います。</p>
+<p>この方法でリストを作成すると、引用した文献が過不足なくリストに追加されます。嬉しい。ただし、手書きで追加した文献はリストに含まれませんので、注意してください。</p>
+<p>最終的に、例えば以下のようなドキュメントが完成します。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-word.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Word の完成形</figcaption>
+</figure>
+</div>
+<p>なお、文献を追加したり削除したりした場合、Zotero タブの「Refresh」を押すことで文献リストを更新することができます。嬉しい。</p>
+</section>
+</section>
+<section id="google-docs-で引用する" class="level2">
+<h2 class="anchored" data-anchor-id="google-docs-で引用する">Google Docs で引用する</h2>
+<p>Word に次いで、最近使用する方が多いと思うのが、Google Docs です。 私もたまに使います。</p>
+<section id="google-docs-と-zotero-の連携" class="level3">
+<h3 class="anchored" data-anchor-id="google-docs-と-zotero-の連携">Google Docs と Zotero の連携</h3>
+<p>Google Docs は基本的にブラウザ上で操作しますが、そのブラウザに Zotero Connector がインストールされていることが前提になります。 Zotero Connector のインストール方法は前回の記事をご覧ください。 最も簡単なのは、Zotero の「ツール (Tools)」から、Browser Connector をインストールするという項目を選択することです。</p>
+<p>Zotero Connector がインストールされたブラウザで Google Docs を開くと、上部に Zotero というタブが追加されているはずです。</p>
+</section>
+<section id="文中で引用する-1" class="level3">
+<h3 class="anchored" data-anchor-id="文中で引用する-1">文中で引用する</h3>
+<p>実際に文章を書きながら、文献を引用してみます。</p>
+<p>Docs の画面上部から「Zotero」タブをクリックし、Add/Edit Citation を選択します。 初回時ログインを求められるので、Google Docs を開いている Google アカウントでログインしてください。</p>
+<p>スタイルを選択できるので、 APA Style 7th edition を選択します。言語は英語とすることに注意。 「出典表記を自動的に更新する」にはチェックを入れておきます。 そのうえで、「OK」をクリックします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-docs-pref.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs の設定</figcaption>
+</figure>
+</div>
+<p>すると、文献を探すウィンドウが開きます。ここでは試しに、Fearon (1995) を引用してみます。著者名やタイトルの一部を記入すると、候補に出てきます。そのままエンターを押すか、文献をクリックすると、下の画像のように、文献が選択された状態になります。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-docs-fearon.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs で文献を追加する</figcaption>
+</figure>
+</div>
+<p>更にエンターを押すと、文書の中に (Fearon, 1995) という文字列が自動的に追加されました。これが、基本的な引用の方法です。</p>
+</section>
+<section id="括弧内引用する-1" class="level3">
+<h3 class="anchored" data-anchor-id="括弧内引用する-1">括弧内引用する</h3>
+<p>Add/Edit Citation は、デフォルトで括弧内引用の形で文献を挿入します。</p>
+<p>文献によっては、括弧内にページ数などを追加したい場合があると思います。その場合は、Add/Edit Citation で文献を選択したあと、文献の横にある、下向きの三角形のマークを押します。すると、次のようなフィールドが出現し、ページなどを追加することができます。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-docs-page.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docsでページを追加する</figcaption>
+</figure>
+</div>
+<p>また、Prefix は括弧の冒頭、Suffix は括弧の終わりに文字列を手動で追加するものです。例えば、「訳は著者による」などがあるでしょうか。</p>
+<p>複数の文献を引用する際は、Add/Edit Citation で複数の文献を選択した状態でエンターを押します。選択した順番に限らず、第一著者の名前のアルファベット順に並びます （右下の「Keep sources sorted」にチェックが付いていることが必要）。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-docs-multi.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs で複数の文献を引用する</figcaption>
+</figure>
+</div>
+<p>なお、引用部分は手書きで修正することはできません <sup>2</sup>。 修正したい場合は、引用の括弧を選択した際に出る編集のボタンを押します。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-docs-edit.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs で引用内容を編集する</figcaption>
+</figure>
+</div>
+</section>
+<section id="テキスト内引用する-1" class="level3">
+<h3 class="anchored" data-anchor-id="テキスト内引用する-1">テキスト内引用する</h3>
+<p>「Fearon (1995) は～」のように、テキスト内で著者年を示して文献を引用する際、すこし方法が異なります。</p>
+<p>括弧内引用と同様、Add/Edit Citation を開き、文献を選択して文献の横にある、下向きの三角形のマークを押します。すると、「著者名を省略」というチェックボックスがあります。これにチェックを入れると、例えば Fearon (1995) なら「(1995)」だけが挿入されます。そのため、括弧の直前に、自ら著者の名前をタイプする必要があります。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-docs-intext.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero on Google Docs でテキスト内引用する</figcaption>
+</figure>
+</div>
+</section>
+<section id="文献リストを作る-1" class="level3">
+<h3 class="anchored" data-anchor-id="文献リストを作る-1">文献リストを作る</h3>
+<p>さて、上記の方法でいくつかの文献を引用したら、最後に文献リストを追加します。</p>
+<p>文末にカーソルを移動して、画面上部の Zotero タブ内の「Add/Edit Bibliography」をクリックします。すると、適当な見た目の文献リストが追加されます。このあと、リスト全体を選択した状態で Docs の段落設定からぶら下げインデントと行間を設定します。 この点は、執筆者の納得の行く見た目になるまで試行錯誤するのがよいと思います。</p>
+<p>この方法でリストを作成すると、引用した文献が過不足なくリストに追加されます。嬉しい。ただし、手書きで追加した文献はリストに含まれませんので、注意してください。</p>
+<p>なお、文献を追加したり削除したりした場合、Zotero タブの「Refresh」を押すことで文献リストを更新することができます。嬉しい。</p>
+</section>
+</section>
+<section id="typst-で引用する" class="level2">
+<h2 class="anchored" data-anchor-id="typst-で引用する">Typst で引用する</h2>
+<p>まず、前回の記事で説明した通り、Better BibTeX をインストールします。 インストールできていれば、ツール &gt; プラグインの画面で次のように表示されているはずです。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-better.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX プラグイン</figcaption>
+</figure>
+</div>
+<p>Better BibTeX が有効化された状態で、Zotero のコレクションを右クリックし、 「Export Collection…」を選択します。 形式を問われるので「Better BibTeX」を選択し、OKを押すと、.bib ファイルが任意の場所にダウンロードされます。 ちなみに、「Keep updated」にチェックをすると、コレクション内の情報に変更が加えられるたびに、更新された BibTeX ファイルを作成してエクスポートします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-bib-export.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX を選択</figcaption>
+</figure>
+</div>
+<p>なお、.bib ファイルは、執筆しているフォルダに保存するのがよいです。 そうすることで、参照もしやすいですから。</p>
+<p>.bib ファイルが用意できたら、Typst 文書の冒頭に次のように記述して読み込みます。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode typst code-with-copy"><code class="sourceCode typst"><span id="cb1-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">#</span>bibliography<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">(</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"references.bib"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">,</span> style<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">:</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"apa"</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">)</span></span></code></pre></div></div>
+<p>文中で引用するときは、<code>@citekey</code> の形式で記述します。 citekey は、Zotero の各文献に表示されている引用キー (citation key) のことです。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode typst code-with-copy"><code class="sourceCode typst"><span id="cb2-1">国家間の戦争の原因については諸説ある <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">@fearon1995</span>。</span></code></pre></div></div>
+<p>参考文献リストは、<code>#bibliography()</code> を記述した箇所に、自動的に生成されます。 なお、Typst の引用機能の詳細については、下記を参照してください。</p>
+<ul>
+<li>Typst 公式ドキュメント「<a href="https://typst.app/docs/reference/model/bibliography/">Bibliography</a>」</li>
+</ul>
+</section>
+<section id="latex-で引用する" class="level2">
+<h2 class="anchored" data-anchor-id="latex-で引用する"><img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> で引用する</h2>
+<p><img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> を使っている人は、ある程度機械操作やプログラミングに詳しいと思うので、簡潔に説明します。</p>
+<p>まず、前回の記事で説明したとおり、Better BibTeX をインストールします。 ツール &gt; プラグインの画面で次のように表示されているはずです。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-better.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX プラグイン</figcaption>
+</figure>
+</div>
+<p>Better BibTeX が有効化された状態で、Zotero のコレクションを右クリックし、 「Export Collection…」を選択します。 形式を問われるので「Better BibTeX」を選択し、OKを押すと、.bib ファイルが任意の場所にダウンロードされます。 ちなみに、「Keep updated」にチェックをすると、コレクション内の情報に変更が加えられるたびに、更新された BibTeX ファイルを作成してエクスポートします。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-bib-export.png" class="img-fluid figure-img"></p>
+<figcaption>Better BibTeX を選択</figcaption>
+</figure>
+</div>
+<p>なお、.bib ファイルは、執筆しているフォルダに保存するのがよいです。 そうすることで、参照もしやすいですから。</p>
+<p>あとは、<img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> 文書内で、BibTeX ファイルを参照するだけです。 <img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> 文書内で <code>.bib</code> を扱う方法は、下記のページを参照してください。</p>
+<ul>
+<li>TEX Wiki「<a href="https://texwiki.texjp.org/?%E6%96%87%E7%8C%AE%E5%BC%95%E7%94%A8">文献引用</a>」</li>
+<li>TEX Wiki「<a href="https://texwiki.texjp.org/?BibTeX%E9%96%A2%E9%80%A3%E3%83%84%E3%83%BC%E3%83%AB">BibTeX 関連ツール</a>」</li>
+<li>TEX Wiki「<a href="https://texwiki.texjp.org/?Biblatex">BibLaTeX</a>」</li>
+</ul>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>厳密には、手書きで内容を書き換えることはできるのですが、情報が更新されるために上書きされて元の内容に戻ってしまいます。↩︎</p></li>
+<li id="fn2"><p>厳密には、手書きで内容を書き換えることはできるのですが、情報が更新されるために上書きされて元の内容に戻ってしまいます。↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>tech</category>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/zotero-cite.html</guid>
+  <pubDate>Wed, 01 Apr 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/zotero_2.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Zotero を使おう：文献を集める</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/zotero-install.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="はじめに" class="level2">
+<h2 class="anchored" data-anchor-id="はじめに">はじめに</h2>
+<section id="文献管理ソフトを使おう" class="level3">
+<h3 class="anchored" data-anchor-id="文献管理ソフトを使おう">文献管理ソフトを使おう</h3>
+<p>論文やレポートの執筆に際して必ず発生する面倒な作業の一つに、参考文献の管理があります。 「あの文献、どこで見つけたんだっけ」とか「さっき読んでた論文、何年だっけ」といった、文献情報を管理するのは大変です。 また、「APAスタイルでどうやって引用するんだっけ」とか「アルファベット順にするの面倒！」という、引用の際の苦労も出てきます。 特に、卒論などで初めて学位論文を書く人は、最初に戸惑う方も多いと思います。</p>
+<p>そんなあなたに、声を大にして言いたい。 文献管理ソフトを使おう！！</p>
+<p>この記事では、Zotero という文献管理ソフトの使い方を説明します。 なぜ文献管理ソフトが必須なのかが伝われば幸いですし、Zotero マスターになって、文献管理の苦行から解放されてほしいと思います。</p>
+</section>
+<section id="文献管理ソフトとは" class="level3">
+<h3 class="anchored" data-anchor-id="文献管理ソフトとは">文献管理ソフトとは？</h3>
+<p>その名前のとおり、文献を管理するソフトです。 文献の情報 (書誌情報など) を保存しておいたり、論文 PDF を保存したりすることができます。</p>
+<p>特に重要な機能が、前者の書誌情報の保存です。 これがあるからこそ、参考文献リストが容易に作れます。 逆に、手書きで参考文献リストを作るのは非常に大変ですし、書き忘れや間違いのせいで剽窃の危機に陥るなどもってのほかです。</p>
+</section>
+<section id="代表的な文献管理ソフト" class="level3">
+<h3 class="anchored" data-anchor-id="代表的な文献管理ソフト">代表的な文献管理ソフト</h3>
+<p>文献管理ソフトといえば、以下のいくつかが有名です。</p>
+<ul>
+<li><a href="https://www.zotero.org/">Zotero</a></li>
+<li><a href="https://support.clarivate.com/Endnote/s/?language=ja">EndNote</a></li>
+<li><a href="https://www.mendeley.com/">Mendeley</a></li>
+</ul>
+<p>いずれも基本無料で、有料版にアップグレードすることで多くの機能を使うことができます (オンラインのストレージ容量を増やすとか)。 また、EndNote については、大学によっては期間契約で利用できます。 文献を検索するときに欠かせない Web of Science と同じ企業が提供していることもあり、スムーズに接続できると聞いたことがあります。</p>
+<p>この記事では、このうち Zotero に絞って、使い方を説明します。 理由は単純で、筆者が使っているからです<sup>1</sup>。 ただし、主な機能は他のソフトでも同じようにできるはずです。</p>
+</section>
+<section id="文献管理ソフトでできること" class="level3">
+<h3 class="anchored" data-anchor-id="文献管理ソフトでできること">文献管理ソフトでできること</h3>
+<p>文献管理ソフトでできる (ことで嬉しい) ことには、例えば次のいくつかがあります。</p>
+<ol type="1">
+<li>文献の書誌情報を保存することができる。</li>
+<li>文献のPDFを紐づけて保存することができる。</li>
+<li>文献の書誌情報を自動で取り込むことができる (プラグインが必要な場合あり)。</li>
+<li>MS Word や Google Documents で、自動的に参考文献リストを作ることができる。</li>
+<li><img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> 用の文献ファイルを書き出せる (<img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> ユーザ向け)。</li>
+</ol>
+<p>このうち、研究室の後輩に Zotero を勧める最大の理由は、4番です (人によっては5番)。 卒業論文や修士論文などの長い文章を書くとき (もちろん研究計画もそうですが)、手書きで参考文献リストを作るのには無理があります。 面倒な引用スタイルを間違えてしまうのは必至として、引用していない文献をリストに載せたり、その逆をしたり (剽窃です) してしまう可能性があります。 そのような問題を緩和し、簡単に参考文献リストを作る (また、適切に文中引用する) ために、文献管理ソフトの使用を強く勧めます。</p>
+</section>
+</section>
+<section id="zotero-を使ってみよう" class="level2">
+<h2 class="anchored" data-anchor-id="zotero-を使ってみよう">Zotero を使ってみよう</h2>
+<p>ここからは、実際に Zotero を使ってみます。</p>
+<section id="zotero-とプラグインのインストール" class="level3">
+<h3 class="anchored" data-anchor-id="zotero-とプラグインのインストール">Zotero と、プラグインのインストール</h3>
+<p>Zotero は<a href="https://www.zotero.org/">公式ページ</a>からダウンロード、インストールできます。 Windows, MacOS, Linux のいずれも対応しています<sup>2</sup>。</p>
+<p>また、Zotero Connector もインストールしておきます。 これは、Forefox や Chrome などのブラウザで文献サイトを開くと、そこから書誌情報を自動的に入手してくれる機能です。</p>
+<ul>
+<li><a href="https://chromewebstore.google.com/detail/zotero-connector/ekhagklcjbdpajgpjgmbionohlpdbjgc?hl=ja&amp;pli=1">Chrome の拡張機能</a></li>
+<li><a href="https://www.zotero.org/download/">Firefox の拡張機能</a>
+<ul>
+<li>Firefoxをデフォルトブラウザにしている場合、Zotero のインストール後に勝手に起動します。</li>
+</ul></li>
+<li><a href="https://www.zotero.org/support/kb/safari_compatibility">Safari の拡張機能</a></li>
+</ul>
+</section>
+<section id="zotero-を起動して初期設定する" class="level3">
+<h3 class="anchored" data-anchor-id="zotero-を起動して初期設定する">Zotero を起動して、初期設定する</h3>
+<p>Zotero がインストールできたら、ひとまず起動してみます。 バージョンや OS などによって多少違いはあると思いますが、概ね以下のようになります。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-initial.png" class="img-fluid figure-img"></p>
+<figcaption>Zotero の画面</figcaption>
+</figure>
+</div>
+<p>ここからは、最初にいくつかの設定をして、そのあと実際に文献を入れてみます。</p>
+<section id="アカウント設定同期" class="level4">
+<h4 class="anchored" data-anchor-id="アカウント設定同期">1. アカウント設定・同期</h4>
+<p>複数のPCで作業する可能性のある方や、共同研究で他の人と文献情報を共有する方は、アカウントを設定しておくとよいです。</p>
+<p>画面の上部の編集 (Edit) タブから、設定 (Settings) を開きます。 なお、使用言語もここで選択できます。ご自由に。</p>
+<p>同期 (Sync) の画面を開くと、アカウントを作成するためのリンクがあるので、そこをクリックしてアカウントを作成してください。 ユーザーネーム (メールアドレス) と、パスワードの設定を求められると思います。</p>
+<p>アカウントが作成できたら、同期画面に情報を記入して、同期を開始してください。</p>
+</section>
+<section id="better-bibtex" class="level4">
+<h4 class="anchored" data-anchor-id="better-bibtex">2. Better BibTeX</h4>
+<p><img src="https://latex.codecogs.com/png.latex?%5CLaTeX"> を使う人は、<a href="https://retorque.re/zotero-better-bibtex/">Better BibTeX for Zotero</a> というプラグインを入れると幸せになれます。</p>
+<p>まず、上記URLから Better BibTeX ページに移動します。 Installation なり Download から Github へ移動し、最新の XPI ファイルをダウンロードします。 続いて、Zotero の画面上部のツール (Tools) タブから、プラグイン (Plugins) を選択し、歯車マークをクリックして、「Install Plugin From File…」を選択します。 さきほど選択した XPI ファイルを選択すれば、プラグインを導入することができます。</p>
+</section>
+</section>
+</section>
+<section id="文献を取り込む" class="level2">
+<h2 class="anchored" data-anchor-id="文献を取り込む">文献を取り込む</h2>
+<p>ここからは、実際に文献を入れていきますが、その前に、試しにコレクションを作ってみます。 私はレポートや論文など一つのプロジェクトにつき1つのコレクションを作っています。 そうする必要はないのですが、なんとなく。</p>
+<p>左上の「New Collection」アイコンをクリックして、適当なコレクションを作ります。 そうすると、「マイライブラリ / MyLibrary」の下に新しいフォルダができます。 今回は、「テスト」というコレクションを作ってみました。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-new-collection.png" class="img-fluid figure-img"></p>
+<figcaption>新しいコレクション</figcaption>
+</figure>
+</div>
+<p>ここからの作業は、<strong>Zotero でこのコレクションを開いた状態で</strong>行います。 文献取り込みは、取り込みたいコレクションを開いた状態で取り込みを行うことに注意してください。</p>
+<p>文献の取り込み方には、大きく5つあります。 個人的には、１番から順番に行っていくのがおすすめです。</p>
+<ol type="1">
+<li>識別子 (DOI, ISBN) から取り込む</li>
+<li>ブラウザから取り込む</li>
+<li>PDF から取り込む</li>
+<li>データベースから書誌情報を書き出して取り込む</li>
+<li>手入力する</li>
+</ol>
+<section id="識別子から取り込む" class="level3">
+<h3 class="anchored" data-anchor-id="識別子から取り込む">識別子から取り込む</h3>
+<p>識別子とは、文献を識別するために付されている番号のことです。 Zotero は、<a href="https://www.doi.org/">DOI</a> (Digital Object Identifier)、ISBN (International Standard Book Number)、<a href="https://pubmed.ncbi.nlm.nih.gov/">PubMed</a> ID、<a href="https://arxiv.org/">arXiv</a> ID に対応しています。</p>
+<p>個人的には、識別子で取り込む方法が最も安定していると考えます。 ただし、論文 (doi が振られたもの) と書籍 (ISBN が振られたもの) に限定される点には注意が必要です。</p>
+<section id="論文を取り込んでみる" class="level4">
+<h4 class="anchored" data-anchor-id="論文を取り込んでみる">論文を取り込んでみる</h4>
+<p>試しに、<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/rationalist-explanations-for-war/E3B716A4034C11ECF8CE8732BC2F80DD">こちらのサイト</a>に載っている Fearon (1995) を取り込んでみます。</p>
+<p>上記サイトから、文献の DOI をコピーします。 https:// から全部コピーしてもいいですし、10. からでも構いません。 先ほど作ったコレクションを開き、画面上部の魔法の杖みたいなアイコンをクリックします。 入力のフィールドが出るので、入力しエンターを押します。 <img src="https://stats1230.github.io/lab-desk/assets/image/zotero-doi.png" class="img-fluid" alt="DOI を入力している様子"></p>
+<p>すると、写真のように、Fearon (1995) の情報 (タイトル、著者、雑誌など) が自動的に取り込まれています。 結構簡単ですね。 <img src="https://stats1230.github.io/lab-desk/assets/image/zotero-fearon.png" class="img-fluid" alt="Fearon が取り込まれた画面"></p>
+<p>なお、論文の場合は PDF を持っており、それを添付したい場合があると思います。 オンライン上に PDF が公開されている場合は、PDFも自動的に取り込みます。 そうでない場合は、手動で添付する必要があります。</p>
+<p>手動でファイルを追加するときは、論文のエントリを右クリックし、「Add Attachment」を選択します。</p>
+<ol type="1">
+<li>File
+<ul>
+<li>PDF ファイルを直接添付する場合。Zotero のデータフォルダにコピーされるため、Zotero Sync で同期されます。</li>
+</ul></li>
+<li>Linked File
+<ul>
+<li>コンピュータ上の PDF ファイルへのリンクだけを登録します。元のファイルを移動すると参照が切れるため注意。</li>
+</ul></li>
+<li>Web Link
+<ul>
+<li>URL を登録する場合。論文のウェブページや、Google Drive、Dropbox 上のPDFファイルへのリンクを登録します。</li>
+</ul></li>
+</ol>
+<p>特にこだわりがなければ、1番の方法で十分です。</p>
+</section>
+<section id="本を取り込んでみる" class="level4">
+<h4 class="anchored" data-anchor-id="本を取り込んでみる">本を取り込んでみる</h4>
+<p>次に、<a href="https://press.princeton.edu/books/hardcover/9780691224633/designing-social-inquiry?srsltid=AfmBOorAJU2UPJtVyjk6n7pSoEA4ZA6T-IPzN94BmP2LEFoV5VKQQuCK">こちらのサイト</a>に載っている、KKV を取り込んでみます。</p>
+<p>同様に、本の ISBN<sup>3</sup> をコピーします。 そして、画面上部の魔法の杖をクリックし、ISBNを入力してエンターを押します。 <img src="https://stats1230.github.io/lab-desk/assets/image/zotero-kkv.png" class="img-fluid" alt="KKV が取り込まれた画面"></p>
+</section>
+</section>
+<section id="zotero-connector-を使う" class="level3">
+<h3 class="anchored" data-anchor-id="zotero-connector-を使う">Zotero Connector を使う</h3>
+<p>あなたが Firefox や Chrome などの標準的なブラウザを使っているなら、Zotero Connector という拡張機能を使うのが便利です。 これは、論文を掲載しているサイトから論文の情報 (可能なら PDF も) を自動的に取得してくれる機能です。</p>
+<p>試しに、Powell (2006) の書誌情報が載っている<a href="https://www.cambridge.org/core/journals/international-organization/article/abs/war-as-a-commitment-problem/65DFFF1CD73A16F7ED4EEF6D4F934608">このサイト</a> にアクセスしてみます。 サイトを開いた状態 (そして Zotero のコレクションも開いている状態) で、拡張機能を使ってみます。 Firefox なら、右上の拡張機能ボタンから Zotero Connector を選んで押します (その他は知りません、すみません)。 すると、それだけで書誌情報を手に入れることができました。</p>
+<p>なお、大学の図書館等を経由し、論文 PDF を取得可能な画面で同じことをすると、PDF ごと手に入れることができます。 これにより、後から PDF を添付する必要もなくなります。 便利！</p>
+<p>また、多くのウェブサイトも Zotero Connector を通して情報を取得することができます。 たとえば、UNDPの活動の成果が報告されている<a href="https://www.undp.org/results">こちらのサイト</a> にアクセスした状態で Connector を使うと、以下のように情報を取得できます。 <img src="https://stats1230.github.io/lab-desk/assets/image/zotero-undp.png" class="img-fluid" alt="UNDP RESULTS で Zottero Connector した場合"></p>
+<p>ただ、この情報はやや不正確です。 APA スタイルでは、公的な組織のウェブサイトを引用する際、著者の欄に具体的な Agency、わからなければ Organization の名前を書くこととされています (<a href="https://apastyle.apa.org/style-grammar-guidelines/references/examples/report-government-agency-references">APA style</a>)。</p>
+<p>このような間違いは、手打ちで修正する必要があります。 特にウェブサイトや報告書などの場合は、手作業で情報を書き直すのが最も効率的だと思われます。</p>
+<p>修正する場合は、右画面の情報をクリックすることで、直接手入力することができます。</p>
+</section>
+<section id="pdf-から取り込む" class="level3">
+<h3 class="anchored" data-anchor-id="pdf-から取り込む">PDF から取り込む</h3>
+<p>Zotero は、PDF を直接ドラッグ &amp; ドロップすることでも文献を取り込むことができます。</p>
+<p>自身の PC に保存されている　PDF を、ファイルアプリから直接コレクションにドロップします。 しばらくすると、PDFが添付されたエントリが作成されるはずです。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-pdf.gif" class="img-fluid figure-img"></p>
+<figcaption>PDF から取り込む GIF</figcaption>
+</figure>
+</div>
+</section>
+<section id="データベースから書誌情報を書き出して取り込む" class="level3">
+<h3 class="anchored" data-anchor-id="データベースから書誌情報を書き出して取り込む">データベースから書誌情報を書き出して取り込む</h3>
+<p>大学の図書館サイトや、Google Scholar、雑誌の出版社などのデータベースには、書誌情報をファイルとしてエクスポートする機能があることが多いです。 Zotero Connector がうまく動かないときや、検索結果から複数の文献をまとめて取り込みたいときに便利です。 ここでは、Google Scholar、Web of Science、大学図書館 (HERMES-Link) の3つのデータベースでの方法を説明します。</p>
+<section id="google-scholar-の場合" class="level4">
+<h4 class="anchored" data-anchor-id="google-scholar-の場合">Google Scholar の場合</h4>
+<p>Google Scholar で検索したとき、各検索結果には「保存」「引用」……などの項目があります。 <img src="https://stats1230.github.io/lab-desk/assets/image/zotero-google-scholar.png" class="img-fluid" alt="Google Scholar で引用を選択した画面"></p>
+<p>このうち、「引用」をクリックすると、主要なスタイルでの引用方法と、「BibTeX」「EndNote」「RefMan」「RefWorks」などの項目があります。 このうち「BibTeX」をクリックすると、書誌情報が書かれたファイルが表示されます。 これを保存し、Zotero の「ファイル (File)」→「インポート (Import)」で読み込むことで、文献情報を取り込むことができます。 なお他にも「EndNote」「RefMan」などのリンクがありますが、それぞれ別の文献管理ソフト向けの形式です。 Zotero はいずれの形式でも読み込めるので、どれを選んでも構いません。</p>
+</section>
+<section id="web-of-science-の場合" class="level4">
+<h4 class="anchored" data-anchor-id="web-of-science-の場合">Web of Science の場合</h4>
+<p>Web of Science は、複数の文献をまとめて取り込みたいときに非常に便利です。 Web of Science の検索の場合、検索結果の表示欄に「Export」のボタンが存在します。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-web-of-science.png" class="img-fluid figure-img"></p>
+<figcaption>Web of Science の検索結果の画面</figcaption>
+</figure>
+</div>
+<p>これをクリックし、「BibTeX」か「RIS」を選択します。 すると、エクスポートしたい文献の範囲を聞かれるので、「1ページ目のすべて (All records on page)」または「◯個めから◯個めまで (Records from:)」を選択します。 また、Record Content には、こだわりがなければ Full Record を選択します。 そのうえで Export をクリックすると、範囲のすべての文献情報が記載されたファイルが手に入ります。 あとは同様に、Zotero の「ファイル (File)」→「インポート (Import)」で読み込みます。</p>
+</section>
+<section id="大学図書館の場合" class="level4">
+<h4 class="anchored" data-anchor-id="大学図書館の場合">大学図書館の場合</h4>
+<p>大学附属図書館には、文献の所蔵状況やデータベースへのリンクなどを確認するデータベースサイトがあります。 一橋大学附属図書館の場合は、「HERMES-Link」がこれに当たります。 ここには、情報のエクスポートのボタンがあります。 これをクリックし、「EndNote、ProCite、または　Reference Manager に直接」または「RIS形式で」どちらかを選択すると、文献情報がファイルとしてエクスポートされます。 あとは同様に、Zotero の「ファイル (File)」→「インポート (Import)」で読み込みます。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/zotero-univ.png" class="img-fluid figure-img"></p>
+<figcaption>HERMES-Link でエクスポートを選択した画面</figcaption>
+</figure>
+</div>
+</section>
+</section>
+<section id="手入力で取り込む" class="level3">
+<h3 class="anchored" data-anchor-id="手入力で取り込む">手入力で取り込む</h3>
+<p>これまでに説明したいずれの方法でも取り込めない場合は、手動で入力します。 古い資料や未公刊の報告書、一部のウェブページなど、識別子ではうまく取り込めない場合は、意外とよくあります。 また、編集された本の中の1章 (Book Section) のような場合は、固有の識別子が振られておらず、手入力することが多いです。</p>
+<p>画面上部の New Item アイコンをクリックすると、文献の種類を選ぶメニューが現れます。 「Journal Article（学術論文）」「Book（書籍）」「Report（報告書）」「Web Page（ウェブページ）」など、適切なものを選びます。 すると、右側のパネルに空の入力欄が表示されるので、タイトル、著者、出版年などを一つずつ入力していきます。</p>
+<p>例えば、ある本のある章を登録するときは次のような画面になります。 <img src="https://stats1230.github.io/lab-desk/assets/image/zotero-section.png" class="img-fluid" alt="本の章を登録している画面"></p>
+<p>ちなみに、著者を追加するときは、著者の右にあるプラスボタンを押します。 また、著者や編集者を変えるときは、「Author」という表示をクリックすると、選べるようになります。</p>
+<p>このとき、いくつか注意点があります。</p>
+<ul>
+<li>文献の種類 (Item Type) を正しく選ぶこと
+<ul>
+<li>引用時の表記がおかしくなります。</li>
+</ul></li>
+<li>著者名の姓名を正しく分けること
+<ul>
+<li>入力欄の横にある切り替えボタンで、分割モードと一行入力モードを切り替えることもできます。</li>
+</ul></li>
+<li>できるだけ多くの情報をいれること
+<ul>
+<li>後から引用スタイルを変えたとき、情報が足りないと正しく出力されません。</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="取り込んだ文献を整理する" class="level2">
+<h2 class="anchored" data-anchor-id="取り込んだ文献を整理する">取り込んだ文献を整理する</h2>
+<p>文献をいくつか取り込んだら、整理しておくと後が楽です。 ここでは、3つの整理機能を紹介します。</p>
+<section id="コレクション" class="level3">
+<h3 class="anchored" data-anchor-id="コレクション">コレクション</h3>
+<p>先ほど作った「テスト」のようなフォルダです。 プロジェクトごと、授業ごとなど、自分が使いやすい単位で作ります。</p>
+<p>一つの文献を複数のコレクションに入れることもできます。 コレクション間でドラッグ＆ドロップするだけです。 このとき、文献データがコピーされるのではなく、同じデータへの参照が増えるだけなので、重複の心配はありません。</p>
+</section>
+<section id="タグ" class="level3">
+<h3 class="anchored" data-anchor-id="タグ">タグ</h3>
+<p>文献にラベルを貼る機能です。 たとえば「要読了」「重要」「方法論」のようなタグを付けておくと、後から絞り込むときに便利です。 右側のパネルの「タグ (Tags)」タブから追加できます。</p>
+<p>なお、データベースから取り込んだ文献には、自動的にタグが付いていることがあります（キーワードなど）。 先ほどの画面の左下にも、いくつかのタグが表示されていたと思います。 不要であれば削除しても構いません。</p>
+</section>
+<section id="関連アイテム" class="level3">
+<h3 class="anchored" data-anchor-id="関連アイテム">関連アイテム</h3>
+<p>「この文献とこの文献は関連がある」というつながりを記録する機能です。 右側パネルの「関連 (Related)」タブから設定します。</p>
+<p>正直なところ、私自身はあまり使っていませんが、「この論文はあの論文への反論だ」のような関係を記録しておきたい人には便利だと思います。</p>
+</section>
+</section>
+<section id="まとめ" class="level2">
+<h2 class="anchored" data-anchor-id="まとめ">まとめ</h2>
+<p>この記事では、Zotero のインストールから、文献の取り込み、整理までを紹介しました。 取り込み方法をまとめると、以下のようになります。</p>
+<div class="aligned-list">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 31%">
+<col style="width: 13%">
+<col style="width: 13%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>方法</th>
+<th>手軽さ</th>
+<th>正確さ</th>
+<th>備考</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>識別子 (DOI/ISBN)</td>
+<td>◎</td>
+<td>◎</td>
+<td>最も安定。DOI/ISBN がある文献向け</td>
+</tr>
+<tr class="even">
+<td>Zotero Connector</td>
+<td>◎</td>
+<td>○</td>
+<td>ワンクリックで楽。サイトによっては不正確</td>
+</tr>
+<tr class="odd">
+<td>PDF ドラッグ＆ドロップ</td>
+<td>○</td>
+<td>△〜○</td>
+<td>手元に PDF があるとき。精度はまちまち</td>
+</tr>
+<tr class="even">
+<td>データベースからエクスポート</td>
+<td>△</td>
+<td>○</td>
+<td>Connector が使えないときの代替手段</td>
+</tr>
+<tr class="odd">
+<td>手入力</td>
+<td>×</td>
+<td>—</td>
+<td>最終手段。Book Section 等では避けられない</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>おすすめは、識別子（DOI / ISBN）での取り込みを基本にしつつ、Connector も併用することです。 うまくいかないときに、他の方法を使います。</p>
+<p>いずれの方法でも大切なのは、取り込んだ後に書誌情報が正しいか確認することです。 自動取り込みは便利ですが、万能ではありません。 特に著者名、出版年、文献の種類 (Item Type) が間違っていると、引用時に困ります。</p>
+<p>次回の記事では、取り込んだ文献を実際に論文で引用し、参考文献リストを自動的に作成する方法を説明します。</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>ちなみに私の指導教員も Zotero 派です。↩︎</p></li>
+<li id="fn2"><p>Linux の場合、インストール方法が異なる場合があります。ディストリビューションにあった方法で、正しくインストールしてください。以後のすべての議論について同じです。↩︎</p></li>
+<li id="fn3"><p>ちなみに ISBN は、現在13桁のものが発行されていますが、以前は10桁でした。もちろん、どちらも正しく動作します。また、10桁と13桁がどちらも振られている場合もあり、この場合であっても、どちらを使っても同じ結果が得られます。↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>tech</category>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/zotero-install.html</guid>
+  <pubDate>Mon, 30 Mar 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/zotero_1.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>私の Arch Linux 初期設定</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/archlinux_setup.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>WSL2 やデュアルブート、フルインストールなど、ことあるごとに Arch Linux を入れ直しています。 最初にやる設定の、本当に自分のための備忘録です。</p>
+<section id="デュアルブートインストール関連" class="level2">
+<h2 class="anchored" data-anchor-id="デュアルブートインストール関連">デュアルブート・インストール関連</h2>
+<p>ラップトップに Windows と Arch Linux をデュアルブートで入れた。</p>
+<section id="パーティション構成" class="level3">
+<h3 class="anchored" data-anchor-id="パーティション構成">パーティション構成</h3>
+<p>最終的なパーティション構成はこんな感じになる。</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>パーティション</th>
+<th>サイズ</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>nvme0n1p1</code></td>
+<td>200MB</td>
+<td>EFI (Windows/Arch 共有)</td>
+</tr>
+<tr class="even">
+<td><code>nvme0n1p2</code></td>
+<td>16MB</td>
+<td>Microsoft Reserved</td>
+</tr>
+<tr class="odd">
+<td><code>nvme0n1p3</code></td>
+<td>179.2GB</td>
+<td>Windows 11</td>
+</tr>
+<tr class="even">
+<td><code>nvme0n1p4</code></td>
+<td>822MB</td>
+<td>Windows 回復</td>
+</tr>
+<tr class="odd">
+<td><code>nvme0n1p5</code></td>
+<td>296.7GB</td>
+<td>Arch Linux (ext4)</td>
+</tr>
+</tbody>
+</table>
+<p>詳細な Arch Linux のインストールは、色々な記事があるのでそちらを参照する。 または　AI にでも聞けばできる。</p>
+</section>
+</section>
+<section id="capslock-を-ctrl-にリマップ" class="level2">
+<h2 class="anchored" data-anchor-id="capslock-を-ctrl-にリマップ">CapsLock を Ctrl にリマップ</h2>
+<p>以下を実行する。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb1-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">localectl</span> set-x11-keymap us <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span> caps:ctrl_modifier</span></code></pre></div></div>
+<p>設定とかでもできるけど、システムを直接書き換えるほうが確実な気がしてる。</p>
+</section>
+<section id="日本語入力-fcitx5-mozc" class="level2">
+<h2 class="anchored" data-anchor-id="日本語入力-fcitx5-mozc">日本語入力 (fcitx5 + Mozc)</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> pacman <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> fcitx5 fcitx5-mozc fcitx5-configtool fcitx5-qt fcitx5-gtk</span></code></pre></div></div>
+<p>環境変数を設定する。<code>~/.config/environment.d/fcitx5.conf</code> を作成：</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb3-1"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">GTK_IM_MODULE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>fcitx</span>
+<span id="cb3-2"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">QT_IM_MODULE</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>fcitx</span>
+<span id="cb3-3"><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">XMODIFIERS</span><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>@im=fcitx</span></code></pre></div></div>
+<ul>
+<li>ログアウト・ログイン後、fcitx5 を起動して設定ツールを開く。</li>
+<li>入力メソッドは「英語 (US)」と「Mozc」だけにする。</li>
+<li>「キーボード - 日本語」が入っていると JIS 配列になるので削除する。</li>
+<li>自動起動は KDE の「自動起動」設定から <code>fcitx5</code> を追加する。</li>
+</ul>
+</section>
+<section id="yay" class="level2">
+<h2 class="anchored" data-anchor-id="yay">yay</h2>
+<p>AUR ヘルパーというやつ。 一時期、レポジトリが落ちてたので、バイナリをクローンしてくる。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">cd</span> /tmp</span>
+<span id="cb4-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> clone https://aur.archlinux.org/yay-bin.git</span>
+<span id="cb4-3"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">cd</span> yay-bin</span>
+<span id="cb4-4"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">makepkg</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-si</span></span></code></pre></div></div>
+</section>
+<section id="latex" class="level2">
+<h2 class="anchored" data-anchor-id="latex">LaTeX</h2>
+<p>フルパッケージでインストールする。</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> pacman <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> texlive-meta biber</span></code></pre></div></div>
+</section>
+<section id="typst" class="level2">
+<h2 class="anchored" data-anchor-id="typst">Typst</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> pacman <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> typst</span></code></pre></div></div>
+</section>
+<section id="vs-code" class="level2">
+<h2 class="anchored" data-anchor-id="vs-code">VS Code</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb7-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">yay</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> visual-studio-code-bin </span></code></pre></div></div>
+</section>
+<section id="dropbox" class="level2">
+<h2 class="anchored" data-anchor-id="dropbox">Dropbox</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb8-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">dropbox</span></span></code></pre></div></div>
+</section>
+<section id="ssh-githubのために使う" class="level2">
+<h2 class="anchored" data-anchor-id="ssh-githubのために使う">SSH (Githubのために使う)</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb9-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mkdir</span> ~/.ssh</span>
+<span id="cb9-2"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">cd</span> ~/.ssh</span>
+<span id="cb9-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ssh-keygen</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-t</span> ed25519</span>
+<span id="cb9-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span> ~/.ssh/id_ed25519.pub</span>
+<span id="cb9-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># → GitHub に公開鍵を登録する</span></span>
+<span id="cb9-6"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ssh</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-T</span> git@github.com <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 接続確認</span></span></code></pre></div></div>
+</section>
+<section id="git-設定" class="level2">
+<h2 class="anchored" data-anchor-id="git-設定">Git 設定</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> user.name <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"名前"</span></span>
+<span id="cb10-2"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> user.email <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"メール"</span></span>
+<span id="cb10-3"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> core.autocrlf input</span>
+<span id="cb10-4"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> init.defaultBranch main</span>
+<span id="cb10-5"></span>
+<span id="cb10-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># デュアルブート改行コード対策 (要るかわからないけどやった)</span></span>
+<span id="cb10-7"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">git</span> config <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--global</span> core.attributesfile ~/.gitattributes_global</span>
+<span id="cb10-8"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">cat</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> ~/.gitattributes_global <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;&lt; 'EOF'</span></span>
+<span id="cb10-9"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">* text=auto eol=lf</span></span>
+<span id="cb10-10"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">*.png binary</span></span>
+<span id="cb10-11"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">*.jpg binary</span></span>
+<span id="cb10-12"><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">*.pdf binary</span></span>
+<span id="cb10-13"><span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">EOF</span></span></code></pre></div></div>
+</section>
+<section id="rrstudio" class="level2">
+<h2 class="anchored" data-anchor-id="rrstudio">R/RStudio</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb11-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> pacman <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> r</span>
+<span id="cb11-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">yay</span> <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> rstudio-server-bin</span></code></pre></div></div>
+<p>サーバーを開始するときは、</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb12-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> rstudio-server start</span></code></pre></div></div>
+<p>をしたうえで、<code>http://localhost:8787/</code> にアクセスする。</p>
+<p>毎回やるのが面倒なら、 systemd サービスにしちゃえばいい。<code>/etc/rstudio/rserver.conf</code> に</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" style="background: #f1f3f5;"><pre class="sourceCode txt code-with-copy"><code class="sourceCode default"><span id="cb13-1">server-user=&lt;username&gt; # &lt;username&gt; はユーザー名</span></code></pre></div></div>
+<p>を追記したうえで、</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb14-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> systemctl enable <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">--now</span> rstudio-server</span></code></pre></div></div>
+<p>サーバーを開始してもログインできない場合は、 <code>/etc/pam.d/rstudio</code> の内容を次のように修正する (修正前)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb15-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#%PAM-1.0</span></span>
+<span id="cb15-2"></span>
+<span id="cb15-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">auth</span>       required     pam_securetty.so</span>
+<span id="cb15-4"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">auth</span>       requisite    pam_nologin.so</span>
+<span id="cb15-5"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">auth</span>       include      system-local-login</span>
+<span id="cb15-6"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">account</span>    include      system-local-login</span>
+<span id="cb15-7"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">session</span>    include      system-local-login</span></code></pre></div></div>
+<p>(修正後)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb16-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">#%PAM-1.0</span></span>
+<span id="cb16-2"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">auth</span>       required     pam_unix.so</span>
+<span id="cb16-3"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">account</span>    required     pam_unix.so</span>
+<span id="cb16-4"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">session</span>    required     pam_unix.so</span></code></pre></div></div>
+<section id="パッケージ関連の注意点-随時追加" class="level3">
+<h3 class="anchored" data-anchor-id="パッケージ関連の注意点-随時追加">パッケージ関連の注意点 (随時追加)</h3>
+<ul>
+<li>依存関係のエラーが出るときは、 <code>install.packages()</code> の引数に <code>dependencies = TRUE</code> を入れるとよい。</li>
+<li>gcc-fortran を入れておくのがいい。
+<ul>
+<li><code>sudo pacman -S gcc-fortran</code></li>
+</ul></li>
+<li>gdal も入れておくべき (sf とかのため)
+<ul>
+<li><code>sudo pacman -S gdal</code></li>
+</ul></li>
+<li>udunits も入れておいたほうがいい (units パッケージのため)
+<ul>
+<li><code>yay -S udunits</code></li>
+</ul></li>
+<li><code>tidyverse</code> をインストールしようとすると手こずることが多い。さきに <code>stringi</code> パッケージをインストールするのがよい。</li>
+<li><code>V8</code> 関連のエラーも多い。コンピュータに <code>imagemagick</code> をインストールするのと、静的ビルドを有効にする。
+<ul>
+<li><code>sudo pacman -S imagemagick</code></li>
+<li>Rコンソールで <code>Sys.setenv(DOWNLOAD_STATIC_LIBV8 = 1)</code> を実行してから <code>install.packages("V8")</code></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="python" class="level2">
+<h2 class="anchored" data-anchor-id="python">Python</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17" style="background: #f1f3f5;"><pre class="sourceCode zsh code-with-copy"><code class="sourceCode zsh"><span id="cb17-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sudo</span> pacman <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">-S</span> python python-pip python-pipx</span></code></pre></div></div>
+<p>一般環境という使い方は最近しないらしい。 原則として、どのプロジェクトでも仮想環境を使う。 ただし、システム全体に直接パッケージをインストールするときは、<code>pipx</code> でやる。</p>
+
+
+</section>
+
+ ]]></description>
+  <category>tech</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/archlinux_setup.html</guid>
+  <pubDate>Fri, 27 Mar 2026 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/archlinux.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Typst は刺さらなかった話</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/typst.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>私は普段、簡単ドキュメントは Google Docs で、レポートや報告書等は LaTeX を使って書いています。 ただ、LaTeX ってとても面倒なんですよね。 インストールも複雑で時間が掛かるし、設定ファイルや中間生成物が大量に溜まっていきます。 エラーもよくわからないし、環境依存で失敗することもあるし…。 特に困るのは、PC の環境をクリーンにして「0の状態から LaTeX で文書がコンパイルできるような状態にする」までが大変なことです。 下手したら、セットアップで1日を消費してしまいます。 (もちろん、Docker などで対応可能なのですが、手を出せていません)。</p>
+<p>そんな中、2023 年くらいに「Typst」という新しい組版システムが登場しました。 一応、布教系の記事もいくつか挙げておきます。</p>
+<ul>
+<li><a href="https://www-het.phys.sci.osaka-u.ac.jp/~yamaguch/j/typst.html">「Typst： いい感じのLaTeXの代替」(大阪大学 山口先生の Website より)</a></li>
+<li><a href="https://qiita.com/hikoharu14142/items/aa8cfb70d079b0324fba">「Typstのここがすごい！！」(Qiita の記事)</a></li>
+</ul>
+<p>新しいもの好きの私も、実際に1年くらい使ってみました。 しかし、タイトルにもあるように、Typst は私には刺さりませんでした。 この記事では、Typst を使ってみて、よいと感じた点も悪いと感じた点も説明し、「また LaTeX でいいや…」に至った理由を綴ります。 なんかブログっぽくていいね！</p>
+<section id="typst-のここがすごい" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがすごい">Typst のここがすごい</h2>
+<section id="コンパイルが早い" class="level3">
+<h3 class="anchored" data-anchor-id="コンパイルが早い">コンパイルが早い</h3>
+<p>LaTeX から移行した人々は、まずここに驚くはずです。 コンパイルとは、書かれたコードを実際に文書に変換する過程のことです。 LaTeX だと (文書の内容や量にもよりますが) 1回のコンパイルに1分くらいかかる印象です。 文章の内容を変更してから反映させるのに1分。 普段 Word や Google Docs (内容の変更 ＝ 完成品の更新) を使っている人からすれば、信じられないと思うかもしれません。</p>
+<p>その点、Typst はコンパイルが爆速で、リアルタイムプレビューができてしまう点は驚きました。 VS Code の左画面で文章を書いたら、右の整った文書の内容も変わっていく。 もちろん、数式もその場でコンパイルされていたのが素晴らしかったです。</p>
+<p>コンパイルの速さ (というかリアルタイムプレビュー) は、LaTeX に戻る私を引き止める最大の要因だったと思います。なにより書いていて気持ちがよいのです。 ただ、これは「すっぱい葡萄」かもしれませんが、いざ LaTeX に戻ってくると、別にリアルタイムプレビューはなくてもよい気がします。 たしかに、数式や図表が正しく出力されているかを確認したい場合は、確認のたびに一々コンパイルするのは面倒だと感じます。 全体の執筆時間と比較して、そして他の不利益も勘案すれば、妥協せざるを得ない部分だったと感じました。</p>
+</section>
+</section>
+<section id="typst-のここがもう少し" class="level2">
+<h2 class="anchored" data-anchor-id="typst-のここがもう少し">Typst のここがもう少し</h2>
+<p>「機能としては存在しているがリサーチ不足で見つけられていないだけ」というのは除外します。 新しいものを学ぶ際には、それなりの学習コストを支払うことを許容しなければなりません。</p>
+<section id="パッケージが少なすぎる" class="level3">
+<h3 class="anchored" data-anchor-id="パッケージが少なすぎる">パッケージが少なすぎる</h3>
+<p>やはり新興の組版システムということもあり、パッケージやテンプレートが整っていない印象です。 自然科学系分野のためのパッケージはわかりませんが、少なくとも人文・社会科学向けのパッケージはあまりありません。 特に、私が Typst から手を引く決定的な原因になったのは、ゲーム理論のツリーを描くパッケージがなかったということです。 もちろん、他のツールで作成したり画像を描画したりして貼り付ければいいのですが、パッケージが一切なかったというのが衝撃的でした。 今後、世界の誰かが作るのだろうと思いますが、少なくとも現時点で、ゲームのツリーを Typst 内で描画したい人は諦めるしかありません。</p>
+<p>また、引用の方法も人文・社会科学でよく使われる方法に対応していなかった印象です。 そもそも引用方法に関するパッケージも発展途上だと思いますが、APA や MLA などスタイルで参考文献リストを出力できなかったのは残念でした。 また、最終手段である手入力の (thebibliography) 環境すらありません。 CSL ファイルを使うと幾分かましになるのですが、流石に自由度が低く、躓く頻度が高かったように感じます。</p>
+</section>
+<section id="pdf-を図として取り込めない" class="level3">
+<h3 class="anchored" data-anchor-id="pdf-を図として取り込めない">PDF を図として取り込めない</h3>
+<p>これはいずれアップデートされそうですが、現時点で PDF で作成された図を Typst で呼び出すことはできません。 普段のワークフローにもよるでしょうが、私にとってはだいぶ面倒でした。</p>
+</section>
+</section>
+<section id="結論" class="level2">
+<h2 class="anchored" data-anchor-id="結論">結論</h2>
+<p>結論として、<strong>卒論・レポートなどの論文執筆</strong>には Typst はまだ使えないと思います。 簡単な文書なら Docs でよい、数式を含む長い文書なら LaTeX でよい。 乗り換えてより幸せになる、というほどの土俵にはまだ立っていないと思います。</p>
+<p>一方、数式を含む短めの文章 (授業ノートとか) を作る際には、便利だと思います。 数式の書き方もかなり明快で、なによりも即時コンパイルが素晴らしすぎます。 結局、目的に応じて使うツールも選択するべきだということでした。</p>
+
+
+</section>
+
+ ]]></description>
+  <category>tech</category>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/typst.html</guid>
+  <pubDate>Thu, 09 Oct 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/typst.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>Marp のテーマを作ってみた</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/rojina-theme.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。</p>
+<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
+<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
+<div>
+<h4 style="margin: 0;" class="anchored">
+<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
+</h4>
+<p style="margin: 5px 0 0; color: #586069;">
+Rojina: Marp theme for academic slides.
+</p>
+</div>
+</div>
+<ul>
+<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
+<li>Beamer の思想をかなり受け継いでいます
+<ul>
+<li>アスペクト比は4:3です</li>
+<li>Beamer の機能の移植もあります</li>
+</ul></li>
+<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
+</ul>
+<section id="rojina-テーマの使い方" class="level2">
+<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
+<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
+</section>
+<section id="marp" class="level2">
+<h2 class="anchored" data-anchor-id="marp">Marp</h2>
+<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
+</section>
+<section id="rojina-テーマの導入方法" class="level2">
+<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
+<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
+<section id="css-ファイルを配置する" class="level4">
+<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
+<ul>
+<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
+<ul>
+<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
+<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
+<li>Settings &gt; Marp: Themes にパスを記入します。
+<ul>
+<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
+</ul></li>
+</ul></li>
+<li>github の生ファイルをURLで直接呼び出す方法
+<ul>
+<li>または、Settings &gt; Marp: Themes に次のように入力します。
+<ul>
+<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
+</ul></li>
+<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
+</ul></li>
+</ul>
+</section>
+<section id="yaml-ヘッダの指定" class="level4">
+<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
+<ul>
+<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
+<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
+</ul>
+<pre><code>---
+marp: true
+theme: rojina
+paginate: true
+lang: ja
+footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
+style: |
+  section {  
+    --prim-color: #03233aff;      /* プライマリカラー */
+    --sec-color: #2a4f69ff;       /* セカンダリカラー */
+    --color-background: #fdfdfd;  /* 背景の色 */
+    --color-foreground: #333;     /* 文字の色 */
+    --color-link: var(--sec-color); /* リンクの色 */
+    }
+---</code></pre>
+<ul>
+<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
+<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
+</ul>
+</section>
+<section id="pdf-への出力" class="level4">
+<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
+<ul>
+<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
+<ul>
+<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="rojina-の使い方" class="level2">
+<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
+<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
+<section id="カラーパレットを自由に変更可能" class="level3">
+<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
+<ul>
+<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
+<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">変数名</th>
+<th style="text-align: left;">概要</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">–prim-color</td>
+<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">–sec-color</td>
+<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">–color-background</td>
+<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">–color-foreground</td>
+<td style="text-align: left;">文字の色です。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">–color-link</td>
+<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
+<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
+</ul>
+</section>
+<section id="タイトルページ" class="level3">
+<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
+<ul>
+<li>タイトルページは、次のように書きます。</li>
+<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
+</ul>
+<pre><code>&lt;!--
+_class: title-page
+_paginate: false
+_footer: ''
+--&gt;
+
+### 日付 | 報告の場所
+# 報告タイトル
+## 報告サブタイトル
+
+
+&lt;div class="author-block" markdown="1"&gt;
+
+### あなたの名前
+あなたの所属
+あなたの email、twitter、github、etc...
+
+&lt;/div&gt;</code></pre>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/title-page.png" class="img-fluid"></p>
+</section>
+<section id="フッタを表示する" class="level3">
+<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
+<ul>
+<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
+<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
+</ul>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
+</section>
+<section id="ヘッダを表示する" class="level3">
+<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
+<ul>
+<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
+<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
+<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
+<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
+</ul>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/header.png" class="img-fluid"></p>
+</section>
+<section id="ページのタイトル" class="level3">
+<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
+<ul>
+<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
+<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
+</ul>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/heading2.png" class="img-fluid"></p>
+</section>
+<section id="表を挿入する" class="level3">
+<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
+<ul>
+<li>一般的な markdown 記法に従い表を挿入できます。</li>
+<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
+<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
+</ul>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/table.png" class="img-fluid"></p>
+</section>
+<section id="コードブロックを挿入する" class="level3">
+<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
+<ul>
+<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
+<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
+</ul>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/code.png" class="img-fluid"></p>
+</section>
+<section id="見出し付きのブロックを挿入する" class="level3">
+<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
+<ul>
+<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
+</ul>
+<pre><code>
+&lt;div class="block"&gt;
+  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
+  &lt;div class="block-content"&gt;本文&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/block.png" class="img-fluid"></p>
+<ul>
+<li>ブロック内でもマークダウン記法が有効です。
+<ul>
+<li>もちろん、<img src="https://latex.codecogs.com/png.latex?%5CTeX"> 記法で数式を含めることもできます。</li>
+</ul></li>
+</ul>
+</section>
+<section id="参考文献のページを作る" class="level3">
+<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
+<ul>
+<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
+<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
+<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>tech</category>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/rojina-theme.html</guid>
+  <pubDate>Fri, 15 Aug 2025 15:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>(卒論・修論のための) 研究計画書の書き方</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/research-proposal.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>念の為に最初に述べておきますが、これから (はじめて) 学位論文を執筆するという学部生や修士の大学院生向けの内容です。科研費申請書の書き方でも、Ph.D 出願書類の書き方でもありません。また、<strong>研究計画書の体裁や構成についてのみ述べている</strong>のであって、理論や仮説の立て方については言及していません。そのような内容は、KKV や『原因を推論する』などの方法論のテキストを読んでください。</p>
+<p><a href="../page/research-proposal-en.html" class="btn btn--info" lang="en">English</a></p>
+<section id="年8月-追記" class="level2">
+<h2 class="anchored" data-anchor-id="年8月-追記">2025年8月 追記</h2>
+<p>先日、大学院の仲間と共同で主催している勉強会で研究報告会がありました。その際に開催したワークショップにおいて、同じテーマで報告を行ったので、その時のスライド資料もおいておきます。</p>
+<div class="slide-deck">
+<div class="pdf-embed">
+<iframe src="../assets/files/proposal.pdf"></iframe>
+</div>
+</div>
+</section>
+<section id="すべては研究計画書-research-proposal-からはじまる" class="level2">
+<h2 class="anchored" data-anchor-id="すべては研究計画書-research-proposal-からはじまる">すべては研究計画書 (Research Proposal) からはじまる</h2>
+<p>大学院に入学して (研究室に入って) 最初にすることは、研究計画書を書くことです。実際には大学院入試のときに提出のために書くのですが、後述する理由から、ふつうは提出したものから大きく内容が変わってしまいます。</p>
+<section id="研究計画書の目的" class="level3">
+<h3 class="anchored" data-anchor-id="研究計画書の目的">研究計画書の目的</h3>
+<p>「計画書」という名前から、研究計画書は、研究のスケジュールや見通し、現時点で研究者が考えていることをまとめたメモのようなものであると考える方がいるかも知れません。 しかし実際には、英語の Research <em>Proposal</em> のとおり、研究を他者に売り込むことが目的です。 日本語では、企画書とか提案書とかのほうが適訳でしょうか。 そのため、研究計画書に書いてあるべきことはある程度決まっており、そのフォーマットに従い、自分の研究の内容と面白さを完結に伝えることが目的となります。</p>
+<p>研究計画書の想定される読者は、入試の面接官や審査員、あなたの指導教員やゼミの仲間、研究を相談しようとする先生などが考えられます。 その読者に対し、あなたの研究がいかに興味深く、また現実的に執筆可能であるかを伝える必要があります。常に読者がいることを意識して執筆することが重要です。</p>
+<p>なお、研究計画書の本来の (または建前的な) 目的は、研究の実現可能性や論理的一貫性を示すことです。</p>
+<p>逆に言えば、その目的を達成するために必要な情報だけが記載されていればよいです。あなたの頭の中にある様々な思考や知識は、学位論文に書けばいいのです。具体的に言えば、学位論文 (卒論・修論) のために日本語で執筆する研究計画書は、参考文献リストを除いてA4サイズで3～4枚程度で十分です<sup>1</sup>。</p>
+<p>また、先行研究をたくさん紹介することも目的ではありません。もちろん、「この分野の既存の研究にはきちんと目を通しています」ということをアピールする意味では、先行研究に触れて適切に引用することが必要です。しかし本当に重要なのは自分の研究を紹介することです。そのため、先行研究の説明よりもむしろ、自分の理論や仮説の説明に多くのスペースを割くことを意識して書くとよいでしょう。簡単に言えば、他人の研究を親切に紹介して上げる必要はないということです。</p>
+<p>この記事では、これから研究を書きはじめる人のために、私が所属する研究室である程度テンプレート化された「研究計画書」の書き方を解説します。なお、より詳細な書き方については、学部生向けに開講されている「国際関係研究の方法」みたいな授業や、大学院科目のアカデミック・ライティングとかリサーチ・メソッドのような名前の授業を受講してください。</p>
+</section>
+<section id="卒論修論の計画書は変わる" class="level3">
+<h3 class="anchored" data-anchor-id="卒論修論の計画書は変わる">卒論・修論の計画書は変わる</h3>
+<p>大学院の入試のときに提出した研究計画書の内容から、一切の変更なく修士論文を執筆して提出できる人はいるのでしょうか。私には想像がつきません。大抵の場合、ゼミや授業で報告を重ね、他者からコメント・アドバイスをもらっていく過程で、方針や方法論などが変わっていくものだと思います。したがって、大学院 (特に修士課程) では、最初の半年～1年間をかけて研究計画書を執筆することがあります。言い換えれば、卒論・修論の執筆初期の段階で完璧な研究計画が立てられる人などまずいないということです。</p>
+<p>卒論・修論のための研究計画書は常に改訂し続け、「現時点で最新の研究計画書」として執筆することになる点で、少し特殊な例かもしれません。ただし、研究計画書のフォーマットや内容に関しては同じですので、記事の内容は妥当するはずです。</p>
+</section>
+<section id="卒論修論の序章にもなる" class="level3">
+<h3 class="anchored" data-anchor-id="卒論修論の序章にもなる">卒論・修論の序章にもなる</h3>
+<p>研究計画書は、自身の研究の根幹となる情報が簡潔にまとめられている書類です。これは、研究論文でいうアブストラクトに当たる部分であり、卒論・修論では序章がそれに該当します。したがって、あなたが改訂し続けた研究計画書は、最終的にあなたの学位論文の序章としてほとんどそのまま執筆することができます。あなたの学位論文を読む人が、序章を呼んだだけであなたの研究をなんとなくイメージし、さらにおもしろいと思ってもらえることが重要です。</p>
+<p>ただし、研究計画書が一字違わずそのまま序章になるわけでないことに注意が必要です。計画書の段階では書けないこと (研究の結果や含意) もありますし、序章においては論文の構成をまとめた項目も必要になるためです。</p>
+</section>
+</section>
+<section id="研究計画書に書いてあること" class="level2">
+<h2 class="anchored" data-anchor-id="研究計画書に書いてあること">研究計画書に書いてあること</h2>
+<p>人や研究室によって順番や内容に多少の差異はあれど、研究計画書に書いてあるべき情報はほとんど同じです。<sup>2</sup> 各項目をクリックすると、その部分に飛ぶことができます。</p>
+<ol type="1">
+<li>素敵なタイトル</li>
+<li>研究の問い</li>
+<li>研究の背景</li>
+<li>研究の意義</li>
+<li>理論と仮説</li>
+<li>研究の方法 (リサーチデザイン)</li>
+<li>参考文献リスト</li>
+</ol>
+<p>それぞれ解説します。</p>
+<section id="素敵なタイトル" class="level3">
+<h3 class="anchored" data-anchor-id="素敵なタイトル">素敵なタイトル</h3>
+<p>研究計画書のタイトルは(特に指定がある場合を除いて)、「研究計画書」とするべきではありません。すでに述べたとおり、研究計画書は研究者のメモや保存用のノートではなく、他者に研究を売り込む提案書です。そう、タイトルの段階であなたのプレゼンは始まっているのです。</p>
+<p>研究計画書のタイトルは、論文全体の内容や主張がわかるようにつけましょう。あなたの論文のタイトルにそのまま採用されるようなタイトルが望ましいです。必要があれば副題を付けてもよく、主題と合わせて効果的に研究内容を伝えられるような素敵なタイトルを考えてみてください。ちなみに、英語の論文は主題と副題をコロン (:) で結びますが、日本語では副題を em ダッシュ (—) で囲むことが多いようです (少なくとも私はそうするよう指導されました)。</p>
+<ul>
+<li>素敵とは言えないタイトルの例
+<ul>
+<li>「研究計画書」</li>
+<li>「4月5日の報告資料」</li>
+</ul></li>
+</ul>
+</section>
+<section id="研究の問い-rq-research-question" class="level3">
+<h3 class="anchored" data-anchor-id="研究の問い-rq-research-question">研究の問い (RQ: Research Question)</h3>
+<p>研究の問いとは、<strong>その研究の核心をなす問い</strong>のことです。前提にあるのは、研究とは問いから始まり、それに答えるものであるという姿勢です。実際に、最近読んだいくつかの論文を思い出してみると (またはアブストラクトを読み直してみると)、最初に本研究が取り組む問いを明示しているはずです。あなたの研究も含め、すべての研究には、それが明らかにしようとしている問いが存在します。研究計画書では、まずはじめにその問いを明示することが必要です。「研究の問いの立て方」は、この記事の範疇ではありません<sup>3</sup>。</p>
+<p>問いの立て方については言及しませんが、問いの提示の仕方にはいくつかのコツがあります。その一つが、パズル (puzzle) を意識することです。ここでいうパズルとは、既存の知 (すなわち、先行研究や社会実践の蓄積) と実際の社会現象との間に存在する矛盾のことをいいます。「既存の知」とのギャップは、強いて言えば2種類あり、(1) 人類がまだ知らないパターンと、(2) 人類が完全には正しくないパターンに分けられます（個人的な分類です）。前者は、「なぜ〇〇という現象が発生したのか。人類はこの現象を説明する理論を持っていない。」という論理構造です。この場合執筆者は、その現象を説明する理論を提唱することが目的となります。後者は、「人類はこういう理論を持っており、それに基づけばこうなると予想される。なぜ〇〇という理論に反する現象が起こったのか。」となります。この場合は、すでに存在する理論を提唱するか、より正しい理論を提示することになります。</p>
+<div class="callout callout-style-default callout-note callout-titled" title="研究の問いの例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>研究の問いの例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>移民が犯罪問題を悪化させるという懸念は、西欧諸国の市民の間で広く見られる。このような懸念は、選挙政治をどのように形作るだろうか。(Alizade, 2025<sup>4</sup>)</p>
+<p>組織化された犯罪暴力に関して私たちが知っていることのほとんどは、違法な薬物市場の研究からきている。しかし、犯罪組織は合法な商品の市場を手にするためにも争っており、シチリア産レモンやメキシコ産アボカドがその例である。では、組織化された犯罪グループは、いつ合法勝因の市場に暴力的に進出するのだろうか。(Estancona &amp; Tiscornia, 2025<sup>5</sup>)</p>
+<p>※なおこれらは問いの例であって、「研究の問い」の節の例ではない。</p>
+</div>
+</div>
+</div>
+<p>研究の問いの節は、長くても2-3段落で十分です。具体的な構成としては、例えば次のようなものが考えられます。</p>
+<ul>
+<li>1段落目に、1文で問いを提示する。</li>
+<li>2段落目に、既存の知の限界と、矛盾する実際の社会現象を紹介する。</li>
+<li>3段落目に、「本研究はこのギャップを、◯◯という方法で/〇〇という新理論で/etc 埋めることを目的とする。」みたいな文章を入れる。</li>
+</ul>
+<p>研究の問いにはいくつかのスタイルがあります。中でもよく用いられる区別が、Why Question と How Question です。前者は、独立変数 (原因) と従属変数 (結果) の間に見られる因果関係に着目し、独立変数自体や因果メカニズムを特定する理論構築を目的として行われます。例えば、「なぜ民主主義国家同士は戦争しないのか」などがわかりやすい例でしょうか。一方 How Question とは、現状を分析して記述したり、過程を詳細に描き出したりするときに使われます。例えば、「日本はどのようにして超超高齢社会に突入したか」などが挙げられます。</p>
+</section>
+<section id="研究の背景" class="level3">
+<h3 class="anchored" data-anchor-id="研究の背景">研究の背景</h3>
+<p>研究の問いや理論、研究の方法の提示をする際、それだけでは読者の十分な理解が得られないと考えるならば、「研究の背景」の項目を設けて説明することができます。ただし、説明が本当に必要な場合に限ります。</p>
+<p>説明が本当に必要な場合とは、例えば次のような場合です:</p>
+<ul>
+<li>研究対象が特定の地域や時期に限定されている場合（例：2020年代の東南アジア）</li>
+<li>専門外の読者にとって馴染みのない社会現象を扱う場合（例：地方議会の委員会制度）</li>
+<li>特定の歴史的事件や政策が前提知識として必要な場合</li>
+</ul>
+<p>研究の背景を含める場合、次の2点に注意が必要です。第一に、長く書かないこと。最初に述べたとおり、研究の背景の説明は、本当に必要な場合のみ提示します。説明しないと理論や方法をわかってもらえない場合だけです。さらに言えば、それらの説明を理論や方法の項目で書くこともできないような場合に限定されます。その理由は、研究計画書の目的に照らせば明白です。第二に、研究の問いを提示したあとに書くことです。事例の紹介を (長々と) 行ったあとで、問いを提示している計画書やプレゼンテーションをたまに見かけますが、この方法は読者フレンドリーとは言えません。たしかに、あなたの思考の順番でいえば、特定の事例について調べていくうちに研究の問いを思いついたと思います。しかし読者はむしろ、問いを前提として具体的な背景を理解しようとします。優れた文章が結論を先に提示するように、研究の背景も問いのあとに続くように配置しましょう。</p>
+</section>
+<section id="研究の意義" class="level3">
+<h3 class="anchored" data-anchor-id="研究の意義">研究の意義</h3>
+<p>研究の意義とは、<strong>本研究が学術界や社会に与える貢献</strong>のことです。大きく学術的意義と政策的意義 (社会的意義) に分けられます。いずれも、(1) なぜこの問いに答える必要があるのか、(2) これまでの先行研究 / 社会実行では不十分な点、(3) あなたの研究がもつ新しさ (新規性) や面白さを提示する場になります。</p>
+</section>
+<section id="理論と仮説" class="level3">
+<h3 class="anchored" data-anchor-id="理論と仮説">理論と仮説</h3>
+<p>この節では、あなたが研究において妥当性があると考えている理論と、そこから導かれる検証するべき仮説を提示します。極めて単純化すれば<sup>6</sup>、理論とは原因と結果に関する因果関係やメカニズム、仮定などの集合をいいます。一方で仮説とは、理論が正しい場合に当然導かれる、観察可能で具体的な現象をいいます。</p>
+<p>科学の究極的な目的のひとつは、より広い現象をより一般的な理論で説明することといえるかもしれません。国際関係研究で主流な理論 (たとえばリアリズムやリベラリズム) は、国家間の関係についての現象 (戦争、平和、協力、……) とその原因に対して包括的な説明を与えることを目的としています。その意味で、あなたの研究は、その分野における現時点で最も説明力が高く包括的な理論を主張することが求められます<sup>7</sup>。それは、あなた自身がこれまでの理論を改良して作った新しい理論であるかもしれませんし、これまでに提出されてきた理論のうち、最も妥当性の高いものを決定するのかもしれません。</p>
+<p>したがってこの章では、(1) あなたの提示する / 支持する理論の説明、(2) その理論が妥当だと考える理由、(3) それ以外の理論では不十分な理由、(4) その理論が正しい場合に観察されるべき仮説の4点を明確にする必要があります。仮説は、言い換えれば現実世界の予測です。他の理論では予測できないが、その理論では予測できるという仮説を提示することが、理論の妥当性を検証するという意味において重要です。あなたが提示し、仮説を導き、正しさが検証された理論は、後の誰かの研究によって反証されるまでは正しいことが保証されます。すなわち研究とは、理論を精緻化していく過程と捉えることもできます。</p>
+<p>仮説についていくつか補足します。第一に、仮説は次のような型を持っていることが望ましいです。すなわち、「独立変数の値が大きくなる (小さくなる) とき、従属変数の値が大きくなる (小さくなる)」というように、独立変数の変化に対する従属変数の変化の様子を記述していることです<sup>8</sup>。これは、理論が原因と結果に関する因果関係を主な対象としていることからの要請です。ただし、一般化された理論というよりも、特定の事例についての限定的な仮説を提示する場合はこの限りではありません。</p>
+<p>第二に、仮説を複数立てる場合があります。その理由は様々ありますが、一般的には (1) 競合する仮説 / 理論 を提示し、自分が支持するものだけが正しいと検証されることにより、提示する理論の妥当性を主張する場合、または、(2) 提示する理論からいくつかの仮説が導かれるために、それらをすべて提示する場合が多いです。(1) の場合は、自身が正しいと考える仮説以外の仮説を「対抗仮説」などと呼んで区別し、検証により対抗仮説を棄却して自分の仮説の正しさを主張します。(2) の場合、仮説の間の関係性に関する説明が必要です。特に異なる独立変数が設定されている場合、どの独立変数が最も重要であるのか、独立変数同士の関係はどうなっているか、などの説明をします。もちろん、必ずしも仮説を複数用意する必要はありません。検証のしやすさや主張の内容によって柔軟に対応するべきことであると思います<sup>9</sup>。</p>
+<p>最後に、理論は妥当性とともに限界を持っているはずです。この理論の説明の射程範囲をスコープ・コンディション (scope condition) といい、理論を提示する場合にはこの射程範囲も説明する必要があります。これは、理論の提示の段階でわかっているのであれば、研究計画書にも書くとよいでしょう。理論に一定の仮定を付する場合などがこれに該当します。理論の射程を明示することにより、その研究が対象としている社会現象の範囲や、理論の一般化可能性に関する議論を明らかにすることができるためです。一方、検証の過程や議論の結果存在すると発見された限界については、論文の終章 (結論) の部分に書くのがよいです。</p>
+</section>
+<section id="研究の方法-リサーチデザイン" class="level3">
+<h3 class="anchored" data-anchor-id="研究の方法-リサーチデザイン">研究の方法 (リサーチデザイン)</h3>
+<p>前の項目で提示された理論及び仮説は、科学的な方法に基づいて検証される必要があります。この章では、その検証の方法について説明します。リサーチデザインの章では、以下の要素を説明するとよいです。すなわち、(1) 仮説の独立変数と従属変数はどのように操作化されるのか、(2) どのようなデータに基づいて検証を行うのか、(3) どのような方法論を用いて検証を行うのか、です。</p>
+<p>第一に、仮説はその時点では一般的な言葉で書かれている場合がほとんどです。独立変数や従属変数は、「民主主義度合い」とか「国家のパワー」、「議会での発言」とかいった言葉で表現されています。これらを、実際に観察することができる基準に定義し直すことを「操作化」といいます。民主主義度合いは、「選挙が行われているか」とか、「報道の自由が確保されているか」とかで観察することができますし、国家のパワーは軍事費 (米ドル) などで観察できるかもしれません。議会の発言は、具体的にどの議会におけるなんという言葉の出現であるかを説明する必要があります。なおこれらの操作化は、先行研究によって定義されているものをそのまま援用する場合はその旨を明示します。民主主義度合いについて Polity 5 を使ったり、国家のパワーとして Correlates of War の National Material Capability を用いたりする場合などです。</p>
+<p>第二に、検証に用いるデータはすべて列挙します。定量分析でも定性分析でも同じで、上記のような数値的なデータだけでなく、議会の議事録や新聞、政治家の発言、公文書などがデータにあたります。どのようなデータに基づいて検証を行うつもりであるのかを説明することは、その研究の実現可能性や妥当性の評価に直接つながりますから、必要なことであるといえます (さらにいえば、その分野についてもっとよいデータがあれば、それを教えてくれるかもしれないという意味でも、今知っているデータを書いておくことはよいことです)。また、計量分析を行う場合、データの期間や地域に関する説明も必要です。データの取得可能性から地域や期間が限定されるのであれば、検証に影響がないかを説明します。事例分析を行う場合は、事例選択の理由を述べる必要があります。</p>
+<p>第三に、用いる方法論も提示しておくのがよいです。計量分析であれば、使うモデルの名前を挙げます (線形回帰分析、生存時間分析、量的テキスト分析など)。質的な分析であれば、やはり方法の名称を挙げます(過程追跡法、比較事例分析、整合性検証など)。なぜそのような方法論を用いるのかについての説明も必要でしょう。特に、その分野であまり採用されないような方法論を使うような場合は、一般的な方法論と比較して優れている点を主張しなければ、「単に回帰分析すればいいのでは」などとコメントされてしまいます。その意味でも、各方法が持つ方法論的特徴・利点についてはしっかりと勉強しておきたいです。</p>
+<p>なお、リサーチデザインの作り方及び書き方については、各種方法論のテキストに細かく書いてあることがほとんどです。それらはある程度はフォーマット化され、何を書くべきかが明確に定まっています。そのため、テキストに従って執筆するのが最もよいと考えます。</p>
+</section>
+<section id="参考文献リスト" class="level3">
+<h3 class="anchored" data-anchor-id="参考文献リスト">参考文献リスト</h3>
+<p>本文で引用した文献は過不足なく参考文献リストに掲載します。これは言うまでもなく剽窃を防止するためであり、統一されたスタイルにって文献情報を正しく引用する場合があります。引用の方法についてはここでは詳しく述べませんので、各種テキストや資料を確認してください。</p>
+<p>APA スタイルでの引用方法をまとめたページも作っています。もしかしたら参考になるかも。</p>
+<ul>
+<li><a href="../page/apa-style.qmd">APA スタイルでの引用方法</a></li>
+</ul>
+<p>ただし、よくある質問のうち重要であると思われるもののみ、限定的に説明しておきます。</p>
+<ul>
+<li>参考文献は、著者の (ファミリーネームの) アルファベット順に並べるのが一般的です
+<ul>
+<li>他の分野では、引用順に 1, 2, … とつけることもあります</li>
+</ul></li>
+<li>日本語文献と英語文献は分けてリストにすることが多いです</li>
+<li>参考文献リストは、読みやすさのためにぶら下げインデントを使うことが多いです
+<ul>
+<li>一応、<a href="https://support.microsoft.com/ja-jp/office/word%E3%81%A7%E3%81%B6%E3%82%89%E4%B8%8B%E3%81%92%E3%82%A4%E3%83%B3%E3%83%87%E3%83%B3%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%99%E3%82%8B-7bdfb86a-c714-41a8-ac7a-3782a91ccad5">MS Word でぶら下げインデントする方法 (Microsoft)</a></li>
+</ul></li>
+<li>脚注に完全な文献情報を記載する方法を使っていても、改めて参考文献リストを付するほうがよいです
+<ul>
+<li>もちろん、論文本文に関してはこの通りではありません</li>
+</ul></li>
+</ul>
+<p>これとは別に、引用はしていないが参考にした、勉強に用いた、これから読もうと思っている文献を一覧にしておくことがあります (ゼミの報告資料や、相談のための資料に限ります。申請書などでは許されません)。これらは、<strong>参考文献リストとは分けてリストを付してもよい</strong>でしょう。 あなたがこの分野についてどれだけの先行研究を確認しているかを提示することで、他者があなたに対してアドバイス・コメントしやすい場合があります。 ただし繰り返しますが、これはゼミの報告資料などといったラフな場合に限ります。それ以外の場合で参考にしていない文献を引用することはできません。</p>
+</section>
+</section>
+<section id="おすすめの文献" class="level2">
+<h2 class="anchored" data-anchor-id="おすすめの文献">おすすめの文献</h2>
+<p>以下では、研究を始める際に参考になるかもしれない文献をいくつか提示します。筆者のおすすめというだけです。</p>
+<section id="これから研究を書くひとのためのガイドブック" class="level3">
+<h3 class="anchored" data-anchor-id="これから研究を書くひとのためのガイドブック">これから研究を書くひとのためのガイドブック</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/korekara.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>佐渡島紗織・吉野亜矢子. (2021). <a href="https://www.hituzi.co.jp/hituzibooks/ISBN978-4-8234-1089-5.htm">出版社のサイト</a></p>
+<p>タイトルのとおり、初めてアカデミックライティングをする人のために、要点が簡潔にまとめられた入門書。文章の書き方から問いの立て方、資料の集め方まで優しく説明されている。アカデミックな文章とは何かを勉強する最初の本としておすすめ。</p>
+</div>
+</div>
+</section>
+<section id="政策リサーチ入門" class="level3">
+<h3 class="anchored" data-anchor-id="政策リサーチ入門">政策リサーチ入門</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/seisaku.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>伊藤修一郎. (2023). <a href="https://www.utp.or.jp/book/b594675.html">出版社のサイト</a></p>
+<p>政策提言や評価を最終的な目的として、科学的な研究を行う方法を基礎から解説している。シンクタンクや国連・政府関連の政策立案に携わりたいと考えている人におすすめ。また、リサーチ内容をわかりやすく人に伝える方法についての説明もあり、かなり丁寧だ。</p>
+</div>
+</div>
+</section>
+<section id="原因を推論する-新版" class="level3">
+<h3 class="anchored" data-anchor-id="原因を推論する-新版">原因を推論する (新版)</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/suiron.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>久米郁男. (2025). <a href="https://www.yuhikaku.co.jp/books/detail/9784641149571">出版社のサイト</a></p>
+<p>社会科学研究の方法に関する日本語のバイブル。このページでも説明した理論とか観察、変数などの言葉についても深堀りして説明されている。若干古い印象があるが、科学的な研究とはなにかについて考える重要な材料がまとまっている。大学院生になってものを書くようになったら、必ず一度は読みたい。</p>
+</div>
+</div>
+</section>
+<section id="博士号のとり方" class="level3">
+<h3 class="anchored" data-anchor-id="博士号のとり方">博士号のとり方</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="https://stats1230.github.io/lab-desk/assets/image/torikata.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>E.M.フィリップス・C.G. ジョンソン. (2025). <a href="https://www.unp.or.jp/ISBN/ISBN978-4-8158-1194-5.html">出版社のサイト</a></p>
+<p>博士号取得を目指す大学院生向けに、研究者としての指針を示している。研究の型や指導教員との付き合い方などの章は、修士課程学生にも参考になる(と同時に、博士課程への進学に悩んでいる場合にその実態を知る手がかりになるかもしれない)。</p>
+</div>
+</div>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>余談ですが、日本の公的研究資金で最も有名な科研費 (科学研究費助成事業) の応募の際にも研究計画調書を提出します。この書類の「研究目的、研究方法など」の部分がこの記事の研究計画書にあたり、種別にもよりますがいずれも 4～6 ページを上限としています。(<a href="https://www.jsps.go.jp/j-grantsinaid/03_keikaku/download.html">科研費公募情報</a>)↩︎</p></li>
+<li id="fn2"><p>フィリップス &amp; ジョンソン (2025) は、研究を大きく「探究型研究」、「検証型研究」、「問題解決型研究」に分類しています。そのうえで、博士論文には検証型研究が適していると述べています。そのため、このページでも、検証型研究を行うことを前提とした研究計画の書き方を提案します。↩︎</p></li>
+<li id="fn3"><p>問いの立て方については、やはり研究の方法論に関連する部分です。そのため、研究の方法に関するテキストや授業から学んでください。1つアドバイスするとすれば、パズルを意識すること、つまり既存の知が十分でない部分を発見すると、問いを立てやすいです。ということは、やはり、十分に先行研究を調べる必要があるということになります。研究は、研究を始めようとするときから文献をたくさん読まなければなりません。大変だ。↩︎</p></li>
+<li id="fn4"><p>Alizade, J. (2025). The electoral politics of immigration and crime. <em>American Journal of Political Science</em>, 1–18. https://doi.org/10.1111/ajps.70013↩︎</p></li>
+<li id="fn5"><p>Estancona, C., &amp; Tiscornia, L. (2025). From Cocaine to Avocados: Criminal Market Expansion and Violence. International Organization, 79(3), 417–455. doi:10.1017/S0020818325100763↩︎</p></li>
+<li id="fn6"><p>大学院では「理論とはなにか」とか「仮説とはなにか」(さらに言えば、科学的な研究とはなにか) ということを考える時間があります。ただ、ここでは到底検討が及びませんので、触れません。おすすめ文献として紹介した「原因を推論する」は、この点の議論も扱っています。↩︎</p></li>
+<li id="fn7"><p>すでに述べたとおり、これは「検証型研究」に求められているものです。他の型の研究においては、求められているものも異なってくる場合があります。↩︎</p></li>
+<li id="fn8"><p>この点、独立変数と従属変数の関係が決定論的であると考える場合は、「～のとき、～になる」と表現し、確率的であると考える場合は「～のとき、～になりやすい」とか、「～の傾向がある」などと表現します。↩︎</p></li>
+<li id="fn9"><p>計量分析や数理モデルを方法論として採用している論文では、仮説の数が3，4個……と多くなる傾向にあるように感じます。これは、統計的な分析が複数のモデルを一度に扱いやすいことなどに起因していると考えられます。この場合でも、仮説の間の関係性や因果効果の大きさに関する議論が必要であることには変わりありません。↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>writing</category>
+  <category>research</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/research-proposal.html</guid>
+  <pubDate>Wed, 30 Jul 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/research-proposal.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>先行研究の探し方、まとめ方</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/literature.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>先日、大学院の仲間と共同で主催している自主ゼミで研究報告会がありました。それに合わせて、「論文の書き始め方」というワークショップを開催しました。そこで共同主催者の同期が「先行研究の探し方、まとめ方」という題目で報告をしてくれたのですが、その時のスライド資料をここで掲載します。中島さん、素敵な報告をしていただき、また資料の公開をご快諾いただきありがとうございました！</p>
+<div class="author-card">
+<section id="中島-崇裕-takahiro-nakajima" class="level3 text-content" data-markdown="1">
+<h3 class="anchored" data-anchor-id="中島-崇裕-takahiro-nakajima">中島 崇裕 / Takahiro Nakajima</h3>
+一橋大学大学院法学研究科修士課程。専攻は国際関係論、研究関心は国際規範、民主主義・人権、LGBTQ＋の権利。2022年から一橋大学グローバル・ガバナンス研究センター（GGR）でリサーチアシスタントを務める。また、2024年からは、LGBTQ＋の学生とアライが利用できる一橋大学のセーファースペースの運営に携わる。(文章・写真ともに<a href="https://ggr.hias.hit-u.ac.jp/">一橋大学 GGR のウェブサイト</a>による。)
+</section>
+<div class="image-content" data-markdown="1">
+<img src="https://stats1230.github.io/lab-desk/assets/image/nakajima.jpg" class="img-fluid">
+</div>
+</div>
+<div class="slide-deck">
+<div class="pdf-embed">
+<iframe src="../assets/files/literature.pdf"></iframe>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/literature.html</guid>
+  <pubDate>Wed, 30 Jul 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/literature-review.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>卒論・修論の体裁 Tips</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/tips.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>卒業論文・修士論文を執筆する際に役に立つかもしれない情報を雑多にまとめます。</p>
+<section id="基本的なガイドライン" class="level3">
+<h3 class="anchored" data-anchor-id="基本的なガイドライン">基本的なガイドライン</h3>
+<p>※私が所属する研究室で、少なくとも2025年に指示された内容です。他のゼミに所属している方や新しい指示がある場合は、当然そちらに従ってください。</p>
+<ul>
+<li>表紙のあとに、内表紙をいれる。</li>
+<li>目次を入れる。
+<ul>
+<li>修士論文では、図表の目次も入れる。</li>
+</ul></li>
+<li>要約を入れる。</li>
+<li>本文の文字の大きさは、10.5ポイント、脚注は、10ポイント
+<ul>
+<li>英語の場合は、本文11ポイント、脚注10ポイント</li>
+</ul></li>
+<li>各章のタイトルは、研究方法、主張などが分かりやすいタイトルにする。
+<ul>
+<li>章のタイトルに、副題を付けるのも一案。</li>
+<li>また、各章の初めは、改頁する。</li>
+</ul></li>
+<li>図表でカラーを使っている場合は、それでもよい。
+<ul>
+<li>但し、白黒で印刷・コピーする人がいる可能性を考え、線の種類や背景の模様を変えて、白黒でもわかりやすいようにする。</li>
+</ul></li>
+<li>参考文献リストや脚注の記載を再度確認する。</li>
+<li>謝辞は結論ではなく「あとがき」に書く。</li>
+</ul>
+</section>
+<section id="その他役に立つ情報" class="level3">
+<h3 class="anchored" data-anchor-id="その他役に立つ情報">その他、役に立つ情報</h3>
+<ul>
+<li>一橋大学商学部、松井剛ゼミナール「<a href="https://researchmap.jp/multidatabases/multidatabase_contents/detail/243998/7734311aa222dd013102a08a8e638575?frame_id=541475">卒業論文の体裁に関するメモ</a>」</li>
+<li>一橋大学社会学研究科「<a href="https://www.soc.hit-u.ac.jp/info/student/cover_m.html">修士論文表紙作成要領</a>」</li>
+</ul>
+</section>
+<section id="引用スタイル" class="level3">
+<h3 class="anchored" data-anchor-id="引用スタイル">引用スタイル</h3>
+<ul>
+<li>日本語の場合、APA準拠とするか、学会の引用スタイルに従うのがよい。
+<ul>
+<li>たとえば、<a href="https://jair.or.jp/membership/application/rules_for_papers.html">日本国際政治学会の投稿規定</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="個人的な-tips" class="level3">
+<h3 class="anchored" data-anchor-id="個人的な-tips">個人的な Tips</h3>
+<ul>
+<li><a href="https://tsutawarudesign.com/">伝わるデザイン</a>
+<ul>
+<li>プレゼン含め、伝えやすいデザインの方法を解説しているサイト。フォントの話から配色の話、バリアフリーについても触れられており、報告資料の作成の際に必携。</li>
+<li>より一般的なデザインの話は、<a href="https://gihyo.jp/book/2021/978-4-297-11985-0">書籍「伝わるデザインの基本」</a>に掲載されている。</li>
+</ul></li>
+<li>図表のタイトルは、図は下、表は上。</li>
+<li>図表はページの上部に来るように調整する。</li>
+</ul>
+</section>
+<section id="製本と表紙の雛形" class="level3">
+<h3 class="anchored" data-anchor-id="製本と表紙の雛形">製本と表紙の雛形</h3>
+<p>卒業論文及び修士論文は、ハードカバーを付した製本を施して提出することが求められます。</p>
+<p>通常製本は、大学の生協または大学周辺の文具店に注文します。下記をご確認ください。各ページには、表紙の雛形もおいてあります。</p>
+<ul>
+<li>一橋大学生協「<a href="https://www.univcoop.jp/hit-u/info/info_115.html">卒業論文製本</a>」</li>
+<li>文具しまだ「<a href="https://www.bungu-shimada.com/ronbun.html">論文製本</a>」</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <category>lab</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/tips.html</guid>
+  <pubDate>Fri, 28 Feb 2025 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/format-tips.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+<item>
+  <title>APA スタイルでの引用方法</title>
+  <dc:creator>達野俊輔 / S. Tatsuno</dc:creator>
+  <link>https://stats1230.github.io/lab-desk/posts/apa-style.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>この記事では、政治学分野で最もよく用いられる引用スタイルの1つである”<a href="https://apastyle.apa.org/">APA Style</a>” の第7版の方式での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。</p>
+<p>ただし、日本語文献については <strong>APA スタイルを日本語に適用した場合、このように表記するのがよいだろう</strong>というものであって、規定があるわけではありません。指示がない場合は文献を通して統一されたスタイルになっていればよいはずです。国際政治系の資料であれば、<a href="https://jair.or.jp/membership/application/rules_for_papers.html">国際政治学会の投稿規定</a>に従うのもよいかもしれません。</p>
+<p><br> <br></p>
+<section id="英語文献" class="level2">
+<h2 class="anchored" data-anchor-id="英語文献">英語文献</h2>
+<section id="雑誌論文-journal-article" class="level3">
+<h3 class="anchored" data-anchor-id="雑誌論文-journal-article">雑誌論文 (Journal article)</h3>
+<div class="card apa-citation-card">
+<p>Author, F.M. (Year). Title of the article. <em>Title of the Journal, volume</em>(issue), #-#. DOI</p>
+</div>
+<ul>
+<li>著者名
+<ul>
+<li>ラストネームを先に書き、カンマ（,）を打ちます。</li>
+<li>ファーストネームとミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+<li>複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にアンパサンド（&amp;）を置きます。</li>
+</ul></li>
+<li>発行年
+<ul>
+<li>論文の発行年を丸括弧 () で囲みます。ピリオド(.)を忘れずに。</li>
+</ul></li>
+<li>論文のタイトル
+<ul>
+<li>主題と副題をコロン（:）でつなぎます。</li>
+<li>文の最初の文字と、コロンの後の最初の文字、固有名詞のみ大文字にします。</li>
+</ul></li>
+<li>雑誌のタイトル
+<ul>
+<li>雑誌名を斜体（<em>Italic</em>）にします。</li>
+<li>主要な単語の頭文字を大文字にします。</li>
+</ul></li>
+<li>巻号
+<ul>
+<li>巻数（Volume）を斜体にし、直後に号数（Issue）を丸括弧 () で囲んで表記します。</li>
+</ul></li>
+<li>掲載ページ
+<ul>
+<li>掲載ページの範囲をenダッシュ（–）でつなぎます。</li>
+</ul></li>
+<li>DOI (Digital Object Identifier)
+<ul>
+<li>論文にDOIがある場合は、https://doi.org/ から始まる完全なリンクを記載します。</li>
+<li>リンクが切れないように、末尾にピリオドは付けません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Axelrod, R., &amp; Keohane, R. O. (1985). Achieving cooperation under anarchy: Strategies and institutions. <em>World Politics, 38</em>(1), 226–254. https://doi.org/10.2307/2010357</p>
+<p>Chenoweth, E., Perkoski, E., &amp; Kang, S. (2017). State repression and nonviolent resistance. <em>Journal of Conflict Resolution, 61</em>(9), 1950-1969. https://doi.org/10.1177/0022002717721390</p>
+<p>Glaser, C. L. (1994). Realists as optimists: Cooperation as self-help. <em>International Security, 19</em>(3), 50–90. https://doi.org/10.2307/2539079</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本-book" class="level3">
+<h3 class="anchored" data-anchor-id="本-book">本 (Book)</h3>
+<div class="card apa-citation-card">
+<p>Author, F. M. (Year). <em>Title of the book: Subtitle of the book</em> (xth ed.). Publisher. DOI or URL</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>ラストネームを先に書き、カンマ（,）を打ちます。</li>
+<li>ファーストネームとミドルネームはイニシャル（頭文字）のみ記し、ピリオド（.）を打ちます。</li>
+<li>複数人いる場合はカンマ（,）でつなぎ、最後の著者の前にアンパサンド（&amp;）を置きます。</li>
+</ul></li>
+<li><strong>著作年</strong>
+<ul>
+<li>本に記載されている著作年（copyright year）を丸括弧 () で囲みます。</li>
+</ul></li>
+<li><strong>本のタイトル</strong>
+<ul>
+<li>本のタイトルを斜体（<em>Italic</em>）にします。</li>
+<li>主題と副題をコロン（:）でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。</li>
+</ul></li>
+<li><strong>版情報</strong>
+<ul>
+<li>本のタイトルのあと（ピリオドの前）の括弧内に、斜体にせずに表記します。</li>
+<li>版を「序数詞+『ed.』」で書きます。（例: 2nd ed., 4th ed.）</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>出版社の名前を書きます。出版地は不要です。</li>
+<li>複数の出版社から出版されている場合、「;」を用いてつなぎます。</li>
+</ul></li>
+<li><strong>DOIまたはURL</strong>
+<ul>
+<li>DOIがあればDOIをリンク形式で表記します。末尾にはピリオド (.) を付けません。</li>
+<li>DOIがなくURLがある場合（e-bookなど）はURLを表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>King, G., Keohane, R. O., &amp; Verba, S. (2021). <em>Designing social inquiry: Scientific inference in qualitative research</em> (2nd ed.). Princeton University Press.</p>
+<p>Kalyvas, S. N. (2006). <em>The logic of violence in civil war</em>. Cambridge University Press.</p>
+<p>Stock, J. H., &amp; Watson, M. W. (2020). <em>Introduction to econometrics</em> (4th ed.). Pearson Education.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="編集本の特定の章-book-chapter" class="level3">
+<h3 class="anchored" data-anchor-id="編集本の特定の章-book-chapter">編集本の特定の章 (Book chapter)</h3>
+<div class="card apa-citation-card">
+<p>Author, F. M. (Year). Title of the chapter. In F. M. Editor (Ed.), Title of the book (pp.&nbsp;#-#). Publisher. DOI or URL</p>
+</div>
+<ul>
+<li>論文情報
+<ul>
+<li>通常の論文と同様の要領で、章の情報を表記します。</li>
+<li>本の情報の前に「In」と記載し、本の一部であることを示します。</li>
+</ul></li>
+<li>編者の名前
+<ul>
+<li>編集者の名前は、ファーストネーム→ミドルネーム→ラストネームの順番で表記します。</li>
+<li>ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。</li>
+<li>複数人いる場合、著者の間を「,」で結び、最後の著者名の直前に「＆」を記載します。</li>
+<li>編者であることを示すため、最後の編者名のあとに「(Ed.)」（単数形）または「(Eds.)」（複数形）を加えます。</li>
+</ul></li>
+<li>本の情報と出版社
+<ul>
+<li>本のタイトルを斜体で表記します。</li>
+<li>主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。</li>
+<li>章に該当するページ範囲を「(pp.&nbsp;#-#)」の形式で表記します。</li>
+</ul></li>
+<li>DOIまたはURL
+<ul>
+<li>DOIがあればDOIをリンク形式で表記します。末尾にはピリオド (.) を付けません。</li>
+<li>DOIがなくURLがある場合（e-bookなど）はURLを表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Stein, A. A. (1982). Coordination and collaboration: Regimes in an anarchic world. In S. D. Krasner (Ed.), International regimes (pp.&nbsp;115-141). Cornell University Press.</p>
+<p>Weinstock, R., Leong, G. B., &amp; Silva, J. A. (2003). Defining forensic psychiatry: Roles and responsibilities. In R. Rosner (Ed.), Principles and practice of forensic psychiatry (2nd ed., pp.&nbsp;7–13). CRC Press.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="翻訳書-translated-book" class="level3">
+<h3 class="anchored" data-anchor-id="翻訳書-translated-book">翻訳書 (Translated Book)</h3>
+<p>必ず参照したものを引用します。英語の本を日本語に翻訳したものなら日本語の翻訳書を、ドイツ語の本を英語に翻訳したものなら英語の翻訳書を引用し、読んでいない本を引用してはいけません。</p>
+<div class="card apa-citation-card">
+<p>Original Author, F. M. (Year of Translation). <em>Title of the translated book</em> (F. M. Translator, Trans.; ed.). Publisher. (Original work published YEAR)</p>
+</div>
+<ul>
+<li><strong>原著の著者名</strong>
+<ul>
+<li>ラストネーム→ファーストネーム→ミドルネームの順番で表記します。</li>
+<li>ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。</li>
+<li>複数人いる場合、著者の間を「,」で結び、最後の著者名の直前に「&amp;」を記載します。</li>
+</ul></li>
+<li><strong>翻訳された年</strong>
+<ul>
+<li>参照した翻訳書の著作年を表記します。</li>
+</ul></li>
+<li><strong>翻訳された本のタイトル</strong>
+<ul>
+<li>参照した翻訳書のタイトルを斜体 (<em>Italic</em>) で表記します。</li>
+<li>主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。</li>
+</ul></li>
+<li><strong>翻訳者情報、版情報</strong>
+<ul>
+<li>翻訳者の名前を丸括弧内に、ファーストネーム→ミドルネーム→ラストネームの順番で表記し、“Trans.”を続けます。</li>
+<li>ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を打ちます。</li>
+<li>翻訳書の版情報があれば、翻訳者名のあとをセミコロン (;) で区切り、版を「序数詞+『ed.』」で書きます。（例: 2nd ed.）</li>
+</ul></li>
+<li><strong>出版社</strong>
+<ul>
+<li>翻訳書を出版した出版社の名前を書きます。出版地は記載しません。</li>
+<li>複数の出版社から出版されている場合、「;」を用いてつなぎます。</li>
+</ul></li>
+<li><strong>原著の著作年</strong>
+<ul>
+<li>文献の末尾に、原著の著作年を「(Original work published YEAR)」の形式で表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Coelho, P. (1993). <em>The alchemist</em> (A. R. Clarke, Trans.). HarperOne. (Original work published 1988)</p>
+<p>Kafka, F. (2010). <em>The trial</em> (I. Parry, Trans.). Penguin Books Ltd.&nbsp;(Original work published 1924)</p>
+<p>Piaget, J., &amp; Inhelder, B. (1969). <em>The psychology of the child</em> (H. Weaver, Trans.; 2nd ed.). Basic Books. (Original work published 1966)</p>
+</div>
+</div>
+</div>
+</section>
+<section id="新聞記事雑誌記事-news-article" class="level3">
+<h3 class="anchored" data-anchor-id="新聞記事雑誌記事-news-article">新聞記事・雑誌記事 (News article)</h3>
+<div class="card apa-citation-card">
+<p>Author, F. M. (Year, Month Day). Title of article. <em>Name of News Source</em>. URL</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>著者がいる場合は、ラストネーム→ファーストネーム→ミドルネームの順番で表記します。</li>
+<li>ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。</li>
+<li>複数人いる場合、著者の間をカンマ (,) で結び、最後の著者名の直前に「&amp;」を記載します。</li>
+<li>著者がわからない場合、代わりに記事のタイトルから始めます。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べます。</li>
+</ul></li>
+<li><strong>発行日</strong>
+<ul>
+<li>記事が発行された年月日を「(Year, Month Day)」の形式で表記します。</li>
+</ul></li>
+<li><strong>記事のタイトル</strong>
+<ul>
+<li>記事のタイトルを、斜体にせず表記します。</li>
+<li>主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。</li>
+</ul></li>
+<li><strong>ニュースソースのタイトル</strong>
+<ul>
+<li>ニュースサイトや新聞のタイトルを斜体で表記します。</li>
+</ul></li>
+<li><strong>URLまたはページ番号</strong>
+<ul>
+<li>オンラインで閲覧した記事の場合はURLを記載します。末尾にはピリオド (.) を付けません。</li>
+<li>紙の新聞などを参照した場合は、巻号やページ番号を表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Boxerman, A., Ward, E., &amp; Breeden, A. (2024, June 15). Israel rejects French effort to curb Israel-Hezbollah battles. <em>New York Times</em>, A10.</p>
+<p>Faucon, B. (2024, June 28). Iran election pits engagement with west against more confrontation: Voter turnout will also signal whether Iranians are getting fed up with their system of governance. <em>The Wall Street Journal</em>. <a href="https://www.wsj.com/world/middle-east/iran-election-candidates-young-voters-1268dd43">https://www.wsj.com/world/middle-east/iran-election-candidates-young-voters-1268dd43</a></p>
+<p>Get on board for train safety. (2012, June 17). <em>Toronto Star</em>, A14.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ニュースサイトの記事-news-website-article" class="level3">
+<h3 class="anchored" data-anchor-id="ニュースサイトの記事-news-website-article">ニュースサイトの記事 (News Website Article)</h3>
+<p>定期刊行物ではないニュースサイト（CNNやHuffPost, BBCなど）の記事を引用する場合。</p>
+<div class="card apa-citation-card">
+<p>Author, F. M. (Year, Month Day). <em>Title of article</em>. Name of Website. URL</p>
+</div>
+<ul>
+<li><strong>著者名</strong>
+<ul>
+<li>ラストネーム→ファーストネーム→ミドルネームの順番で表記します。</li>
+<li>ファーストネームとミドルネームはイニシャルを書き、省略を表すピリオド (.) を書きます。</li>
+<li>複数人いる場合、著者の間を「,」で結び、最後の著者名の直前に「&amp;」を記載します。</li>
+<li>著者がわからない場合、代わりに記事のタイトルから始めます。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べます。</li>
+</ul></li>
+<li><strong>発行日</strong>
+<ul>
+<li>記事が公開された年月日を「(Year, Month Day)」の形式で表記します。</li>
+</ul></li>
+<li><strong>記事のタイトル</strong>
+<ul>
+<li>記事のタイトルを斜体で表記します。</li>
+<li>主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。</li>
+</ul></li>
+<li><strong>ウェブサイトのタイトル</strong>
+<ul>
+<li>ウェブサイトの名称を斜体にせず表記します。</li>
+</ul></li>
+<li><strong>URL</strong>
+<ul>
+<li>記事へのURLを表記します。末尾にはピリオド (.) を付けません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Cohn, J. (2024, June 28). <em>2 important moments lost in the panic over Joe Biden’s performance</em>. HuffPost. <a href="https://www.huffpost.com/entry/biden-trump-factcheck-statementspolicy_n_667e069de4b0c2f65422da96">https://www.huffpost.com/entry/biden-trump-factcheck-statementspolicy_n_667e069de4b0c2f65422da96</a></p>
+<p>Muia, W. (2024, June 28). <em>Kenyan court allows military deployment to quell protests</em>. BBC News. <a href="https://www.bbc.com/news/articles/c897gnr9z4vo">https://www.bbc.com/news/articles/c897gnr9z4vo</a></p>
+<p>Wedeman, B. (2024, June 27). <em>Why an Israel-Hezbollah war would be far more dangerous today than the last time around</em>. CNN. <a href="https://edition.cnn.com/2024/06/27/middleeast/israel-lebanon-hezbollah-analysis-intl-latam-hnk/index.html">https://edition.cnn.com/2024/06/27/middleeast/israel-lebanon-hezbollah-analysis-intl-latam-hnk/index.html</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="政府組織のウェブサイト-government-or-organization-website" class="level3">
+<h3 class="anchored" data-anchor-id="政府組織のウェブサイト-government-or-organization-website">政府・組織のウェブサイト (Government or Organization Website)</h3>
+<div class="card apa-citation-card">
+<p>Name of Agency or Group. (Year, Month Day). <em>Title of page or work</em>. Name of Parent Organization. URL</p>
+</div>
+<ul>
+<li><strong>著者（部局名・組織名）</strong>
+<ul>
+<li>ページに責任を負う特定の部署や機関がある場合、その名称を著者として表記します。</li>
+<li>組織全体が作成者である場合は、組織名を著者として表記します。</li>
+<li>個人の著者が明記されている場合は、その著者名から始め、部局名・組織名は発行元（Publisher）の箇所に表記します。</li>
+</ul></li>
+<li><strong>掲載日</strong>
+<ul>
+<li>ページが公開または最終更新された年月日を「(Year, Month Day)」の形式で表記します。</li>
+<li>「最終レビュー日（last reviewed）」は、内容の改訂を意味しないため引用情報として使用しません。</li>
+</ul></li>
+<li><strong>ページのタイトル</strong>
+<ul>
+<li>ページのタイトルを斜体で表記します。</li>
+<li>主題と副題はコロン (:) でつなぎ、主題と副題の冒頭の文字及び固有名詞のみ大文字にします。</li>
+</ul></li>
+<li><strong>親組織の名称</strong>
+<ul>
+<li>著者が特定の部署や下部機関である場合、その親組織の名称を大きい順（包括的な順）に表記します。</li>
+<li>組織全体が著者である場合は、この項目は省略します。</li>
+</ul></li>
+<li><strong>URL</strong>
+<ul>
+<li>ページへのURLを表記します。末尾にはピリオド (.) を付けません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Bureau of Political-Military Affairs. (2024, June 7). <em>U.S. security cooperation with Ukraine</em>. U.S. Department of State. <a href="https://www.state.gov/u-s-security-cooperation-with-ukraine/">https://www.state.gov/u-s-security-cooperation-with-ukraine/</a></p>
+<p>U.S. Department of the Interior. (2024, June 28). <em>Biden-Harris administration takes steps to protect tribal subsistence, vital ecosystems in Alaska</em>. <a href="https://www.doi.gov/pressreleases/biden-harris-administration-takes-steps-protect-tribal-subsistence-vital-ecosystems">https://www.doi.gov/pressreleases/biden-harris-administration-takes-steps-protect-tribal-subsistence-vital-ecosystems</a></p>
+<p>World Health Organization. (2024, June 19). <em>Injuries and violence</em>. <a href="https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence">https://www.who.int/news-room/fact-sheets/detail/injuries-and-violence</a></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="日本語文献" class="level2">
+<h2 class="anchored" data-anchor-id="日本語文献">日本語文献</h2>
+<section id="雑誌論文-journal-article-1" class="level3">
+<h3 class="anchored" data-anchor-id="雑誌論文-journal-article-1">雑誌論文 (Journal article)</h3>
+<div class="card apa-citation-card">
+<p>著者名 (発行年)「論文のタイトル—副題—」『雑誌名』巻(号)、pp.&nbsp;#-#. DOI</p>
+</div>
+<ul>
+<li>著者名
+<ul>
+<li>著者を姓・名の順で表記します。</li>
+<li>著者が複数名いる場合は、著者間を「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li>発行年
+<ul>
+<li>論文が掲載されている雑誌の発行年を丸括弧 ( ) の中に表記します。</li>
+</ul></li>
+<li>論文のタイトル
+<ul>
+<li>論文のタイトルを 「 」（一重かぎ括弧）で囲みます。</li>
+<li>副題（サブタイトル）がある場合は －（ダッシュ）でタイトルとつなぎます。</li>
+</ul></li>
+<li>雑誌のタイトル
+<ul>
+<li>掲載雑誌のタイトルを 『 』（二重かぎ括弧）で囲みます。</li>
+</ul></li>
+<li>巻号・ページ
+<ul>
+<li>掲載雑誌の巻数を表記し、号数を丸括弧 ( ) の中に入れます。</li>
+<li>論文が掲載されているページの範囲を、巻号の後に読点 (、) を打ち、pp.&nbsp;に続けて数字で表記します。ページの範囲は – (enダッシュ)でつなぎます。</li>
+</ul></li>
+<li>DOI
+<ul>
+<li>論文にDOI（Digital Object Identifier）が付与されている場合は、リンク形式で記載します。URLの表示が変わる可能性があるため、末尾に句点 . は付けません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>秋山信将 (2023)「グローバル・ヘルスレジームにおける調査・検証権限の制度的考察－不拡散レジー ムとの比較において（ヘルスをめぐる国際政治）－」『国際政治』211、pp.58-73.</p>
+<p>市原麻衣子 (2021)「変容する『人権・民主主義外交』－民主主義国の国際連携と日本のあり方－」 『外交』67、pp.&nbsp;42-47.</p>
+<p>大林一広 (2013)「反乱軍の組織と内戦後の和平期間」『国際政治』174、pp.&nbsp;139-152. https://doi.org/10.11375/kokusaiseiji.174_139</p>
+<p>山田敦 (2002) 「国際関係を学ぶ人へ」『一橋論叢』127(4)、pp.&nbsp;414-429. https://doi.org/10.15057/10298</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本-book-1" class="level3">
+<h3 class="anchored" data-anchor-id="本-book-1">本 (Book)</h3>
+<div class="card apa-citation-card">
+<p>著者名 (発行年)『本のタイトル (版)』出版社</p>
+</div>
+<ul>
+<li>著者名
+<ul>
+<li>著者を姓→名の順で表記します。</li>
+<li>著者が複数名いる場合は「・」(なかぐろ) でつなぎます。</li>
+</ul></li>
+<li>発行年
+<ul>
+<li>本に記載されている著作年を表記します。(基本的には参照した版の第一刷の年)</li>
+</ul></li>
+<li>本のタイトル
+<ul>
+<li>本のタイトルを『 』(二重かぎ括弧) で囲みます。</li>
+</ul></li>
+<li>版情報
+<ul>
+<li>本のタイトルのあとで『』の中に「第#版」という形式で表記します。</li>
+</ul></li>
+<li>出版社
+<ul>
+<li>出版社の名前を書きます。出版地は書きません。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>高坂正尭 (2017)『国際政治－恐怖と希望－（改版）』中央公論社</p>
+<p>佐渡島紗織・吉野亜矢子（2021）『これから研究を書くひとのためのガイドブック ―ライティングの 挑戦 15 週間―（第 2 版）』ひつじ書房</p>
+<p>松林哲也 (2021)『政治学と因果推論－比較から見える政治と社会－』岩波書店</p>
+</div>
+</div>
+</div>
+</section>
+<section id="本の特定の章-book-chapter" class="level3">
+<h3 class="anchored" data-anchor-id="本の特定の章-book-chapter">本の特定の章 (Book chapter)</h3>
+<div class="card apa-citation-card">
+<p>著者名 (発行年)「章のタイトル」編者名編『本のタイトル』出版社、pp.#-#</p>
+</div>
+<ul>
+<li>論文情報
+<ul>
+<li>通常の論文と同様の要領で、章の情報を表記します。</li>
+</ul></li>
+<li>編者の名前
+<ul>
+<li>編者の名前を表記します。</li>
+<li>編者であることを示すため、「編」「編著」を名前の後に表記します。</li>
+</ul></li>
+<li>本の情報と出版社
+<ul>
+<li>本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます</li>
+<li>本のタイトルのあと（『』の中）の括弧内に「第#版」という形式で表記します。</li>
+<li>出版社の名前を書く。出版地は書きません。</li>
+<li>章が該当するページ範囲を「pp.&nbsp;#-#」の形式で表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>中山祐美・土井翔平 (2021)「国際難民制度のテキスト分析－UNHCRにおける北欧諸国の発言を事例 に－」鈴木基史・飯田啓輔編『国際関係研究の方法－解説と実践－』東京大学出版会、 pp.213-236.</p>
+<p>宮城大蔵（2017）「1960 年代における日本の援助とアジア国際秩序 ―戦後処理と冷戦の影―」渡辺 昭一編著『冷戦変容期の国際開発援助とアジア』ミネルヴァ書房、pp.340–367</p>
+</div>
+</div>
+</div>
+</section>
+<section id="翻訳書-translated-book-1" class="level3">
+<h3 class="anchored" data-anchor-id="翻訳書-translated-book-1">翻訳書 (Translated book)</h3>
+<div class="card apa-citation-card">
+<p>著者名 (翻訳年)『翻訳書のタイトル』(翻訳者訳) 出版社 (原著は####)</p>
+</div>
+<ul>
+<li>必ず参照したものを引用する。英語の本を日本語に翻訳したものなら日本語の翻訳書を引用し、ドイツ語の本を英語に翻訳したものなら英語の翻訳書を引用すること。読んでいない本を引用してはいけない。</li>
+<li>原著の著者名
+<ul>
+<li>著者を姓→名の順で表記します。</li>
+<li>カッコ内に英語表記もします。</li>
+<li>著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li>翻訳された年
+<ul>
+<li>参照した翻訳書の著作年を表記します。</li>
+</ul></li>
+<li>翻訳された本のタイトル
+<ul>
+<li>参照した翻訳書のタイトルを二重かぎ括弧でくくります。</li>
+<li>副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li>翻訳者情報、版情報
+<ul>
+<li>翻訳者の名前を表記し、「訳」を続けます。</li>
+<li>翻訳書の版情報があれば、タイトルの後（二重かぎ括弧の中）の括弧内に示します。</li>
+</ul></li>
+<li>出版社
+<ul>
+<li>翻訳書を出版した出版社の名前を書く。出版地は書きません。</li>
+</ul></li>
+<li>原著の著作年
+<ul>
+<li>原著の著作年を「原著は ####」の形式で表記します。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>チェノウェス、エリカ（Chenoweth, E.）(2022)『市民的抵抗―非暴力が社会を変える―』（小林綾子訳）白水社（原著は2021）</p>
+<p>ナイ、ジョセフ・S.（Nye, J. S.）（2002）『国際紛争―理論と歴史―』（田中明彦・村田晃嗣訳）有斐閣 (原著は 1993)</p>
+</div>
+</div>
+</div>
+</section>
+<section id="新聞記事雑誌記事-news-article-1" class="level3">
+<h3 class="anchored" data-anchor-id="新聞記事雑誌記事-news-article-1">新聞記事・雑誌記事 (News article)</h3>
+<div class="card apa-citation-card">
+<p>著者名 (日付)「記事タイトル」『新聞名・雑誌名』URL</p>
+</div>
+<ul>
+<li>Web ニュース（定期刊行物でないニュース記事、例えばHuffPostなど）を引用する際は、ウェブ サイトの引用方法に従って引用する。</li>
+<li>著者名
+<ul>
+<li>著者を姓→名の順で表記します。</li>
+<li>著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li>発行日
+<ul>
+<li>新聞記事や雑誌の記事が発行された日を「年月日」の形式で表記します。</li>
+</ul></li>
+<li>記事のタイトル
+<ul>
+<li>記事のタイトルを一重かぎ括弧でくくる。タイトルのかぎ括弧は二重にします。</li>
+<li>副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li>新聞や雑誌のタイトル
+<ul>
+<li>新聞や記事のタイトルを二重かぎ括弧で囲みます。</li>
+<li>紙の新聞の場合、巻号や紙面、ページ番号を表記します。</li>
+</ul></li>
+<li>URL
+<ul>
+<li>電子版の記事を引用する場合はURLを記載する。末尾には「.」を付けない。</li>
+<li>著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べる。</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-12" class="callout-12-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>今泉奏 (2024年3月8日)「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』https://www.asahi.com/articles/ASS38659RS2SUHBI00B.html</p>
+<p>「シンギュラリティー・サバイバル―先進企業は既に転換 生成 AI ありきの経営―」（2023 年 11 月27 日）『日経 BP』pp.16–21</p>
+<p>田中郁也（1998 年 1 月 29 日）「影落とすドル依存体質―インドネシア民間債務交渉が本格化―」『朝日新聞』朝刊、東京本社版、12 版、p.12</p>
+</div>
+</div>
+</div>
+</section>
+<section id="ウェブサイト上の情報-news-website-article" class="level3">
+<h3 class="anchored" data-anchor-id="ウェブサイト上の情報-news-website-article">ウェブサイト上の情報 (News Website Article)</h3>
+<div class="card apa-citation-card">
+<p>著者名 (日付)「記事タイトル」『ウェブサイト名』URL</p>
+</div>
+<ul>
+<li>ウェブサイト上の記事を引用する場合。</li>
+<li>著者名
+<ul>
+<li>著者を姓→名の順で表記します。</li>
+<li>著者が複数名いる場合は「・」（なかぐろ）でつなぎます。</li>
+</ul></li>
+<li>発行日
+<ul>
+<li>記事がリリースされた日を「年月日」の形式で表記します。</li>
+</ul></li>
+<li>記事のタイトル
+<ul>
+<li>記事のタイトルを一重かぎ括弧でくくる。タイトルのかぎ括弧は二重にします。</li>
+<li>副題がある場合は「－」（ダッシュ）で囲みます。</li>
+</ul></li>
+<li>ウェブサイトのタイトル
+<ul>
+<li>ウェブサイトの名称を二重かぎ括弧内に表記します。</li>
+</ul></li>
+<li>URL
+<ul>
+<li>記事へのURLを表記する。末尾には「.」を付けません。</li>
+<li>著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの頭文字に従って並べます</li>
+</ul></li>
+</ul>
+<div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-13-contents" aria-controls="callout-13" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>参考文献表記例
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-13" class="callout-13-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>外務省 (2023年5月12日)「南スーダン共和国」『外務省ホームページ』https://www.mofa.go.jp/mofaj/area/s_sudan/index.html</p>
+<p>東京都デジタルサービス局（2023 年 8 月 23 日）「『文章生成 AI 利活用ガイドライン』の策定について」『都庁総合ホームページ』https://www.metro.tokyo.lg.jp/tosei/hodohappyo/press/2023/08/23/14.htm</p>
+</div>
+</div>
+</div>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>writing</category>
+  <guid>https://stats1230.github.io/lab-desk/posts/apa-style.html</guid>
+  <pubDate>Fri, 28 Jun 2024 15:00:00 GMT</pubDate>
+  <media:content url="https://stats1230.github.io/lab-desk/assets/image/cover/apa-style.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
+</channel>
+</rss>

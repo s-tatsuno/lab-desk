@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="達野俊輔 / S. Tatsuno">
 <meta name="description" content="APA スタイル参考文献情報を書く方法のチートシートです。">
 
 <title>APA スタイルでの引用方法 – 研究室の机</title>
@@ -13,10 +14,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -28,7 +32,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3d150084f706662a14f10f6985dc51db.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-684b17ce0a19ce24b369476cbdcf7cc6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -139,11 +142,9 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
   <li><a href="#雑誌論文-journal-article" id="toc-雑誌論文-journal-article" class="nav-link" data-scroll-target="#雑誌論文-journal-article">雑誌論文 (Journal article)</a></li>
   <li><a href="#本-book" id="toc-本-book" class="nav-link" data-scroll-target="#本-book">本 (Book)</a></li>
   <li><a href="#編集本の特定の章-book-chapter" id="toc-編集本の特定の章-book-chapter" class="nav-link" data-scroll-target="#編集本の特定の章-book-chapter">編集本の特定の章 (Book chapter)</a></li>
-  <li><a href="#翻訳書-translated-book" id="toc-翻訳書-translated-book" class="nav-link" data-scroll-target="#翻訳書-translated-book">翻訳書 (Translated book)</a></li>
-  <li><a href="#翻訳書-translated-book-1" id="toc-翻訳書-translated-book-1" class="nav-link" data-scroll-target="#翻訳書-translated-book-1">翻訳書 (Translated Book)</a></li>
+  <li><a href="#翻訳書-translated-book" id="toc-翻訳書-translated-book" class="nav-link" data-scroll-target="#翻訳書-translated-book">翻訳書 (Translated Book)</a></li>
   <li><a href="#新聞記事雑誌記事-news-article" id="toc-新聞記事雑誌記事-news-article" class="nav-link" data-scroll-target="#新聞記事雑誌記事-news-article">新聞記事・雑誌記事 (News article)</a></li>
   <li><a href="#ニュースサイトの記事-news-website-article" id="toc-ニュースサイトの記事-news-website-article" class="nav-link" data-scroll-target="#ニュースサイトの記事-news-website-article">ニュースサイトの記事 (News Website Article)</a></li>
-  <li><a href="#公的機関のウェブサイト-governmental-or-organizational-website" id="toc-公的機関のウェブサイト-governmental-or-organizational-website" class="nav-link" data-scroll-target="#公的機関のウェブサイト-governmental-or-organizational-website">公的機関のウェブサイト (Governmental or Organizational website)</a></li>
   <li><a href="#政府組織のウェブサイト-government-or-organization-website" id="toc-政府組織のウェブサイト-government-or-organization-website" class="nav-link" data-scroll-target="#政府組織のウェブサイト-government-or-organization-website">政府・組織のウェブサイト (Government or Organization Website)</a></li>
   </ul></li>
   <li><a href="#日本語文献" id="toc-日本語文献" class="nav-link" data-scroll-target="#日本語文献">日本語文献</a>
@@ -151,7 +152,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
   <li><a href="#雑誌論文-journal-article-1" id="toc-雑誌論文-journal-article-1" class="nav-link" data-scroll-target="#雑誌論文-journal-article-1">雑誌論文 (Journal article)</a></li>
   <li><a href="#本-book-1" id="toc-本-book-1" class="nav-link" data-scroll-target="#本-book-1">本 (Book)</a></li>
   <li><a href="#本の特定の章-book-chapter" id="toc-本の特定の章-book-chapter" class="nav-link" data-scroll-target="#本の特定の章-book-chapter">本の特定の章 (Book chapter)</a></li>
-  <li><a href="#翻訳書-translated-book-2" id="toc-翻訳書-translated-book-2" class="nav-link" data-scroll-target="#翻訳書-translated-book-2">翻訳書 (Translated book)</a></li>
+  <li><a href="#翻訳書-translated-book-1" id="toc-翻訳書-translated-book-1" class="nav-link" data-scroll-target="#翻訳書-translated-book-1">翻訳書 (Translated book)</a></li>
   <li><a href="#新聞記事雑誌記事-news-article-1" id="toc-新聞記事雑誌記事-news-article-1" class="nav-link" data-scroll-target="#新聞記事雑誌記事-news-article-1">新聞記事・雑誌記事 (News article)</a></li>
   <li><a href="#ウェブサイト上の情報-news-website-article" id="toc-ウェブサイト上の情報-news-website-article" class="nav-link" data-scroll-target="#ウェブサイト上の情報-news-website-article">ウェブサイト上の情報 (News Website Article)</a></li>
   </ul></li>
@@ -178,6 +179,12 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">作者</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://s-tatsuno.github.io">達野俊輔 / S. Tatsuno</a> </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">公開</div>
@@ -186,6 +193,12 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
     </div>
   </div>
   
+    <div>
+    <div class="quarto-title-meta-heading">更新日</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">2026年4月24日</p>
+    </div>
+  </div>
     
   </div>
   
@@ -363,10 +376,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </div>
 </section>
 <section id="翻訳書-translated-book" class="level3">
-<h3 class="anchored" data-anchor-id="翻訳書-translated-book">翻訳書 (Translated book)</h3>
-</section>
-<section id="翻訳書-translated-book-1" class="level3">
-<h3 class="anchored" data-anchor-id="翻訳書-translated-book-1">翻訳書 (Translated Book)</h3>
+<h3 class="anchored" data-anchor-id="翻訳書-translated-book">翻訳書 (Translated Book)</h3>
 <p>必ず参照したものを引用します。英語の本を日本語に翻訳したものなら日本語の翻訳書を、ドイツ語の本を英語に翻訳したものなら英語の翻訳書を引用し、読んでいない本を引用してはいけません。</p>
 <div class="card apa-citation-card">
 <p>Original Author, F. M. (Year of Translation). <em>Title of the translated book</em> (F. M. Translator, Trans.; ed.). Publisher. (Original work published YEAR)</p>
@@ -524,9 +534,6 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </div>
 </div>
 </section>
-<section id="公的機関のウェブサイト-governmental-or-organizational-website" class="level3">
-<h3 class="anchored" data-anchor-id="公的機関のウェブサイト-governmental-or-organizational-website">公的機関のウェブサイト (Governmental or Organizational website)</h3>
-</section>
 <section id="政府組織のウェブサイト-government-or-organization-website" class="level3">
 <h3 class="anchored" data-anchor-id="政府組織のウェブサイト-government-or-organization-website">政府・組織のウェブサイト (Government or Organization Website)</h3>
 <div class="card apa-citation-card">
@@ -660,7 +667,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </ul></li>
 <li>出版社
 <ul>
-<li>出版社の名前を書きます。出版値は書きません。</li>
+<li>出版社の名前を書きます。出版地は書きません。</li>
 </ul></li>
 </ul>
 <div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
@@ -675,9 +682,9 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </div>
 <div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>高坂正尭 (2017)「国際政治－恐怖と希望－（改版）」中央公論社</p>
+<p>高坂正尭 (2017)『国際政治－恐怖と希望－（改版）』中央公論社</p>
 <p>佐渡島紗織・吉野亜矢子（2021）『これから研究を書くひとのためのガイドブック ―ライティングの 挑戦 15 週間―（第 2 版）』ひつじ書房</p>
-<p>松林哲也 (2021)「政治学と因果推論－比較から見える政治と社会－」岩波書店</p>
+<p>松林哲也 (2021)『政治学と因果推論－比較から見える政治と社会－』岩波書店</p>
 </div>
 </div>
 </div>
@@ -700,7 +707,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 <li>本の情報と出版社
 <ul>
 <li>本のタイトルを二重かぎ括弧でくくり、副題がある場合は「－」（ダッシュ）で囲みます</li>
-<li>本のタイトルのあと（『』の中）の括弧内にを「第#版」という形式で表記します。</li>
+<li>本のタイトルのあと（『』の中）の括弧内に「第#版」という形式で表記します。</li>
 <li>出版社の名前を書く。出版地は書きません。</li>
 <li>章が該当するページ範囲を「pp.&nbsp;#-#」の形式で表記します。</li>
 </ul></li>
@@ -723,8 +730,8 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </div>
 </div>
 </section>
-<section id="翻訳書-translated-book-2" class="level3">
-<h3 class="anchored" data-anchor-id="翻訳書-translated-book-2">翻訳書 (Translated book)</h3>
+<section id="翻訳書-translated-book-1" class="level3">
+<h3 class="anchored" data-anchor-id="翻訳書-translated-book-1">翻訳書 (Translated book)</h3>
 <div class="card apa-citation-card">
 <p>著者名 (翻訳年)『翻訳書のタイトル』(翻訳者訳) 出版社 (原著は####)</p>
 </div>
@@ -806,8 +813,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 <li>URL
 <ul>
 <li>電子版の記事を引用する場合はURLを記載する。末尾には「.」を付けない。</li>
-<li>著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの</li>
-<li>頭文字をアルファベット順に従って並べる。</li>
+<li>著者がわからない場合、代わりに記事のタイトルから始める。参考文献リストには、タイトルの頭文字をアルファベット順に従って並べる。</li>
 </ul></li>
 </ul>
 <div class="citation-card callout callout-style-default callout-note callout-titled" title="参考文献表記例">
@@ -822,7 +828,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 </div>
 <div id="callout-12" class="callout-12-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>今泉奏 (2024年3月8日)「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』https://www.asahi.com/articles/ASS38659RS2SUHBI00B.ht ml</p>
+<p>今泉奏 (2024年3月8日)「『人口の半分が人道危機』泥沼化するスーダン―国際社会の傍観と謀略―」『朝日新聞デジタル』https://www.asahi.com/articles/ASS38659RS2SUHBI00B.html</p>
 <p>「シンギュラリティー・サバイバル―先進企業は既に転換 生成 AI ありきの経営―」（2023 年 11 月27 日）『日経 BP』pp.16–21</p>
 <p>田中郁也（1998 年 1 月 29 日）「影落とすドル依存体質―インドネシア民間債務交渉が本格化―」『朝日新聞』朝刊、東京本社版、12 版、p.12</p>
 </div>
@@ -832,7 +838,7 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
 <section id="ウェブサイト上の情報-news-website-article" class="level3">
 <h3 class="anchored" data-anchor-id="ウェブサイト上の情報-news-website-article">ウェブサイト上の情報 (News Website Article)</h3>
 <div class="card apa-citation-card">
-<p>著者名 (日付)「記事タイトル」『ウェブサイト名</p>
+<p>著者名 (日付)「記事タイトル」『ウェブサイト名』URL</p>
 </div>
 <ul>
 <li>ウェブサイト上の記事を引用する場合。</li>
@@ -1284,6 +1290,19 @@ gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
   });
   </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© S. Tatsuno &nbsp;·&nbsp; Built with <a href="https://quarto.org">Quarto</a> · <a href="https://pages.github.com">GitHub Pages</a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
