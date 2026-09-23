@@ -1,0 +1,34 @@
+---
+title: "Zotero 講座"
+date: "2026-09-23"
+date-modified: "2026-09-23"
+categories: [writing]
+description: "大学で Zotero の講座をしたときのスライドなど"
+---
+
+ご縁があって、大学の GGR (グローバル・ガバナンス研究センター) で Zotero の使い方を説明するワークショップをさせていただきます。
+このページでは、ワークショップで使うスライドと、関連する記事などを掲載しています。
+
+## スライド
+:::: slide-deck
+::: pdf-embed
+<iframe src="/assets/files/260924_zotero-slide_tatsuno.pdf"></iframe>
+:::
+::::
+
+
+
+## 関連する記事など
+### Zotero
+- [Zotero の公式ページ](https://www.zotero.org/)
+- [Zotero ダウンロードページ](https://www.zotero.org/download/)
+- [Zotero 公式ドキュメント](https://www.zotero.org/support/)
+
+### Zotero 関連の記事
+- [Zotero を使おう：文献を集める](https://s-tatsuno.github.io/lab-desk/posts/zotero-install.html)
+- [Zotero を使おう：文献を引用する](https://s-tatsuno.github.io/lab-desk/posts/zotero-cite.html)
+
+### スタイル関連の記事
+- [APA スタイル（日英）](https://s-tatsuno.github.io/lab-desk/posts/apa-style.html)
+- [シカゴスタイル（注記式）](https://s-tatsuno.github.io/lab-desk/posts/chicago-nb.html)
+- [シカゴスタイル（著者年）](https://s-tatsuno.github.io/lab-desk/posts/chicago-ad.html)

@@ -1,0 +1,23 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{luatexja-fontspec}
+\usepackage{istgame}
+\usetikzlibrary{decorations.pathreplacing}
+
+\begin{document}
+    \begin{istgame}[scale=1.5]
+        \setistgrowdirection'{east}
+        \cntmdistance{20mm}{25mm}
+        \cntmApreset[tension=1.12]{.3}
+
+        \cntmAistb[shorten >=15mm]
+        \istrootcntmA(0)<180>{A}
+            \istb{x}[above=7pt, right]
+            \endist
+            \node[below left=0pt] at ($(cntm)!.75!(cntm-1)$) {$1$};
+            \node[above left=0pt] at ($(cntm)!.75!(cntm-2)$) {$0$};
+        \istroot(1)(0-1)<90>{B}
+            \istb{accept}[al]{x, 1 -x}
+            \istb{reject}[bl]{p - c_A, 1 - p - c_B}
+            \endist
+    \end{istgame}
+\end{document}

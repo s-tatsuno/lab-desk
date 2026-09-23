@@ -1,0 +1,29 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{luatexja-fontspec}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{amsmath}
+\usepackage{istgame}
+
+\begin{document}
+    \begin{tikzpicture}[x=.2\textwidth, y=.2\textwidth, >=stealth, semithick,
+        dot/.style={circle, fill, inner sep=1.6pt},
+        odot/.style={circle, draw, fill=white, inner sep=1.4pt, very thick}]
+
+        \draw[->] (-0.1,0) -- (4.1,0) node[below] {$x$};
+        \draw[->] (0,-0.1) -- (0,1.7) node[left] {$u_A(x)$};
+        \draw (0,0) node[below left] {O};
+
+        \draw[dashed,gray] (2.5,0) -- (2.5,1) -- (0,1);
+        \draw[dashed,gray] (2.5,0.6) -- (0,0.6);
+
+        \draw[very thick] (0,0) -- (2.5,1);
+        \draw[very thick] (2.5,0.6) -- (4,0.6);
+
+        \node[dot]  at (2.5,1)   {};
+        \node[odot] at (2.5,0.6) {};
+
+        \node[below] at (2.5,0) {$p + c_B$};
+        \node[left]  at (0,1)   {$p + c_B$};
+        \node[left]  at (0,0.6) {$p - c_A$};
+    \end{tikzpicture}
+\end{document}
