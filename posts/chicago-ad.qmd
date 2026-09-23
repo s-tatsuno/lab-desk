@@ -4,7 +4,7 @@ date: "2026-04-24"
 date-modified: "2026-04-24"
 categories: [writing]
 description: "シカゴ・スタイル（トゥラビアン・スタイル）の著者年方式（Author-Date Style）での引用方法のチートシートです。"
-image: "/assets/image/cover/chicago-ay.png"
+image: "/assets/image/cover/chicago_ay.png"
 ---
 
 この記事では、主に社会科学および自然科学、物理学で用いられる引用スタイルである「シカゴ・スタイル」（トゥラビアン・スタイル / Turabian Style）の「著者年方式（Author-Date Style）」での引用方法をまとめます。この記事では英語文献と日本語文献の両方の記法を掲載しています。
