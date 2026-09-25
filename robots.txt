@@ -1,1 +1,1 @@
-Sitemap: https://stats1230.github.io/lab-desk/sitemap.xml
+Sitemap: https://s-tatsuno.github.io/lab-desk/sitemap.xml

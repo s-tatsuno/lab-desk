@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="達野俊輔 / S. Tatsuno">
-<meta name="description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
+<meta name="description" content="この記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるかを整理します。">
 
-<title>Marp のテーマを作ってみた – 研究室の机</title>
+<title>計量分析の手法 – 研究室の机</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -114,19 +114,15 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Marp のテーマを作ってみた – 研究室の机">
-<meta property="og:description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
-<meta property="og:image" content="https://s-tatsuno.github.io/lab-desk/assets/image/title-page.png">
+<meta property="og:title" content="計量分析の手法 – 研究室の机">
+<meta property="og:description" content="この記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるかを整理します。">
+<meta property="og:image" content="https://s-tatsuno.github.io/lab-desk/assets/image/data-bunsekino-chikara.jpg">
 <meta property="og:site_name" content="研究室の机">
-<meta property="og:image:height" content="573">
-<meta property="og:image:width" content="765">
-<meta name="twitter:title" content="Marp のテーマを作ってみた – 研究室の机">
-<meta name="twitter:description" content="研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。">
-<meta name="twitter:image" content="https://s-tatsuno.github.io/lab-desk/assets/image/title-page.png">
+<meta name="twitter:title" content="計量分析の手法 – 研究室の机">
+<meta name="twitter:description" content="この記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるかを整理します。">
+<meta name="twitter:image" content="https://s-tatsuno.github.io/lab-desk/assets/image/data-bunsekino-chikara.jpg">
 <meta name="twitter:creator" content="@stats1230">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image-height" content="573">
-<meta name="twitter:image-width" content="765">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -166,20 +162,20 @@ window.Quarto = {
     <h2 id="toc-title">目次</h2>
    
   <ul>
-  <li><a href="#rojina-テーマの使い方" id="toc-rojina-テーマの使い方" class="nav-link active" data-scroll-target="#rojina-テーマの使い方">Rojina テーマの使い方</a></li>
-  <li><a href="#marp" id="toc-marp" class="nav-link" data-scroll-target="#marp">Marp</a></li>
-  <li><a href="#rojina-テーマの導入方法" id="toc-rojina-テーマの導入方法" class="nav-link" data-scroll-target="#rojina-テーマの導入方法">Rojina テーマの導入方法</a></li>
-  <li><a href="#rojina-の使い方" id="toc-rojina-の使い方" class="nav-link" data-scroll-target="#rojina-の使い方">Rojina の使い方</a>
+  <li><a href="#はじめに" id="toc-はじめに" class="nav-link active" data-scroll-target="#はじめに">はじめに</a></li>
+  <li><a href="#おすすめの書籍" id="toc-おすすめの書籍" class="nav-link" data-scroll-target="#おすすめの書籍">おすすめの書籍</a>
   <ul class="collapse">
-  <li><a href="#カラーパレットを自由に変更可能" id="toc-カラーパレットを自由に変更可能" class="nav-link" data-scroll-target="#カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</a></li>
-  <li><a href="#タイトルページ" id="toc-タイトルページ" class="nav-link" data-scroll-target="#タイトルページ">タイトルページ</a></li>
-  <li><a href="#フッタを表示する" id="toc-フッタを表示する" class="nav-link" data-scroll-target="#フッタを表示する">フッタを表示する</a></li>
-  <li><a href="#ヘッダを表示する" id="toc-ヘッダを表示する" class="nav-link" data-scroll-target="#ヘッダを表示する">ヘッダを表示する</a></li>
-  <li><a href="#ページのタイトル" id="toc-ページのタイトル" class="nav-link" data-scroll-target="#ページのタイトル">ページのタイトル</a></li>
-  <li><a href="#表を挿入する" id="toc-表を挿入する" class="nav-link" data-scroll-target="#表を挿入する">表を挿入する</a></li>
-  <li><a href="#コードブロックを挿入する" id="toc-コードブロックを挿入する" class="nav-link" data-scroll-target="#コードブロックを挿入する">コードブロックを挿入する</a></li>
-  <li><a href="#見出し付きのブロックを挿入する" id="toc-見出し付きのブロックを挿入する" class="nav-link" data-scroll-target="#見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</a></li>
-  <li><a href="#参考文献のページを作る" id="toc-参考文献のページを作る" class="nav-link" data-scroll-target="#参考文献のページを作る">参考文献のページを作る</a></li>
+  <li><a href="#データ分析の力-因果関係に迫る思考法" id="toc-データ分析の力-因果関係に迫る思考法" class="nav-link" data-scroll-target="#データ分析の力-因果関係に迫る思考法">データ分析の力 —因果関係に迫る思考法—</a></li>
+  <li><a href="#原因と結果の経済学-データから真実を見抜く思考法" id="toc-原因と結果の経済学-データから真実を見抜く思考法" class="nav-link" data-scroll-target="#原因と結果の経済学-データから真実を見抜く思考法">「原因と結果」の経済学 —データから真実を見抜く思考法—</a></li>
+  <li><a href="#効果検証入門-正しい比較のための因果推論計量経済学の基礎" id="toc-効果検証入門-正しい比較のための因果推論計量経済学の基礎" class="nav-link" data-scroll-target="#効果検証入門-正しい比較のための因果推論計量経済学の基礎">効果検証入門 —正しい比較のための因果推論／計量経済学の基礎—</a></li>
+  <li><a href="#政治学と因果推論-比較から見える政治と社会" id="toc-政治学と因果推論-比較から見える政治と社会" class="nav-link" data-scroll-target="#政治学と因果推論-比較から見える政治と社会">政治学と因果推論 —比較から見える政治と社会—</a></li>
+  </ul></li>
+  <li><a href="#計量分析の手法" id="toc-計量分析の手法" class="nav-link" data-scroll-target="#計量分析の手法">計量分析の手法</a></li>
+  <li><a href="#統計学計量経済学の基礎" id="toc-統計学計量経済学の基礎" class="nav-link" data-scroll-target="#統計学計量経済学の基礎">統計学、計量経済学の基礎</a>
+  <ul class="collapse">
+  <li><a href="#計量経済学" id="toc-計量経済学" class="nav-link" data-scroll-target="#計量経済学">計量経済学</a></li>
+  <li><a href="#rとpythonで学ぶ統計学入門" id="toc-rとpythonで学ぶ統計学入門" class="nav-link" data-scroll-target="#rとpythonで学ぶ統計学入門">RとPythonで学ぶ統計学入門</a></li>
+  <li><a href="#rによる計量政治学" id="toc-rによる計量政治学" class="nav-link" data-scroll-target="#rによる計量政治学">Rによる計量政治学</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -189,16 +185,15 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Marp のテーマを作ってみた</h1>
+<h1 class="title">計量分析の手法</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">tech</div>
-    <div class="quarto-category">writing</div>
+    <div class="quarto-category">method</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    研究報告で使うためのプレゼンのテーマ ‘Rojina’ を作りました。
+    この記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるかを整理します。
   </div>
 </div>
 
@@ -215,7 +210,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">公開</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025年8月16日</p>
+      <p class="date">2026年3月31日</p>
     </div>
   </div>
   
@@ -227,239 +222,157 @@ window.Quarto = {
 </header>
 
 
-<p>個人的な執筆環境でも紹介している通り、スライドはMarp派です。デザインにこだわりたいときは PowerPoint や Google Slides も使いますが、研究報告のスライドはそういう部分を完全に忘れて書くことだけに集中したいです (というか、数式が打てない時点でパワポもGoogleスライドもメインツールにはなり得ません) 。</p>
-<p>その欲望を満たすため、新しくMarpのためのカスタムテーマ “Rojina” を作成しました。結構満足できたので、紹介させてください。ソースコードもあるので、興味ある方は使ってみてください（そして感想を教えてくれると嬉しいです）。テーマ名はもちろん、このテーマの作成の時間も過ごした、とある喫茶店の名前です。</p>
-<div style="border: 1px solid #ddd; border-radius: 8px; padding: 15px; margin-bottom: 20px; display: flex; align-items: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-<img src="https://github.com/fluidicon.png" alt="GitHub Logo" style="width: 50px; height: 50px; margin-right: 15px;">
-<div>
-<h4 style="margin: 0;" class="anchored">
-<a href="https://github.com/stats1230/rojina-theme-marp" target="_blank" style="text-decoration: none; color: #0366d6;">stats1230/rojina-theme-marp </a>
-</h4>
-<p style="margin: 5px 0 0; color: #586069;">
-Rojina: Marp theme for academic slides.
-</p>
+<section id="はじめに" class="level2">
+<h2 class="anchored" data-anchor-id="はじめに">はじめに</h2>
+<p>卒論や修論の執筆に際して、「計量分析をしてみたい」と考える方は少なくありません。 プログラミングコードを書き、難しそうな表や数式を用いて主張を補強する計量分析の方法は、それだけでちょっとわくわくします。 しかし、「計量分析」といっても、様々なモデルや手法があります。 そのため、いざ計量分析を勉強しようと思っても、まず何をすればいいのかわからないという状況になることがほとんどです。 そこで本記事では、これから計量分析を学びたいと思っている人向けに、計量分析の手法としてどんなものがあるのかを整理し、どのような順番で勉強を進めればいいのかをまとめます。 特に、これから卒論や修論を執筆予定で、計量分析の方法もやってみたいという方の役に立てれば幸いです。</p>
+</section>
+<section id="おすすめの書籍" class="level2">
+<h2 class="anchored" data-anchor-id="おすすめの書籍">おすすめの書籍</h2>
+<p>まず、いくつかの書籍を紹介します。 本記事もできるだけ丁寧に書いているつもりですが、計量分析に入門するならまずは以下の書籍を読むことを強くおすすめします。 また、実際に分析をしてみたい / 手を動かしてみたいという方は、各モデルの説明で紹介されている書籍を参考にしてみてください。 これらの本を読めば、この記事を読む理由はほとんどありません。</p>
+<section id="データ分析の力-因果関係に迫る思考法" class="level3">
+<h3 class="anchored" data-anchor-id="データ分析の力-因果関係に迫る思考法">データ分析の力 —因果関係に迫る思考法—</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/data-bunsekino-chikara.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>伊藤公一郎 (2017). <a href="https://books.kobunsha.com/book/b10124787.html">出版社のサイト</a></p>
 </div>
 </div>
+</section>
+<section id="原因と結果の経済学-データから真実を見抜く思考法" class="level3">
+<h3 class="anchored" data-anchor-id="原因と結果の経済学-データから真実を見抜く思考法">「原因と結果」の経済学 —データから真実を見抜く思考法—</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/genin-to-kekka.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>中室牧子・津川友介 (2017). <a href="https://www.diamond.co.jp/book/9784478039472.html">出版社のサイト</a></p>
+</div>
+</div>
+</section>
+<section id="効果検証入門-正しい比較のための因果推論計量経済学の基礎" class="level3">
+<h3 class="anchored" data-anchor-id="効果検証入門-正しい比較のための因果推論計量経済学の基礎">効果検証入門 —正しい比較のための因果推論／計量経済学の基礎—</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/kouka-kensho.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>安井翔太(2020). <a href="https://gihyo.jp/book/2020/978-4-297-11117-5">出版社のサイト</a></p>
+</div>
+</div>
+</section>
+<section id="政治学と因果推論-比較から見える政治と社会" class="level3">
+<h3 class="anchored" data-anchor-id="政治学と因果推論-比較から見える政治と社会">政治学と因果推論 —比較から見える政治と社会—</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/seijigaku-ingasuiron.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>松林哲也(2021). <a href="https://www.iwanami.co.jp/book/b593231.html">出版社のサイト</a></p>
+</div>
+</div>
+</section>
+</section>
+<section id="計量分析の手法" class="level2">
+<h2 class="anchored" data-anchor-id="計量分析の手法">計量分析の手法</h2>
+<p>政治学 (またはより広く社会科学) で用いられる計量分析の手法は様々ありますが、最も基本的なものは回帰分析の方法です。 回帰分析とは、主に統計学の分野で発展してきた分析手法で、ある変数（従属変数）の変動を、一つまたは複数の変数（独立変数）によって説明・予測することを目的とします。 変数間の関係を定量的に記述できるこの枠組みは、原因と結果の関係を探る社会科学の問いと親和性が高く、広く用いられています。</p>
+<p>なおここで重要なのは、<strong>相関関係と因果関係は異なるものである</strong>という事実です。 この言葉自体は繰り返し強調されるものですが、実際にこの事実は、回帰分析を行うにあたって常に意識し続ける必要があります。 単に回帰分析をするだけでは、つまり変数間の関係を回帰式で記述するだけでは、その変数間には因果関係があるとは限りません。 たまたま2つの変数が同じように変動するのかもしれませんし、別の変数に動かされているだけかもしれないのです。 回帰分析は、変数間の相関関係のみを定量的に記述する枠組みであって、そこに因果関係があるかどうかは、回帰の結果だけから判断することはできません。</p>
+<p>回帰分析を出発点として、政治学で主に用いられる計量分析の手法は大きく3つに分類できると考えます。</p>
+<ol type="1">
+<li><strong>回帰モデルの発展</strong>
 <ul>
-<li>自分が政治学系の界隈にいるので、それを前提としたテーマかもしれません</li>
-<li>Beamer の思想をかなり受け継いでいます
-<ul>
-<li>アスペクト比は4:3です</li>
-<li>Beamer の機能の移植もあります</li>
+<li>より高度なモデルの開発。非線形回帰モデル、相互作用モデルなど。</li>
 </ul></li>
-<li>私はデザイナーでもなければセンスもないので、おしゃれスライドではありません</li>
-</ul>
-<section id="rojina-テーマの使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの使い方">Rojina テーマの使い方</h2>
-<p>“Rojina” は、特に政治学系の学術報告スライドのために作成されたカスタムテーマです。デザインと機能の両方でモダンでプロフェッショナルなテーマを目指しています。</p>
-</section>
-<section id="marp" class="level2">
-<h2 class="anchored" data-anchor-id="marp">Marp</h2>
-<p>このテーマは、Marp 向けに作られています。Marp の使い方などは<a href="https://marp.app/">公式ドキュメント</a>などを参照してください。</p>
-</section>
-<section id="rojina-テーマの導入方法" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-テーマの導入方法">Rojina テーマの導入方法</h2>
-<p>Marp for VS Code または Marp CLI のいずれかの環境が前提です。後者を使う人には説明は不要でしょうから、下記は VS Code で使う人向けの手順です。なお、VS Code のインストールは<a href="https://code.visualstudio.com/Download">こちら</a>からどうぞ。</p>
-<section id="css-ファイルを配置する" class="level4">
-<h4 class="anchored" data-anchor-id="css-ファイルを配置する">1. CSS ファイルを配置する</h4>
+<li><strong>因果推論のデザイン</strong>
 <ul>
-<li>CSS ファイルを、ローカルPCに保存する方法 (おすすめ)
-<ul>
-<li>上記の github から、<code>marp-theme/rojina.css</code> をダウンロードし、適当な場所に配置します。</li>
-<li>おすすめは、作業ディレクトリに <code>marp-theme</code> というディレクトリを作成し、その中に入れることです。</li>
-<li>Settings &gt; Marp: Themes にパスを記入します。
-<ul>
-<li>パスは、作成する marp のファイルからみた相対パスを書きます。</li>
+<li>回帰モデルを用いて、因果関係を分析したり効果を測定するデザイン。マッチングや回帰不連続デザインなど。</li>
 </ul></li>
+<li><strong>予測・探索的分析</strong>
+<ul>
+<li>機械学習や高度な統計モデルを用いた分析手法。テキスト分析やネットワーク分析など。</li>
 </ul></li>
-<li>github の生ファイルをURLで直接呼び出す方法
-<ul>
-<li>または、Settings &gt; Marp: Themes に次のように入力します。
-<ul>
-<li>https://raw.githubusercontent.com/stats1230/rojina-theme-marp/refs/heads/main/rojina.css</li>
-</ul></li>
-<li>この方法はPCの環境に影響しないのでスッキリしますが、私がテーマを編集したりレポジトリを消したりすると、その影響を受けてしまいます。</li>
-</ul></li>
-</ul>
+</ol>
+<p>これから計量分析を勉強するという方は、まず基本的な統計学の知識 (回帰分析) を学び、その上で、自分がやりたい手法を勉強することをおすすめします。</p>
+<div class="callout callout-style-default callout-note callout-titled" title="授業を受けよう">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ノート</span>授業を受けよう
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>これから計量分析を勉強するという方は、とにかく大学で授業を受けましょう！ 一橋大学なら「国際政治の計量分析I・II」とか「Qualitative Analysis in International Relations」みたいな名前の授業があります。 また、他大学でもサマースクールやセミナーのようなものもやっているので、指導教員や先輩などと相談しつつ受講してみるのがよいと思います。</p>
+</div>
+</div>
+<p>以下ではまず、統計学の基礎知識の学び方を上げたうえで、(1) 基本となる回帰分析、(2) 回帰分析の発展的なモデル、(3) 因果推論のデザイン、(4) 予測・探索敵分析の順番に、基本的な考え方や参考となる書籍などを挙げます。</p>
 </section>
-<section id="yaml-ヘッダの指定" class="level4">
-<h4 class="anchored" data-anchor-id="yaml-ヘッダの指定">2. Yaml ヘッダの指定</h4>
+<section id="統計学計量経済学の基礎" class="level2">
+<h2 class="anchored" data-anchor-id="統計学計量経済学の基礎">統計学、計量経済学の基礎</h2>
+<p>計量分析の方法論を学ぶにあたって、最初に統計学や計量経済学の基礎を学ぶことを勧めます。</p>
+<div class="callout callout-style-default callout-warning callout-titled" title="授業を受けるときの前提知識">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">警告</span>授業を受けるときの前提知識
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>計量分析計の授業を受講する際にはシラバスを確認してください。 授業によっては、数学的な知識を求めないものもあります。 というか、その場合がほとんどだと思います。 そのような授業では、授業内で基本的な知識を扱ったり、その都度説明をしてくれますので、なにも不安に思う必要はありません。</p>
+<p>あくまで本記事は、卒論や修論で計量分析を使いたいという強い動機と、そのために授業を超えて学ぶという意思がある方向けの説明をしています。</p>
+</div>
+</div>
+</div>
+<p>一般的な計量経済学のテキストには、最初の方の章において統計学の基本的な説明があります。 そのため、計量経済学のテキストを使って勉強するので十分であると思います。 つまり、統計学の本は必須ではありません (もちろん、あったほうがよい)。</p>
+<p>基本的な統計知識のうち、以下の各項目は理解しておく必要があります。</p>
 <ul>
-<li>sample.md を参考に、Markdown ファイル (<code>.md</code>) を作成します。</li>
-<li>Markdown ファイルの先頭にある yaml ヘッダに、次のように記述します。</li>
+<li>データの種類、確率変数</li>
+<li>母集団と標本</li>
+<li>推測統計、信頼区間</li>
+<li>統計的仮説検定、<span class="math inline">\(p\)</span>値</li>
+<li>線形単回帰分析、線形重回帰分析</li>
 </ul>
-<pre><code>---
-marp: true
-theme: rojina
-paginate: true
-lang: ja
-footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'
-style: |
-  section {  
-    --prim-color: #03233aff;      /* プライマリカラー */
-    --sec-color: #2a4f69ff;       /* セカンダリカラー */
-    --color-background: #fdfdfd;  /* 背景の色 */
-    --color-foreground: #333;     /* 文字の色 */
-    --color-link: var(--sec-color); /* リンクの色 */
-    }
----</code></pre>
-<ul>
-<li>それ以降は、通常の marp の方法に従ってファイルに記入していきます</li>
-<li>このテーマの独自の機能などについては、sample.md 及び後述の「Rojina の使い方」をご覧ください。</li>
-</ul>
+<p>ひとまず、回帰分析までを勉強しましょう。 そこまでできれば、とりあえず簡単なデータ分析までできるはずです。 また、下記にあげる書籍のうち、「R」とか「Python」とかが含まれている書籍を使えば、実際に手を動かしながら勉強を行うことができます。</p>
+<section id="計量経済学" class="level3">
+<h3 class="anchored" data-anchor-id="計量経済学">計量経済学</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/NLAS-keiryo.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>西山慶彦・新谷元嗣・川口大司・奥井亮 (2019). <a href="https://www.yuhikaku.co.jp/books/detail/9784641053854">出版社のサイト</a></p>
+<p>第1部 (2章〜5章) は必須であると思います。</p>
+</div>
+</div>
 </section>
-<section id="pdf-への出力" class="level4">
-<h4 class="anchored" data-anchor-id="pdf-への出力">3. PDF への出力</h4>
-<ul>
-<li>コマンドパレット (VS Code の画面上部) から <code>Export Slide Deck</code> を選択します
-<ul>
-<li>PDF への出力は Chrome系のブラウザが必要になります。</li>
-</ul></li>
-</ul>
+<section id="rとpythonで学ぶ統計学入門" class="level3">
+<h3 class="anchored" data-anchor-id="rとpythonで学ぶ統計学入門">RとPythonで学ぶ統計学入門</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/r-python-tokeigaku.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>増井敏克 (2021). <a href="https://www.ohmsha.co.jp/book/9784274227059/">出版社のサイト</a></p>
+<p>とにかく手を動かして統計学を学びたい人向け。</p>
+</div>
+</div>
 </section>
-</section>
-<section id="rojina-の使い方" class="level2">
-<h2 class="anchored" data-anchor-id="rojina-の使い方">Rojina の使い方</h2>
-<p>ここからは、Rojina テーマに実装したいくつかの機能をまとめます。</p>
-<section id="カラーパレットを自由に変更可能" class="level3">
-<h3 class="anchored" data-anchor-id="カラーパレットを自由に変更可能">カラーパレットを自由に変更可能！</h3>
-<ul>
-<li>Rojina テーマは、<strong>css を書き換えることなく</strong>テーマカラーを変更できます！</li>
-<li>冒頭の yaml ヘッダのうち、style 以降にあるカラーコードを書き換えるだけで、自由に色を選択できます。</li>
-</ul>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">変数名</th>
-<th style="text-align: left;">概要</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">–prim-color</td>
-<td style="text-align: left;">メインのカラー。ページタイトルの背景色や、 ボックスの見出し色に使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–sec-color</td>
-<td style="text-align: left;">サブのカラー。コードの背景とフッタに使われています。メインカラーと同系統の色がおすすめ。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-background</td>
-<td style="text-align: left;">全体の背景の色です。ページタイトルの文字色にも使われています。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">–color-foreground</td>
-<td style="text-align: left;">文字の色です。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">–color-link</td>
-<td style="text-align: left;">リンクを張った際の文字と下線の色です。デフォルトでは –sec-color がそのまま使われています。</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>色に困ったときは、“color palette two colors” とかで検索すると幸せになれます。</li>
-<li>メインとサブのカラーは同系統の色が、背景色とは補色系の色がよいです。</li>
-</ul>
-</section>
-<section id="タイトルページ" class="level3">
-<h3 class="anchored" data-anchor-id="タイトルページ">タイトルページ</h3>
-<ul>
-<li>タイトルページは、次のように書きます。</li>
-<li>タイトル/サブタイトルは <code>&lt;br&gt;</code> で改行ができます</li>
-</ul>
-<pre><code>&lt;!--
-_class: title-page
-_paginate: false
-_footer: ''
---&gt;
-
-### 日付 | 報告の場所
-# 報告タイトル
-## 報告サブタイトル
-
-
-&lt;div class="author-block" markdown="1"&gt;
-
-### あなたの名前
-あなたの所属
-あなたの email、twitter、github、etc...
-
-&lt;/div&gt;</code></pre>
-<p><img src="../assets/image/title-page.png" class="img-fluid"></p>
-</section>
-<section id="フッタを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="フッタを表示する">フッタを表示する</h3>
-<ul>
-<li>各ページのディレクティブ (<code>&lt;!-- --&gt;</code> で囲まれている部分) に <code>_footnote: ''</code> と書かなければ、フッタが表示されます。</li>
-<li>フッタの内容は、yaml ヘッダの <code>footer: '&lt;div&gt;氏名&lt;/div&gt;&lt;div&gt;報告タイトル&lt;/div&gt;'</code> で指定できます</li>
-</ul>
-<p><img src="../assets/image/footer.png" class="img-fluid"> - ちなみにページ番号の部分は <code>_pageniate: false</code> と書けば消えます</p>
-</section>
-<section id="ヘッダを表示する" class="level3">
-<h3 class="anchored" data-anchor-id="ヘッダを表示する">ヘッダを表示する</h3>
-<ul>
-<li>各ページのディレクティブに <code>&lt;!--_header: 'hogehoge' --&gt;</code> と書くと、ヘッダが表示されます。</li>
-<li>セクションタイトルなど情報の少ないものを書くことを想定して、文字をかなり小さくしています。</li>
-<li>太字 (2つの<code>**</code>で囲む) は濃く、それ以外は不透明度が下がります。</li>
-<li>CSS のちからでは、自動的なナビゲーションは実装できません。無念。</li>
-</ul>
-<p><img src="../assets/image/header.png" class="img-fluid"></p>
-</section>
-<section id="ページのタイトル" class="level3">
-<h3 class="anchored" data-anchor-id="ページのタイトル">ページのタイトル</h3>
-<ul>
-<li>見出し2 (<code>##</code>) がページのタイトルになります</li>
-<li>1ページに見出し2を2つ入れることも技術的には可能ですが……おすすめしません</li>
-</ul>
-<p><img src="../assets/image/heading2.png" class="img-fluid"></p>
-</section>
-<section id="表を挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="表を挿入する">表を挿入する</h3>
-<ul>
-<li>一般的な markdown 記法に従い表を挿入できます。</li>
-<li>見出し (header) 部分の上下と、表の一番下に線が引かれます。</li>
-<li>表全体を<code>&lt;div class="table-container"&gt;</code> と <code>&lt;/div&gt;</code> で囲むと7割くらいの大きさになります。</li>
-</ul>
-<p><img src="../assets/image/table.png" class="img-fluid"></p>
-</section>
-<section id="コードブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="コードブロックを挿入する">コードブロックを挿入する</h3>
-<ul>
-<li>インライン (文中) コードは、2つの “`” (バッククォート) で囲むことで、背景と文字がそれっぽくなります</li>
-<li>2つの “```” で囲まれた部分は、大きなコードブロックになります。</li>
-</ul>
-<p><img src="../assets/image/code.png" class="img-fluid"></p>
-</section>
-<section id="見出し付きのブロックを挿入する" class="level3">
-<h3 class="anchored" data-anchor-id="見出し付きのブロックを挿入する">見出し付きのブロックを挿入する</h3>
-<ul>
-<li>以下のようなコードを書くことで、見出し付きのブロックを挿入できます。</li>
-</ul>
-<pre><code>
-&lt;div class="block"&gt;
-  &lt;div class="block-title"&gt;タイトル&lt;/div&gt;
-  &lt;div class="block-content"&gt;本文&lt;/div&gt;
-&lt;/div&gt;</code></pre>
-<p><img src="../assets/image/block.png" class="img-fluid"></p>
-<ul>
-<li>ブロック内でもマークダウン記法が有効です。
-<ul>
-<li>もちろん、<span class="math inline">\(\TeX\)</span> 記法で数式を含めることもできます。</li>
-</ul></li>
-</ul>
-</section>
-<section id="参考文献のページを作る" class="level3">
-<h3 class="anchored" data-anchor-id="参考文献のページを作る">参考文献のページを作る</h3>
-<ul>
-<li>ディレクティブに <code>_class: ref</code> と書くことで、参考文献のページを作ることができます</li>
-<li>参考文献のページは、セリフ体で文字を小さめにしています。</li>
-<li>通常の論文のように、ぶら下げインデントを再現しています。</li>
-</ul>
+<section id="rによる計量政治学" class="level3">
+<h3 class="anchored" data-anchor-id="rによる計量政治学">Rによる計量政治学</h3>
+<div class="grid">
+<div class="g-col-md-3">
+<p><img src="../assets/image/r-keiryo.jpg" class="img-fluid" style="width:100.0%"></p>
+</div>
+<div class="g-col-md-9">
+<p>浅野正彦・矢内勇生 (2018). <a href="https://www.ohmsha.co.jp/book/9784274223136/">出版社のサイト</a></p>
+</div>
+</div>
 
 
 </section>
