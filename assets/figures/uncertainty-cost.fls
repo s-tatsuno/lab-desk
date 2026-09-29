@@ -1,8 +1,8 @@
 PWD /home/WhiteCat/Sites/lab-desk/assets/figures
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/WhiteCat/Sites/lab-desk/assets/figures/barg_preventive.tex
-OUTPUT barg_preventive.log
+INPUT /home/WhiteCat/Sites/lab-desk/assets/figures/uncertainty-cost.tex
+OUTPUT uncertainty-cost.log
 INPUT /usr/share/texmf-dist/tex/latex/standalone/standalone.cls
 INPUT /usr/share/texmf-dist/tex/latex/standalone/standalone.cls
 INPUT /usr/share/texmf-dist/tex/latex/tools/shellesc.sty

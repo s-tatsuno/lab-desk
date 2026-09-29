@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1789104766.93054 "/home/WhiteCat/Sites/lab-desk/assets/figures/barg_preventive.tex" "barg_preventive.pdf" "barg_preventive" 1789104767.14571 2
-  "/home/WhiteCat/Sites/lab-desk/assets/figures/barg_preventive.tex" 1789104766.4337 1551 c45c3f7b05a3244b03acaf0c2c63930b ""
+["pdflatex"] 1790679616.4134 "/home/WhiteCat/Sites/lab-desk/assets/figures/uncertainty-cost.tex" "uncertainty-cost.pdf" "uncertainty-cost" 1790679616.64237 2
+  "/home/WhiteCat/Sites/lab-desk/assets/figures/uncertainty-cost.tex" 1790679615.8966 1248 fde2f840d07d9c4acc33009d347d4bba ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1775415801 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1775415801 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty" 1775415801 492 1994775aa15b0d1289725a0b1bbc2d4c ""
@@ -98,10 +98,10 @@
   "/usr/share/texmf-dist/tex/luatex/luatexja/luatexja.sty" 1775415801 1902 3d487d128b91b6d0ceac1ad14cb3ad5c ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1775415801 43569 fd570f2fa160877d211e859f687312ba ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1780466012 2328183 e065cc9d4a778b5cce1cb74d3eaf785a ""
-  "barg_preventive.aux" 1789104758.93012 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "barg_preventive.tex" 1789104766.4337 1551 c45c3f7b05a3244b03acaf0c2c63930b ""
+  "uncertainty-cost.aux" 1790679608.41288 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "uncertainty-cost.tex" 1790679615.8966 1248 fde2f840d07d9c4acc33009d347d4bba ""
   (generated)
-  "barg_preventive.aux"
-  "barg_preventive.log"
-  "barg_preventive.pdf"
+  "uncertainty-cost.aux"
+  "uncertainty-cost.log"
+  "uncertainty-cost.pdf"
   (rewritten before read)
