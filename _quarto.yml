@@ -36,3 +36,14 @@ format:
     theme:
       light: [sandstone, style.scss]
     toc: true
+    toc-expand: true
+    include-in-header:
+      text: |
+        <script>
+          window.MathJax = {
+            // MathJax 4 はインライン数式を途中で改行するため無効化する
+            output: { linebreaks: { inline: false } },
+            // align などに式番号を付け、\label / \eqref で参照できるようにする
+            tex: { tags: 'ams' }
+          };
+        </script>
