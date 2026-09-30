@@ -1,2 +1,872 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="達野俊輔 / S. Tatsuno">
+<meta name="description" content="国際政治学における交渉理論（バーゲニング・セオリー）の勉強しているので、そのノートです。">
+
+<title>国際政治学の交渉理論 – 研究室の机</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2d7562e32eb72ef84f36b4ed82e89bd6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-f5366ef5f4ec899bd41a5f16ff42cdd1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "一致なし",
+    "search-matching-documents-text": "一致した文書",
+    "search-copy-link-title": "検索へのリンクをコピー",
+    "search-hide-matches-text": "追加の検索結果を非表示",
+    "search-more-match-text": "追加の検索結果",
+    "search-more-matches-text": "追加の検索結果",
+    "search-clear-button-title": "消去",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "取消",
+    "search-submit-button-title": "検索",
+    "search-label": "サーチ"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-8WFETJ1CSL"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8WFETJ1CSL', { 'anonymize_ip': true});
+</script>
+<script>
+  window.MathJax = {
+    // MathJax 4 はインライン数式を途中で改行するため無効化する
+    output: { linebreaks: { inline: false } },
+    // align などに式番号を付け、\label / \eqref で参照できるようにする
+    tex: { tags: 'ams' }
+  };
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="国際政治学の交渉理論 – 研究室の机">
+<meta property="og:description" content="国際政治学における交渉理論（バーゲニング・セオリー）の勉強しているので、そのノートです。">
+<meta property="og:image" content="https://s-tatsuno.github.io/lab-desk/assets/figures/bargaining_range.svg">
+<meta property="og:site_name" content="研究室の机">
+<meta name="twitter:title" content="国際政治学の交渉理論 – 研究室の机">
+<meta name="twitter:description" content="国際政治学における交渉理論（バーゲニング・セオリー）の勉強しているので、そのノートです。">
+<meta name="twitter:image" content="https://s-tatsuno.github.io/lab-desk/assets/figures/bargaining_range.svg">
+<meta name="twitter:creator" content="@stats1230">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">研究室の机</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="サーチ"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="ナビゲーションを切り替える" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../blog.html"> 
+<span class="menu-text">メモあつめ</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">目次</h2>
+   
+  <ul>
+  <li><a href="#はじめに戦争の交渉モデル" id="toc-はじめに戦争の交渉モデル" class="nav-link active" data-scroll-target="#はじめに戦争の交渉モデル">はじめに｜戦争の交渉モデル</a></li>
+  <li><a href="#戦争はコスト高である" id="toc-戦争はコスト高である" class="nav-link" data-scroll-target="#戦争はコスト高である">戦争はコスト高である</a></li>
+  <li><a href="#fearon-の3つの合理的な戦争の原因" id="toc-fearon-の3つの合理的な戦争の原因" class="nav-link" data-scroll-target="#fearon-の3つの合理的な戦争の原因">Fearon の3つの合理的な戦争の原因</a>
+  <ul class="collapse">
+  <li><a href="#情報の非対称性" id="toc-情報の非対称性" class="nav-link" data-scroll-target="#情報の非対称性">情報の非対称性</a></li>
+  <li><a href="#コミットメント問題" id="toc-コミットメント問題" class="nav-link" data-scroll-target="#コミットメント問題">コミットメント問題</a></li>
+  <li><a href="#争点の不可分性" id="toc-争点の不可分性" class="nav-link" data-scroll-target="#争点の不可分性">争点の不可分性</a></li>
+  </ul></li>
+  <li><a href="#最後通牒のバーゲニングモデル" id="toc-最後通牒のバーゲニングモデル" class="nav-link" data-scroll-target="#最後通牒のバーゲニングモデル">最後通牒のバーゲニングモデル</a>
+  <ul class="collapse">
+  <li><a href="#均衡の導出方法" id="toc-均衡の導出方法" class="nav-link" data-scroll-target="#均衡の導出方法">均衡の導出方法</a></li>
+  </ul></li>
+  <li><a href="#コミットメント問題-1" id="toc-コミットメント問題-1" class="nav-link" data-scroll-target="#コミットメント問題-1">コミットメント問題</a>
+  <ul class="collapse">
+  <li><a href="#先制攻撃の優位" id="toc-先制攻撃の優位" class="nav-link" data-scroll-target="#先制攻撃の優位">先制攻撃の優位</a></li>
+  <li><a href="#予防戦争" id="toc-予防戦争" class="nav-link" data-scroll-target="#予防戦争">予防戦争</a></li>
+  </ul></li>
+  <li><a href="#情報の非対称性-1" id="toc-情報の非対称性-1" class="nav-link" data-scroll-target="#情報の非対称性-1">情報の非対称性</a>
+  <ul class="collapse">
+  <li><a href="#戦争のコストに関する情報の非対称性" id="toc-戦争のコストに関する情報の非対称性" class="nav-link" data-scroll-target="#戦争のコストに関する情報の非対称性">戦争のコストに関する情報の非対称性</a></li>
+  <li><a href="#均衡の導出-1" id="toc-均衡の導出-1" class="nav-link" data-scroll-target="#均衡の導出-1">均衡の導出</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">国際政治学の交渉理論</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">formal-model</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    国際政治学における交渉理論（バーゲニング・セオリー）の勉強しているので、そのノートです。
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">作者</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://s-tatsuno.github.io">達野俊輔 / S. Tatsuno</a> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">公開</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026年9月10日</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>この記事では、テキストの中でも基本的なことだけをまとめます。 各モデルの発展やより新しいモデル、特定の分野における交渉モデルのノートは、必要に応じて記事を書くかもしれません。</p>
+<section id="はじめに戦争の交渉モデル" class="level2">
+<h2 class="anchored" data-anchor-id="はじめに戦争の交渉モデル">はじめに｜戦争の交渉モデル</h2>
+<p>国際関係論という学問は、常に「なぜ戦争は発生するのか」と問い続けてきた。 この問いはもちろん、戦争が人類にとって避けるべきものであるという認識からも重要である。 しかし、学術的に重要なパズルもある。 それは、戦争がコスト高であるにもかかわらず発生している点である。 同じ結果が得られるのなら、戦争よりも交渉で解決したほうが、お互いにとっておトクである。 なぜなら、戦争が起これば自国民も相手国民も死に、兵器のために資金が必要となり、土地は焼け、経済活動は滞るからである。</p>
+<p>このパズルに答えるための一つの枠組みが、交渉理論（Bargaining Theory）である。 本稿では、国際関係論において交渉理論が組み立てられた過程をまとめたい。 なお、以下の説明ではできるだけゲーム理論の言葉を使う。 例えば、「おトク」とは言わず「より利得が高い」などと書く。</p>
+<p>本稿の構成は次のようになっている。 まず、Fearon が戦争をどのようにモデル化したかを提示し、戦争はコスト高であることを説明する。 次に、Fearon のモデルを分析することで明らかになった合理的戦争原因論についてまとめる。 そして、Fearon のモデルを発展させ、最後通牒ゲームの形でゲームを整理し直す。 そのうえで、特に (1) コミットメント問題、(2) 情報の非対称性を最後通牒ゲームの形で整理し、均衡を導出する。</p>
+</section>
+<section id="戦争はコスト高である" class="level2">
+<h2 class="anchored" data-anchor-id="戦争はコスト高である">戦争はコスト高である</h2>
+<p>戦争の交渉モデルを扱った最初の文献の一つとして、Fearon (1995) がある。 まず、Fearon の交渉モデルを追いながら、戦争がコスト高である（＝より利得が高い「交渉」の道が存在する）ことを確認する。</p>
+<p>2つの国家 <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> が、争点 <span class="math inline">\(X = [0, 1]\)</span> の配分を巡って争っている。 <span class="math inline">\(x \in X\)</span> は <span class="math inline">\(A\)</span> の取り分で、<span class="math inline">\(B\)</span> は <span class="math inline">\(1 - x\)</span> を受け取ることになる<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>。 国家間が戦争をすると、<span class="math inline">\(p\)</span> の確率で <span class="math inline">\(A\)</span> が勝利し、争点のすべて、すなわち 1 を獲得する。 また、戦争によって、<span class="math inline">\(A\)</span> と <span class="math inline">\(B\)</span> はそれぞれ <span class="math inline">\(c_A, c_B\)</span> （いずれも正）のコストを支払う。 したがって、戦争が発生した際の <span class="math inline">\(A\)</span> と <span class="math inline">\(B\)</span> の期待利得は、それぞれ <span class="math inline">\(p - c_A, 1 - p - c_B\)</span> である。</p>
+<p>なお、モデルに3つの仮定を設ける。 すなわち、(1) 完備情報であること、(2) プレイヤーはリスク中立的であるか、リスク回避的であること、及び、(3) 交渉の結果 <span class="math inline">\(x\)</span> は連続な値を取ることができることの3つである。</p>
+<p>いま、<span class="math inline">\(A\)</span> と <span class="math inline">\(B\)</span> がいずれもリスク中立的であるとすると、両者にとって戦争よりも交渉が望ましいような配分方法は必ず存在する。 <span class="math inline">\(A\)</span> にとって交渉が望ましい条件は <span class="math inline">\(u_A(x) = x &gt; p - c_A\)</span> であり、<span class="math inline">\(B\)</span> の条件は　<span class="math inline">\(u_B(x) = 1 - x &gt; 1 - p - c_B\)</span> である。 これらの条件をまとめると、<span class="math inline">\(p - c_A &lt; x &lt; p + c_B\)</span> となり、<span class="math inline">\(c_A &gt; 0, c_B &gt; 0\)</span>、つまり戦争にはコストがかかるため、これを満たす <span class="math inline">\(x\)</span> は存在する。 また、この交渉可能な領域 <span class="math inline">\((p - c_A, p + c_B)\)</span> を、バーゲニング・レンジ (Bargaining range) という。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/figures/bargaining_range.svg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>バーゲニング・レンジ</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ヒント</span>リスク選好によって結論は変わるか？
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>この説明では、リスク中立であることを仮定したが、リスク回避的 / リスク愛好的なプレイヤーだと、どうであろうか。 証明は省略するが、リスク回避的な場合は同様の結論を得、リスク愛好的な場合は、必ずしもバーゲニング・レンジが存在するとは限らない。</p>
+</div>
+</div>
+</div>
+</section>
+<section id="fearon-の3つの合理的な戦争の原因" class="level2">
+<h2 class="anchored" data-anchor-id="fearon-の3つの合理的な戦争の原因">Fearon の3つの合理的な戦争の原因</h2>
+<p>「戦争にコストがかかるならば、戦争よりも利得の高い交渉の結果が必ず存在する」という命題が得られたにもかかわらず、実際に戦争は起こっている。 Fearon は、戦争が発生する3つの主要な原因を説明している。</p>
+<section id="情報の非対称性" class="level3">
+<h3 class="anchored" data-anchor-id="情報の非対称性">情報の非対称性</h3>
+<p>命題は、完備情報のもとでの結論である。 すなわち、<span class="math inline">\(A\)</span> も <span class="math inline">\(B\)</span> も、<span class="math inline">\(A\)</span> の勝率 <span class="math inline">\(p\)</span> と、自分と相手のコスト <span class="math inline">\(c_i\)</span> を正しく知っているという前提がある。 戦争の勝率を正しく知るためには、少なくとも相手国の軍事力（部隊や兵器の配置、兵士の熟練度など）を知り尽くしている必要があるが、そのようなことは現実にはありえない。 また、戦争の勝率だけでなく、相手の戦争への意思（willingness to fight）も正しく捉えられるとは限らない。 戦争の意思は、例えば争点の価値をどのように見積もっているかに影響される。 モデルにおけるコスト <span class="math inline">\(c_i\)</span> は、絶対的なコスト（支出）ではなく、争点の価値に対する支出の比<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>であり、相手がその争点をどれほど重視しているかによって異なる。 そのような認識は相手に正しく伝わらず、コストの計算を狂わせる。</p>
+<p>さらに、国家は、交渉の結果をより自国にとって有利にしたい。 そのために、あえて自国の軍事力を高く偽って、バーゲニング・レンジを自国に有利な方向へ誤認識させるインセンティブがある。</p>
+</section>
+<section id="コミットメント問題" class="level3">
+<h3 class="anchored" data-anchor-id="コミットメント問題">コミットメント問題</h3>
+<p>完備情報の下であっても、やはり交渉に至らない可能性がある。 その一つをコミットメント問題といい、将来にわたって交渉の結果を遵守し続けることを信頼できない場合をいう。</p>
+<p>コミットメント問題が発生する第一の理由は、先制戦争の優位である。 これまで見てきた戦争の勝率 <span class="math inline">\(p\)</span> は、双方が合意に至らずに戦争をした場合の勝率を表していた。 しかし、先んじて奇襲攻撃などにより攻撃を行うことが、攻撃側 v.s. 防御側の構図を作り出し、先制攻撃側に優位な状況を作り出すことが考えられる。 攻撃側に立った国の勝率が大きくなるならば、バーゲニング・レンジはその国にとって有利である。 または、自国のコストが小さくなるならば、やはりバーゲニング・レンジの端が有利な方へと移動する。 これにより、バーゲニング・レンジが消滅してしまうと、もはや交渉の結果は起こり得ない。</p>
+<p>第二の理由は、予防戦争である。 予防戦争とは、将来のパワーバランス（つまり <span class="math inline">\(p\)</span>）の変化が起こって自国に不利なバーゲニング・レンジになる前に戦争を行うことである。 例えば、相対的に弱くなる <span class="math inline">\(A\)</span> と相対的に強くなる <span class="math inline">\(B\)</span> を考える（両国とも、この変化が起こることは知っている）。 パワーバランスが変化する前と後のバーゲニング・レンジが、図のようになっているとする。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/figures/preventive_war.svg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>予防戦争</figcaption>
+</figure>
+</div>
+<p>この場合、変化前の交渉の結果は、2回目にはバーゲニング・レンジ内にはなく（2つのレンジが重なっておらず）、<span class="math inline">\(B\)</span> は交渉の結果を守らずに戦争を起こす方がよい。 したがって、1度目の交渉の結果を、<span class="math inline">\(B\)</span> が遵守する信憑性はない。 <span class="math inline">\(A\)</span> からすれば、交渉を破られて戦争を起こされるくらいならば、勝率が高い現在に戦う方が望ましい。 このような、将来のパワーバランスを見越した戦争を、予防戦争という。</p>
+</section>
+<section id="争点の不可分性" class="level3">
+<h3 class="anchored" data-anchor-id="争点の不可分性">争点の不可分性</h3>
+<p>国家間で争点となるもの、例えば特定の領土などは、それ自体が両国家によって死活的に重要であることがある。 それは、例えば、その領土が国家のパワーに直結する場合である。 そのような場合、その領土を分割することは、パワーバランスそのものを変更させ、コミットメント問題を生じさせる可能性がある。 また、宗教的・民族的に重要な地域を分割することに強い反対がある場合なども考えられる。 これらの不可分性は、交渉領域内で可能な分割があるという仮定に反する。</p>
+</section>
+</section>
+<section id="最後通牒のバーゲニングモデル" class="level2">
+<h2 class="anchored" data-anchor-id="最後通牒のバーゲニングモデル">最後通牒のバーゲニングモデル</h2>
+<p>これまで、Fearon (1995) の最もわかりやすいゲームを見てきた。 ここからは、Spaniel (2024) にならって、最後通牒ゲームを用いてモデル化を行い、均衡を求めることで、実際の交渉の結果がどのようになるかを分析する。</p>
+<p>まず、Fearon と同様に、2つの国家 <span class="math inline">\(A\)</span>, <span class="math inline">\(B\)</span> が、争点 <span class="math inline">\(X = [0, 1]\)</span> の配分を巡って争っている。 <span class="math inline">\(A\)</span> には提案権があり、最初の行動で配分 <span class="math inline">\(x\)</span> を提案する。 <span class="math inline">\(A\)</span> が提案を行うと、<span class="math inline">\(B\)</span> はそれを受け入れるか拒否するかを決定する。 受け入れるならば、提案通りの利得を得、拒否するなら直ちに戦争が開始する。 国家間が戦争をすると、<span class="math inline">\(p\)</span> の確率で <span class="math inline">\(A\)</span> が勝利し、争点のすべて、すなわち 1 を獲得する。 また、戦争によって、<span class="math inline">\(A\)</span> と <span class="math inline">\(B\)</span> はそれぞれ <span class="math inline">\(c_A, c_B\)</span> （いずれも正）のコストを支払う。 したがって、戦争が発生した際の <span class="math inline">\(A\)</span> と <span class="math inline">\(B\)</span> の期待利得は、それぞれ <span class="math inline">\(p - c_A, 1 - p - c_B\)</span> である。</p>
+<p>もっとも単純なモデルは、次のツリーで表される。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/figures/ultimatum.svg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>最後通牒のバーゲニング</figcaption>
+</figure>
+</div>
+<section id="均衡の導出方法" class="level3">
+<h3 class="anchored" data-anchor-id="均衡の導出方法">均衡の導出方法</h3>
+<p>展開形ゲームは、部分ゲーム完全均衡を求めることで解くことができる。</p>
+<p>このゲームの最後の手番で、<span class="math inline">\(B\)</span> は受け入れが拒否かを選択する。 受け入れる条件は、<span class="math inline">\(1 - x \ge 1 - p - c_B\)</span>、 つまり <span class="math inline">\(x \le p + c_B\)</span> である。 その前の手番で、<span class="math inline">\(A\)</span> は提案 <span class="math inline">\(x\)</span> を決めるのだが、利得関数は以下の図のようになる。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/figures/utility-func.svg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption><span class="math inline">\(A\)</span>の効用関数</figcaption>
+</figure>
+</div>
+<p><span class="math inline">\(p + c_B\)</span> までは、要求を増やすごとに利得が増えるが、<span class="math inline">\(p + c_B\)</span> を超えると拒否されるので、戦争の期待利得しか得られない。 したがって <span class="math inline">\(A\)</span> は、<span class="math inline">\(x = p+c_B\)</span> を要求することが最適応答である。よって均衡は、<span class="math inline">\(A\)</span> が <span class="math inline">\(x=p+c_B\)</span> を要求し、<span class="math inline">\(B\)</span> が受け入れることである。</p>
+</section>
+</section>
+<section id="コミットメント問題-1" class="level2">
+<h2 class="anchored" data-anchor-id="コミットメント問題-1">コミットメント問題</h2>
+<section id="先制攻撃の優位" class="level3">
+<h3 class="anchored" data-anchor-id="先制攻撃の優位">先制攻撃の優位</h3>
+<p>先制攻撃の優位は、Fearon のいうコミットメント問題の一つである。 先制攻撃を行うことで、自国の勝率が上がったりコストが下がることにより、交渉の余地がなくなることであった。 これを、最後通牒のモデルで考えてみる<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<p>まず両者は、交渉を行うか先制攻撃をするかを決める。 これは、相手の決定がわからない同時手番ゲームによって決める。 もし両者が先制攻撃をするなら（もはや「先制ではないが」）、通常の戦争が始まる。 片方だけが先制攻撃をするなら、その国家の勝率が <span class="math inline">\(\delta_i\)</span> だけ上がった状態で戦争が始まる。 両者とも交渉を選ぶなら、先に見たような最後通牒のバーゲニングが行われる。</p>
+<p>[WIP]</p>
+</section>
+<section id="予防戦争" class="level3">
+<h3 class="anchored" data-anchor-id="予防戦争">予防戦争</h3>
+<p>予防戦争も、Fearon の挙げたコミットメント問題の一つに数えられる。 予防戦争が発生する重要な要因は、パワーバランスの変化であった。 ここでは、2回の交渉において、<span class="math inline">\(A\)</span> の勝率が <span class="math inline">\(p\)</span> から <span class="math inline">\(p'\)</span> へと変化すると考えることで、これをモデル化する<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>。</p>
+<p>ゲームは <span class="math inline">\(A\)</span> の行動から始まる。 <span class="math inline">\(A\)</span> は、将来（ゲームにおいては次期）に <span class="math inline">\(B\)</span> が相対的に強くなることを知っている。 そのため、ここで一回目の要求 <span class="math inline">\(x_1 \in [0, 1]\)</span> という選択肢の他に、<span class="math inline">\(B\)</span> に対し予防戦争を起こすことも可能とする。 予防戦争が起これば、現在の勝率である <span class="math inline">\(p\)</span> で <span class="math inline">\(A\)</span> が勝利し、その期待利得は <span class="math inline">\(p - c_A\)</span> となる。 要求をするならば、<span class="math inline">\(B\)</span> は受け入れるか拒否するかを決める。 <span class="math inline">\(B\)</span> が拒否すれば、やはり戦争が発生する。 <span class="math inline">\(B\)</span> が受け入れた場合、ゲームは次の期に移る。 2期目では、<span class="math inline">\(A\)</span> は衰退しており、戦争の勝率は <span class="math inline">\(p' &lt; p\)</span> に下がっている。 再び、<span class="math inline">\(A\)</span> は要求 <span class="math inline">\(x_2 \in [0, 1]\)</span> を提示し、<span class="math inline">\(B\)</span> は受け入れるか拒否するかを決める。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/figures/barg_preventive.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>予防戦争のバーゲニング</figcaption>
+</figure>
+</div>
+<p>ここで、各結果に対するプレイヤーの利得は、これまでと少し違う方法で計算する。 国家間の交渉は、無限に繰り返される。 これは、実際に無限の年数ないし回数の交渉を行うことが保証されているというより、いつ終了するかわからない期間で交渉を続けるという意味である。 利得は、一度確定すればずっと受け取ることができる。 これを、割引因子と無限級数の和の考え方によって定式化する。 現在の期に <span class="math inline">\(V\)</span> という価値がある利得は、次の時には割引因子 <span class="math inline">\(\delta \in [0, 1)\)</span> をかけた <span class="math inline">\(\delta V\)</span> まで価値が下がってしまう。 簡単に言えば、同じ財なら早くにもらったほうが価値が高い（逆に、時間が経つごとに価値が下がっていく）ことを指している。 ここで重要な公式として、<span class="math inline">\(1 + \delta + \delta^2 + \cdots = \frac{1}{1 - \delta}\)</span> を覚えておくと、計算がしやすい。</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">ヒント</span>なんで急に無限を考える？
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>1回きりの交渉だとしても、交渉結果をずっと受け取れるのだから、同じ論理で無限級数の和を考えるべきではないか？　と思った。 結論としては、その考えは正しい。 つまり、これまで見てきた別のモデルでも、割引因子をかけた次期の利得、その次の利得…を足して良い。 ただし、1期であればすべての利得に同じ <span class="math inline">\(\frac{1}{1 - \delta}\)</span> をかけるだけで、大小関係は変わらない。 したがって、1期だけのモデルではすべての利得に <span class="math inline">\(1 - \delta\)</span> をかけて計算を簡単にしているだけ、と考えるほうが自然だと考えた。</p>
+</div>
+</div>
+</div>
+<section id="均衡の導出" class="level4">
+<h4 class="anchored" data-anchor-id="均衡の導出">均衡の導出</h4>
+<p>これまでと同様に、均衡を求める。 <span class="math inline">\(A\)</span> の二回目の要求 <span class="math inline">\(x_2\)</span> に対する <span class="math inline">\(A\)</span> の利得は、<span class="math inline">\(B\)</span> に受け入れられるとき <span class="math inline">\(x_1 + \frac{\delta x_2}{1 - \delta}\)</span> で、拒否されるとき <span class="math inline">\(x_1 + \frac{\delta(p'-c_A)}{1 - \delta}\)</span> である。 <span class="math inline">\(B\)</span> が要求を受け入れる条件は、<span class="math inline">\(1 - x_1 + \frac{\delta(1 - x_2)}{1 - \delta} \ge 1 - x_1 + \frac{\delta(1 - p' - c_B)}{1 - \delta}\)</span>、すなわち、<span class="math inline">\(x_2 \le p' + c_B\)</span> である。 受け入れられるときの <span class="math inline">\(A\)</span> の利得は <span class="math inline">\(x_2\)</span> に対して単調に増加し、<span class="math inline">\(x_2 = p' + c_B\)</span> を要求したときの利得は、拒否されたときの利得より大きいので、<span class="math inline">\(A\)</span> は <span class="math inline">\(x_2 = p' + c_B\)</span> を要求する。</p>
+<p><span class="math inline">\(A\)</span> の最初の要求も同様に、<span class="math inline">\(B\)</span> に受け入れられれば <span class="math inline">\(x_1 + \frac{\delta(p' + c_B)}{1 - \delta}\)</span> で、拒否されると <span class="math inline">\(\frac{p - c_A}{1 - \delta}\)</span> である。 <span class="math inline">\(B\)</span> が要求を受け入れる条件は、<span class="math inline">\(1 - x_1 + \frac{\delta(1 - p' - c_B)}{1 - \delta} \ge \frac{1 - p - c_B}{1 - \delta}\)</span>、すなわち、<span class="math inline">\(x_1 \le \frac{p - \delta p'}{1 - \delta} + c_B\)</span>　である。 受け入れられる範囲では、<span class="math inline">\(A\)</span> は最大の <span class="math inline">\(x_1 = \frac{p - \delta p'}{1 - \delta} + c_B\)</span> を要求して <span class="math inline">\(\frac{p - \delta p'}{1 - \delta} + c_B + \frac{\delta(p' + c_B)}{1 - \delta} = \frac{p + c_B}{1 - \delta}\)</span> を受け取る。 または、受け入れられないほど大きな要求をして <span class="math inline">\(\frac{p - c_A}{1 - \delta}\)</span> を受け取ることもできる。</p>
+<p>ここで、<span class="math inline">\(A\)</span> は最大の要求をすることができるであろうか。 要求の範囲は <span class="math inline">\([0, 1]\)</span> であったが、最大の要求 <span class="math inline">\(x_1 = \frac{p - \delta p'}{1 - \delta} + c_B\)</span> は、この範囲に入っている保証がない。 入っていれば最大の要求をするし、入っていなければ範囲内の最大である <span class="math inline">\(1\)</span> を要求することで我慢するしかない。</p>
+<p>さきに、最大の要求が <span class="math inline">\([0, 1]\)</span> に含まれている場合を考える。 すなわち、<span class="math inline">\(\frac{p - \delta p'}{1 - \delta} + c_B \le 1\)</span> のときである。 これを、見やすさのために <span class="math inline">\(\delta\)</span> について整理すると、<span class="math inline">\(\delta \le \frac{1-p-c_B}{1-p'-c_B}\)</span> と書き直すことができる。 この要件は、<span class="math inline">\(\delta\)</span> について解釈するなら、国家が十分せっかちである (将来をあまり重視しない) と考えることができる。 または右辺に注目すれば、分母と分子の違いは勝率 <span class="math inline">\(p, p'\)</span> である。 つまり、変化前と変化後の <span class="math inline">\(B\)</span> の戦争の利得の比である。 これが十分大きいことは、変化が小さく、<span class="math inline">\(B\)</span> の成長がそこまで大きくないことを表す。 このとき、<span class="math inline">\(A\)</span> は <span class="math inline">\(x_1 = \frac{p - \delta p'}{1 - \delta} + c_B\)</span> を要求し、 <span class="math inline">\(B\)</span> は受け入れる。 そして、<span class="math inline">\(A\)</span> が予防戦争を仕掛けるか要求を行うかは、それぞれの利得を比較することでわかる。 いま、<span class="math inline">\(\frac{p - c_A}{1- \delta} &lt; \frac{p + c_B}{1 - \delta}\)</span> であるので、要求を行うほうが利得が高い。 したがって、この均衡では、<span class="math inline">\(A\)</span> は <span class="math inline">\(x_1 = \frac{p - \delta p'}{1 - \delta} + c_B\)</span> 及び <span class="math inline">\(x_2 = p' + c_B\)</span> を要求し、<span class="math inline">\(B\)</span> はすべて受け入れる。 すなわち、予防戦争は発生しない。</p>
+<p>つぎに、<span class="math inline">\(A\)</span> の最大の要求が <span class="math inline">\([0, 1]\)</span> に含まれていない場合を考える。 すなわち、<span class="math inline">\(\delta &gt; \frac{1-p-c_B}{1-p'-c_B}\)</span> のときである。 このとき、<span class="math inline">\(A\)</span> は <span class="math inline">\(x_1 = 1\)</span> を提案して必ず受け入れられる。 それによって得られる期待利得は <span class="math inline">\(1 + \frac{\delta(p' + c_B)}{1 - \delta}\)</span> であり、予防戦争の期待利得 <span class="math inline">\(\frac{p - c_A}{1- \delta}\)</span> と比較すると、大小関係は明らかでない。 <span class="math inline">\(\frac{p - c_A}{1- \delta} &gt; 1 + \frac{\delta(p' + c_B)}{1 - \delta}\)</span>、すなわち、<span class="math inline">\(\delta &gt; \frac{1 - p + c_A}{1 - p' - c_B}\)</span>　のとき、<span class="math inline">\(A\)</span> は予防戦争を起こす。 一方で、<span class="math inline">\(\frac{p - c_A}{1- \delta} \le 1 + \frac{\delta(p' + c_B)}{1 - \delta}\)</span> のとき、<span class="math inline">\(A\)</span> は <span class="math inline">\(1\)</span> を提案して受け入れられる。</p>
+<p>ところで、明らかに <span class="math inline">\(\frac{1 - p + c_A}{1 - p' - c_B} &gt; \frac{1 - p - c_B}{1 - p' - c_B}\)</span> であるので、2つ目の条件が満たされているときは、当然1つ目の条件も満たされている。 したがって、予防戦争が起こる条件は <span class="math inline">\(\delta &gt; \frac{1 - p + c_A}{1 - p' - c_B}\)</span> である。</p>
+<p>よってこのモデルには、3つの均衡がある</p>
+<ol type="1">
+<li>小さな変化、要求の拡大
+<ul>
+<li>条件：<span class="math inline">\(\delta \le \frac{1-p-c_B}{1-p'-c_B}\)</span></li>
+<li>均衡経路：<span class="math inline">\(A\)</span> は <span class="math inline">\(x_1 = \frac{p - \delta p'}{1 - \delta} + c_B\)</span> 及び <span class="math inline">\(x_2 = p' + c_B\)</span> を要求し、<span class="math inline">\(B\)</span> はすべて受け入れる。</li>
+<li>結果：平和</li>
+</ul></li>
+<li>大きな変化でせっかち（いまの価値を重視）
+<ul>
+<li>条件：<span class="math inline">\(\delta &gt; \frac{1-p-c_B}{1-p'-c_B}\)</span> かつ <span class="math inline">\(\delta \le \frac{1 - p + c_A}{1 - p' - c_B}\)</span></li>
+<li>均衡経路：<span class="math inline">\(A\)</span> は <span class="math inline">\(x_1 = 1, x_2 = p' + c_B\)</span> を要求し、<span class="math inline">\(B\)</span> はすべて受け入れる。</li>
+<li>結果：平和</li>
+</ul></li>
+<li>大きな変化で忍耐強い（将来の価値を重視）
+<ul>
+<li>条件：<span class="math inline">\(\delta &gt; \frac{1 - p + c_A}{1 - p' - c_B}\)</span></li>
+<li>均衡経路：<span class="math inline">\(A\)</span> は予防戦争を起こす。</li>
+<li>結果：予防戦争</li>
+</ul></li>
+</ol>
+<p>ところで、予防戦争が発生する条件 <span class="math inline">\(\delta &gt; \frac{1 - p + c_A}{1 - p' - c_B}\)</span> が成り立つためには、少なくとも右辺が 1 未満である必要がある。 すなわち、<span class="math inline">\(\frac{1 - p + c_A}{1 - p' - c_B} &lt; 1\)</span> (必要条件)。 これを書き換えると、<span class="math inline">\(p - p' &gt; c_A + c_B\)</span>。 つまり、パワーシフトの幅が両国のコストの合計よりも大きいとき、と解釈することができる。</p>
+</section>
+</section>
+</section>
+<section id="情報の非対称性-1" class="level2">
+<h2 class="anchored" data-anchor-id="情報の非対称性-1">情報の非対称性</h2>
+<p>Fearon が提示した合理的な戦争の原因の一つに、情報の非対称性がある。 交渉モデルにおいては、不完備情報ゲームを用いることでこれを定式化することができる。</p>
+<section id="戦争のコストに関する情報の非対称性" class="level3">
+<h3 class="anchored" data-anchor-id="戦争のコストに関する情報の非対称性">戦争のコストに関する情報の非対称性</h3>
+<p>まず、相手方の戦争のコストがわからない場合を考える。 基本の交渉ゲームを行う前に、自然（偶然手番）が、<span class="math inline">\(B\)</span> のコスト <span class="math inline">\(c_B\)</span> を定めることを考える。 このコストは、<span class="math inline">\(B\)</span> はもちろん知っているのだが、<span class="math inline">\(A\)</span> は予想することしかできない。 <span class="math inline">\(A\)</span> が持つ予想（特に、<span class="math inline">\(c_B\)</span> の値の確率分布）を信念という。</p>
+<p>ここでは、コストが高いか低いかの２通りしかないとする。 すなわち、<span class="math inline">\(c_B \in \{c_B^H, c_B^L\}, c_B^H &gt; c_B^L &gt; 0\)</span> である。 なお、<span class="math inline">\(A\)</span> のコスト <span class="math inline">\(c_A\)</span> も <span class="math inline">\(B\)</span> にとって私的情報である。 これをモデル化することも可能だが、<span class="math inline">\(A\)</span> が要求を提示する側というモデルの設定において、<span class="math inline">\(A\)</span> のコストの大きさの不確実性をモデル化する必要性は低い。 そのため、ここでは <span class="math inline">\(c_A\)</span> は双方に共有された情報であるとする。</p>
+<p><span class="math inline">\(A\)</span> は、<span class="math inline">\(c_B = c_B^H\)</span> であるような確率は <span class="math inline">\(q\)</span> であり、<span class="math inline">\(c_B = c_B^L\)</span> である確率は <span class="math inline">\(1-q\)</span> であるという信念を持っているとする。 ゲームのツリーは次の図のようになる。</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../assets/figures/uncertainty-cost.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>コストに関する情報の非対称性</figcaption>
+</figure>
+</div>
+</section>
+<section id="均衡の導出-1" class="level3">
+<h3 class="anchored" data-anchor-id="均衡の導出-1">均衡の導出</h3>
+<p>これまでと同様の論理により、<span class="math inline">\(A\)</span> の最適な応答は、要求 <span class="math inline">\(x = p + c_B\)</span> を行い、<span class="math inline">\(B\)</span> に要求を受け入れられることである。 しかしこれまでと異なり、<span class="math inline">\(c_B\)</span> の値は <span class="math inline">\(A\)</span> にはわからない。 したがって、要求の水準を定めることができない。 しかし、以下の3つのことはわかる。</p>
+<ol type="1">
+<li><span class="math inline">\(x \le p + c_B^L\)</span> を要求すると、必ず受け入れられる</li>
+<li><span class="math inline">\(x \in (p + c_B^L, p + c_B^H]\)</span> を要求すると、確率 <span class="math inline">\(q\)</span> で受け入れられ、確率 <span class="math inline">\(1 - q\)</span> で拒否される</li>
+<li><span class="math inline">\(x &gt; p + c_B^H\)</span> を要求すると、必ず拒否される</li>
+</ol>
+<p>したがって、要求の大きさ <span class="math inline">\(x\)</span> に対する <span class="math inline">\(A\)</span> の期待利得は、次のような関数となる。</p>
+<p><span class="math display">\[
+\begin{cases}
+x &amp; \text{if } x \le p + c_B^L \\
+q x + (1 - q)(p - c_A) &amp; \text{if } p + c_B^L &lt; x \le p + c_B^H \\
+p - c_A &amp; \text{if } x &gt; p + c_B^H
+\end{cases}
+\]</span></p>
+<p>ここで、<span class="math inline">\(x \le p + c_B^L\)</span> の範囲で利得は <span class="math inline">\(x\)</span> について増加するので、利得を最大化させる <span class="math inline">\(x\)</span> は右端の <span class="math inline">\(x = p + c_B^L\)</span> である。 このときの利得 <span class="math inline">\(p + c_B^L\)</span> は、<span class="math inline">\(x &gt; p + c_B^H\)</span> を要求したときの利得 <span class="math inline">\(p - c_A\)</span> より大きいため、要求 <span class="math inline">\(x &gt; p + c_B^H\)</span> は支配される。 また、<span class="math inline">\(p + c_B^L &lt; x \le p + c_B^H\)</span> の範囲においても利得は <span class="math inline">\(x\)</span> について増加する。 したがって、利得を最大化させる <span class="math inline">\(x\)</span> は右端の <span class="math inline">\(x = p + c_B^H\)</span> である。 以上を踏まえると、<span class="math inline">\(A\)</span> は <span class="math inline">\(x = p + c_B^L\)</span> を要求して <span class="math inline">\(p + c_B^L\)</span> を受け取るか、<span class="math inline">\(x = p + c_B^H\)</span> を要求して <span class="math inline">\(q(p+c_B^H) + (1 - q)(p - c_A)\)</span> を受け取るかの2択である。</p>
+<p>前者の提案を安全な提案と呼び、後者の提案をリスキーな提案と呼ぶことにしよう。 安全な提案が望ましいための条件は、</p>
+<p><span class="math display">\[
+\begin{align}
+    p + c_B^L &amp;\ge q(p+c_B^H) + (1 - q)(p - c_A) \notag \\
+    q &amp;\le \frac{c_A + c_B^L}{c_A + c_B^H} \label{eq:cr-belief}
+\end{align}
+\]</span></p>
+<p>よって均衡は、</p>
+<ul>
+<li>式 <span class="math inline">\(\eqref{eq:cr-belief}\)</span> を満たすとき、<span class="math inline">\(A\)</span> は <span class="math inline">\(x = p + c_B^L\)</span> を提案し、<span class="math inline">\(B\)</span> はタイプにかかわらずこれを受け入れる。戦争の発生確率は0である。</li>
+<li>式 <span class="math inline">\(\eqref{eq:cr-belief}\)</span> を満たさないとき、<span class="math inline">\(A\)</span> は <span class="math inline">\(x = p + c_B^H\)</span> を提案し、高コストタイプの <span class="math inline">\(B\)</span> はこれを受け入れ、低コストタイプなら拒否する。したがって、正の確率で戦争は発生する。</li>
+</ul>
+<p>では、<span class="math inline">\(\eqref{eq:cr-belief}\)</span> はどのように解釈されるだろうか。 <span class="math inline">\(q\)</span> について考えれば、「<span class="math inline">\(B\)</span> のコストが高い確率が小さいとき」に成り立ちやすい。 またコストについて考えれば、「<span class="math inline">\(B\)</span> の高いコストと低いコストの比が小さいとき、つまりたいして変わらないとき」に成り立ちやすい。 あるいは、「<span class="math inline">\(A\)</span> のコストが高いとき」の条件は成り立ちやすい。</p>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">脚注</h2>
+
+<ol>
+<li id="fn1"><p>パイを切り分けることを考えるとよい。パイ全体を1として、それを <span class="math inline">\(A\)</span> と <span class="math inline">\(B\)</span> でどのように分配するかが重要である。もちろん、<span class="math inline">\(X\)</span> がパイであり、<span class="math inline">\(x\)</span> はその配分方法（<span class="math inline">\(A\)</span> が受け取るパイの大きさ）である。<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>これは、争点を <span class="math inline">\([0, 1]\)</span> に正規化したことに関係している。国家 <span class="math inline">\(i\)</span> にとっての争点全体の価値を <span class="math inline">\(V_i\)</span> とし、戦争の純粋なコストを <span class="math inline">\(k_i\)</span> とすると、確率 <span class="math inline">\(p\)</span> で勝利する戦争の期待利得は <span class="math inline">\(pV_i - k_i\)</span>　である。ここで、争点を <span class="math inline">\([0, 1]\)</span> に正規化するために、利得を <span class="math inline">\(V_i\)</span> で割ると、<span class="math inline">\(p - \frac{k_i}{V_i}\)</span> となる。つまり、これまで考えていた <span class="math inline">\(c_i\)</span> とは <span class="math inline">\(\frac{k_i}{V_i}\)</span> のことで、価値に対する支出の比であると言える。<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Spaniel (2024) の 3.1 節に基づく。<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Spaniel (2024) の 4.1 節に基づく。<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "コピーしました");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "コピーしました");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/s-tatsuno\.github\.io\/lab-desk");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© S. Tatsuno &nbsp;·&nbsp; Built with <a href="https://quarto.org">Quarto</a> · <a href="https://pages.github.com">GitHub Pages</a></p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

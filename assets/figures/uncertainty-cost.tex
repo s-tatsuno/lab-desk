@@ -1,0 +1,50 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{luatexja-fontspec}
+\usepackage{istgame}
+
+\begin{document}
+\begin{istgame}[scale=1.5]
+\setistgrowdirection'{east}
+
+% ---- 自然の手番 ----
+\xtdistance{20mm}{20mm}
+\istroot(0)<180>{自然}
+  \istb{c_B = c_B^H\ (q)}[al]
+  \istb{c_B = c_B^L\ (1-q)}[bl]
+\endist
+
+% ---- 連続選択肢の設定 ----
+\cntmdistance{20mm}{20mm}
+\cntmApreset[tension=1.12]{.3}
+
+% ---- 上側：A の提案 ----
+\cntmAistb[shorten >=15mm]
+\istrootcntmA(1)(0-1)<90>{A}
+  \istb{x}[above=7pt, right]
+\endist
+\node[below left=0pt] at ($(cntm)!.75!(cntm-1)$) {$1$};
+\node[above left=0pt] at ($(cntm)!.75!(cntm-2)$) {$0$};
+
+% ---- 下側：A の提案 ----
+\cntmAistb[shorten >=15mm]
+\istrootcntmA(3)(0-2)<-90>{A}
+  \istb{x}[above=7pt, right]
+\endist
+\node[below left=0pt] at ($(cntm)!.75!(cntm-1)$) {$1$};
+\node[above left=0pt] at ($(cntm)!.75!(cntm-2)$) {$0$};
+
+% ---- A の情報集合（点線） ----
+\xtInfoset[dashed](1)(3)
+
+% ---- B の応答 ----
+\xtdistance{15mm}{15mm}
+\istroot(2)(1-1)<90>{B}
+  \istb{accept}[al]{x,\ 1-x}
+  \istb{reject}[bl]{p - c_A,\ 1 - p - c_B^H}
+\endist
+\istroot(4)(3-1)<90>{B}
+  \istb{accept}[al]{x,\ 1-x}
+  \istb{reject}[bl]{p - c_A,\ 1 - p - c_B^L}
+\endist
+\end{istgame}
+\end{document}
