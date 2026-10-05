@@ -1,0 +1,17 @@
+\documentclass[tikz,border=4pt]{standalone}
+\usepackage{luatexja-fontspec}
+\usepackage{amsmath}
+\usepackage{istgame}
+\usetikzlibrary{decorations.pathreplacing}
+
+
+\begin{document}
+    \begin{tikzpicture}
+        \node[box] (X) {独立変数 $X$};
+        \node[box, rigth=4cm of X] (Y) {従属変数 $Y$};
+        \node[box, above-1.5cm of $(X)!0.5!(Y)$] (Z) {調整変数 $Z$};
+
+        \draw[->] (X) -- (Y) coordinate[midway] (mid);
+        \draw[->] (Z) -- (mid);
+    \end{tikzpicture}
+\end{document}

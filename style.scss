@@ -22,6 +22,10 @@ $line-height-base: 1.75;
 
 /*-- scss:rules --*/
 /* 本文 */
+.content p {
+  text-align: justify;
+}
+
 #title-block-header {
   margin-bottom: 2em;
 }
