@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.3)  10 SEP 2026 17:35
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026/Arch Linux)  (format=lualatex 2026.6.20)  1 OCT 2026 16:22
  restricted system commands enabled.
 **bargaining_range.tex
 (./bargaining_range.tex
@@ -8,7 +8,7 @@ Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
 collection.
-luaotfload | conf : Root cache directory is "/home/WhiteCat/.texlive/texmf-var/l
+luaotfload | conf : Root cache directory is "/home/BlackCat/.texlive/texmf-var/l
 uatex-cache/generic/names".
 luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
 olved path "/usr/share/texmf-dist/tex/luatex/luaotfload/fontloader-2023-12-28.lu
@@ -20,7 +20,7 @@ Inserting `luaotfload.node_processor' in `hpack_filter'.
 Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
 Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
-luaotfload | conf : Root cache directory is "/home/WhiteCat/.texlive/texmf-var/l
+luaotfload | conf : Root cache directory is "/home/BlackCat/.texlive/texmf-var/l
 uatex-cache/generic/names".
 Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
 Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
@@ -70,7 +70,7 @@ e' class
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (/usr/share/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-luaotfload | db : Font names database loaded from /home/WhiteCat/.texlive/texmf-
+luaotfload | db : Font names database loaded from /home/BlackCat/.texlive/texmf-
 var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count276
 \c@section=\count277
